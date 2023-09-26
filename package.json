@@ -23,5 +23,8 @@
     "lite-server": "^2.6.1",
     "prettier": "^3.0.3",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "eslint-plugin-jsdoc": "^46.8.2"
   }
 }

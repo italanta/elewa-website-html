@@ -3,11 +3,39 @@
     "browser": true,
     "es2021": true
   },
-  "extends": "standard-with-typescript",
+  "extends": [
+    "standard-with-typescript",
+    "plugin:jsdoc/recommended",
+    "plugin:jsdoc/recommended-typescript"
+  ],
   "parserOptions": {
     "ecmaVersion": "latest"
   },
-
+  "plugins": ["jsdoc"],
   "rules": {
+    "quotes": ["error", "double"],
+    "@typescript-eslint/quotes": "off",
+    "@typescript-eslint/semi": "off",
+    "@typescript-eslint/member-delimiter-style": [
+      "error",
+      {
+        "multiline": {
+          "delimiter": "semi",
+          "requireLast": true
+        },
+        "singleline": {
+          "delimiter": "semi",
+          "requireLast": false
+        }
+      }
+    ],
+    "jsdoc/require-jsdoc": [
+      "error",
+      {
+        "contexts": ["TSInterfaceDeclaration"]
+      }
+    ],
+    "jsdoc/require-param": 2,
+    "jsdoc/require-param-description": 1
   }
 }
