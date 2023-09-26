@@ -1,0 +1,19 @@
+{
+  "name": "collaboration-monitoring-and-evaluation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/italanta/collaboration-monitoring-and-evaluation.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/italanta/collaboration-monitoring-and-evaluation/issues"
+  },
+  "homepage": "https://github.com/italanta/collaboration-monitoring-and-evaluation#readme"
+}
