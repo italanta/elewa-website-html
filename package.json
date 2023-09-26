@@ -7,17 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/italanta/collaboration-monitoring-and-evaluation.git"
+  "husky": {
+    "hooks": {
+      "pre-commit": "prettier --write . && git add -A ."
+    }
   },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/italanta/collaboration-monitoring-and-evaluation/issues"
-  },
-  "homepage": "https://github.com/italanta/collaboration-monitoring-and-evaluation#readme",
   "devDependencies": {
-    "husky": "^8.0.0"
+    "husky": "^8.0.0",
+    "prettier": "^3.0.3"
   }
 }
