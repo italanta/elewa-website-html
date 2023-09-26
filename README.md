@@ -49,7 +49,7 @@ Here is what you need to be able to run the App.
 2. Go to the project folder
 
    ```sh
-   cd collaboration-monitoring-and-evaluation
+   cd elewa-website-html
    ```
 
 3. Install packages with npm
