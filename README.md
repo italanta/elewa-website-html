@@ -8,6 +8,9 @@ Welcome to the iTalanta "Discover" program! This guide provides students and con
   - [Table of Contents](#table-of-contents)
   - [1. Introduction to iTalanta "Discover" Program](#1-introduction-to-italanta-discover-program)
   - [2. Program Objectives](#2-program-objectives)
+  - [3. Getting Started](#3-getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
 
 ## 1. Introduction to iTalanta "Discover" Program
 
@@ -23,3 +26,46 @@ The primary objectives of the iTalanta "Discover" program include:
 - Offering mentorship and guidance by experienced developers.
 
 Please review our [Workflow Documentation](./WORKFLOW-DOCUMENTATION.md) before beginning your contribution.
+
+## 3. Getting Started
+
+To get a local copy up and running, please follow these simple steps.
+
+### Prerequisites
+
+Here is what you need to be able to run the App.
+
+- Node.js
+- npm
+
+### Setup
+
+1. Clone the repo into a public GitHub repository (fork <https://github.com/italanta/collaboration-monitoring-and-evaluation/fork>).
+
+   ```sh
+   git clone https://github.com/{yourusername}/collaboration-monitoring-and-evaluation.git
+   ```
+
+2. Go to the project folder
+
+   ```sh
+   cd collaboration-monitoring-and-evaluation
+   ```
+
+3. Install packages with npm
+
+   ```sh
+   npm i
+   ```
+
+4. Compile typescript to js and watch for live changes
+
+   ```sh
+   npm run watch:ts
+   ```
+
+5. Start the dev server (this will run your app as an SPA)
+
+   ```sh
+   npm run serve
+   ```
