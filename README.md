@@ -64,7 +64,7 @@ Here is what you need to be able to run the App.
    npm run watch:ts
    ```
 
-5. Start the dev server (this will run your app as an SPA)
+5. Start the dev server.
 
    ```sh
    npm run serve
