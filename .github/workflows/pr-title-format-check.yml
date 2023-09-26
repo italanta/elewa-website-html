@@ -17,7 +17,7 @@ jobs:
       - name: Check PR Title
         run: |
           pr_title="${{ github.event.pull_request.title }}"
-          regex="^[^\s]+ .+ #[0-9]+$"
+          regex="^:[^\s]+: .+( #[0-9]+)?$"
 
           if [[ ! "$pr_title" =~ $regex ]]; then
             echo "error::PR title does not match the required format: <emoji> <description> <reference-number>"
