@@ -40,10 +40,10 @@ Here is what you need to be able to run the App.
 
 ### Setup
 
-1. Clone the repo into a public GitHub repository (fork <https://github.com/italanta/collaboration-monitoring-and-evaluation/fork>).
+1. Clone the repo into a public GitHub repository (fork <https://github.com/italanta/elewa-website-html/fork>).
 
    ```sh
-   git clone https://github.com/{yourusername}/collaboration-monitoring-and-evaluation.git
+   git clone https://github.com/{yourusername}/elewa-website-html.git
    ```
 
 2. Go to the project folder
