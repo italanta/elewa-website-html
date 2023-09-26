@@ -21,3 +21,5 @@ The primary objectives of the iTalanta "Discover" program include:
 - Teaching timeless fundamentals of software development.
 - Providing a simulated work environment for practical experience.
 - Offering mentorship and guidance by experienced developers.
+
+Please review our [Workflow Documentation](./WORKFLOW-DOCUMENTATION.md) before beginning your contribution.
