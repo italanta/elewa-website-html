@@ -10,10 +10,38 @@
   <link rel="stylesheet" href="src/css/style.css">
 
   <script defer type="module" src="dist\out-tsc\index.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=DMSans:wght@400&display=swap" rel="stylesheet"> <!--getting new font from outside-->
+  
+  <title>Website Header</title>
 </head>
 
 <body>
   <div>Welcome</div>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="https://user-images.githubusercontent.com/20738858/270645282-b8aaec9f-dbfc-4351-a60b-0851fa61831c.png" alt="Elewa Logo">
+      </div>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <nav id="nav-menu" class="nav-menu">
+        <a href="#" class="sol">Solutions<span class="arrow"></span></a>
+        <a href="#">Projects</a>
+        <a href="#">Company</a>
+        <a href="#">News</a>
+        <div class="contact-button1">
+          <a href="#" class="button">Contact Us</a>
+        </div>
+      </nav>
+      <label for="nav-toggle" class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </label>
+      <div class="contact-button">
+        <button class="contact-us">Contact Us</button>
+      </div>
+    </div>
+  </header>
 </body>
 
 </html>

@@ -40,7 +40,7 @@ Here is what you need to be able to run the App.
 
 ### Setup
 
-1. Clone the repo into a public GitHub repository (fork <https://github.com/italanta/elewa-website-html/fork>).
+1. Fork then clone repo from your public GitHub repository (fork <https://github.com/italanta/elewa-website-html/fork>).
 
    ```sh
    git clone https://github.com/{yourusername}/elewa-website-html.git
