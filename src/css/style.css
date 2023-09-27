@@ -4,16 +4,15 @@ body, h1, h2, p, ul, li {
     padding: 0;
 }
 
-/*  to center the entire page and add a margin on the sides */
+/* Center the entire page and add a margin on the sides */
 body {
     display: block;
     align-items: center;
-    margin: 0 6%; 
+    margin: 0 6%;
 }
 
 /* Style the header section */
 header {
-    /* Transparent background and black text */
     background-color: transparent;
     color: #000;
     height: var(--elewa-website-header-bg-height);
@@ -21,28 +20,17 @@ header {
     margin: 0;
     padding: 0;
     font-family: DMSans-Regular;
-    
-    /* Keep it on top of other elements */
     position: relative;
     z-index: 999;
 }
 
 /* Container for header content */
 .container {
-    /* Limit the width of the content */
-    max-width: 100%; /* Change to 100% to make it full-width */
-    
-    /* Center the content horizontally */
+    max-width: 100%;
     margin: 0 auto;
-    
-    /* Arrange items side by side with space in between */
     display: flex;
     justify-content: space-between;
-    
-    /* Center the content vertically */
     align-items: center;
-    
-    /* Add padding for spacing */
     padding: 10px 20px;
 }
 
@@ -50,12 +38,11 @@ header {
 .logo img {
     width: 7.5rem;
     filter: brightness(0);
-    
 }
 
 nav {
     display: flex;
-    align-items: center; /* Center navigation links vertically */
+    align-items: center;
 }
 
 nav a {
@@ -64,7 +51,7 @@ nav a {
     font-family: 'DMSans-Regular', Arial, sans-serif;
     font-size: 13px;
     cursor: pointer;
-    margin: 0 20px; /* Add margin to create space between links */
+    margin: 0 20px;
 }
 
 nav a:hover {
@@ -76,34 +63,27 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Adding styles for the arrow container */
 .arrow {
     display: inline-block;
-    margin-left: 5px; /* Spacing between "Solutions" and the arrow */
-    transition: transform 0.3s; /* Smooth transition for arrow rotation */
+    margin-left: 5px;
+    transition: transform 0.3s;
 }
 
-/* Styling the inverted greater-than sign */
 .arrow::before {
-    content: "\203A"; /* Unicode character for an inverted greater-than sign */
+    content: "\203A";
     display: inline-block;
-    transform: translateY(2px); /* Adjusting vertical alignment */
-    transition: transform 0.3s; /* Adding smooth transition for arrow rotation */
+    transform: translateY(2px);
+    transition: transform 0.3s;
 }
 
-/* Rotating the arrow when the "sol" class is hovered */
 .sol:hover .arrow::before {
-    transform: translateY(2px) rotate(180deg); /* Rotating the arrow 180 degrees on hover */
+    transform: translateY(2px) rotate(180deg);
 }
 
-/* Optionally, customize arrow color or other styles */
 .arrow::before {
-    color: #000; /* Arrow color (adjust to your preference) */
-    font-size: 14px; /* Arrow size (adjust if needed) */
+    color: #000;
+    font-size: 14px;
 }
-
-
-
 
 /* Style the "Contact Us" button */
 .button {
@@ -124,7 +104,7 @@ nav a:hover {
     text-align: center;
     color: #fff;
     cursor: pointer;
-    margin-left: auto; /* Push "Contact Us' to the right by using auto margin */
+    margin-left: auto;
 }
 
 /* Add styles for the mobile menu */
@@ -133,8 +113,8 @@ nav a:hover {
 }
 
 .nav-menu {
-    display: flex; /* Change to flex to make navigation items horizontal */
-    align-items: center; /* Center navigation links vertically */
+    display: flex;
+    align-items: center;
 }
 
 /* Styles for the hamburger menu */
@@ -146,7 +126,7 @@ nav a:hover {
 .line {
     width: 30px;
     height: 3px;
-    background-color: #000; /* Change the color as needed */
+    background-color: #000;
     margin: 4px 0;
 }
 
@@ -160,8 +140,8 @@ nav a:hover {
     text-align: center;
     color: #fff;
     cursor: pointer;
-    display: none; /* Hide the mobile "Contact Us" button by default */
-    margin-top: 10px; /* Add spacing between the button and menu items */
+    display: none;
+    margin-top: 10px;
 }
 
 .contact-button1 {
@@ -169,27 +149,26 @@ nav a:hover {
     color: white;
 }
 
-
 .contact-us {
-    display: inline-block; /* Show the "Contact Us" button */
-    margin-top: 10px; /* Add spacing between the button and menu items */
+    display: inline-block;
+    margin-top: 10px;
 }
 
 /* Add a media query to switch to the hamburger menu on smaller screens */
 @media (max-width: 768px) {
     .nav-container {
-        text-align: center; /* Align navigation buttons in the center */
+        text-align: center;
     }
 
     .nav-menu {
         display: none;
-        flex-direction: column; /* Stack navigation items vertically */
-        background-color: #fff; /* Background color for the mobile menu */
-        position: absolute; /* Position the mobile menu */
-        top: 100%; /* Position it below the header */
+        flex-direction: column;
+        background-color: #fff;
+        position: absolute;
+        top: 100%;
         left: 0;
         right: 0;
-        z-index: 1000; /* Ensure it's above other content */
+        z-index: 1000;
     }
 
     .hamburger {
@@ -198,10 +177,9 @@ nav a:hover {
     }
 
     .nav-toggle:checked + .nav-menu {
-        display: flex; /* Show the mobile menu when the toggle is checked */
+        display: flex;
     }
 
-    /* Style each mobile menu item */
     .nav-menu a {
         padding: 10px 20px;
         text-align: center;
@@ -210,20 +188,17 @@ nav a:hover {
         font-family: 'DMSans-Regular', Arial, sans-serif;
         font-size: 13px;
         cursor: pointer;
-        border-bottom: 1px solid #ccc; /* Add a separator between items */
+        border-bottom: 1px solid #ccc;
     }
 
-    /* Style the last mobile menu item (Contact Us) */
     .nav-menu a:last-child {
-        border-bottom: none; /* Remove separator for the last item */
+        border-bottom: none;
     }
 
-    /* Show the mobile "Contact Us" button in hamburger menu */
     .contact-us-mobile {
         display: inline-block;
     }
 
-    /* Hide the desktop "Contact Us" button in mobile mode */
     .contact-us {
         display: none;
     }
