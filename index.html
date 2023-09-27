@@ -1,19 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Collaboration and Contribution</title>
-  <link rel="stylesheet" href="src/css/style.css">
-
-  <script defer type="module" src="dist\out-tsc\index.js"></script>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=DMSans:wght@400&display=swap" rel="stylesheet"> <!--getting new font from outside-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <title>Website Header</title>
 </head>
-
 <body>
-  <div>Welcome</div>
-</body>
+  <header>
+    <div class="container">
+        <div class="logo">
+            <img src="https://user-images.githubusercontent.com/20738858/270645282-b8aaec9f-dbfc-4351-a60b-0851fa61831c.png" alt="Elewa Logo">
+        </div>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav id="nav-menu" class="nav-menu">
+          <a href="#" class="sol">Solutions<span class="arrow"></span></a> <!-- adding an arrow that will open a dropdown menu in the future -->
 
+          <a href="#">Projects</a>
+          <a href="#">Company</a>
+          <a href="#">News</a>
+          <div class="contact-button1">
+            <a href="#" class="button">Contact Us</a>
+        </div>
+      </nav>
+
+      <label for="nav-toggle" class="hamburger"> <!--adding a hamburger menu for smaller screens-->
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+      </label>
+        <div class="contact-button">
+          <button class="contact-us">Contact Us</button>
+      </div>
+    </div>
+</header>
+</body>
 </html>
