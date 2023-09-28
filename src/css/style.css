@@ -3,3 +3,71 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  background-color: #faf7fc;
+}
+
+h1 {
+  font-size: 42px;
+  /* font-family:"Times New Roman", serif; */
+  font-family: 'Onest', sans-serif;
+  font-weight: 600;
+  color: #202020;
+  margin-left: 120px;
+  margin-bottom: 100px;
+}
+
+.news article h2 {
+  font-family: 'DM Sans', sans-serif;
+  filter: blur(0.2px); /* Adjust the blur intensity as needed */
+  color: #424141; /* Change the color to grayish */
+  font-size: x-large;
+  margin-bottom: 45px;
+}
+
+.news article p {
+  font-family: 'DM Sans', monospace;
+  filter: blur(0.7px); /* Adjust the blur intensity as needed */
+  color: #5f5c5c; /* Change the color to grayish */
+  font-size: 15px;
+  margin-bottom: 45px;
+}
+
+section {
+  margin-top: 140px;
+  margin-left: 50px;
+  margin-right: 100px;
+}
+
+.news article {
+  display: flex;
+  flex-direction: row; /* Arrange children in a row */
+  justify-content: space-between; /* Distribute space between children */
+  align-items: center; /* Center items vertically */
+  border-bottom: 2px solid #b8b7b7; /* Add a border to each article */
+  /* box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1); */
+  padding: 10px; /* Add padding to create spacing between content and border */
+  margin-left: 110px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+
+.news article::before {
+  content: ''; /* Add content to the pseudo-element */
+  position: absolute; /* Position the pseudo-element absolutely */
+  left: 0; /* Position it at the left edge of the article */
+  top: 100%; /* Position it just below the content */
+  width: 100%; /* Make it span the full width of the article */
+  border-bottom: 2px solid #ccc; /* Add a border-like effect */
+}
+
+.news article button {
+  margin-left: 10px; /* Adjust as needed */
+  border: none; /* Remove the border from the buttons */
+  background-color: transparent; /* Remove the background color */
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 50px;
+  color: #5f5c5c;
+}
