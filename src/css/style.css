@@ -12,6 +12,12 @@
   
   
 }
+ .socials {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-top: 30px;
+ }
 .footer3{
   display: flex;
   flex-direction: column;
@@ -286,5 +292,11 @@ button:active {
       margin-top: 40px;
   
     }
+  .socials{
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
 
 }
