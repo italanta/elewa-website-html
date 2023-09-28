@@ -1,3 +1,4 @@
+
 /* Reset default spacing for better alignment */
 body, h1, h2, p, ul, li {
     margin: 0;
@@ -245,3 +246,10 @@ nav a:hover {
         display: block;
     }
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
