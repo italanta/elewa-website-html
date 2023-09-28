@@ -84,6 +84,35 @@ a {
 }
 
 .bottom_footer {
-  border-top: 1px solid #ffffff;
+  border-top: 1px solid #d2d0d0;
   padding: 24px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.bottom_footer-links-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerlink-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  color: #fff;
+  text-align: left;
+}
+
+.footerlink_header {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.footerlink_body {
+  font-size: 18px;
+  line-height: 30px;
+  list-style: none;
+  opacity: 0.76;
 }
