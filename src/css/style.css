@@ -11,7 +11,7 @@ body {
 
 .container {
     display: flex;
-    flex-direction: row-reverse; /* Reverse the order of the elements */
+    flex-direction:row-reverse; /* Keep the order of elements as is for larger screens */
     align-items: center;
     justify-content: space-between;
     padding: 20px;
@@ -51,13 +51,12 @@ body {
     padding: 20px;
     text-align: center;
     overflow: hidden; /* Hide the overflow from the U shape */
-   
 }
 
 .image img {
     max-width: 100%; /* Make sure the image fits within its container */
-    
 }
+
 /* Responsive styles for smaller devices */
 @media screen and (max-width: 600px) {
     .container {
@@ -79,10 +78,3 @@ body {
         margin-bottom: 10px; /* Decrease spacing between paragraphs on smaller screens */
     }
 }
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
