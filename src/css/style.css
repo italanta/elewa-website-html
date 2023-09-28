@@ -9,6 +9,14 @@
   gap: 2rem;
   padding: 3rem;
 }
+
+@media screen and (max-width: 768px) {
+  .overview-wraper {
+    display: block;
+    background-color: dbc2f5;
+    padding: 1rem;
+  }
+}
 .overview-wraper > .overview-img {
   display: flex;
   justify-content: center;
