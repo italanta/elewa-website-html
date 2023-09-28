@@ -23,8 +23,7 @@ a {
 .footer_wrapper {
   max-width: 1502px;
   margin: 0 auto;
-  background: #ea4e4e;
-  padding-top: 120px;
+  padding-top: 160px;
 
   display: flex;
   flex-direction: column;
@@ -115,4 +114,31 @@ a {
   line-height: 30px;
   list-style: none;
   opacity: 0.76;
+}
+
+.bottom_footer-navsocials-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.footer_logo {
+  width: 175px;
+  height: 75px;
+  object-fit: contain;
+  cursor: pointer;
+  filter: brightness(0) invert(1) grayscale(1) contrast(10000%);
+}
+
+.footersocials_container {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.footersocial_link {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  cursor: pointer;
 }
