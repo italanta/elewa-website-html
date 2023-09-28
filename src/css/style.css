@@ -41,6 +41,9 @@
 
 #photo {
   float: right;
-  max-width: 50%;
-  margin-top: 60px;
+  max-width: 40%;
+  margin-top: 100px;
+  position: absolute;
+  right: 200px;
+  font-size: 18px;
 }
