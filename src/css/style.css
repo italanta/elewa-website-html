@@ -1,3 +1,4 @@
+
 body {
     background-color: #DBC2F5;
     margin: 0;
@@ -70,7 +71,9 @@ p {
     }
 }
 
-
-
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
