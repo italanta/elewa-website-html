@@ -303,3 +303,92 @@ button:active {
   }
 
 }
+body {
+  display: block;
+  align-items: center;
+  margin: 0 6%;
+}
+
+/* .headers{
+  background-color: blueviolet;
+  display: flexbox;
+} */
+/* CSS for the header div with class "headers" */
+.headers {
+  background-color: #9785b6;
+  /* Background color of the header */
+  color: black;
+  /* Text color inside the header */
+  padding: 24px;
+  /* Add some padding to create spacing around the content */
+  text-align: center;
+  /* Center-align the content */
+  font-size: 14px;
+  font-family: 'DM Sans', sans-serif;
+}
+.headers nav ul li a:active {
+  border-bottom: 2px solid #0f0f0f;
+  /* Add a white (or desired color) border as an underline */
+}
+
+/* Style for the navigation links within the header */
+.headers nav ul {
+  list-style-type: none;
+  /* Remove bullet points for the list */
+  padding: 15px, 25px;
+  /* Remove padding for the list */
+}
+
+/* Style for the individual navigation items */
+.headers nav ul li {
+  display: inline;
+  /* Display list items inline */
+  margin-right: 20px;
+  /* Add spacing between navigation items */
+
+}
+
+/* Style for the navigation links */
+.headers nav ul li a {
+  text-decoration: none;
+  /* Remove underlines from links */
+  color: black;
+  /* Text color for the links */
+  border-bottom: 2px solid transparent;
+}
+
+/* Style for the "Contact us" button */
+.headers .btn {
+  background-color: #010f23;
+  /* Dark blue button background color */
+  color: #fff;
+  /* Button text color */
+  border: none;
+  /* Remove button border */
+  padding: 14px 25px;
+  /* Add padding to the button */
+  text-decoration: none;
+  /* Remove underlines from the button text */
+  cursor: pointer;
+  /* Change cursor to a pointer on hover */
+  border-radius: 30px;
+  /* Add rounded corners to the button */
+  float: right;
+  display: inline;
+  margin-top: 10px;
+
+}
+.logo {
+  width: 120px;
+  /* Set the width of the logo as needed */
+  height: auto;
+  /* Maintain the aspect ratio of the logo */
+  margin-right: 300px;
+  /* Add spacing between the logo and other links */
+  margin-top: 5px;
+  
+ 
+}
+
+
+
