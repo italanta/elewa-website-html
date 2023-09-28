@@ -4,6 +4,7 @@
   padding: 0;
   font-family: 'DM Sans', sans-serif;
 }
+
 .footer2{
   display: flex;
   flex-direction: column;
@@ -124,6 +125,7 @@
    flex-direction: column;
   
   }
+  /* added an svg icon which is an arrow pointing to the right */
 button {
   cursor: pointer;
   font-family: Helvetica, "sans-serif";
@@ -164,6 +166,7 @@ button:active {
   transform: scale(0.95);
 }
 }
+/* this is what it would look like on smaller screens */
 @media (max-width: 768px) {
   .footer h4 {
     font-size: 24px;
