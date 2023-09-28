@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+.overview-wraper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background-color: #dbc2f5;
+  gap: 2rem;
+  padding: 3rem;
+}
+.overview-wraper > .overview-img {
+  display: flex;
+  justify-content: center;
+}
+.overview-wraper > .overview-img > img {
+  height: 50vh;
+}
+.overview-wraper > .overview-details > h1 {
+  text-align: left;
+  font: normal normal medium 62px/80px DM Sans;
+}
+.overview-wraper > .overview-details > p {
+  text-align: left;
+  margin-right: 5rem;
+  font:
+    normal normal normal 22px/32px DM Sans,
+    San;
+}
