@@ -23,3 +23,24 @@
   margin-top: -30px;
   margin-left: 200px
 }
+
+.contact-button {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  position: absolute;
+  right: 200px;
+  margin-top: -20px;
+}
+
+
+
+#photo {
+  float: right;
+  max-width: 50%;
+  margin-top: 60px;
+}
