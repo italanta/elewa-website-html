@@ -1,0 +1,92 @@
+/* Universal styling */
+*{
+    background-color: #f9f8f4;
+}
+/* Styling header content */
+.header-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+/* header button */
+.header-button{
+    margin-right: 100px;
+    background-color: #2d2e52;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 1.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+}
+
+.logo{
+    padding-left: 200px;
+}
+
+  /* Style for the custom select container */
+  .custom-select {
+      position: relative;
+      display: inline-block;
+  }
+
+  /* Style for the custom select label */
+  .custom-select label {
+      cursor: pointer;
+  }
+
+  /* Style for the custom dropdown icon */
+  .custom-select .dropdown-icon::after {
+      content: "\25BC";
+      /* Unicode for a downward-pointing triangle */
+  }
+
+  /* Style for the hidden native select element */
+  .custom-select select {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      cursor: pointer;
+  }
+
+  /* Style for the dropdown options container */
+  .custom-select .options {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      display: none;
+      border: 1px solid #ccc;
+      border-top: none;
+      background-color: #fff;
+      z-index: 1;
+  }
+
+  /* Style for individual dropdown options */
+  .custom-select .options option {
+      padding: 8px 16px;
+  }
+
+  /* Show the options when the select label is clicked */
+  .custom-select label:focus+.options {
+      display: block;
+  }
+.menu-items {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.menu-items div{
+    margin-left: 40px;
+
+}
+
+select {
+    margin-right: 40px;
+}
