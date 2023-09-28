@@ -1,5 +1,79 @@
+
+body {
+    background-color: #DBC2F5;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.text {
+    flex: 1;
+    padding: 20px;
+    margin-top: 20%;
+}
+
+.image {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 6500px 6500px 0px 0px;
+}
+
+h2,
+p {
+    margin: 0;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.image img {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column; /* Stack elements vertically for smaller screens */
+        text-align: center; /* Center-align elements */
+    }
+    
+    .text {
+        margin-top: 20px; /* Reduce top margin for text on smaller screens */
+        padding: 10px; /* Reduce padding for text on smaller screens */
+    }
+    
+    .title {
+        font-size: 24px; /* Decrease font size for the title on smaller screens */
+    }
+    
+    .text p {
+        font-size: 14px; /* Decrease font size for paragraphs on smaller screens */
+        margin-bottom: 10px; /* Decrease spacing between paragraphs on smaller screens */
+    }
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
