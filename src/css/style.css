@@ -9,7 +9,7 @@
 
 .menu {
   display: flex;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .menu-item {
@@ -20,6 +20,6 @@
   width: 100px;
   height: 50px;
   position: relative;
-  margin-top: 0;
-  margin-left: 300px
+  margin-top: -30px;
+  margin-left: 200px
 }
