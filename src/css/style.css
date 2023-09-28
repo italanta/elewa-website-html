@@ -1,0 +1,80 @@
+/* style.css */
+
+/* Set the background color to purple */
+body {
+    background-color: #DBC2F5; /* Hexadecimal color code for a light purple color */
+    margin: 0; /* Remove default body margin */
+    font-family: Arial, sans-serif; /* Specify a fallback font */
+    color: rgb(0, 0, 0); /* Text color */
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse; /* Reverse the order of the elements */
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.text {
+    flex: 1;
+    padding: 20px;
+    margin-top: 130px;
+}
+
+/* Style for the title */
+.title {
+    font-size: 32px; /* Adjust the font size for the title */
+    font-weight: 550; /* Make the title bold */
+    margin-bottom: 20px; /* Add spacing below the title */
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the paragraphs */
+.text p {
+    font-size: 16px; /* Font size for paragraphs */
+    line-height: 1.5; /* Line height for better readability */
+    margin-bottom: 20px; /* Add spacing between paragraphs */
+}
+
+/* Apply the same font to all paragraphs */
+.text p, .text li {
+    font-family: Arial, sans-serif;
+}
+
+/* Add styles for the image if needed */
+.image {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden; /* Hide the overflow from the U shape */
+   
+}
+
+.image img {
+    max-width: 100%; /* Make sure the image fits within its container */
+    
+}
+/* Responsive styles for smaller devices */
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column; /* Stack elements vertically for smaller screens */
+        text-align: center; /* Center-align elements */
+    }
+    
+    .text {
+        margin-top: 20px; /* Reduce top margin for text on smaller screens */
+        padding: 10px; /* Reduce padding for text on smaller screens */
+    }
+    
+    .title {
+        font-size: 24px; /* Decrease font size for the title on smaller screens */
+    }
+    
+    .text p {
+        font-size: 14px; /* Decrease font size for paragraphs on smaller screens */
+        margin-bottom: 10px; /* Decrease spacing between paragraphs on smaller screens */
+    }
+}
