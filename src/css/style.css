@@ -73,3 +73,32 @@ p {
       margin-bottom: 10px; /* Decrease spacing between paragraphs on smaller screens */
   }
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding: 20px;
+  margin-left: 30px;
+}
+
+.contact-button {
+  background-color: #292a50;
+  color: #ccc;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 25px;
+  margin-right: 120px;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+  filter: brightness(0);
+}
