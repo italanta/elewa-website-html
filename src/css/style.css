@@ -32,6 +32,7 @@ img.logo {
   height: 65px;
   object-fit: contain;
   cursor: pointer;
+  filter: brightness(0) grayscale(10);
 }
 
 .nav__links {
