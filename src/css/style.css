@@ -5,7 +5,7 @@
 body {
     background-color: #DBC2F5; /* Hexadecimal color code for a light purple color */
     margin: 0; /* Remove default body margin */
-    font-family: Arial, sans-serif; /* Specify a fallback font */
+    font-family: DM Sans, sans-serif;
     color: rgb(0, 0, 0); /* Text color */
 }
 
@@ -23,6 +23,7 @@ body {
     flex: 1;
     padding: 20px;
     margin-top: 130px;
+    
 }
 
 /* Style for the title */
@@ -30,7 +31,7 @@ body {
     font-size: 32px; /* Adjust the font size for the title */
     font-weight: 550; /* Make the title bold */
     margin-bottom: 20px; /* Add spacing below the title */
-    font-family: Arial, sans-serif;
+    font-family: DM Sans, sans-serif;
 }
 
 /* Style for the paragraphs */
@@ -58,33 +59,7 @@ body {
 }
 
 /* Responsive styles for smaller devices */
-@media screen and (max-width: 600px) {
-    .container {
-        flex-direction: column; /* Stack elements vertically for smaller screens */
-        text-align: center; /* Center-align elements */
-    }
-    
-    .text {
-        margin-top: 20px; /* Reduce top margin for text on smaller screens */
-        padding: 10px; /* Reduce padding for text on smaller screens */
-    }
-    
-    .title {
-        font-size: 24px; /* Decrease font size for the title on smaller screens */
-    }
-    
-    .text p {
-        font-size: 14px; /* Decrease font size for paragraphs on smaller screens */
-        margin-bottom: 10px; /* Decrease spacing between paragraphs on smaller screens */
-    }
 
-    
-    /* Reorder image and text for smaller screens */
-    .image {
-        order: -1; /* Set the image to appear first in the stacking order */
-        margin-bottom: 20px; /* Add spacing between image and text */
-    }
-}
 /* Header styles */
 .site-header {
     display: flex;
@@ -107,7 +82,7 @@ body {
 .contact-button {
     background-color:#292a50;;
     color:white; /* Black text color */
-    font-family: Arial, sans-serif; /* Specify your desired font */
+    font-family: DM Sans, sans-serif; /* Specify your desired font */
     font-size: 16px; /* Adjust font size as needed */
     border: none;
     cursor: pointer;
@@ -116,4 +91,132 @@ body {
     height: 40px;
     border-radius: 25px;
     margin-right: 120px;
+}
+/* Add this CSS to your existing stylesheet or create a new CSS file */
+/* Styles for the navbar */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+/* Styles for menu items */
+.menu-item {
+    margin-right: 20px; /* Adjust spacing between menu items */
+    position: relative;
+}
+
+.menu-item:last-child {
+    margin-right: 0;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #000; /* Set your desired text color */
+}
+
+/* Apply the specified CSS to the "Solution" navigation item */
+.menu-item:first-child .menu-link {
+    text-decoration: underline;
+}
+
+/* Add the less-than sign ("<") facing down */
+.menu-item:first-child .menu-link::before {
+    content: '<';
+    position: absolute;
+    top: 50%; /* Adjust the vertical position of the less-than sign */
+    right: -10px; /* Adjust the horizontal position of the less-than sign */
+    transform: translateY(-25%) rotate(-90deg);
+    font-size: 12px; /* Adjust the font size of the less-than sign */
+    font-weight: bold;
+}
+
+/* Media Queries for Responsiveness */
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    /* Mobile Styles */
+    .site-header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: transparent;
+        padding: 10px;
+        margin-left: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .logo img {
+        max-width: 100%;
+        height: auto;
+        filter: brightness(0);
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu-item {
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .contact-button {
+        background-color: #292a50;
+        color: white;
+        font-family: DM Sans, sans-serif;
+        font-size: 14px; /* Decrease font size for a smaller button */
+        border: none;
+        cursor: pointer;
+        outline: none;
+        width: auto; /* Adjust width to fit content */
+        padding: 10px 20px; /* Add padding to make it smaller */
+        border-radius: 15px; /* Reduce border radius for a less rounded appearance */
+        margin: 0; /* Remove margin for a tighter layout */
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text {
+        margin-top: 30px;
+        padding: 10px;
+
+    }
+
+    .title {
+        font-size: 24px;
+
+    }
+
+    .text p {
+        font-size: 14px;
+        margin-bottom: 10px;
+
+
+    }
+
+    .image {
+        order: -1;
+        margin-bottom: 20px;
+    }
 }
