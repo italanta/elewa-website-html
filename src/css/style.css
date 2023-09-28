@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: beige;
+}
+.headers{
+    position: relative;
+    display: grid;
+    place-items: center;
+    background-color: rgb(189, 250, 230);
+}
+.headers img{
+    width: 100px;
+    height: 100px;
+    margin-right: 100px;
+}
+.headers nav a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+.headers nav button{
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: navy;
+    color: white;
+    text-decoration: none;
+    margin-left: 80px;
+}
+
+
+
+
