@@ -1,3 +1,4 @@
+
 body {
     background-color: #DBC2F5; /*this refers to the background color*/
     margin: 0;
@@ -58,3 +59,4 @@ p {
         padding: 10px; /* Reduce padding for small screens */
     }
 }
+
