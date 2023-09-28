@@ -2,4 +2,16 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.menu {
+  display: flex;
+  margin-top: 10px;
+}
+
+.menu-item {
+  margin: 0 10px;
 }
