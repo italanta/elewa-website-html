@@ -2,4 +2,89 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background: #F9F8F4 0% 0% no-repeat padding-box;
+}
+
+/* logo */
+
+.logo {
+  top: 53px;
+  left: 209px;
+  width: 153px;
+  height: 65px;
+  position: relative;
+  opacity: 1;
+}
+
+img {
+  width: 50%;
+  height: auto; /* This maintains the aspect ratio */
+}
+
+.topnav{
+  top: 53px;
+  left: 209px;
+  width: 1502px;
+  height: 65px;
+  opacity: 1;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  margin: 10px;
+  text-align: left;
+}
+
+.nav-list li {
+  margin: 10px;
+  text-align: left;
+  
+}
+
+.nav-list a {
+  text-decoration: none; /* Remove underlines from links */
+  color: #000000; /* Text color */
+  padding: 1px 2px; /* Add padding to the links */
+  transition: background-color 0.3s; /* Add a smooth hover effect */
+  text-align: left;
+}
+
+.contact {
+  border-radius: 22px;
+  position: absolute;
+  background: #2D2E52 0% 0% no-repeat padding-box;
+  right: 10px;
+  color: white;
+  padding: 5px 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.header {
+  top: 453px;
+  left: 207px;
+  width: 839px;
+  height: 106px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-left: 10%;
+}
+
+.image1 {
+  position: absolute;
+  top: 181px;
+  left: 908px;
+  width: 803px;
+  height: 796px;
 }
