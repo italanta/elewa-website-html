@@ -31,12 +31,13 @@ body{
 .homepage h3{
     margin-top: 15%;
 }
-
+/*Styling the container holding the body content*/
 .conv-container{
     display: flex;
     flex-direction: row;
     margin: 0;
 }
+/*Styling the container that holds the wordings*/
 .conv-content{
     margin-top: 12rem;
     position: relative;
@@ -45,6 +46,7 @@ body{
     font-size: large;
     font-family:'DM Sans', 'sans-serif';
 }
+/*Styling the first eclipse*/
 .eclipse-one{
     width: 30rem;
     height: 20rem;
@@ -55,6 +57,7 @@ body{
     background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(230,144,131));
     
 }
+/*Styling the second eclipse*/
 .eclipse-two{
     width: 120rem;
     height: 20rem;
@@ -66,14 +69,16 @@ body{
     background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(230,144,131));
     
 }
-
+/*Styling the container holding the details concerning the organization*/
 .conv-container p{
     margin-right: 5rem;
 }
+/*Styling the header*/
 .conv-content h1{
     font-size: 35px;
     letter-spacing: 4px;
 }
+/*Styling the button*/
 .conv-container .button-submit{
     width: 15rem;
     background-color: black;
@@ -84,12 +89,13 @@ body{
     flex-direction: row;
     justify-content: center;
 }
+/*Styling the button content*/
 .conv-container .button-submit .text{
     margin-left: 10px;
     margin-bottom: 20px;
     margin-top: 12.5px;
-    /* background-color: chartreuse; */
 }
+/*Srtling the container holding the icon*/
 .conv-container .icon{
     background-color: white;
     border-radius: 50%;
