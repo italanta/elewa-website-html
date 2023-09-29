@@ -122,10 +122,10 @@ nav {
 nav a {
     text-decoration: none;
     color: #000000;
-    align-items: center;
+    align-items: left;
     font-size: 17px;
     cursor: pointer;
-    margin: 0 20px; /* Add margin to create space between links */
+    margin: 0 20px; 
 }
 
 nav a:hover {
@@ -133,8 +133,17 @@ nav a:hover {
 }
 
 .sol {
-    font-weight: 900;
+    text-align: left;
     text-decoration: underline;
+    font: normal normal bold 18px/100px DM Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.sol i {
+    color:rgb(24, 21, 21);
+    font-weight: 100; /* Reduce the arrow's font weight */
 }
 
 
