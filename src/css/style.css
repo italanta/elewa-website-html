@@ -70,6 +70,33 @@ body{
 .conv-container p{
     margin-right: 5rem;
 }
-.conv-content h3{
-    font-size: 33px;
+.conv-content h1{
+    font-size: 35px;
+    letter-spacing: 4px;
+}
+.conv-container .button-submit{
+    width: 15rem;
+    background-color: black;
+    color: white;
+    border-radius: 5rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.conv-container .button-submit .text{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 12.5px;
+    /* background-color: chartreuse; */
+}
+.conv-container .icon{
+    background-color: white;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    margin-top: 9px;
+    margin-left: 10px;
+    margin-right: 0;
+    
 }
