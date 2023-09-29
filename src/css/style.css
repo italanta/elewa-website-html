@@ -67,3 +67,9 @@ body{
     
 }
 
+.conv-container p{
+    margin-right: 5rem;
+}
+.conv-content h3{
+    font-size: 33px;
+}
