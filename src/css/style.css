@@ -1,75 +1,68 @@
-body {
-  background-color: #DBC2F5;
-  margin: 0;
-  font-family: Arial, sans-serif;
-  color: rgb(0, 0, 0);
-}
-
 .container {
+  top: 1316px;
+  left: 0px;
+  width: 100%;
+  height: 101vh;
+  background: #DBC2F5 0% 0% no-repeat padding-box;
+  opacity: 1;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
+  gap: 53px;
   align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-  max-width: 800px;
-  margin: 0 auto;
+  font-family: DM Sans;
+  color: #000000;
+  letter-spacing: 0px;
+  text-align: left;
 }
-
-/* Text Content Styles */
-.text {
+.container .image {
+  margin-left: 160px;
+}
+.container .image img {
+  top: 1424px;
+  left: 209px;
+  width: 391px;
+  height: 455px;
+  border-radius: 1000px 1000px 0px 0px;
   flex: 1;
-  padding: 20px;
-  margin-top: 20%;
 }
-
-/* Image Section Styles */
-.image {
-  flex: 1;
-  padding: 20px;
-  text-align: center;
-  overflow: hidden;
-  border-radius: 6500px 6500px 0px 0px;
+.container .text {
+  margin-right: 90px;
+  margin-top: 50px;
 }
-
-/* Heading and Paragraph Styles */
-h2,
-p {
-  margin: 0;
+.container .text h2{
+  max-width: 837px;
+  width: auto;
+  max-height: 81px;
+  height: auto;
+  font-size: 2em;
+  font-weight: 400;
+  margin-top: 60px;
 }
-
-h2 {
-  font-size: 30px;
-  margin-bottom: 10px;
+.container .text p{
+  width: 456px;
+  max-height: 314px;
+  height: auto;
+  font-size: 1em;
+  font-weight: normal;
 }
-
-p {
-  font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 30px;
-}
-
-.image img {
-  max-width: 100%;
-}
-
-/* Media Query for Small Screens (Max Width: 600px) */
-@media screen and (max-width: 600px) {
+@media (max-width: 768px) {
   .container {
-      flex-direction: column; /* Stack elements vertically for smaller screens */
-      text-align: center; /* Center-align elements */
+    flex-direction: column; /* Change to a vertical layout on smaller screens */
+    align-items: center; /* Center items on smaller screens */
   }
-  
-  .text {
-      margin-top: 20px; /* Reduce top margin for text on smaller screens */
-      padding: 10px; /* Reduce padding for text on smaller screens */
+  .container .image,
+  .container .text {
+    margin: 0; /* Remove margins on smaller screens */
   }
-  
-  .title {
-      font-size: 24px; /* Decrease font size for the title on smaller screens */
+  .container .text {
+    text-align: center; /* Center text on smaller screens */
   }
-  
-  .text p {
-      font-size: 14px; /* Decrease font size for paragraphs on smaller screens */
-      margin-bottom: 10px; /* Decrease spacing between paragraphs on smaller screens */
+  .container .text h2,
+  .container .text p {
+    width: 100%; /* Make text full width on smaller screens */
+  }
+  .container .image img {
+    width: 100%; /* Make image full width on smaller screens */
+    border-radius: 0; /* Remove border-radius */
   }
 }
