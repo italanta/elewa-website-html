@@ -1,8 +1,10 @@
+/* Apply these styles to all screen sizes */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   background: #F9F8F4 0% 0% no-repeat padding-box;
+  font-family: 'DM Sans', Regular;
 }
 
 /* Reset default list styling */
@@ -14,56 +16,92 @@ ul.nav-list {
 
 /* Style the header */
 header {
-  display: flex; /* Use flexbox to align items horizontally */
-  justify-content: space-between; /* Space between logo and nav */
+  display: flex;
+  justify-content: space-between;
   padding: 10px 20px;
-  top: 53px;
-  left: 209px;
-  width: 1502px;
-  height: 65px;
   color: black;
- 
 }
 
 /* Style the logo */
 .logo img {
-  top: 53px;
-  left: 209px;
   width: 153px;
   height: 65px;
-  filter: grayscale(100%) ;
+  filter: grayscale(100%);
 }
 
 /* Style the navigation links */
 .nav-list {
   display: flex;
-  justify-content: center; /* Center items horizontally */
+  justify-content: center;
   align-items: center;
-  top: 65px;
-  left: 751px;
-  width: 422px;
-  height: 24px;
-  opacity: 1;  
+  opacity: 1;
 }
 .nav-list li {
   margin: 0;
-  padding:20px; 
+  padding: 20px;
   list-style: none;
+}
 
+.nav-list a {
+  text-decoration: none;
+  color: #000000;
+  padding: 1px 2px;
+  transition: background-color 0.3s;
+  text-align: left;
+  letter-spacing: 0px;
+}
+
+/* Style the dropdown */
+.dropdown select {
+  display: none;
+}
+
+/* Style the dropdown trigger (Menu) */
+.dropdown a {
+  cursor: pointer;
+}
+
+/* Show the select when hovering over the dropdown trigger */
+.dropdown:hover select {
+  display: block;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 5px;
+  z-index: 1;
 }
 
 /* Style the "Contact us" button */
 .contact {
-  background-color: #2D2E52; /* Button background color */
-  color: white; /* Text color */
+  background-color: #2D2E52;
+  color: white;
   border: none;
   border-radius: 22px;
   cursor: pointer;
-  top: 53px;
-  left: 1575px;
   width: 134px;
   height: 44px;
   opacity: 1;
 }
 
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+  }
 
+  .logo img {
+    margin-bottom: 10px; /* Add spacing between logo and navigation */
+  }
+
+  .nav-list {
+    flex-direction: column; /* Stack navigation links vertically */
+    align-items: center; /* Center links horizontally */
+  }
+
+  .nav-list li {
+    padding: 10px 0; /* Adjust spacing between links */
+  }
+
+  /* You can further adjust styles for smaller screens here */
+}
