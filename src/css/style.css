@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
 
 body{
-    background-color: #DBC2F5;
+    background-color: #FAE9E8;
 
 }
 /* Adding style to the container that has the image and content */
@@ -31,3 +31,18 @@ body{
 .homepage h3{
     margin-top: 15%;
 }
+
+.conv-container{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+.conv-content{
+    margin-top: 12rem;
+    position: relative;
+    z-index: 1;
+    margin-left: 9rem;
+    font-size: large;
+    font-family:'DM Sans', 'sans-serif';
+}
+
