@@ -3,3 +3,266 @@
   margin: 0;
   padding: 0;
 }
+
+
+
+
+
+
+footer {
+  background-color: rgb(24, 24, 66);
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-top-right-radius: 6em;
+  border-top-left-radius: 6em;
+  overflow: auto;
+  overflow-x: hidden;
+  
+}
+
+
+
+
+footer .container1 > p{
+  transform: translateY(-3em);
+  background: linear-gradient(90deg, cyan, magenta);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+    padding: 10px;
+    width: 13em;
+    animation: animateColor 4s ease-in-out infinite;
+    transition: all 3s;
+}
+
+
+
+footer .container1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8em;
+  font-size: 3em;
+}
+
+
+
+
+footer button{
+  transform: translateX(-28em);
+  width: 17em;
+  aspect-ratio: 16/5;
+  border-radius: 28px;
+  border-bottom-color: transparent;
+  border-top-color: transparent;
+  border-left-color:transparent ;
+  border-right-color:transparent ;
+  text-align: center;
+  position: relative;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  
+}
+
+
+
+
+footer button i{
+  color: red;
+  transform: translateX(1em);
+  position: relative;
+  z-index: 5;
+  left: 10px;
+}
+
+
+
+
+
+
+
+button::after{
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  clip-path: circle(50%);
+  background-color: white;
+  z-index: 1;
+  bottom: 14px;
+
+} 
+
+
+
+
+
+
+
+
+
+.container2{
+  width: 116em;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid;
+  justify-content: center;
+  gap: 5em;
+  margin-top: 8em;
+  background: linear-gradient(90deg, white 80%, black, brown);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+
+}
+
+
+
+.container3{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5em;
+  flex-direction: row;
+}
+
+
+
+
+
+
+
+
+.container3 .social-media i{
+  font-size: 2em;
+  
+}
+
+
+
+
+
+.container3 .social-media{
+    display: inline-flex;
+    gap: 3em;
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes animateColor {
+  from{
+    background: linear-gradient(0deg,  cyan, magenta);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  to{
+    background: linear-gradient(360deg, cyan, magenta, pink);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+  }
+
+
+
+
+
+
+
+}
+
+
+.container2 .section1{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+}
+
+
+
+
+
+.container2 .section2{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+}
+
+
+
+
+
+
+
+
+
+
+.container2 .section3{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+}
+
+
+
+
+.container2 .section4{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+}
+
+
+
+
+.container2 .section5{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
