@@ -90,4 +90,49 @@
     }
 }
 
+/* Apply the following styles only for screens with a minimum width of 1200px (desktops and laptops) */
+
+@media only screen and (min-width: 1200px) {
+    /* Adjust the width and height of the overview container */
+    .overview-container {
+        width: 1200px; /* Set the width to 1200px */
+        height: 110vh; /* Set the height to 110% of the viewport height */
+        /* display: flex; */ /* (Commented out for reference) */
+    }
+
+    /* Limit the maximum height and width of the image, and adjust its horizontal margin */
+    #overview-image {
+        max-height: 500px; /* Limit the maximum height of the image */
+        max-width: 430px; /* Limit the maximum width of the image */
+        margin-left: 1%; /* Adjust the horizontal margin */
+    }
+
+    /* Style for the image section */
+    .overview-image-section {
+        width: 50%; /* Set the width to 50% */
+        float: left; /* Float the image section to the left */
+    }
+
+    /* Style for the content section */
+    .overview-content-section {
+        width: 50%; /* Set the width to 50% */
+        float: right; /* Float the content section to the right */
+    }
+
+    /* Increase the font size and adjust the padding of the h1 element within the overview content section */
+    .overview-content-section h1 {
+        padding: 120px 0px 20px; /* Add padding (top, right, bottom) */
+        text-align: left; /* Align the text to the left */
+        font-size: 20px; /* Increase the font size to 20px */
+    }
+    
+    /* Increase the font size and adjust the padding of paragraphs within the overview content section */
+    .overview-content-paragraph {
+        padding: 10px 0px 10px; /* Add padding (top, right, bottom) */
+        text-align: left; /* Align the text to the left */
+        font-size: 16px; /* Increase the font size to 16px */
+    }
+}
+
+
 
