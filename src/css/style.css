@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+body{
+    background-color: #DBC2F5;
+
+}
+.homepage{
+    display: flex;
+    flex-direction: row;
+    padding: 8%;
+    
+}
+.homepage img{
+    width: 30%;
+}
+.homepage .details{
+    margin-left: 8%;
+    font-family:'DM Sans', 'sans-serif';
+    font-size: larger;
+}
+.homepage p{
+    margin-top: 20px;
+    font-size: large;
+}
+.homepage h3{
+    margin-top: 15%;
+}
