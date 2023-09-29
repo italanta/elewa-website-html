@@ -363,18 +363,31 @@ button:active {
 
     /* this is for adjusting the background styles for smaller screens */
     .background {
-        left: 50%;
-        top: 0;
-        width: auto; /* Let the width adapt */
-        height: 100%;
+        position: absolute;
+        top: 20vh; 
+        left: 50%; /* Center horizontally */
         transform: translateX(-50%); /* Center horizontally */
+        width: 85vw; /* Adjust the width as needed */
+        height: 85vw; /* Set the height equal to the width to maintain a circular shape */
+        background: transparent linear-gradient(90deg, #DBC2F500 0%, #DBC2F5E6 100%) 0% 0% no-repeat padding-box;
+        mix-blend-mode: multiply;
+        opacity: 1;
+        z-index: -1; /* Ensure it's behind the content */
+        border-radius: 50%; /* Make it circular */
     }
-
+    
+    /* Custom CSS for the background on the left */
     .background-left {
-        left: 10px;
-        top: 0;
-        width: auto; /* Let the width adapt */
-        height: 100%;
+        position: absolute;
+        top: 20vh; 
+        left: 10vw; 
+        width: 35vw; 
+        height: 35vw; /* Set the height equal to the width to maintain a circular shape */
+        background: transparent linear-gradient(90deg, #DBC2F500 0%, #DBC2F5E6 100%) 0% 0% no-repeat padding-box;
+        mix-blend-mode: multiply;
+        opacity: 1;
+        z-index: -1; /* Ensure it's behind the content */
+        border-radius: 50%; /* Make it circular */
     }
 
     button {
