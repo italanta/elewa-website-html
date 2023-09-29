@@ -1,4 +1,3 @@
-
 /* Reset default spacing for better alignment */
 body {
     font-family: 'DM Sans', sans-serif;
@@ -27,7 +26,7 @@ h1, h2, p, ul, li{
     opacity: 1;
 
 }
- h3{
+h3 {
     margin-top: 0;
     left: 209px;
     width: 701px;
@@ -37,60 +36,46 @@ h1, h2, p, ul, li{
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
- }
+}
 
 /*  to center the entire page and add a margin on the sides */
 body {
     display: block;
     align-items: center;
-    margin: 0 6%; 
-
+    margin: 0 6%;
 }
 
 /* Style the header section */
 header {
-
     /* Transparent background and black text */
-
     background-color: transparent;
     color: #000;
     height: var(--elewa-website-header-bg-height);
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
-    
     /* Keep it on top of other elements */
-
     position: relative;
     z-index: 999;
 }
 
 /* Container for header content */
 .container {
-
     max-width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     /* Limit the width of the content */
     max-width: 100%; /* Change to 100% to make it full-width */
-    
     /* Center the content horizontally */
     margin: 0 auto;
-    
     /* Arrange items side by side with space in between */
     display: flex;
     justify-content: space-between;
-    
     /* Center the content vertically */
     align-items: center;
-    
-
     /* Add padding for spacing */
-
     padding: 10px 20px;
 }
 
@@ -100,14 +85,14 @@ header {
     filter: brightness(0);
 }
 
-/* Custom CSS for the background */
+
 .background {
     position: absolute;
-    top: 229px;
-    left: 846px;
-    width: 1065px;
-    height: 1056px;
-    transform: matrix(-1, 0, 0, -1, 0, 0);
+    top: 20vh; 
+    left: 70%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    width: 55vw; /* Adjust the width as needed */
+    height: 55vw; /* Set the height equal to the width to maintain a circular shape */
     background: transparent linear-gradient(90deg, #DBC2F500 0%, #DBC2F5E6 100%) 0% 0% no-repeat padding-box;
     mix-blend-mode: multiply;
     opacity: 1;
@@ -118,10 +103,10 @@ header {
 /* Custom CSS for the background on the left */
 .background-left {
     position: absolute;
-    top: 229px;
-    left: 219px;
-    width: 1065px;
-    height: 1056px;
+    top: 20vh; 
+    left: 10vw; 
+    width: 55vw; 
+    height: 55vw; /* Set the height equal to the width to maintain a circular shape */
     background: transparent linear-gradient(90deg, #DBC2F500 0%, #DBC2F5E6 100%) 0% 0% no-repeat padding-box;
     mix-blend-mode: multiply;
     opacity: 1;
@@ -129,11 +114,9 @@ header {
     border-radius: 50%; /* Make it circular */
 }
 
-
 nav {
     display: flex;
     align-items: center; /* Center navigation links vertically */
-
 }
 
 nav a {
@@ -143,7 +126,6 @@ nav a {
     font-size: 17px;
     cursor: pointer;
     margin: 0 20px; /* Add margin to create space between links */
-
 }
 
 nav a:hover {
@@ -153,32 +135,6 @@ nav a:hover {
 .sol {
     font-weight: 900;
     text-decoration: underline;
-}
-
-/* Adding styles for the arrow container */
-.arrow {
-    display: inline-block;
-    margin-left: 5px; /* Spacing between "Solutions" and the arrow */
-    transition: transform 0.3s; /* Smooth transition for arrow rotation */
-}
-
-/* Styling the inverted greater-than sign */
-.arrow::before {
-    content: "\203A"; /* Unicode character for an inverted greater-than sign */
-    display: inline-block;
-    transform: translateY(2px); /* Adjusting vertical alignment */
-    transition: transform 0.3s; /* Adding smooth transition for arrow rotation */
-}
-
-/* Rotating the arrow when the "sol" class is hovered */
-.sol:hover .arrow::before {
-    transform: translateY(2px) rotate(180deg); /* Rotating the arrow 180 degrees on hover */
-}
-
-/* Optionally, customize arrow color or other styles */
-.arrow::before {
-    color: #000; /* Arrow color (adjust to your preference) */
-    font-size: 14px; /* Arrow size (adjust if needed) */
 }
 
 
@@ -204,7 +160,7 @@ nav a:hover {
     margin-left: auto; /* Push "Contact Us' to the right by using auto margin */
 }
 
-/* Add styles for the mobile menu */
+
 .nav-toggle {
     display: none;
 }
@@ -238,8 +194,7 @@ nav a:hover {
     color: #fff;
     cursor: pointer;
     display: none; /* Hide the mobile "Contact Us" button by default */
-    margin-top: 10px; /* Add spacing between the button and menu items */
-
+    margin-top: 10px; 
 }
 
 .contact-button1 {
@@ -247,18 +202,15 @@ nav a:hover {
     color: white;
 }
 
-
 .contact-us {
     display: inline-block; /* Show the "Contact Us" button */
     margin-top: 10px; /* Add spacing between the button and menu items */
-
 }
 
 .main {
-        display: flex; 
-        align-items: center;
-        height: 70vh;
-        
+    display: flex;
+    align-items: center;
+    height: 70vh;
 }
 
 .hero {
@@ -286,10 +238,10 @@ nav a:hover {
 
 button {
     cursor: pointer;
-    max-width: 250px; 
+    max-width: 250px;
     color:white;
     font-weight: 700;
-    font-family: Helvetica,"sans-serif";
+    font-family: Helvetica, "sans-serif";
     transition: all .2s;
     padding: 8px 20px;
     border-radius: 42px;
@@ -298,36 +250,34 @@ button {
     display: flex;
     align-items: center;
     font-size: 15px;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     background: #ffffff;
     color: black;
     border: 1px solid black;
-  }
-  
-  button > svg {
+}
+
+button > svg {
     width: 34px;
     margin-left: 10px;
     transition: transform .3s ease-in-out;
-  }
-  
-  button:hover svg {
+}
+
+button:hover svg {
     transform: translateX(5px);
     color: white;
-  }
-  
-  button:active {
+}
+
+button:active {
     transform: scale(0.95);
-  }
-  
+}
 
 /* Add a media query to switch to the hamburger menu on smaller screens */
-@media (max-width: 768px) {
+@media (max-width: 798px) {
     .nav-container {
         text-align: center; /* Align navigation buttons in the center */
     }
-
 
     .nav-menu {
         display: none;
@@ -378,4 +328,56 @@ button {
     .contact-button1 {
         display: block;
     }
+
+    /* Adjust styles for h1 and h3 for smaller screens */
+    .heading {
+        left: 10px; /* Adjust left position */
+        width: auto; /* Let the width adapt */
+        text-align: center; /* Center text on smaller screens */
+        font-size: 40px; /* Reduce font size */
+        line-height: 50px; /* Adjust line height */
+    }
+
+    h3 {
+        left: 10px;
+        width: auto;
+        margin-bottom: 30px;
+        text-align: center;
+        font-size: 24px; /* Reduce font size */
+        line-height: 30px; /* Adjust line height */
+    }
+
+    .btn1 {
+        top :600px;
+        max-width: 100%;
+    }
+
+    /* this is for adjusting the background styles for smaller screens */
+    .background {
+        left: 50%;
+        top: 0;
+        width: auto; /* Let the width adapt */
+        height: 100%;
+        transform: translateX(-50%); /* Center horizontally */
+    }
+
+    .background-left {
+        left: 10px;
+        top: 0;
+        width: auto; /* Let the width adapt */
+        height: 100%;
+    }
+
+    button {
+        margin: auto;
+        font-size: 12px;
+        padding: 6px 14px;
+        margin-top: 30px; /*  margin to separate button from h3 */
+    }
+
+    button > svg {
+        width: 18px; /* Further reduce the SVG icon size */
+    }
+
+
 }
