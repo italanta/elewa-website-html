@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -52,34 +53,31 @@ nav ul li a {
 }
 
 .content h1 {
-  font-size: 70px;
+  font-size: 4rem;
   color: #222;
   margin-left: 180px;
+  font-weight: bolder;
+  letter-spacing: 1px;
 }
 
-.content p {
+.content #human {
   margin: 10px 0 30px;
   color: #333;
   margin-left: 180px;
   font-size: 30px;
+  font-weight: bolder;
 
 }
 
 .content .btn {
-  padding: 15px 80px;
-  font-size: 30px;
-  display: inline-block;
-    text-decoration: none;
-    padding: 14px 40px;
-    color: #fff;
-    background-color: rgb(4, 4, 64);
-    border-radius: 30px;
-    cursor: pointer;
-    margin-left: 200px;
-}
-
-.btn:hover {
-  border-top-right-radius: 30px;
+  width: 220px;
+  height: 45px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
 }
 
 .feature-img {
@@ -90,4 +88,26 @@ nav ul li a {
   right: 200px;
   font-size: 18px;
   margin-bottom: 60px;
+}
+#circle-btn{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  margin-top: 3px;
+}
+.content #unlock{
+  font-size: 1.0rem;
+  color: white;
+  margin-left: 5px;
+  width: 80%;
+  height: 20px;
+  margin-top: 10px;
+  
+
+}
+.content .material-symbols-outlined{
+  margin-top: 2px;
+
 }
