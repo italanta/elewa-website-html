@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  background-color: #333;
+  color: #fff;
+  padding: 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #082075;
+  margin-left: 20px;
+}
+
+.content-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.center-text {
+  font-size: 1.5rem;
+  margin-top: 400px;
+  margin-left:800px;
+}
+
+.black-button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 20px;
+  overflow: hidden;
+  position: relative;
+  transition: width 0.3s ease;
+  white-space: nowrap; 
+}
+
+.arrow {
+  margin-left: 10px;
+  transition: opacity 0.3s ease;
+  display: inline-block;
+  vertical-align: middle;
+  opacity: 1;
+}
+
+#slideButton.clicked {
+  width: 0;
+  padding: 0;
+}
+
+#slideButton.clicked .arrow {
+  opacity: 0;
+}
+
+.contact-button {
+  background-color: #292a50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.slide-toggle {
+  display: none;
+}
+
+.slide-button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 20px;
+  display: inline-block;
+  position: relative;
+}
+
+.slide-button + .arrow {
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+h1 {
+  position:absolute;
+  top: 272px;
+  width: 839px;
+  height: 106px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-style:normal;
+  font-size: 82px/110px;
+  letter-spacing: 0px;
+  color:#000000;
+  opacity: 1;
+}
+#p {
+  position:absolute;
+  top: 388px;
+  width: 839px;
+  height: 52px;
+}
