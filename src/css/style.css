@@ -113,7 +113,7 @@ h1 {
 }
 #p1 {
     position:absolute;
-    top: 388px;
+    top: 360px;
     width: 839px;
     height: 52px;
     
@@ -131,7 +131,7 @@ h1 {
 }
 #UYPbtn {
     position: relative;
-    top: 540px;
+    top: 500px;
     width: 267px;
     height: 58px;
     background: #000000 0%;
@@ -218,7 +218,7 @@ h1 {
 }
 #UYPbtn:hover #buttonText {
     background-color: #FFFFFF;
-    left: 45%; /* Move to the right on hover */
+    left: 40%; /* Move to the right on hover */
 }
 
 #UYPbtn:hover {
@@ -280,9 +280,66 @@ h1 {
     }
 
     #UYPbtn {
-        left: 20px; /* Adjust button position */
+        left: 0px; /* Adjust button position */
         
     }
 
     
+}
+/*phone layout*/
+@media (max-width: 600px){
+    #header {
+        left: 0px; /* Adjust header position */
+        width: auto; /* Allow header to expand */
+    }
+    #logo{
+        margin-right:0%;
+    }
+    h1{
+        position: absolute;
+        margin-top: -10%;
+        width:70%;
+    }
+    #p1{
+        position: absolute;
+        width:70%;
+        margin-top: -20%;
+    }
+    #contactNavBtn{
+        display:none;
+    }
+    .homeLinks {
+        display:none;
+        position: relative;
+        left:-10%;
+        margin-right: 10%; /* Adjust margin */
+        width: 500px; /* Adjust width */
+    }
+
+    #homeFlexBox {
+        position: relative;
+        display:block;
+        margin-top: -70%;
+        left: 20px; /* Adjust flex container position */
+        width:30%;
+        width: auto; /* Allow flex container to expand */
+        
+    }
+
+    .homepageImage {
+        position: relative;
+        top:40%;
+        left: 0; /* Adjust image position */
+        width: 80%; /* Adjust image width */
+        height: 60%;
+    }
+    #UYPbtn {
+        position:absolute;
+        margin-top: -30%;
+        left: 0px; /* Adjust button position */
+        width:-20%;
+        height:-20%;
+    }
+
+
 }
