@@ -106,7 +106,7 @@ body{
     margin-left: 10px;
     margin-right: 0;  
 }
-
+/*Styling the navigation bar*/
 .top-nav{
     background-color:  #FAE9E8;
     margin: 0px;
@@ -114,9 +114,7 @@ body{
     position: relative;
     margin-top: 20px;
 }
-.top-nav a{
-    float: left;
-}
+/*Styling the centered menu*/
 .top-center {
     float: none;
     position: absolute;
@@ -124,21 +122,26 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+/*Styling the navigation links*/
 .top-nav a{
     text-decoration: none;
     color: #000;
     margin-left: 15px;
+    float: left;
     font-family:'DM Sans', 'sans-serif';
 }
+/*Styling the solution item in the menu*/
 .top-nav .active{
     font-weight: bold;
     text-decoration: underline;
 }
+/*Styling the brand image*/
 .top-nav img{
     margin-left: 9rem;
     width: 7rem;
     color: #000;
 }
+/*Styling the contact us button*/
 .contact{
     float: right;
     margin-right: 95px;
