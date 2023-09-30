@@ -3,6 +3,7 @@ body, h1, h2, p, ul, li {
     
     width: 1920px;
     height: 1082px;
+    font-family: 'DM Sans', sans-serif;;
     margin: 0;
     padding: 0;
     background: #DBC2F5 0% 0% no-repeat padding-box;
@@ -13,7 +14,7 @@ body, h1, h2, p, ul, li {
 .header {
 
     position: fixed;
-    top: 0;
+    top: 53px;
     left: 0;
     width: 100%;
     z-index: 1000; /* Higher z-index to appear on top of page content */
@@ -51,10 +52,14 @@ body, h1, h2, p, ul, li {
     padding: 10px 20px; /* Adjust padding as needed */
     border: none;
     cursor: pointer;
-
     background: #2D2E52 0% 0% no-repeat padding-box;
-border-radius: 22px;
-opacity: 1;
+    border-radius: 22px;
+    opacity: 1;
+}
+
+select { 
+    background: transparent;
+    border: none;
 }
 
 /* Media queries for responsiveness */
