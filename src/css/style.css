@@ -160,7 +160,7 @@ body{
         float: none;
         display: block; 
     }
-
+/*Navigation bar for */
     .top-center a {
         position: relative;
         top: 0;
@@ -188,7 +188,8 @@ body{
         width: 200rem;
         height: 12rem;
     }
-    .conv-content{
-        text-wrap: wrap;
+    .conv-content p{
+        margin-right: 15px;
+        
     }
 }
