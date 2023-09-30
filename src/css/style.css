@@ -1,10 +1,8 @@
 #homePage{
     position:relative;
-    outline:4px solid red;
     height: 7428px;
 }
 #header {
-    outline:3px solid red; 
     display:flex;
     position: relative;
     top:53px;
@@ -72,7 +70,7 @@
     cursor: pointer;
 }
 #homeFlexBox {
-    outline:3px solid blue;
+    
     position:relative;
     display: flex;
     top:181px;
@@ -97,9 +95,9 @@ h1 {
     height: 106px;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-size: medium 82px;
-    line-height: 110px;
+    font-weight: bold;
+    font-style:normal;
+    font-size: 82px/110px;
     letter-spacing: 0px;
     color:#000000;
     opacity: 1;
@@ -111,29 +109,23 @@ h1 {
     height: 52px;
     
 }
-#p2 {
-    position:absolute;
-    top:450px;
-    width: 839px;
-    height: 52px;
-}
+
 .homePara{
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size:medium 60px;
-    
+    font-size:larger ;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
 }
-#UYP {
-    position:absolute;
+#UYPbtn {
+    position:relative;
     top:540px;
     width: 267px;
     height: 58px;
-    background: #000000 0% 0% ;
+    background:#000000 0% ;
     border-radius: 29px;
     opacity: 1;
     align-items: center;
@@ -141,20 +133,39 @@ h1 {
     text-align: left;
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
+    font-size: small;
     line-height: 42px;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
+    /*smooth transitioning og background colours*/
+    transition: background-color 0.3s, color 0.3s;
 }
-#uypCircle {
+#UYPbtn:hover {
+    background-color: #FFFFFF; /* Change background to white on hover */
+    color: #000000; /* Change text color to black on hover */
+  }
+#btnCircle {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: left 0.3s; /* Add a smooth transition effect for horizontal movement */
+}
+#UYPbtn:hover #btnCircle {
+    background-color: #000000; 
+    left: 90%; /* Move btnCircle to the right on hover */
+}
 
-width:42px;
-height:42px;
-background:red 0% 0% no-repeat padding-box;
-opacity: 1;
-z-index: 1;
+#rightArrow {
+    margin-left: 28%;
+    width:21px;
+    height:11px;
 }
 #footer{
     outline: 3px solid green;
