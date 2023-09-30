@@ -1,10 +1,10 @@
 .header {
-   padding-left: 70px;
+   padding-left: 120px;
     font-size: 3em;
     /* font size will be twice the size of parent element's font size */
     font-weight: bold;
     margin-bottom: 20px;
-    
+    font-family:sans-serif ;
 }
 
 .menu {
@@ -13,23 +13,50 @@
 
     list-style-type: none;
     margin-bottom: 40px;
-    padding-left: 70px;
+    padding-left: 120px;
    margin-top: 35px;
 }
 .button {
 
-    border:1px solid #04436f;
+    border:1px solid #094e7f;
     padding: 5px 30px;
     background-color:white;
-    color:#04436f;
+    color:#094e7f;
     text-decoration: none;
     border-radius: 40px;
     transition:background-color 0.3s ease;
    margin-right: 10px;
    white-space: nowrap;
    font-size: 13px;
+   font-weight: 540;
 }
 .button:hover{
-    background-color: #04436f;
+    background-color: #094e7f;
     color:#fff
 }
+.news-post1{
+    
+    padding-left: 120px;
+    padding-right: 20px;
+}
+.news-post2{
+    border-radius: 10px;
+   
+    
+ 
+    
+   overflow: hidden;
+    width:1090px;
+    height:370px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.news-post2 img{
+    width:100%;
+    height:auto;
+    display: block;
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+}
+
