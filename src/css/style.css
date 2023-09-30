@@ -1,5 +1,78 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    
+    width: 1920px;
+    height: 1082px;
+    margin: 0;
+    padding: 0;
+    background: #DBC2F5 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+/* Style the header */
+.header {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Higher z-index to appear on top of page content */
+}
+
+.container {
+    max-width: 1200px; /* Container width for large screens */
+    margin: 0 auto;
+    padding: 10px 20px; /* Adjust padding as needed */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 40px; /* Set your desired logo height */
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 20px; /* Adjust spacing as needed */
+}
+
+.contact-button {
+    
+    color: #fff; /* Button text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    cursor: pointer;
+
+    background: #2D2E52 0% 0% no-repeat padding-box;
+border-radius: 22px;
+opacity: 1;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 1440px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 728px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .container {
+        max-width: 320px;
+        padding: 10px; /* Adjust padding for mobile screens */
+    }
 }
