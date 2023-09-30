@@ -18,10 +18,11 @@
     height:65px;
 }
 .homeLinks {
+    /*outline:3px solid black;*/
     justify-content: space-between;
     margin-top:12px ;
-    margin-right: 33%;
-    width: 422px;
+    margin-right: 20%;
+    width: 700px;
     height: 24px;
     opacity: 1;
     /*text*/
@@ -29,9 +30,17 @@
     font:normal normal normal
     18px/100px ;
     font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 0px;
+    letter-spacing: 1px;
     color: #000000;
     opacity: 1;
+}
+#arrowDown{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding:3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
 .dropDown{
     display: inline-block;
@@ -121,15 +130,16 @@ h1 {
     opacity: 1;
 }
 #UYPbtn {
-    position:relative;
-    top:540px;
+    position: relative;
+    top: 540px;
     width: 267px;
     height: 58px;
-    background:#000000 0% ;
+    background: #000000 0%;
     border-radius: 29px;
     opacity: 1;
+    display: flex;
     align-items: center;
-    /*text*/
+    /* Text */
     text-align: left;
     font-style: normal;
     font-weight: bold;
@@ -138,37 +148,85 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0px;
     color: #FFFFFF;
-    opacity: 1;
-    /*smooth transitioning og background colours*/
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s, color 0.3s, left 0.3s; /* Transition properties for background, text color, and margin-left */
+    overflow: hidden;
 }
-#UYPbtn:hover {
-    background-color: #FFFFFF; /* Change background to white on hover */
-    color: #000000; /* Change text color to black on hover */
-  }
+#buttonContent {
+    display: flex;
+    align-items: center;
+}
+#buttonText {
+    position:absolute;
+    left:10px;
+    /*outline:2px solid yellow;*/
+    transition:left 0.3s;
+    background-color: #000000;
+}
+  
 #btnCircle {
     position: absolute;
     top: 50%;
-    left: 90%;
+    left: 230px;
     transform: translate(-50%, -50%);
     width: 42px;
     height: 42px;
     border-radius: 50%;
     background-color: #fff;
     transition: left 0.3s; /* Add a smooth transition effect for horizontal movement */
+    
 }
-#UYPbtn:hover #btnCircle {
-    background-color: #000000; 
-    left: 90%; /* Move btnCircle to the right on hover */
+.rightArrow {
+    width: 30px; /* Adjust the width as needed */
+    height: 10px; /* Adjust the height as needed */
+    display: inline-block;
+    position: relative;
+}
+  
+.arrowBar {
+    margin-left: 3px;
+    width:70%;
+    height: 4px; /* Adjust the thickness of the arrow bar */
+    background-color: #000; /* Adjust the color as needed */
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+#UYPbtn:hover .arrowBar {
+    background-color: #FFFFFF; /* Change arrow bar color to white on hover */
+}
+.arrowHead {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent; /* Adjust the size of the arrow head */
+    border-right: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left-color: #000; /* Adjust the color to match the arrow bar */
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+#UYPbtn:hover .arrowHead {
+    border-left-color: #FFFFFF; /* Change arrow head color to white on hover */
 }
 
-#rightArrow {
-    margin-left: 28%;
-    width:21px;
-    height:11px;
+#UYPbtn:hover #btnCircle {
+    background-color: #000000; 
+    left:30px; /* Move btnCircle to the right on hover */
 }
+#UYPbtn:hover #buttonText {
+    background-color: #FFFFFF;
+    left: 45%; /* Move to the right on hover */
+}
+
+#UYPbtn:hover {
+    background-color: #FFFFFF; /* Change background to white on hover */
+    color: #000000; /* Change text color to black on hover */
+}
+
 #footer{
-    outline: 3px solid green;
     position: absolute;
     justify-content: space-between;
     display:flex;
