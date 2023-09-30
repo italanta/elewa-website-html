@@ -1,0 +1,48 @@
+body{
+   background-color: #DBC2F5; 
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    justify-items: baseline;
+    margin-top: 30px;
+    margin-left: 209px;
+    margin-right: 209px;
+    /* width: 1502px;
+    height: 65px; */
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.5);
+    align-items: center;
+    padding: 2px;
+    
+}
+
+.logo{
+    filter:brightness(0);
+}
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    opacity: 1;
+}
+
+.btn-contact{
+    background-color: #2D2E52;
+    border-radius: 15px;
+    color: #FFFFFF;
+    opacity: 1;
+    text-align: center;
+    height: 24px;
+    width: 80px;
+}
+
+.chevron:hover{
+    rotate: 180deg;
+}
+
+.nav-item:hover{
+    font-weight: bold;
+    text-decoration: underline;    
+}
