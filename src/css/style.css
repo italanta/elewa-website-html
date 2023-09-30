@@ -63,7 +63,6 @@ body{
     width: 120rem;
     height: 20rem;
     border-radius: 33rem;
-    border-left-width: 11px;
     margin-top: 14rem;
     margin-right: 13rem;
     position: relative;
@@ -154,4 +153,42 @@ body{
     font-size: 14px;
     font-family:'DM Sans', 'sans-serif';
     margin-top: 10px;
+}
+/*Responsive page for mobile devices*/
+@media screen and (max-width:768px){
+    .top-nav{
+        float: none;
+        display: block; 
+    }
+
+    .top-center a {
+        position: relative;
+        top: 0;
+        left: -5.8rem;
+        transform: none;
+      }
+    .top-nav .contact{
+        margin-right: 210px;
+        margin-top: 10px;
+    }
+    .top-nav img{
+        margin-left: 25px;
+    }
+    .conv-container {
+        margin-left: -7rem;
+    }
+    .eclipse-one{
+        margin-left: 12rem;
+        width: 20rem;
+        height: 13rem;
+        margin-top: 110px;
+    }
+    .eclipse-two{
+        margin-left: -50px;
+        width: 200rem;
+        height: 12rem;
+    }
+    .conv-content{
+        text-wrap: wrap;
+    }
 }
