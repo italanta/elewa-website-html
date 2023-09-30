@@ -59,4 +59,136 @@
     top:50%;
     transform: translateY(-50%);
 }
+.image-grid{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:20px;
+    padding-right: 56px;
+    padding-left: 120px;
+    border-radius: 10px;
+    margin-right: 70px;
+
+}
+
+
+
+.image-container{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    height: 350px;
+    width: 350px;
+    
+}
+.image-container img{
+    display: block;
+    width:auto;
+    height:auto;
+   max-width: 210%;
+   max-height: 200%;
+   border-radius: 10px; 
+   object-fit: cover;
+   
+}
+
+
+.text-grid,.text-grid1{
+    display: inline-grid;
+    grid-template-columns: repeat(3,1fr);
+   
+    text-align: left;
+    padding-left: 119px;
+    padding-right: 10px;
+    white-space: nowrap;
+    margin-right: 60px;
+
+}
+
+.text-grid{
+    grid-gap: 49px;
+}
+.text-grid1{
+    grid-gap: 85px;
+
+}
+.text-container{
+   
+    color:black;
+    padding: 0;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}
+.image-container1 img {
+    display: block;
+    width:715px;
+    height:350px;
+   
+   max-height: 200%;
+   border-radius: 10px; 
+   object-fit: cover;
+}
+
+.text-container1{
+    color:black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 70px;
+    text-align: right;
+    padding-left:370px;
+}
+.top-left-text,.bottom-left-text{
+    position:absolute;
+    color: #fff;
+}
+.top-left-text{
+    top:10px;
+    left: 20px;
+
+}
+
+.bottom-left-text{
+    bottom: 10px;
+    left:10px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.button1{
+
+    border:1px solid white;
+    padding: 5px 30px;
+    background-color:white;
+    color:#fff;
+    text-decoration: none;
+    border-radius: 40px;
+    background-color: rgba(0,0,0,0);
+   margin-right: 10px;
+   white-space: nowrap;
+   font-size: 11px;
+   font-weight: 540;
+}
+.button11{
+    display: inline;
+    border:1px solid black;
+    
+    background-color:white;
+    color:black;
+    text-decoration: none;
+    border-radius: 40px;
+    background-color: rgba(0,0,0,0);
+   margin-right: 10px;
+   white-space: nowrap;
+   font-size: 11px;
+   margin-right: 10px;
+   font-weight: 540;
+   padding: 5px 30px;
+}
+.text-grid-p1,.text-grid-p2 {
+    font-family: sans-serif;
+    font-weight: 580;
+}
+
+.text-grid-p1{
+    font-size: 25px;
+}
 
