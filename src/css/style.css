@@ -1,3 +1,4 @@
+
 /* Reset default spacing for better alignment */
 body {
     font-family: 'DM Sans', sans-serif;
@@ -402,4 +403,10 @@ button:active {
     }
 
 
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
