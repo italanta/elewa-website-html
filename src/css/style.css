@@ -47,3 +47,50 @@ body{
     font-weight: bold;
     text-decoration: underline;    
 }
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 209px;
+    margin-right: 209px;
+    margin-top: 63px;
+    padding: 2px;
+
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.description > h1{
+    margin: 0;
+    font-size: clamp(1.5625rem,.8745rem + 2.572vw,2.925rem)
+}
+
+.description > h5{
+    margin: 0;
+    font-size: clamp(.8125rem,.512rem + 1.3739vw,1.8rem);
+}
+
+.btn-unlock{
+    background-color: #000000;
+    color: #FFFFFF;
+    opacity: 1;
+    border-radius: 29px;
+    display: flex;
+    width: 11rem;
+    height: 2.5rem;
+    align-items: center;
+    gap: 10px;
+    border: none;
+}
+
+.arrow-icon{
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
