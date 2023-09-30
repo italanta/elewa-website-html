@@ -1,49 +1,93 @@
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  justify-content: center;
-  align-items: center;
-
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
-.menu {
+
+nav {
+  padding: 10px 0;
   display: flex;
-  margin-top: 30px;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.menu-item {
-  margin: 0 10px;
-}
-
-#logo{
+.logo {
   width: 100px;
-  height: 50px;
-  position: relative;
-  margin-top: -30px;
-  margin-left: 200px
+    height: 50px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 200px
+  
 }
 
-.contact-button {
-  background-color: blue;
-  color: white;
-  border: none;
-  border-radius: 10px;
-  padding: 10px 20px;
-  cursor: pointer;
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 300;
+}
+
+.contactus-btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px 40px;
+  color: #fff;
+  background-color: rgb(4, 4, 64);
   font-size: 14px;
-  position: absolute;
-  right: 200px;
-  margin-top: -20px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-right: 200px;
 }
 
+.content {
+  margin-top: 20%;
+  /* max-width: 600px; */
+}
 
+.content h1 {
+  font-size: 70px;
+  color: #222;
+  margin-left: 180px;
+}
 
-#photo {
+.content p {
+  margin: 10px 0 30px;
+  color: #333;
+  margin-left: 180px;
+  font-size: 30px;
+
+}
+
+.content .btn {
+  padding: 15px 80px;
+  font-size: 30px;
+  display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #fff;
+    background-color: rgb(4, 4, 64);
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 200px;
+}
+
+.btn:hover {
+  border-top-right-radius: 30px;
+}
+
+.feature-img {
   float: right;
-  max-width: 40%;
-  margin-top: 100px;
+  max-width: 45%;
   position: absolute;
+  bottom: 0;
   right: 200px;
   font-size: 18px;
+  margin-bottom: 60px;
 }
