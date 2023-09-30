@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     background-color: beige;
     width: 100%;
@@ -104,6 +105,259 @@ margin-left: 5px;
 margin-top: 2px;
 }  
    
-    
+    /* end of first content on landing page */
 
+    /* education solution design */
+   .education-solutions{
+    position: absolute;
+    background-color: white;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 15%;
+    height: 100vh;
+    overflow: hidden;
+   }
+   .education-solutions .container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 95%;
+    margin-left: 10%;
+   }
+
+   /* start of display */
+   .education-solutions .display{
+    position: relative;
+    background-color: #eeecfb;
+    width: 450px;
+    height: 450px;
+    margin-left: 10px;
+    display: grid;
+    place-items: center;
+    text-align: justify;
+   }
+   .display .parent{
+    position: relative;
+    display: flex;
+    width: 450px;
+    flex-direction: row-reverse;
+    margin-left: -40px;
+    margin-top: -15%;
+    
+   }
+   .display #about{
+    margin-top: 80px;
+    font-size: 2.2rem;
+    font-family: 'Roboto', sans-serif;
+    margin-left: -50px;
+   }
+   .display #details{
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    width: 300px;
+    font-weight: 300;
+    line-height: 1.5rem;
+    
+   }
+   .display #details span{
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+   
+   }
+   .display .parent #circle1{
+    position: relative;
+    background-image: linear-gradient(to right,#a89aeb,transparent);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: -80px;
+   }
+   .display .parent #circle2{
+    position: relative;
+    background-image: linear-gradient(to right,transparent,#a89aeb);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+   }
+/* end of display */
+/* display1 content */
+   .education-solutions .display1{
+    background-color: #fcf8ea;
+    width: 850px;
+    height: 450px;
+    margin-left: 10px;
+   }
+   .display1 #about{
+    margin-top: 80px;
+    font-size: 2.2rem;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 5%;
+   }
+   .display1 #details{
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    width: 400px;
+    font-weight: 300;
+    line-height: 1.8rem;
+    letter-spacing: 0.8px;
+    margin-left: 5%;
+   }
+   .display1 #details span{
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+   }
+ 
+   .display1  #looped1{
+    position: relative;
+    background-image: linear-gradient(to right,#fcf8ea,#ebc359);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transform: rotate(260deg);
+    margin-left: 22%;
+    margin-top: 2%;
+   }
+   
+   
+   
+   .display1  #looped2{
+    position: relative;
+       background-image: linear-gradient(to right,#fcf8ea,#ebc359); 
+       width: 350px;
+       height: 180px;
+       border-bottom-left-radius: 200px;
+       border-top-left-radius: 200px;
+       border-bottom-right-radius: 200px;
+       border-top-right-radius: 200px;
+       margin-left: 40%; 
+       margin-top: -30%;
+       transform: rotate(-90deg);
+   }
+   .display1 #looped3{
+    position: relative;
+       background-image: linear-gradient(to right,#fcf8ea,#ebc359); 
+       width: 400px;
+       height: 180px;
+       margin-top: -25%;
+       border-bottom-left-radius: 200px;
+       border-top-left-radius: 200px;
+       border-bottom-right-radius: 200px;
+       border-top-right-radius: 200px;
+       margin-left: 64%;
+       transform: rotate(-90deg);
+   }
+   /* end of display 1 */
+
+/* start of display 2 */
+   .education-solutions .display2{
+    background-color: #faece9;
+    width: 850px;
+    height: 450px;
+    margin-left: 10px;
+   }
+   .display2 #about{    
+    position: relative;
+    margin-top: 140px;
+    font-size: 1.9rem;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 40px;
+   }
+   .display2 #details{
+    margin-top: 10px;
+    position: relative;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    width: 400px;
+    font-weight: 300;
+    line-height: 1.8rem;
+    letter-spacing: 0.8px;
+    margin-left: 40px;
+   }
+   .display2 #details span{
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+   
+   }
+   .display2 .parent1{
+    position: relative;
+      width: 500px;
+      height:320px;
+      margin-left: 44%;
+      margin-top: -20%;
+   }
+   .display2 .parent1 #oval1{
+    background-image: linear-gradient(to right,transparent,#e39089);
+    width: 300px;
+    height: 200px;
+    border-bottom-left-radius: 200px;
+       border-top-left-radius: 200px;
+       border-bottom-right-radius: 200px;
+       border-top-right-radius: 200px;
+
+   }
+   .display2 .parent1 #oval2{
+    position: relative;
+    background-image: linear-gradient(to right,#e39089,transparent);
+    width: 300px;
+    height: 200px;
+    border-bottom-left-radius: 200px;
+       border-top-left-radius: 200px;
+       border-bottom-right-radius: 200px;
+       border-top-right-radius: 200px;
+    margin-left: 30%;
+    margin-top: -20%;
+   }
+   /* end of display 2 */
+/* start of display 3 */
+   .education-solutions .display3{
+    background-color: #fcedd8;
+    width: 450px;
+    height: 450px;
+    margin-left: 10px;
+    overflow: hidden;
+   }
+   .display3 #about{    
+    position: relative;
+    margin-top: 140px;
+    font-size: 1.9rem;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 40px;
+   }
+   .display3 #details{
+    margin-top: 10px;
+    position: relative;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    width: 350px;
+    font-weight: 300;
+    line-height: 1.8rem;
+    letter-spacing: 0.8px;
+    margin-left: 40px;
+   }
+   .display3 #details span{
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+   
+   }
+   .display3 #oval3{
+    width: 450px;
+    height: 250px;
+    background-image: linear-gradient(to right, #f7d7b1, #f2ba7f);
+    border-bottom-left-radius: 200px;
+       border-top-left-radius: 200px;
+       border-bottom-right-radius: 200px;
+       border-top-right-radius: 200px;
+       transform: rotate(-28deg);
+       margin-left: 12%;
+       margin-top: 10%;
+   }
+
+/* end of display 3 */
 
