@@ -1,11 +1,11 @@
 body{
-   background-color: #DBC2F5; 
+   background-color: #F9F8F4; 
 }
 .navbar{
     display: flex;
     justify-content: space-between;
     justify-items: baseline;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 209px;
     margin-right: 209px;
     /* width: 1502px;
@@ -36,6 +36,7 @@ body{
     text-align: center;
     height: 24px;
     width: 80px;
+    border: none;
 }
 
 .chevron:hover{
