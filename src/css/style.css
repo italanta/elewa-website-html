@@ -235,3 +235,54 @@ h1 {
     width:1527px;
     height:129px;
 }
+
+/*css responsive layout*/
+/*  media query for tablets */
+@media (max-width: 1024px) {
+    #header {
+        left: 0px; /* Adjust header position */
+        width: auto; /* Allow header to expand */
+    }
+    #logo{
+        margin-right:0%;
+    }
+
+    .homeLinks {
+        position: relative;
+        left:-10%;
+        margin-right: 10%; /* Adjust margin */
+        width: 500px; /* Adjust width */
+    }
+
+    #homeFlexBox {
+        position: relative;
+        margin-top: -15%;
+        left: 20px; /* Adjust flex container position */
+        width:30%;
+        width: auto; /* Allow flex container to expand */
+        
+    }
+
+    .homepageImage {
+        position: relative;
+        top:10%;
+        left: 12%; /* Adjust image position */
+        width: 70%; /* Adjust image width */
+        height: 80%;
+    }
+
+    h1 {
+        width: 70%; /* Adjust heading width */
+    }
+    p1 {
+        width:70%;
+        line-height: 50%;
+    }
+
+    #UYPbtn {
+        left: 20px; /* Adjust button position */
+        
+    }
+
+    
+}
