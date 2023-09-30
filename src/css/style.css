@@ -116,6 +116,18 @@ body{
     height: 30px;
 }
 
+.company-logos{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 209px;
+    margin-right: 209px;
+    margin-top: 15px;
+    
+}
+.company-logos>img{
+    filter: blur(0);
+}
+
 /* media queries */
 @media only screen and (max-width: 768px) {
     .content{
