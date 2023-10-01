@@ -146,17 +146,20 @@ margin-top: 2px;
     
    }
    .display #about{
+    z-index: 2;
     margin-top: 80px;
     font-size: 2.2rem;
     font-family: 'Roboto', sans-serif;
     margin-left: -50px;
    }
    .display #details{
+    z-index: 2;
     font-size: 1.2rem;
     font-family: 'Roboto', sans-serif;
     width: 300px;
     font-weight: 300;
     line-height: 1.5rem;
+    
     
    }
    .display #details span{
@@ -166,6 +169,7 @@ margin-top: 2px;
    
    }
    .display .parent #circle1{
+    z-index: 1;
     position: relative;
     background-image: linear-gradient(to right,#a89aeb,transparent);
     width: 250px;
@@ -174,6 +178,7 @@ margin-top: 2px;
     margin-left: -80px;
    }
    .display .parent #circle2{
+    z-index: 1;
     position: relative;
     background-image: linear-gradient(to right,transparent,#a89aeb);
     width: 250px;
