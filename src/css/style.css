@@ -1,3 +1,149 @@
-body {
-    padding: 0px;
+@media screen and (max-width: 998px) {
+    .wrapper {
+        /* Layout Properties */
+        top: 0;
+        left: 0;
+        width: 100%;
+        /* Full width */
+        height: 100vh;
+        /* Adjust height based on content */
+        /* UI Properties */
+        background: #DBC2F5 0% 0% no-repeat padding-box;
+        opacity: 1;
+        display: flex;
+        flex-direction: column;
+        /* Stack content vertically */
+        align-items: center;
+        /* Center horizontally */
+        /* justify-content: flex-start; */
+        /* Start content at the top */
+        padding: 20px;
+        /* Add some padding for spacing */
+    }
+    img {
+        top: 500px;
+        left: 209px;
+        max-width: 400px;
+        /* Make the image responsive */
+        /* UI Properties */
+        background: transparent url('img/gettyimages-98473330-2048x2048.png') 0% 0% no-repeat padding-box;
+        border-radius: 1000px 1000px 0px 0px;
+        opacity: 1;
+    }
+    h1 {
+        padding-top: 40px;
+        /* Full width */
+        height: auto;
+        /* Allow the height to adjust based on content */
+        /* text-align: center; */
+        /* Center text */
+        font: bold normal medium 36px/1 DM Sans;
+        /* Adjust font size */
+        color: #000000;
+    }
+    p {
+        /* UI Properties */
+        font: normal normal normal 32px/42px DM Sans;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        word-wrap: break-word;
+        white-space: normal;
+    }
+}
+
+@media screen and (min-width: 998px) {
+    .wrapper {
+        /* Layout Properties */
+        top: 0;
+        left: 0;
+        width: 100%;
+        /* Full width */
+        height: 100vh;
+        /* Adjust height based on content */
+        /* UI Properties */
+        background: #DBC2F5 0% 0% no-repeat padding-box;
+        opacity: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    img {
+        width: 500px;
+        border-radius: 1000px 1000px 0px 0px;
+        padding-right: 33px;
+    }
+    h1 {
+        padding-top: 100px;
+        /* Full width */
+        /* Allow the height to adjust based on content */
+        /* text-align: center; */
+        /* Center text */
+        font: bold normal medium 36px/1 DM Sans;
+        /* Adjust font size */
+        color: #000000;
+    }
+    p {
+        /* UI Properties */
+        font: normal normal normal 32px/42px DM Sans;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        word-wrap: break-word;
+        white-space: normal;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .wrapper {
+        /* Layout Properties */
+        top: 1316px;
+        left: 0px;
+        width: 1920px;
+        height: 1082px;
+        /* UI Properties */
+        background: #DBC2F5 0% 0% no-repeat padding-box;
+        opacity: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    img {
+        top: 1424px;
+        left: 209px;
+        width: 641px;
+        height: 775px;
+        /* UI Properties */
+        background: transparent url('img/gettyimages-98473330-2048x2048.png') 0% 0% no-repeat padding-box;
+        border-radius: 1000px 1000px 0px 0px;
+        opacity: 1;
+    }
+    h1 {
+        top: 1612px;
+        left: 960px;
+        width: 837px;
+        height: 81px;
+        padding-left: 100px;
+        /* UI Properties */
+        text-align: left;
+        font: bold normal medium 62px/80px DM Sans;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+    }
+    p {
+        top: 1750px;
+        padding-left: 100px;
+        width: 756px;
+        height: 444px;
+        /* UI Properties */
+        text-align: left;
+        font: normal normal normal 32px/42px DM Sans;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+    }
+    .text {
+        padding-top: 100px;
+    }
 }
