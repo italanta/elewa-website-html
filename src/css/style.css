@@ -4,8 +4,6 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(250, 249, 248); /* Whitish Cream */
-
-
 }
 
 /* Style the images within the container */
@@ -13,4 +11,9 @@
    
     border: none; /* Remove any borders */
     margin: 10px; /* Add 10px of margin around each image (adjust as needed) */
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
