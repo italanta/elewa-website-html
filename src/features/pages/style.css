@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body{
+   background-color: #F9F8F4; 
+   min-height: 100vh;
+}
+
+/* header */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    justify-items: baseline;
+    margin-top: 10px;
+    margin-left: 209px;
+    margin-right: 209px;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.5);
+    align-items: center;
+    padding: 2px;
+    
+}
+
+.logo{
+    filter:brightness(0);
+}
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    opacity: 1;
+}
+
+.chevron:hover{
+    rotate: 180deg;
+}
+
+.nav-item:hover{
+    font-weight: bold;
+    text-decoration: underline;    
+}
+
+.btn-contact{
+    background-color: #2D2E52;
+    border-radius: 15px;
+    color: #FFFFFF;
+    opacity: 1;
+    text-align: center;
+    height: 24px;
+    width: 80px;
+    border: none;
+}
+
+/* contact-form */
+
+.contact-form{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 209px;
+    margin-right: 209px;
+    gap: 3rem;
+    margin-bottom: 0;
+    padding: 4rem 1rem 0;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.text>p{
+    padding-top: 2rem ;
+}
+
+input,select{
+    width: 35rem;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 35px;
+    background-color: transparent;
+    padding: 0.5rem;
+    font-size: 1.2rem; 
+
+}
+select>option{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 0;
+}
+
+
+/* This removes the default focus outline */
+input:focus, select:focus {
+    outline: none; 
+}
+
+
+/* button */
+.btn-unlock{
+    background-color: #000000;
+    color: #FFFFFF;
+    opacity: 1;
+    border-radius: 29px;
+    display: flex;
+    width: 10rem;
+    height: 2.5rem;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    padding: 0.2rem;
+    justify-content: space-evenly;
+}
+
+.btn-unlock:hover{
+    flex-direction: row-reverse; 
+    transition: ease-in-out;
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 1px solid black;
+}
+
+
+.btn-unlock:hover .arrow-icon {
+    filter: invert(100%);
+}
+
+
+.arrow-icon{
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    color: #000000;
+    text-align: center;
+}
+
+/* footer */
+.footer{
+    display: flex;
+    gap: 24.5rem;
+    margin-left: 209px;
+    margin-right: 209px;
+    padding: 0 1rem;
+    margin-top: 0;
+}
+
+.terms>p{
+    width: 20rem;
+    display: inline-block;
+}
+.terms{
+    display: flex;
+    justify-content: space-between;
+    gap: 7rem;
+}
+
+.social-icons{
+    display: flex;
+}
+.social-icons>i{
+    padding: 0.3rem;
+}
+
+
+/* media query */
+
