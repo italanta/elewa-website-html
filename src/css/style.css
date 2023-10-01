@@ -1,4 +1,22 @@
 h1{
     font-family: DMSans-Regular;
+}
+
+*{
+    background-color: #fae9e8;
 
 }
+/* 
+.button {
+    display: inline-block;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s;
+} */
+
+
+
