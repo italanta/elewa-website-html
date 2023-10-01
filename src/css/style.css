@@ -6,17 +6,31 @@ h1{
     background-color: #fae9e8;
 
 }
-/* 
+
 .button {
     display: inline-block;
-    border-radius: 20px;
+    border-radius: 30px;
     padding: 10px 20px;
     background-color: black;
     color: white;
+    cursor: pointer;
     position: relative;
     overflow: hidden;
     transition: background-color 0.3s;
-} */
+}
+
+.circle {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: rgb(218, 209, 209);
+    color: rgb(24, 2, 2);
+    padding: 10px;
+    margin-right: 10px; /* Add some space between the circle and the text */
+}
+
+.right-arrow {
+    display: inline-block;
+}
 
 
 
