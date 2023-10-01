@@ -173,3 +173,33 @@ input:focus, select:focus {
 
 /* media query */
 
+/* media queries */
+@media only screen and (max-width: 768px) {
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        gap: 20px;
+       
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .terms{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+    input,select{
+        width: 20rem;
+    }
+    .text>p{
+        padding-top: 2rem;
+        width: 15rem;
+    }
+  }
