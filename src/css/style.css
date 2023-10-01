@@ -1,0 +1,16 @@
+/* Style the container div */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 249, 248); /* Whitish Cream */
+
+
+}
+
+/* Style the images within the container */
+.image-container img {
+   
+    border: none; /* Remove any borders */
+    margin: 10px; /* Add 10px of margin around each image (adjust as needed) */
+}
