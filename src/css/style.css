@@ -3,3 +3,29 @@
   margin: 0;
   padding: 0;
 }
+
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .images {
+    display: flex;
+    /* Make the images display horizontally */
+    align-items: center;
+    /* Vertically center the images */
+  }
+  
+  .images img {
+    max-width: 100%;
+    /* Ensure all images have the same maximum width */
+display: block;
+    height: auto;
+    /* Maintain aspect ratio */
+    margin-right: 150px;
+    /* Add spacing between images (adjust as needed) */
+  
+  } 
+
+  
