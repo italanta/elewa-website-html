@@ -1,6 +1,7 @@
 #body{
     background-color:beige ;
 }
+/* This styles the navbar */
 #NavBar{
     display: flex;
     margin-top: 53px;
@@ -35,6 +36,7 @@
     margin-right: 211px;
 
 }
+/* this styles the image content */
 .image {
     display: block;
     margin-right: 0;
@@ -42,7 +44,7 @@
     height: 556px;
     opacity: 0.85;
   }
-  
+  /* this styles the title for the content */
   .title {
     font:  normal normal medium 82px/110px DM Sans;
     width: 839px;
@@ -55,6 +57,7 @@
     margin-top: -1px;
     margin-right: 260px;
   }
+  /* this styles the paragraph for the content */
   .content {
     margin-right: 100px;
     display: flex;
@@ -86,7 +89,7 @@
     margin: 0;
     padding: 0;
   }
-  
+  /* this styles the button for  the content */
   .contactButton {
     margin-right: 150px;
     background: black;
@@ -123,6 +126,7 @@
     right: 0.3em;
     transition: all 0.3s;
   }
+  /* there is the footer style for the page */
   #footer {
     display: flex;
     background-color: gray;
