@@ -26,7 +26,7 @@
   
  /* To style the main content container */
  .container{
-  max-width: 800px;
+  max-width: 500px;
   margin: auto;
   padding: 30px;
  }
@@ -59,7 +59,9 @@ button{
   margin-left: 20px;
   border-radius: 15px;
   cursor:pointer;
-  line-height: 4px;
+  line-height: 5px;
+  size-adjust: 200px;
+  
 }
  
 
@@ -67,29 +69,39 @@ button{
 
 /* To add spacing between elements */
 br{
-  margin-bottom:50px;
+  margin-bottom:30px;
 }
 
 /* To style the image */
 img{
   width: 20%;
-  height: 50px;
+  height: 70px;
   margin-inline-start: 20px;
+  margin-top: 15px;
+  margin-bottom: 0px;
 }
 
 /* To style the title */
 h1{
-  font-size: 40p;
+  font-size: 30px;
   margin-bottom: 20px;
 }
 
 /* To Style the Paragraph */
 p{
-  font-size: 20px;
+  font-size: 30px;
   line-height: 30px;
 }
 
 /* To center the aligned text */
 .text-align{
   text-align: center;
+}
+
+/* To style the dropdown */
+.dropdown {
+display: justify;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: auto;
 }
