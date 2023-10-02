@@ -29,14 +29,11 @@ body {
     border-radius: 6500px 6500px 0px 0px;
 }
 
-h1 {
+.text {
     margin-top: 115px;
     font-size: 26px;
     margin-bottom: 40px;
     text-align: left;
-}
-
-p {
     text-align: left;
     font-size: 15px;
     line-height: 1.5;
