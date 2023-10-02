@@ -184,12 +184,13 @@ p {
   position: relative;
   text-align: center; /* Horizontally center the text within the div */
   display: flex;
-  flex-direction: column; /* Vertically center the child elements */
-  align-items: center; /* Horizontally center the child elements */
-  justify-content: center; /* Vertically center the child elements */
-  height: 100vh; /* Set the height to 100% of the viewport height */
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  height: 100vh; 
 }
 
+/* Styling fo the circles and their layout*/
 .circle-container {
   display: flex;
   text-align: left; /* To horizontally align the circles */
@@ -197,9 +198,9 @@ p {
 
 .left-circle,
 .right-circle {
-  display: inline-block; /* Display as inline blocks for horizontal alignment */
-  margin: -60px; /* Add margin for spacing between the circles */
-  border-radius: 50%; /* To make them circles */
+  display: inline-block; 
+  margin: -60px; 
+  border-radius: 50%; 
 }
 
 .left-circle {
@@ -223,6 +224,7 @@ p {
   opacity: 1;
 }
 
+/* Styling for the hero div texts*/
 .hero h2 {
   top: 2880px;
   left: 259px;
@@ -247,16 +249,36 @@ p {
   opacity: 1;
 }
 
+/* Styling for the button*/
 .button {
   background-color: #000000;
-  color: #ccc;
-  height: 40px;
-  width: 200px;
-  left: 259px;
-  border-radius: 25px;
-  margin-top: 65px;
+  border: none;
   font-size: 16px;
+  color: #ccc;
+  padding: 10px 20px;
+  position: relative;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 25px;
+  margin-top: 45px;
 }
+
+.circle {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  margin-left: 30px;
+  font-size: 40px;
+  color: #000;
+  top: -30px;
+}
+
+
 
 
 
