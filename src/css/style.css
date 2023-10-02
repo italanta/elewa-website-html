@@ -197,18 +197,7 @@ body{
 
 }
 
-@media only screen and (max-width: 600px) {
-    .menu {
-        width: 10px;
-        max-height: 0;
-        overflow: hidden;
-        flex-direction: column;
-        align-items: center;
-        justify-items: center;
-        gap: 0;
-    }
-    
-}
+
 
 
 
