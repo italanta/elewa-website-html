@@ -10,5 +10,10 @@
   font-weight: bold;
   color: rgb(52, 49, 49);
   background-color: #c9a2e8;
+  margin-bottom: 20px;
  }
- 
+ .button{
+  background-color:black;
+  color: white;
+  border-radius: 20px;
+ }
