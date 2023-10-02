@@ -3,3 +3,32 @@
   margin: 0;
   padding: 0;
 }
+
+.header{
+  background-color: transparent;
+  display: flex;
+  height: auto;
+  margin: 52px 180px;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.logo{
+  background-color: blueviolet;
+}
+
+.logo img{
+  height: 50px;
+}
+
+.text{
+  background-color: blanchedalmond;
+  display: flex;
+  gap: 20px;
+
+}
+
+.contbtn{
+  background-color: brown;
+}
