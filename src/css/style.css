@@ -127,6 +127,29 @@ p {
     opacity: 10;
   }
 
+
+  /* section partners */
+
+  .partner
+  {
+    top: 102px;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    left: 14px;
+    width: 127px;
+    height: 29px;
+    background: transparent url('img/Image 9.png') 0% 0% no-repeat padding-box; /*this is for making the background of the partners logo are transparent*/
+    filter: grayscale(100%); /*this is to ensure that the images are dull i.e they are black and white*/
+    mix-blend-mode: multiply;
+    opacity: 1;
+  }
+  .partner > div img {
+    margin-top: 200px;
+    width: 200px; /* Set a specific width for the logos (adjust as needed) */
+    height: 190px; /* Set a specific height for the logos (adjust as needed) */
+  }
+  
  
   
 
