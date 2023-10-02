@@ -22,11 +22,7 @@ body {
     margin-top: 10%;
   }
   
-  br::after {
-    content: " ";
-    display: block;
-    margin-top: 20px;
-  }
+ 
   @media(max-width:480px){
     body{
         background: #DBC2F5;
