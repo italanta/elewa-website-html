@@ -1,133 +1,54 @@
-.solution-li {
-  top: 65px;
-  left: 751px;
-  width: 79px;
-  height: 24px;
-  /* UI Properties */
-  text-align: left;
-  font: normal normal normal 18px/100px DM Sans;
-  letter-spacing: 0px;
-  color: #000000;
-  opacity: 1;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.project-li {
-  /* Layout Properties */
-  top: 65px;
-  left: 887px;
-  width: 76px;
-  height: 24px;
-  /* UI Properties */
-  text-align: left;
-  font: normal normal normal 18px/100px DM Sans;
-  letter-spacing: 0px;
-  color: #000000;
-  opacity: 1;
+body {
+  font-family: "DM Sans", sans-serif;
 }
 
-.company-li {
-  top: 65px;
-  left: 997px;
-  width: 86px;
-  height: 24px;
-  text-align: left;
-  font: normal normal normal 18px/100px DM Sans;
-  letter-spacing: 0px;
-  color: #000000;
-  opacity: 1;
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
-.news-btn {
-  /* Layout Properties */
-  top: 65px;
-  left: 1117px;
-  width: 56px;
-  height: 24px;
-  /* UI Properties */
-  text-align: left;
-  font: normal normal normal 18px/100px DM Sans;
-  letter-spacing: 0px;
-  color: #000000;
-  opacity: 1;
+/* Navbar Styling */
+.navbar-container {
+  max-width: 1502px;
+  margin: 0 auto;
+  padding-block: 53px;
 }
 
-.contact_us-btn {
-    background: #2d2e52;
-    border-radius: 22px;
-    width: 8.375rem;
-    padding: 0.7em;
-    border: none;
-    text-align: center;
-    color: #fff;
-    cursor: pointer;
-}
-
-.slider-button {
-  position: relative;
-  min-width: 200px;
-  height: 40px;
+.nav-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  background: #000000;
-  border: 1px solid;
-  border-radius: 29px;
-  color: #fff;
+}
+
+img.logo {
+  width: 153px;
+  height: 65px;
+  object-fit: contain;
   cursor: pointer;
-  transition: all 1s ease-in-out;
-}
-.union-image {
-  box-sizing: border-box;
-  height: 100%;
-  width: 100%;
-  /* transform-origin: 0px 0px; */
-  overflow: hidden;
-  max-width: 30%;
-  display: block;
-  margin-left: auto;
-  margin-right: 80px;
-  top:60px;
-
-}
-.training {
-  font-size: clamp(1.5625rem, 0.8745rem + 2.572vw, 2.925rem);
-  font-weight: 700;
-  margin: 0;
-  box-sizing: border-box;
-  padding: 0;
-  font-family: DMSans-Regular;
-  display: block;
-
-}
-.elewa-logo {
-  max-width: 20%;
-  height: 2.5;
-  width: 1.5;
   filter: brightness(0);
-  box-sizing: border-box;
-  overflow-clip-margin: content-box;
-  overflow: clip;
-  margin: 0;
-  padding: 0;
+
+
 }
 
 .nav-links {
   display: flex;
   align-items: center;
-  padding: 1rem 0;
-  max-width: 1200px;
-  margin-inline: auto;
-  list-style-type: none;
   gap: 34px;
-  margin: 0;
-  padding: 0;
+  list-style: none;
+  font-size: 18px;
 }
 
-.navbar-container {
-  display: flex;
-  /* justify-content: space-between; */
-  align-items: center;
-  padding: 1rem 0;
-  max-width: 1200px;
-  margin-inline: auto;
+button.contact_us-btn {
+  font-size: 18px;
+  background: #2d2e52;
+  color: #fff;
+  border-radius: 24px;
+  padding: 12px 24px;
+  border: none;
 }
