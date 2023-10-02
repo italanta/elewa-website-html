@@ -3,3 +3,23 @@
   margin: 0;
   padding: 0;
 }
+
+.images {
+  display: flex;
+  /* Make the images display horizontally */
+  align-items: center;
+  /* Vertically center the images */
+  margin: 0 auto;
+  /* Center the images */
+  padding: 200px;
+  /* Add some padding */
+}
+
+.images img {
+  max-width: 20%;
+  /* Ensure all images have the same maximum width */
+  height: auto;
+  /* Maintain aspect ratio */
+  margin-right: 10px;
+  /* Add spacing between images */
+}
