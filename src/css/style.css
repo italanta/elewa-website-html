@@ -141,14 +141,12 @@ select {
     height: 796px;
 }
 
+/* responsive design for tablet screen size */
 @media (max-width: 768px) {
     body {
         width: 768px;
     }
-    .header-container {
-        width: 768px;
-        justify-content: space-between;
-    }
+    
     .logo img {
         margin-left: 50px;
     }
@@ -180,6 +178,7 @@ select {
         margin-top: 0.65rem;
     }
 
+    /* fitting the arrow */
     .arrow {
         background-color: white;
         color: black;
@@ -190,8 +189,8 @@ select {
         font-weight: bolder;
         margin: 0.15rem;
 
-
     }
+    /* resizing the image */
     .hero-image img{
         width: 50%;
         margin-right: 50px;
@@ -200,6 +199,5 @@ select {
         width: 400px;
         height: 500px;
     }
-
 }
 
