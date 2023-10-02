@@ -37,13 +37,15 @@
   background-color: #ffffff;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0px  5px rgba(0,0,0,0)
+  box-shadow:  5px rgba(0,0,0,0)
  }
 /* To select the boxes */
 select{
-  width: 100%;
+  width: 20%;
   padding: 10px;
-  margin-bottom: 10px;
+  margin-top: 10px;
+  height: auto;
+  margin-inline-start: 30px;
   border: 1px solid #000000;
   border-radius: 5px;
   }
@@ -53,17 +55,39 @@ button{
   background-color: #000000;
   color: #fff;
   border: none;
-  padding: 10px 20px;
+  padding: 10px;
   border-radius: 5px;
   cursor:pointer;
 }
  
-/* To Style the Header button */
-.button{
-  background-color: #000000;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor:pointer;
+
+
+
+/* To add spacing between elements */
+br{
+  margin-bottom:50px;
+}
+
+/* To style the image */
+img{
+  width: 20%;
+  height: 50px;
+  margin-inline-start: 20px;
+}
+
+/* To style the title */
+h1{
+  font-size: 40p;
+  margin-bottom: 20px;
+}
+
+/* To Style the Paragraph */
+p{
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* To center the aligned text */
+.text-align{
+  text-align: center;
 }
