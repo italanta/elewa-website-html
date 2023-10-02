@@ -3,29 +3,39 @@
   margin: 0;
   padding: 0;
 }
+images {
+  display: flex;
+  /* Make the images display horizontally */
+  align-items: center;
+  /* Vertically center the images */
+  margin: 0 auto;
+  /* Center the images */
+  padding: 200px;
+  /* Add some padding */
+  flex-wrap: wrap;
+}
 
- * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
+.images img {
+  max-width: 10%;
+  /* Ensure all images have the same maximum width */
+  height: auto;
+  /* Maintain aspect ratio */
+  margin-right: 100px;
+  /* Add spacing between images */
+  filter: grayscale(100%);
+  /* Add a grayscale filter to all images */
+}
+
+@media screen and (max-width: 768px) {
   .images {
-    display: flex;
-    /* Make the images display horizontally */
-    align-items: center;
-    /* Vertically center the images */
+    padding: 10px;
+    /* Reduce padding on smaller screens */
   }
-  
-  .images img {
-    max-width: 100%;
-    /* Ensure all images have the same maximum width */
-display: block;
-    height: auto;
-    /* Maintain aspect ratio */
-    margin-right: 150px;
-    /* Add spacing between images (adjust as needed) */
-  
-  } 
 
-  
+  .images img {
+    max-width: 50%;
+    /* Reduce image size on smaller screens */
+    margin-right: 50px;
+    /* Reduce spacing between images on smaller screens */
+  }
+}
