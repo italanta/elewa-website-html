@@ -7,31 +7,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Collaboration and Contribution</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="src/css/style.css">
 
   <script defer type="module" src="dist\out-tsc\index.js"></script>
 </head>
 
 <body>
+  <!-- HEADER SECTION -->
     <section class="header-container">
       <div class="logo">
-        ELEWA
+        <img src="assets/elewalogo.png" alt="Company logo">
       </div>
       <div class="menu-items">
+        <!-- SOLUTIONS DROPDOWN MENU -->
         <div class="custom-select">
           <label for="solutions-dropdown">Solutions <span class="dropdown-icon"></span></label>
           <select name="solutions" id="solutions-dropdown">
-            <option>Consultancy</option>
-            <option>Content Development</option>
-            <option>Commercial Learning</option>
-            <option>Booklets</option>
+            <option class="options">Consultancy <br>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, molestias?</p>
+            </option>
+            <option class="options">Content Development</option>
+            <option class="options">Commercial Learning</option>
+            <option class="options">Booklets</option>
           </select>
-          <div class="options">
-            <option>Consultancy</option>
-            <option>Content Development</option>
-            <option>Commercial Learning</option>
-            <option>Booklets</option>
-          </div>
+        
         </div>
         <div>Projects</div>
         <div>Company</div>
@@ -40,6 +40,29 @@
       <div>
         <button class="header-button" type="submit">Contact us</button>
       </div>
+    </section>
+    <section class="hero">
+<!-- HERO SECTION -->
+      <div class="hero-content">
+        <div>
+          <h2>Training at scale</h2>
+        </div>
+        <div>
+          <p>Human-centered, meaningful and <br>
+          enjoyable</p>
+        </div>
+        <div>
+          <button class="hero-button">
+            <p>Unlock your potential</p>
+            <div class="arrow">&rarr;</div>
+          </button>
+        </div>
+      </div>
+      <!-- HERO IMAGE -->
+      <div class="hero-image">
+        Image
+      </div>
+
     </section>
 </body>
 
