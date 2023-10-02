@@ -1,0 +1,112 @@
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: #f9f8f4;
+    display: grid;
+   
+}
+
+/* Base styles for h1 */
+h1 {
+    font-size: 42px;
+    font-family: "adobe-clean", sans-serif;
+    font-weight: 600;
+    color: #202020;
+    margin-left: 120px;
+    margin-bottom: 100px;
+}
+
+/* Styles for h2 and p within .news article */
+.news article h2 {
+    font-family: 'DM Sans', sans-serif;
+    filter: blur(0.2px);
+    color: #424141;
+    font-size: x-large;
+    margin-bottom: 45px;
+}
+
+.news article p {
+    font-family: 'DM Sans', monospace;
+    filter: blur(0.5px);
+    color: #5f5c5c;
+    font-size: 17px;
+    margin-bottom: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Styles for section */
+section {
+    margin-top: 140px;
+    margin-left: 50px;
+    margin-right: 70px;
+}
+
+/* Styles for .news article */
+.news article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #b8b7b7;
+    padding: 10px;
+    margin-left: 110px;
+    margin-right: 100px;
+    margin-top: 50px;
+    position: relative; /* Add relative positioning */
+}
+
+/* Add border effect below .news article */
+.news article::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    border-bottom: 2px solid #ccc;
+}
+
+/* Styles for links within .news article */
+.news article a {
+    margin-left: 35px;
+    border: none;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 50px;
+    color: #404040;
+    text-decoration: none;
+   
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+    body {
+        grid-template-columns: 1fr; /* Change to a single column layout */
+    }
+
+    /* Adjust margins and padding for smaller screens */
+    h1 {
+        margin-left: 20px;
+        margin-bottom: 50px;
+    }
+
+    section {
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    /* Adjust margins for .news article on smaller screens */
+    .news article {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+}
