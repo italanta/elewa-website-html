@@ -1,3 +1,5 @@
+/* imported the 'DM Sans',
+sans-serif  font family */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
 * {
   box-sizing: border-box;
@@ -481,12 +483,16 @@ button:active {
 
 } */
 
+/* imported the 'DM Sans',sans-serif  font family*/
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
 
 body {
   background-color: #DBC2F5;
 
+
 }
+/* homepage styling */
 .homepage{
   padding: 5%;
   display: flex;
