@@ -6,11 +6,11 @@
 
   /* To reset some default browser styles */
  body, p , ul, li {
-  margin : 0 ;
+  margin: 0 ;
   padding: 0 ;
  }
 
-  /* To Apply a baackground color to the body */
+  /* To Apply a background color to the body */
  body {
   background-color: #d4aad7;
   font-family: Arial, sans-serif;
@@ -27,8 +27,8 @@
  /* To style the main content container */
  .container{
   max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+  margin: auto;
+  padding: 30px;
  }
 
 
@@ -56,8 +56,10 @@ button{
   color: #fff;
   border: none;
   padding: 10px;
-  border-radius: 5px;
+  margin-left: 20px;
+  border-radius: 15px;
   cursor:pointer;
+  line-height: 4px;
 }
  
 
