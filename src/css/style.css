@@ -179,3 +179,87 @@ p {
   color: #000000;
   opacity: 1;
 }
+/* Center the hero div and its content */
+.hero {
+  position: relative;
+  text-align: center; /* Horizontally center the text within the div */
+  display: flex;
+  flex-direction: column; /* Vertically center the child elements */
+  align-items: center; /* Horizontally center the child elements */
+  justify-content: center; /* Vertically center the child elements */
+  height: 100vh; /* Set the height to 100% of the viewport height */
+}
+
+.circle-container {
+  display: flex;
+  text-align: left; /* To horizontally align the circles */
+}
+
+.left-circle,
+.right-circle {
+  display: inline-block; /* Display as inline blocks for horizontal alignment */
+  margin: -60px; /* Add margin for spacing between the circles */
+  border-radius: 50%; /* To make them circles */
+}
+
+.left-circle {
+  top: 2917px;
+  left: 231px;
+  width: 282px;
+  height: 270px;
+  background: transparent linear-gradient(90deg, #DBC2F500 0%, #DBC2F5E6 100%) 0% 0% no-repeat padding-box;
+  mix-blend-mode: multiply;
+  opacity: 1;
+}
+
+.right-circle {
+  top: 2917px;
+  left: 391px;
+  width: 282px;
+  height: 270px;
+  transform: matrix(-1, 0, 0, -1, 0, 0);
+  background: transparent linear-gradient(90deg, #DBC2F500 0%, #DBC2F5E6 100%) 0% 0% no-repeat padding-box;
+  mix-blend-mode: multiply;
+  opacity: 1;
+}
+
+.hero h2 {
+  top: 2880px;
+  left: 259px;
+  width: 535px;
+  height: 89px;
+  text-align: left;
+  font: normal normal medium 36px/30px DM Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.hero p {
+  top: 2932px;
+  left: 259px;
+  width: 535px;
+  height: 89px;
+  text-align: left;
+  font: normal normal normal 22px/30px DM Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.button {
+  background-color: #000000;
+  color: #ccc;
+  height: 40px;
+  width: 200px;
+  left: 259px;
+  border-radius: 25px;
+  margin-top: 65px;
+  font-size: 16px;
+}
+
+
+
+
+
+
