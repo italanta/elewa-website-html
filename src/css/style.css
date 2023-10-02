@@ -220,3 +220,132 @@ body {
         margin-bottom: 20px;
     }
 }
+.hero {
+    position: relative;
+    text-align: center;
+    background-color: #DBC2F5;
+    height: 800px;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 10%;
+ 
+  }
+  
+  /* Styling fo the circles and their layout*/
+  .circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    
+    
+    
+  }
+  
+  .left-circle,
+  .right-circle {
+    display: inline-block; 
+    margin: -60px; 
+    border-radius: 50%; 
+  }
+  
+  .left-circle {
+    top: 2917px;
+    left: 231px;
+    width: 382px;
+    height: 370px;
+    background: transparent linear-gradient(90deg, #DBC2F500 0%, #DBC2F5E6 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: multiply;
+    opacity: 1;
+  }
+  
+  .right-circle {
+    top: 2917px;
+    left: 391px;
+    width: 382px;
+    height: 370px;
+    transform: matrix(-1, 0, 0, -1, 0, 0);
+    background: transparent linear-gradient(90deg, #DBC2F500 0%, #DBC2F5E6 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: multiply;
+    opacity: 1;
+  }
+  
+  /* Styling for the hero div texts*/
+  .hero h2 {
+    top: 2910px;
+    left: 259px;
+    width: 535px;
+    height: 89px;
+    text-align: left;
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-size: 33px;
+    
+  }
+  
+  .hero p {
+    top: 2932px;
+    left: 259px;
+    width: 535px;
+    height: 89px;
+    text-align: left;
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: 0px;
+    opacity: 1;
+    font-size: 23px;
+    font-weight: 400;
+  }
+ 
+ /* Styling for the button */
+.button {
+    background-color: #000000;
+    border: none;
+    font-size: 16px;
+    color: #ccc;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-family: 'DM Sans', sans-serif;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-top: 20%; /* Adjust the margin-top value */
+    float: left;
+}
+
+/* Styling for the circle within the button */
+.button .circle {
+    display: inline-flex;
+    margin-top: 0px;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 10px; /* Adjust the margin-left for spacing */
+    font-size: 24px; /* Reduce the font size for better centering */
+    color: #000;
+    position: relative;
+    top: 3px; /* Adjust the vertical position for centering */
+  }
+
+  /* Media Query for Smaller Devices (e.g., tablets and mobile) */
+@media screen and (max-width: 600px) {
+    .button {
+        float: none;
+    }
+    .hero h2 {
+        font-size: 25px;
+        margin-left: 10px;
+      }
+    
+      .hero p {
+        font-size: 18px;
+      }
+    }
+
+
