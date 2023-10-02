@@ -2,6 +2,10 @@
 *{
     background-color: #f9f8f4;
 }
+
+body {
+    overflow: hidden;
+}
 /* Styling header content */
 .header-container {
     display: flex;
@@ -99,10 +103,23 @@ select {
 .hero-button {
     background-color: black;
     display: flex;
-    
+    border-radius: 1.75rem;
+    color: white;
 }
 
+.hero-header {
+    font-size: 60px;
+}
 
+.hero-par {
+    font-size: 30px;
+}
+
+.hero-button p{
+    margin: 0.25rem;
+    background-color: black;
+    margin-top: 1rem;
+}
 .arrow{
     background-color: white;
     color: black;
@@ -110,6 +127,7 @@ select {
     width: 40px;
     height: 40px;
     font-size: 35px;
+    margin: 0.25rem;
     
     
 }
@@ -117,4 +135,7 @@ select {
 
 .hero-image {
     width: 50%;
+    margin-right: 300px;
+    width: 803px;
+    height: 796px;
 }
