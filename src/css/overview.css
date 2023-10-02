@@ -1,7 +1,107 @@
 body{
     position:relative;
+    display: flex;
     width: 1920px;
     height: 1082px;
-    color: #DBC2F5;
+    background-color: #DBC2F5;
     opacity:100%;
+}
+#imgContainer{
+    /* outline:2px solid red;  */
+    position:absolute;
+    margin-top: 108px;
+    margin-left: 209px;
+    width:641px;
+    height:775px;
+}
+#overviewImg{
+    border-radius: 1000px 1000px 0px 0px;
+    opacity: 1;
+    width:641px;
+    height: 775px;
+}
+#contentContainer{
+    display:block;
+    margin-left:960px;
+    height: 1082px;
+}
+#h1Container{
+    /* outline:2px solid red; */
+    position:absolute;
+    width:837px;
+    height:81px;
+    margin-top:296px;
+    margin-right: 123px;
+
+}
+h1{
+    font-family: 'DM Sans', sans-serif;
+    font: normal normal medium 62px/80px;
+    text-align: left;
+    color: #000000;
+    opacity:1;
+}
+#pContainer{
+    /* outline:2px solid blue; */
+    margin-top: 434px;
+    width: 756px;
+    height:444px;
+}
+p{
+    font: normal normal normal 32px/42px DM Sans;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #000000;
+}
+/* css responsive design for a tablet(normal  iPad)*/
+@media(max-width:768px){
+    #body{
+        /* display:block; */
+        
+    }
+    #imgContainer{
+        /* outline:2px solid red;  */
+        position:absolute;
+        margin-top: 5%;
+        margin-left: 5%;
+        width:600px;
+        height:600px;
+        
+    }
+    #overviewImg{
+        border-radius: 1000px 1000px 0px 0px;
+        opacity: 1;
+        width:70%;
+        height: 70%;
+    }
+    #contentContainer{
+        margin-left: 5%;
+        margin-top: 20%;
+    }
+    #h1Container{
+        /* outline:2px solid red; */
+        position:absolute;
+       
+    
+    }
+    h1{
+        font-family: 'DM Sans', sans-serif;
+        font: normal normal medium 62px/80px;
+        text-align: left;
+        color: #000000;
+        opacity:1;
+    }
+    #pContainer{
+        /* outline:2px solid blue;  */
+        width: 600px;
+        height:444px;
+    }
+    p{
+        font: normal normal medium 32/42px DM Sans;
+        /* font-size:70%; */
+        text-align: left;
+        letter-spacing: 0px;
+        color: #000000;
+    }
+
 }
