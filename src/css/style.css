@@ -199,10 +199,12 @@ body{
     }
 
 }
+/*Styling the div class for the footer*/
 .partners{
     margin-left: -30px;
     margin-right: 50px;
 }
+/*Styling the footer section for the images*/
 footer{
     display: flex;
     flex-direction: row;
@@ -212,7 +214,7 @@ footer{
     margin-top: 50px;
     margin-bottom: 10px;
 }
-
+/*Styling the company brand images*/
 footer img{
     height: 40px;
 }
