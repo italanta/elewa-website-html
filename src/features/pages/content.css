@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+@media (max-width: 700px) {
+    .headers, .content, .looped1 {   
+      flex-direction: column;
+    }}
 
 
 body{
@@ -13,7 +17,7 @@ body{
     overflow: hidden;
 }
 /* headers */
-.header{
+.headers{
     position: relative;
     display: grid;
     place-items: center;
@@ -30,7 +34,7 @@ margin-top: 15px;
 
 }
 
-.header nav a{
+.headers nav a{
     text-decoration: none;
     color: black;
     font-size: large;
@@ -38,11 +42,11 @@ margin-top: 15px;
 
 }
 
-.header nav .material-symbols-outlined{
+.headers nav .material-symbols-outlined{
     position: relative;
     top: 9px;
 }
-.header button{
+.headers button{
     width: 120px;
     height: 40px;
     border-radius: 25px;
@@ -94,7 +98,7 @@ span{
     display: flex;
     flex-direction: row;
     }
-.content #mssg{
+.content #potential{
     font-size: 0.8rem;
     font-weight: bolder;
     margin-left: 10px;
@@ -109,7 +113,7 @@ margin-left: 30%;
 margin-top: 9px;
 }  
 
-.looped4{
+.looped1{
  background-image: linear-gradient(to right,#fcf8ea,#ebc359);
  width: 400px;
  height: 400px;
@@ -122,7 +126,7 @@ margin-top: 9px;
 
 
 
-.looped5{
+.looped2{
     background-image: linear-gradient(to right,#fcf8ea,#ebc359); 
     width: 600px;
     height: 400px;
@@ -134,7 +138,7 @@ margin-top: 9px;
     margin-left: 45%;
     transform: rotate(-90deg);
 }
-.looped6{
+.looped3{
     background-image: linear-gradient(to right,#fcf8ea,#ebc359); 
     width: 800px;
     height: 400px;
