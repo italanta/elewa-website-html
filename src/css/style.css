@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,32 +6,36 @@
   font-family: 'DM Sans', sans-serif;
 }
 
-.footer2{
+.footer2 {
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 800px;
-  
-  
+
+
 }
- .socials {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   margin-top: 30px;
- }
-.footer3{
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.footer3 {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.footer2 h1{
+
+.footer2 h1 {
   font-size: 50px;
   letter-spacing: 2px;
   font-weight: 600;
   margin-top: 40px;
   padding: 40px;
 }
+
 .footer {
   background-color: #2d2e52;
   padding: 3rem 0.5rem;
@@ -51,11 +56,11 @@
   font-size: 13px;
   font-weight: bold;
   margin: 0 0 25px 0;
-  
+
 }
 
 .footer-navigations a {
-  
+
   font-size: 13px;
   font-weight: normal;
 }
@@ -117,55 +122,58 @@
   .footer-imgs img {
     margin-right: 1.5rem;
   }
+
   .footer2 {
-   /* font-family: 'DM Sans', sans-serif; */
-   text-align: center;
-   align-items: center;
-   display: flex;
-   flex-direction: column;
-  
+    /* font-family: 'DM Sans', sans-serif; */
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
   }
+
   /* added an svg icon which is an arrow pointing to the right */
-button {
-  cursor: pointer;
-  font-family: Helvetica, "sans-serif";
-  transition: all .2s;
-  padding: 8px 25px;
-  border-radius: 100px;
-  background: #2d2e52;
-  border: 1px solid white;
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  max-width: 500px;
-  font-size: 13px;
-  color:white;
-  margin: 20px 0 60px 0;
-  text-align: right;
-  
+  button {
+    cursor: pointer;
+    font-family: Helvetica, "sans-serif";
+    transition: all .2s;
+    padding: 8px 25px;
+    border-radius: 100px;
+    background: #2d2e52;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    max-width: 500px;
+    font-size: 13px;
+    color: white;
+    margin: 20px 0 60px 0;
+    text-align: right;
 
 
+
+  }
+
+  button:hover {
+    background: white;
+    color: black;
+  }
+
+  button>svg {
+    width: 34px;
+    margin-left: 10px;
+    transition: transform .3s ease-in-out;
+  }
+
+  button:hover svg {
+    transform: translateX(5px);
+  }
+
+  button:active {
+    transform: scale(0.95);
+  }
 }
 
-button:hover {
-  background: white;
-  color: black;
-}
-
-button>svg {
-  width: 34px;
-  margin-left: 10px;
-  transition: transform .3s ease-in-out;
-}
-
-button:hover svg {
-  transform: translateX(5px);
-}
-
-button:active {
-  transform: scale(0.95);
-}
-}
 /* this is what it would look like on smaller screens */
 @media (max-width: 768px) {
   .footer h4 {
@@ -268,490 +276,255 @@ button:active {
   button:active {
     transform: scale(0.95);
   }
-  .heady2{
+
+  .heady2 {
     display: none;
-    
+
   }
-  .cont2{
+
+  .cont2 {
     display: none;
   }
-  .solve{
+
+  .solve {
     display: none;
   }
-    button {
-      cursor: pointer;
-      font-weight: 700;
-      font-family: Helvetica, "sans-serif";
-      transition: all .2s;
-      padding: 8px 15px;
-      border-radius: 100px;
-      background: black;
-      border: 1px solid white;
-      display: flex;
-      align-items: center;
-      max-width: 300px;
-      font-size: 15px;
-      color: white;
-      margin-top: 40px;
-  
-    }
-  .socials{
-    display:flex ;
+
+  button {
+    cursor: pointer;
+    font-weight: 700;
+    font-family: Helvetica, "sans-serif";
+    transition: all .2s;
+    padding: 8px 15px;
+    border-radius: 100px;
+    background: black;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    font-size: 15px;
+    color: white;
+    margin-top: 40px;
+
+  }
+
+  .socials {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 30px;
   }
 
 }
- body,
- h1,
- h2,
- p,
- ul,
- li {
-   margin: 0;
-   padding: 0;
- }
 
- /*  to center the entire page and add a margin on the sides */
- body {
-   display: block;
-   align-items: center;
-   margin: 0 6%;
- }
+body {
+  display: block;
+  align-items: center;
+  margin: 0 6%;
+}
 
- /* Style the header section */
- header {
-   /* Transparent background and black text */
-   background-color: transparent;
-   color: #000;
-   height: var(--elewa-website-header-bg-height);
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   font-family: DMSans-Regular;
+/* .headers{
+  background-color: blueviolet;
+  display: flexbox;
+} */
+/* CSS for the header div with class "headers" */
+.headers {
+  background-color: #9785b6;
+  /* Background color of the header */
+  color: black;
+  /* Text color inside the header */
+  padding: 24px;
+  /* Add some padding to create spacing around the content */
+  text-align: center;
+  /* Center-align the content */
+  font-size: 14px;
+  font-family: 'DM Sans', sans-serif;
+}
 
-   /* Keep it on top of other elements */
-   position: relative;
-   z-index: 999;
- }
+.headers nav ul li a:active {
+  border-bottom: 2px solid #0f0f0f;
+  /* Add a white (or desired color) border as an underline */
+}
 
- /* Container for header content */
- .container {
-   /* Limit the width of the content */
-   max-width: 100%;
-   /* Change to 100% to make it full-width */
+/* Style for the navigation links within the header */
+.headers nav ul {
+  list-style-type: none;
+  /* Remove bullet points for the list */
+  padding: 15px, 25px;
+  /* Remove padding for the list */
+}
 
-   /* Center the content horizontally */
-   margin: 0 auto;
+/* Style for the individual navigation items */
+.headers nav ul li {
+  display: inline;
+  /* Display list items inline */
+  margin-right: 20px;
+  /* Add spacing between navigation items */
 
-   /* Arrange items side by side with space in between */
-   display: flex;
-   justify-content: space-between;
+}
 
-   /* Center the content vertically */
-   align-items: center;
+/* Style for the navigation links */
+.headers nav ul li a {
+  text-decoration: none;
+  /* Remove underlines from links */
+  color: black;
+  /* Text color for the links */
+  border-bottom: 2px solid transparent;
+}
 
-   /* Add padding for spacing */
-   padding: 10px 20px;
- }
+/* Style for the "Contact us" button */
+.headers .btn {
+  background-color: #010f23;
+  /* Dark blue button background color */
+  color: #fff;
+  /* Button text color */
+  border: none;
+  /* Remove button border */
+  padding: 14px 25px;
+  /* Add padding to the button */
+  text-decoration: none;
+  /* Remove underlines from the button text */
+  cursor: pointer;
+  /* Change cursor to a pointer on hover */
+  border-radius: 30px;
+  /* Add rounded corners to the button */
+  float: right;
+  display: inline;
+  margin-top: 10px;
 
- /* Style the logo */
- .logo img {
-   width: 7.5rem;
-   filter: brightness(0);
+}
 
- }
-
- nav {
-   display: flex;
-   align-items: center;
-   /* Center navigation links vertically */
- }
-
- nav a {
-   text-decoration: none;
-   color: #000000;
-   font-family: 'DMSans-Regular', Arial, sans-serif;
-   font-size: 13px;
-   cursor: pointer;
-   margin: 0 20px;
-   /* Add margin to create space between links */
- }
-
- nav a:hover {
-   text-decoration: underline;
- }
-
- .sol {
-   font-weight: 900;
-   text-decoration: underline;
- }
-
- /* Adding styles for the arrow container */
- .arrow {
-   display: inline-block;
-   margin-left: 5px;
-   /* Spacing between "Solutions" and the arrow */
-   transition: transform 0.3s;
-   /* Smooth transition for arrow rotation */
- }
-
- /* Styling the inverted greater-than sign */
- .arrow::before {
-   content: "\203A";
-   /* Unicode character for an inverted greater-than sign */
-   display: inline-block;
-   transform: translateY(2px);
-   /* Adjusting vertical alignment */
-   transition: transform 0.3s;
-   /* Adding smooth transition for arrow rotation */
- }
-
- /* Rotating the arrow when the "sol" class is hovered */
- .sol:hover .arrow::before {
-   transform: translateY(2px) rotate(180deg);
-   /* Rotating the arrow 180 degrees on hover */
- }
-
- /* Optionally, customize arrow color or other styles */
- .arrow::before {
-   color: #000;
-   /* Arrow color (adjust to your preference) */
-   font-size: 14px;
-   /* Arrow size (adjust if needed) */
- }
+.logo {
+  width: 120px;
+  /* Set the width of the logo as needed */
+  height: auto;
+  /* Maintain the aspect ratio of the logo */
+  margin-right: 300px;
+  /* Add spacing between the logo and other links */
+  margin-top: 5px;
 
 
+}
+/* .first{
+  font-size: 24px;
+  font-family: 'DM Sans', sans-serif;
+  padding: 150px;
+  white-space: pre-wrap;
+  
+}
+
+.second{
+
+  font-family: 'DM Sans',
+    sans-serif;
+  font-size: 13;
+  padding: 150px;
+  margin-top: -300px;
+  font-weight: 100;
+}
+utton {
+  cursor: pointer;
+  font-family: Helvetica, "sans-serif";
+  transition: all .2s;
+  padding: 8px 25px;
+  border-radius: 100px;
+  background: #2d2e52;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  max-width: 500px;
+  font-size: 13px;
+  color: white;
+  margin: 20px 0 60px 0;
+  text-align: right;
 
 
- /* Style the "Contact Us" button */
- .button {
-   background: #2d2e52;
-   border-radius: 22px;
-   width: 8.375rem;
-   padding: 0.7em;
-   font-weight: bold;
-   font-family: Arial, sans-serif;
- }
 
- .contact-us {
-   background: #2d2e52;
-   border-radius: 22px;
-   width: 8.375rem;
-   padding: 0.7em;
-   border: none;
-   text-align: center;
-   color: #fff;
-   cursor: pointer;
-   margin-left: auto;
-   /* Push "Contact Us' to the right by using auto margin */
- }
+}
 
- /* Add styles for the mobile menu */
- .nav-toggle {
-   display: none;
- }
+button:hover {
+  background: white;
+  color: black;
+}
 
- .nav-menu {
-   display: flex;
-   /* Change to flex to make navigation items horizontal */
-   align-items: center;
-   /* Center navigation links vertically */
- }
+button>svg {
+  width: 34px;
+  margin-left: 10px;
+  transition: transform .3s ease-in-out;
+}
 
- /* Styles for the hamburger menu */
- .hamburger {
-   display: none;
-   cursor: pointer;
- }
+button:hover svg {
+  transform: translateX(5px);
+}
 
- .line {
-   width: 30px;
-   height: 3px;
-   background-color: #000;
-   /* Change the color as needed */
-   margin: 4px 0;
- }
+button:active {
+  transform: scale(0.95);
+}
+*{
+  background: rgb(162, 162, 239) ;
+  margin: 0;
+  padding: 0;
+  font-family: 'DM Sans', sans-serif;
+  
+}
 
- /* Add styles for the contact button inside the menu */
- .contact-us-mobile {
-   background: #2d2e52;
-   border-radius: 22px;
-   width: 8.375rem;
-   padding: 0.7em;
-   border: none;
-   text-align: center;
-   color: #fff;
-   cursor: pointer;
-   display: none;
-   /* Hide the mobile "Contact Us" button by default */
-   margin-top: 10px;
-   /* Add spacing between the button and menu items */
- }
+.heading{
+  font-size: 60px;
+  font-family: 'DM Sans', sans-serif;
+  padding: 130px;
+}
+.paragraph{
+  font-size: 25px;
+  padding: 130px;
+  
 
- .contact-button1 {
-   display: none;
-   color: white;
- }
+} */
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
 
- .contact-us {
-   display: inline-block;
-   /* Show the "Contact Us" button */
-   margin-top: 10px;
-   /* Add spacing between the button and menu items */
- }
+body {
+  background-color: #DBC2F5;
 
- /* Add a media query to switch to the hamburger menu on smaller screens */
- @media (max-width: 768px) {
-   .nav-container {
-     text-align: center;
-     /* Align navigation buttons in the center */
-   }
+}
+.homepage{
+  padding: 5%;
+  display: flex;
+  flex-direction: row;
+}
+.homepage img{
+  width: 95%;
+  
+}
 
-   .nav-menu {
-     display: none;
-     flex-direction: column;
-     /* Stack navigation items vertically */
-     background-color: #fff;
-     /* Background color for the mobile menu */
-     position: absolute;
-     /* Position the mobile menu */
-     top: 100%;
-     /* Position it below the header */
-     left: 0;
-     right: 0;
-     z-index: 1000;
-     /* Ensure it's above other content */
-   }
-
-   .hamburger {
-     display: block;
-     margin-left: 50%;
-   }
-
-   .nav-toggle:checked+.nav-menu {
-     display: flex;
-     /* Show the mobile menu when the toggle is checked */
-   }
-
-   /* Style each mobile menu item */
-   .nav-menu a {
-     padding: 10px 20px;
-     text-align: center;
-     text-decoration: none;
-     color: #000000;
-     font-family: 'DMSans-Regular', Arial, sans-serif;
-     font-size: 13px;
-     cursor: pointer;
-     border-bottom: 1px solid #ccc;
-     
-   }
+.homepage .information{
+  font-family: 'DM Sans',
+    'sans-serif';
+  margin-left: 9%;
+  font-size: 24px;
+  margin-top: 70px;
+  padding: 35px;
+  word-spacing: 12px;
+  line-height: 30px;
+  font-weight: 550;
+  
 
   
-   .nav-menu a:last-child {
-     border-bottom: none;
-   
-   }
 
-  
-   .contact-us-mobile {
-     display: inline-block;
-   }
-
-  
-   .contact-us {
-     display: none;
-   }
-
-   .contact-button1 {
-     display: block;
-   }
- 
-   
- }
- #container {
-   font-family: Arial, sans-serif;
-   display: flex;
-   flex-direction: row;
-   gap: 2rem;
-   background-color: #f0f0f0;
-   color: #000;
-   height: 100vh;
-   padding: 2vh 10%;
-
-   @media screen and (max-width: 768px) {
-     flex-direction: column;
-     height: 100vh;
-   }
- }
-
- .contact-left {
-   display: flex;
-   flex-direction: column;
-   height: 80vh;
-   width: 40%;
-
-   @media screen and (max-width: 768px) {
-     width: 100%;
-     height: 40%;
-   }
- }
-
- .left-text {
-   height: 50%;
-   display: flex;
-   flex-direction: column;
-   gap: 1rem;
-   padding-bottom: 8rem;
- }
-
- .left-text h1 {
-   font-size: 2.5rem;
-   font-weight: 500;
- }
-
- @media screen and (max-width: 768px) {
-   .left-text {
-     height: max-content;
-     gap: 1rem;
-     justify-content: center;
-     padding-bottom: 3rem;
-   }
- }
-
- .social-icons {
-   height: 47%;
-   display: flex;
-   gap: 2rem;
-   flex-direction: row;
-   width: 100%;
-   align-items: flex-end;
- }
-
- @media screen and (max-width: 768px) {
-   .social-icons {
-     height: 40%;
-   }
- }
-
- @media screen and (max-width: 488px) {
-   .social-icons {
-     height: 40%;
-   }
- }
-
- .fa-instagram,
- .fa-facebook-f,
- .fa-linkedin {
-   color: #000;
-   height: 18vh;
-   font-size: 27px;
- }
-
- @media screen and (max-width: 850px) {
-
-   .fa-instagram,
-   .fa-facebook-f,
-   .fa-linkedin {
-     height: 30vh;
-   }
- }
-
- @media screen and (max-width: 488px) {
-
-   .fa-instagram,
-   .fa-facebook-f,
-   .fa-linkedin {
-     height: 6vh;
-   }
- }
-
- .contact-form {
-   padding-top: 1rem;
-   height: 80vh;
-   display: flex;
-   flex-direction: column;
-   width: 60%;
-   gap: 2rem;
-
-   @media screen and (max-width: 768px) {
-     width: 100%;
-   }
- }
-
- .form_section {
-   display: flex;
-   flex-direction: column;
-   justify-content: right;
- }
-
- .form_section input,
- .form_section select {
-   background-color: #f0f0f0;
-   color: #000;
-   font-size: 1rem;
-   font-family: inherit;
-   border: none;
-   border-bottom: 1px solid black;
-   outline: thin;
-   padding: 1rem;
- }
-
- @media screen and (max-width: 488px) {
-
-   .form_section input,
-   .form_section select {
-     padding: 0;
-   }
- }
-
- .form_select {
-   flex-direction: row;
-   border-bottom: 1px solid black;
-   justify-content: space-between;
-   padding-bottom: 1rem;
- }
-
- .form_select select {
-   border: none;
-   width: 60%;
- }
-
- .form__bottom-section {
-   padding: 0.3rem 0;
-   display: flex;
-   justify-content: space-between;
-   flex-direction: row;
- }
-
- .form__bottom-section .button {
-   width: max-content;
- }
-
- .form__bottom-section p {
-   width: 50%;
- }
-
- @media screen and (max-width: 768px) {
-   .form__bottom-section {
-     flex-direction: column;
-     gap: 1rem;
-   }
-
-   .form__bottom-section p {
-     width: 100%;
-   }
-
-   .form__bottom-section .button {
-     width: 40%;
-   }
- }
-
- @media screen and (max-width: 560px) {
-   .form__bottom-section .button {
-     width: max-content;
-   }
- }
-
+}
+*{
+font-family: 'DM Sans','sans-serif';
+}
+p{
+  margin-bottom: 35px;
+  font-family: 'DM Sans', 'sans-serif';
+}
+h1{
+  margin-bottom: 39px;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'DM Sans', sans-serif;
+}
