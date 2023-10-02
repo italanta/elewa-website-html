@@ -51,25 +51,51 @@ header {
   letter-spacing: 0px;
 }
 
-/* Style the dropdown */
-.dropdown select {
-  display: none;
-}
-
-/* Style the dropdown trigger (Menu) */
-.dropdown a {
+/* Style for the dropdown toggle button */
+.dropbtn {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
   cursor: pointer;
 }
 
-/* Show the select when hovering over the dropdown trigger */
-.dropdown:hover select {
-  display: block;
+/* Hover effect for the toggle button */
+.dropbtn:hover {
+  background-color: #ffffff;
+  color: black;
+  
+}
+
+/* Style for the dropdown content */
+.dropdown-content {
+  display: none;
   position: absolute;
-  background-color: white;
-  border: 1px solid #ccc;
-  padding: 5px;
+  background-color: #333;
+  min-width: 160px;
   z-index: 1;
 }
+
+/* Style for the dropdown items */
+.dropdown-content li {
+  float: none;
+}
+
+/* Style for the dropdown links */
+.dropdown-content li a {
+  padding: 12px 16px;
+  color: rgb(0, 0, 0);
+  display: block;
+  text-align: left;
+  text-decoration: none;
+}
+
+/* Show dropdown content when the dropdown toggle button is hovered */
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+
 
 /* Style the "Contact us" button */
 .contact {
