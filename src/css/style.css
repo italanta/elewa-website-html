@@ -1,4 +1,156 @@
-.example{
-    padding:2;
-    margin-top: 2px;
+#body{
+    background-color:beige ;
 }
+#NavBar{
+    display: flex;
+    margin-top: 53px;
+    justify-content: space-between;
+}
+.list{
+    display: flex;
+    font-size:large;
+    cursor: pointer;
+}
+.elewa{
+    font-size: xx-large;
+    margin-top: 5px;
+    height: 65px;
+    width: 153;
+    margin-left: 130px;
+}
+.curved-underline {
+    border-radius: 50%;
+    border-bottom: 2px solid;
+    margin-top: 10px;
+  }
+.contact{
+    margin-top: 8px;
+    height: 44px;
+    width: 134px;
+    font: optional;
+    cursor: pointer;
+    border-radius: 20px;
+    color: #F9F8F4;
+    background-color:navy ;
+    margin-right: 211px;
+
+}
+.image {
+    display: block;
+    margin-right: 0;
+    width: 553px;
+    height: 556px;
+    opacity: 0.85;
+  }
+  
+  .title {
+    font:  normal normal medium 82px/110px DM Sans;
+    width: 839px;
+    font-size: 50px;
+    margin-bottom: -10px;
+    /* margin-left: 10px; */
+
+  }
+  .enjoyable{
+    margin-top: -1px;
+    margin-right: 260px;
+  }
+  .content {
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    /* border-bottom: 100px; */
+    /* margin-right: 200px; */
+  }
+  .intro{
+    padding: 0;
+  }
+  
+  .paragraph {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    /* margin-left: 500px; */
+  }
+  
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contactButton {
+    margin-right: 150px;
+    background: black;
+    color: white;
+    font-family: inherit;
+    padding: 0.45em;
+    padding-left: 1.0em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em white;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3em;
+  }
+  
+  .iconButton {
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.9em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em black;
+    right: 0.3em;
+    transition: all 0.3s;
+  }
+  #footer {
+    display: flex;
+    background-color: gray;
+    height: 100px;
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .footers {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+  }
+  
+  .imgfooter {
+    height: 100px;
+    width: 150px;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .li {
+    flex: 1; 
+    display: flex;
+    justify-content: space-between;
+  }
+  
+ 
+  
