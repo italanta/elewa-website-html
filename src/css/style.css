@@ -20,7 +20,7 @@ images {
   /* Ensure all images have the same maximum width */
   height: auto;
   /* Maintain aspect ratio */
-  margin-right: 10px;
+  margin-right: 20px;
   /* Add spacing between images */
   filter: grayscale(100%);
   /* Add a grayscale filter to all images */
@@ -33,11 +33,14 @@ images {
   }
 
   .images  {
-    max-width: 50%;
+    max-width: 150%;
     /* Reduce image size on smaller screens */
     margin-right: 5px;
     /* Reduce spacing between images on smaller screens */
   }
-  
+  .content{
+    margin-bottom:20px
+
+  }
 
 }
