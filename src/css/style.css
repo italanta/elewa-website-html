@@ -294,10 +294,20 @@ h1 {
         left: 0px; /* Adjust button position */
         
     }
-    #partnersSctn{
-        position:relative;
+    #partnerSctn{
+        position:absolute;
+        left: 0px;
+        width: 100%;
+        margin-top: -20%;
 
     }
+    .partners{
+        position: relative;
+        /*dividing partner's section into equal parts*/
+        width: 30%;
+        height: 40%;
+        
+     }
 
     
 }
@@ -355,6 +365,19 @@ h1 {
         width:-20%;
         height:-20%;
     }
+    #partnerSctn{
+        position:absolute;
+        left: 0px;
+        width: 100%;
+        margin-top: -40%;
+    }
+    .partners{
+        position: relative;
+        /*dividing partner's section into equal parts*/
+        width: 15%;
+        height: 25%;
+        
+     }
 
 
 }
