@@ -58,3 +58,76 @@ p {
         padding: 10px; /* Reduce padding for small screens */
     }
 }
+.header
+{
+    display:inline-flex;
+}
+.logo img 
+{
+    margin-left: 20px;
+    margin-top: 30px;
+    max-width: 200px;
+    max-height: 150px;
+    background-color: transparent;
+    filter:brightness(0)
+}
+
+.header .navs
+{
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 450px;
+    
+}
+
+.navs a
+{
+    order: -1;
+    text-align: center;
+    color: #2D2E52;
+    text-decoration: none;
+    padding: 10px ;
+    font-size: 20px;
+}
+.con button {
+    float: right;
+    margin-top: 50px;
+    margin-left: 450px;
+    height: 40px;
+    width: 110px;
+    background: #2D2E52;
+    border-radius: 20px;
+}
+
+.con button a {
+    /* Your other styles here */
+    width: 110px;
+    text-decoration: none;
+    height: 60px;
+    color: white;
+    font-size: 16px;
+    opacity: 1;
+}
+/* Style the dropdown container */
+.header .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .header .navs .dropdown-link {
+    text-decoration: underline;
+    font-weight: 600;
+  }
+  .header .navs .dropdown-button {
+    top: 77px;
+    left: 834px;
+    width: 11px;
+    height: 5px;
+/* UI Properties */
+    border: 1px solid #000000;
+    opacity: 10;
+  }
+
+ 
+  
+
+
