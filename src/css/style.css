@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: #dbc2f5e6;
+}
+.overview-img{
+  flex: 1;
+  display: inline;
+  overflow: hidden;
+
+}
+
+
+.overview-img_cover{
+  max-width: 80%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+
+.elewa-content{
+  text-align: center;
+  max-width: auto;
+}
+.elewa-content_container{
+  max-width: 1502px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  max-height: 796px;
+
+
+}
+
