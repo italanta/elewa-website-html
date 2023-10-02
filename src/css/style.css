@@ -17,7 +17,7 @@ body {
 
 
 .overview-img_cover{
-  max-width: 80%;
+  max-width: 100%;
   height: 100%;
   object-fit: cover;
   overflow: hidden;
@@ -25,16 +25,23 @@ body {
 
 
 .elewa-content{
-  text-align: center;
+  text-align: justify;
   max-width: auto;
+  display: list-item;
+  font-size: 20px;
 }
 .elewa-content_container{
+  font-family: Sans-serif;
+  font-size: 17px;
   max-width: 1502px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   padding: 10px 0;
   max-height: 796px;
+  display: flex;
+  list-style-type: none;
+  list-style-position: outside;
 
 
 }
