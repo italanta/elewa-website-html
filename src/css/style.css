@@ -13,13 +13,30 @@
   /* Center the images */
   padding: 200px;
   /* Add some padding */
+  flex-wrap: wrap;
 }
 
 .images img {
-  max-width: 20%;
+  max-width: 10%;
   /* Ensure all images have the same maximum width */
   height: auto;
   /* Maintain aspect ratio */
   margin-right: 10px;
   /* Add spacing between images */
+  filter: grayscale(100%);
+  /* Add a grayscale filter to all images */
+}
+
+@media screen and (max-width: 768px) {
+  .images {
+    padding: 10px;
+    /* Reduce padding on smaller screens */
+  }
+
+  .images img {
+    max-width: 50%;
+    /* Reduce image size on smaller screens */
+    margin-right: 5px;
+    /* Reduce spacing between images on smaller screens */
+  }
 }
