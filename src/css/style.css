@@ -54,12 +54,10 @@
   background-color: black;
 }
 
-/* Black logo style */
 .black-logo {
   filter: grayscale(100%) brightness(0%);
 }
 
-/* Container styles */
 .container {
   background: #DBC2F5;
   display: flex;
