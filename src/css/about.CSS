@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #ece3d9;
+    overflow: hidden;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+#logo{
+width: 160px;
+height: 80px;
+position: relative;
+margin-left: 10%;
+margin-top: 15px;
+}
+.navbar nav{
+    position: relative;
+    margin-left: 20%;
+    margin-top: 2%;
+    
+}
+.navbar nav a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    margin-left: 40px;
+
+}
+.navbar .menu{
+    display: none;
+}
+
+.navbar nav .material-symbols-outlined{
+    position: relative;
+    top: 9px;
+}
+.navbar nav #comp{
+    font-weight: bold;
+}
+.navbar #contact{
+    margin-left:20%;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px 20px 20px 20px;
+    border: none;
+    background-color: rgb(7, 7, 94);
+    color: white;
+    margin-top: 1.5%;
+}
+.abouts{
+    text-align: justify;
+    width: 600px;
+    height: max-content;
+    margin-top: 13%;
+    margin-left: 20%;
+}
+.abouts h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+}
+.abouts p{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.8rem;
+    margin-top: 40px;
+    font-size: 1.4rem;
+}
+.img-cover{
+    position: relative;
+    width: max-content;
+    height: max-content;
+    margin-left: 50%;
+    margin-top: -25%;
+}
+.img-cover img{
+    width: 600px;
+    height: 600px;
+}
+.img-cover #play{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    margin-top: -56%;
+    margin-left: 45%;
+}
+
+/* media */
+@media(max-width:1474px){
+    .navbar nav, #contact{
+        display: none;
+    }
+   .navbar .menu{
+    display: block;
+    margin-left: 60%;
+    margin-top: 4%;
+   }
+   .abouts{
+    margin-left: 10%;
+   }
+
+   
+
+}
+@media(max-width:700px){
+    .navbar nav, #contact{
+        display: none;
+    }
+   .navbar .menu{
+    display: block;
+    margin-left: 60%;
+    margin-top: 4%;
+   }
+   .abouts{
+    z-index: 2;
+   }
+   .img-cover img{
+       width: 300px;
+       height: 300px;
+       margin-top: 60%;
+   }
+   .img-cover #play{
+    width: 80px;
+    height: 80px;
+    margin-left: 35%;
+   }
+   
+
+}
