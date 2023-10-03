@@ -18,22 +18,27 @@
 }
 .lists{
   display: flex;
-  margin: 15px;
-  padding-bottom: 10%;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .logos{
-  float: right;
+    display: flex;
+    float: right;
+    justify-content: space-between;
 }
 
 .category{
   display: flex;
-  margin: 15px;
+  flex-direction: column;
 }
 
-@media only screen and (min-width: 280px) {
+@media only screen and (max-width: 1280px) {
   .ft {
+    margin-bottom: 50%;
+    padding-top: 55px;
     display: block;
-    padding-bottom: 30px;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .lists{
@@ -44,11 +49,11 @@
   .logos{
     display: flex;
     padding: 10px;
+    justify-content: space-between;
   }
 
   .category{
     display: block;
     padding-bottom: 30px;
   }
-
 }
