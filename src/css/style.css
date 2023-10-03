@@ -20,8 +20,8 @@
 .homeLinks {
     /*outline:3px solid black;*/
     justify-content: space-between;
-    margin-top:12px ;
-    margin-right: 20%;
+    /* margin shortform:top,right: ,bottom,left; */
+    margin-top:12px,20% ;
     width: 700px;
     height: 24px;
     opacity: 1;
