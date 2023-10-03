@@ -42,8 +42,14 @@
     }
     
 .footer-content {
-        text-align: left;
-        padding: 10px;
+    text-align: left;
+    padding: 10px;
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    left: 0; */
+    right: 0;
+    bottom: 0;
     }
     
 .footer-content h4 {
@@ -59,6 +65,9 @@
 .footer-content ul li {
         margin-bottom: 5px;
     }
+.footer-content li a{
+        display: block;
+    }
     
 .footer-content ul li:first-child {
         font-weight: bold;
@@ -68,6 +77,4 @@
         margin-left: 0%;
     }
 .footer-icon{
-    width:3%;
-    margin-right: 0%;
 }
