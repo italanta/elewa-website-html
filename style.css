@@ -1,8 +1,19 @@
 .container{
+    padding-top: 3rem;
     background-color: rgb(48, 48, 108);
     border-radius: 1rem;
+    display: grid;
 }
+
 h1{
     color: white;
     text-align: center;
+}
+
+.button{
+    display: flex;
+    border-radius: 1rem;
+    padding-top: 3rem;
+    align-content: center;
+    background-color: rgb(48, 48, 108);
 }
