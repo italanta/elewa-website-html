@@ -1,8 +1,10 @@
 /* Styling the pages landing page and hero section */
 body {
     background-color: #F9F8F4;
-    overflow: hidden;
     margin-top: 0px;
+    /* overflow-x: hidden; */
+    width: 1440px;
+    height: 6753px;
 }
 .header-hero{
     height: 1082px;
@@ -58,4 +60,77 @@ a {
     border-radius: 22px;
     opacity: 1;
     cursor: pointer;
+    font: normal normal normal DM Sans;
+    color: #FFFFFF;
 }
+
+.hero-div-1 {
+    position: absolute;
+    margin-top: 138px;
+    margin-left: 527px;
+    width: 630px;
+    height: 400px;
+    background: transparent linear-gradient(315deg, #E69083 0%, #E6908300 100%) 0% 0% no-repeat padding-box;
+    border-radius: 600px;
+    opacity: 1;
+}
+
+.hero-div-2 {
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 850px;
+    width: 630px;
+    height: 400px;
+    background: transparent linear-gradient(45deg, #E69083 0%, #E6908300 100%) 0% 0% no-repeat padding-box;
+    border-radius: 600px;
+    opacity: 1;
+}
+.hero-header {
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 209px;
+    width: 1218px;
+    height: 106px;
+    text-align: left;
+    font-size: 65px;
+    /* font-family: sans-serif; */
+    font: normal normal medium 82px/110px DM Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+ .hero-text {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 209px;
+    width: 650px;
+    height: 224px;
+    text-align: left;
+    font: normal normal normal 32px/42px DM Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+ }
+
+ .hero-button {
+    display: flex;
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 209px;
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 29px;
+    opacity: 1;
+    color: white;
+    text-align: center;
+ }
+ .arrow {
+     background-color: white;
+     color: black;
+     border-radius: 50%;
+     width: 40px;
+     height: 40px;
+     font-size: 25px;
+     font-weight: bolder;
+     margin: 0.15rem;
+
+ }
