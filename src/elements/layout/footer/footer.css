@@ -3,63 +3,7 @@
     list-style: none;
     font-family: Arial, Helvetica, sans-serif; 
 }
-/* body {
-    background-color: blue;
-
-}
-.slidecontainer{
-    border: solid 2px white;
-    color: white;
-    text-align: center;
-    border-radius: 20px;
-    width: 200px;
-    height: 50px;
-} */
-/* .footer-separater{
-    border: solid 1px white;
-    color: white;
-    width: 100%;
-    height: 2px;
-}
-
-section{
-    padding: 80px 13% 70px;
-}
-
-.footer-content{
-    display: grid;
-    grid-template-columns: 1fr; 
-    grid-template-rows: auto auto;
-}
-.footer-content h4{
-    color: rgb(250, 248, 248);
-    margin-bottote;
-    width: 100%;
-    height: 2px;
-}
-
-section{
-    padding: 80px 13% 70px;
-}
-
-.footer-content{
-    display: grid;
-    grid-template-columns: 1fr; 
-    grid-template-rows: auto auto;
-}
-.footer-conte
-
-.footer-content li a{
-    display: block;
-    color: ;
-    font-size: 15px;
-    font-weight: 400;
-}
-. { display: grid; 
-    grid-template-columns: 7vw 1fr 7vw; 
-    grid-template-rows: auto auto; } */
-
-    .footer {
+.footer {
         background-color: blue;
         color: #fff;
         padding: 20px;
@@ -68,7 +12,7 @@ section{
         border-top-right-radius: 80px;
     }
     
-    .slidecontainer {
+.slidecontainer {
         margin-top: 10px;
         border: solid 2px white;
         text-align: center;
@@ -77,19 +21,18 @@ section{
         height: 50px;
     }
     
-    .slidecontainer p {
+.slidecontainer p {
         font-weight: bold;
         font-size: 18px;
         color: white;
     }
-    
-    .footer-separator {
+.footer-separator {
         width: 100%;
         border-top: 2px solid #fff;
         margin: 20px 0;
     }
     
-    .footer-content-wrapper {
+.footer-content-wrapper {
         display: flex;
         flex-direction: column;
         gap: 160px;
@@ -98,25 +41,33 @@ section{
         overflow: hidden;
     }
     
-    .footer-content {
+.footer-content {
         text-align: left;
         padding: 10px;
     }
     
-    .footer-content h4 {
+.footer-content h4 {
         font-size: 16px;
         margin-bottom: 10px;
     }
     
-    .footer-content ul {
+.footer-content ul {
         list-style-type: none;
         padding: 0;
     }
     
-    .footer-content ul li {
+.footer-content ul li {
         margin-bottom: 5px;
     }
     
-    .footer-content ul li:first-child {
+.footer-content ul li:first-child {
         font-weight: bold;
     }
+.footer-logo{
+        width:2%;
+        margin-left: 0%;
+    }
+.footer-icon{
+    width:3%;
+    margin-right: 0%;
+}
