@@ -3,3 +3,52 @@
   margin: 0;
   padding: 0;
 }
+.header{
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+/*to hide mobile-specific elements by default */
+.mobile-only{
+  display: none;
+}
+
+/*to hide desktop-specific elements by default */
+.desktop-only{
+  display: none;
+}
+
+/*styles for web below*/
+@media(min-width:800px){
+
+  body{
+    background-color: blue;
+    color: white;
+  }
+
+/*Show desktop-specific elements */
+.desktop-only{
+  display: block;
+}
+
+}
+
+/*styles for mobile below*/
+@media(max-width:799px){
+
+  body{
+    background-color: black;
+    color: white;
+  }
+
+/*show mobile specific elements */
+.mobile-only{
+  display:block;
+}
+
+}
