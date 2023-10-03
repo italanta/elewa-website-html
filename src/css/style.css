@@ -2,219 +2,37 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
 
 body{
-    background-color: #FAE9E8;
+    background-color: #F9F8F4;
     margin: 0;
+    font-family: 'DM Sans', 'sans-serif';
 
 }
-/* Adding style to the container that has the image and content */
-.homepage{
+
+/*Styling the header container*/
+.header{
     display: flex;
-    flex-direction: row;
-    padding: 8%;
-    
+    margin-left: 165px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
-/* Adding style to the image */
-.homepage img{
-    width: 30%;
-}
-/* Adding style to the container that holds the content */
-.homepage .details{
-    margin-left: 8%;
-    font-family:'DM Sans', 'sans-serif';
-    font-size: larger;
-}
-/* Adding style to the paragraph content */
-.homepage p{
-    margin-top: 20px;
-    font-size: large;
-}
-/* Adding style to the header */
-.homepage h3{
-    margin-top: 15%;
-}
-/*Styling the container holding the body content*/
-.conv-container{
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-}
-/*Styling the container that holds the wordings*/
-.conv-content{
-    margin-top: 10rem;
-    position: relative;
-    z-index: 1;
-    margin-left: 9rem;
-    font-size: large;
-    font-family:'DM Sans', 'sans-serif';
-}
-/*Styling the first eclipse*/
-.eclipse-one{
-    width: 30rem;
-    height: 20rem;
-    border-radius: 33rem;
-    margin-top: 6rem;
-    margin-left: 20rem;
-    position: absolute;
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(230,144,131));
-    
-}
-/*Styling the second eclipse*/
-.eclipse-two{
-    width: 120rem;
-    height: 20rem;
-    border-radius: 33rem;
-    margin-top: 14rem;
-    margin-right: 13rem;
-    position: relative;
-    background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(230,144,131));
-    
-}
-/*Styling the container holding the details concerning the organization*/
-.conv-container p{
-    margin-right: 5rem;
-}
+
 /*Styling the header*/
-.conv-content h1{
-    font-size: 35px;
-    letter-spacing: 4px;
-}
-/*Styling the button*/
-.conv-container .button-submit{
-    width: 15rem;
-    background-color: black;
-    color: white;
-    border-radius: 5rem;
-    height: 3rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-/*Styling the button content*/
-.conv-container .button-submit .text{
-    margin-left: 10px;
-    margin-bottom: 20px;
-    margin-top: 12.5px;
-}
-/*Styling the container holding the icon*/
-.conv-container .icon{
-    background-color: white;
-    border-radius: 50%;
-    width: 2rem;
-    height: 2rem;
-    margin-top: 9px;
-    margin-left: 10px;
-    margin-right: 0;  
-}
-/*Styling the navigation bar*/
-.top-nav{
-    background-color:  #FAE9E8;
-    margin: 0px;
-    overflow: hidden;
-    position: relative;
-    margin-top: 20px;
-}
-/*Styling the centered menu*/
-.top-center {
-    float: none;
-    position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-/*Styling the navigation links*/
-.top-nav a{
-    text-decoration: none;
-    color: #000;
-    margin-left: 15px;
-    float: left;
-    font-family:'DM Sans', 'sans-serif';
-}
-/*Styling the solution item in the menu*/
-.top-nav .active{
-    font-weight: bold;
-    text-decoration: underline;
-}
-/*Styling the brand image*/
-.top-nav img{
-    margin-left: 9rem;
-    width: 7rem;
-    color: #000;
-}
-/*Styling the contact us button*/
-.contact{
-    float: right;
-    margin-right: 95px;
-    background-color: #2D2E52;
-    color: white;
-    padding: 5px;
-    width: 5rem;
-    text-align: center;
-    border-radius: 33rem;
-    font-size: 14px;
-    font-family:'DM Sans', 'sans-serif';
-    margin-top: 10px;
-}
-/*Responsive page for mobile devices*/
-@media screen and (max-width:768px){
-    .top-nav{
-        float: none;
-        display: block; 
-    }
-/*Navigation bar for */
-    .top-center a {
-        position: relative;
-        top: 0;
-        left: -5.8rem;
-        transform: none;
-      }
-    .top-nav .contact{
-        margin-right: 210px;
-        margin-top: 10px;
-    }
-    .top-nav img{
-        margin-left: 25px;
-    }
-    .conv-container {
-        margin-left: -7rem;
-    }
-    .eclipse-one{
-        margin-left: 12rem;
-        width: 20rem;
-        height: 13rem;
-        margin-top: 110px;
-    }
-    .eclipse-two{
-        margin-left: -50px;
-        width: 200rem;
-        height: 12rem;
-    }
-    .conv-content p{
-        margin-right: 15px;
-        
-    }
-    footer{
-        margin-left: -100%;
-        margin-right: 1000px;
-        
-    }
+.header h3{
+    font-size: 30px;
+    letter-spacing: 3px;
+} 
 
-}
-/*Styling the div class for the footer*/
-.partners{
-    margin-left: -30px;
-    margin-right: 50px;
-}
-/*Styling the footer section for the images*/
-footer{
+/*Styling the news container*/
+.news{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 50px;
-    margin-bottom: 10px;
+    flex-direction:row;
+    justify-content: space-evenly;
 }
-/*Styling the company brand images*/
-footer img{
-    height: 40px;
+
+/*Styling the link*/
+.news a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
+
