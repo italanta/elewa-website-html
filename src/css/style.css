@@ -1,8 +1,16 @@
 
-body{
-  background: #DBC2F5;
-
+.front{
+  background-color: #F9F8F4;
 }
+.dropdown i.fa-angle-down {
+  vertical-align: -3px; /* Adjust the value as needed to move the icon down */
+}
+
+
+
+
+
+
 /* Navbar styles */
 .navbar {
   display: flex;
@@ -13,12 +21,15 @@ body{
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  background-color: #F9F8F4;
 }
 
 /* Logo styles */
 .logo img {
   width: 100px;
   height: auto;
+  margin-left: 90px;
+  vertical-align: middle;
 }
 
 /* Navigation container styles */
@@ -47,19 +58,6 @@ body{
 .menu{
   display: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Contact button styles */
 .btn button {
   background-color: transparent;
@@ -75,6 +73,138 @@ body{
 .black-logo {
   filter: grayscale(100%) brightness(0%);
 }
+/* Reset some default styles */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the homecontainer */
+.homecontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #F9F8F4;
+}
+
+/* Style the info div */
+.info {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center the content vertically */
+  align-items: center; /* Center the content horizontally */
+}
+/* Style the first heading with an adjusted margin-top */
+.info .aligned-heading {
+  margin-left: -90px; /* Adjust the margin as needed to align with the second heading */
+}
+
+
+.info h2 {
+  font-size: 44px;
+  
+  font-family: 'DM Sans', sans-serif;
+  color: black;
+  font-weight: 100;
+  margin: 10px 0; /* Add margin to separate headings from each other */
+
+}
+
+.info h3 {
+  font-size: 18px;
+  font-weight: 100;
+  color: black;
+  margin: 10px 0; /* Add margin to separate headings from each other */
+  font-family: 'DM Sans', sans-serif;
+
+}
+
+/* Style the ::before pseudo-element (the arrow inside the circle) */
+.arrow-button .circle:before {
+  content: '→'; /* Use multiple right arrow characters to create the arrow shape */
+  font-size: 24px; /* Adjust the font size to control the arrow's appearance */
+  position: absolute;
+  color: black;
+  top: 50%;
+  left: 50%; /* Adjust the position as needed */
+  transform: translate(-50%, -50%); /* Center the arrow vertically within the circle */
+}
+
+/* Style the circle container */
+.circle {
+  width: 30px; /* Increase the width to make the circle larger */
+  height: 30px; /* Maintain a 1:1 aspect ratio for a circle */
+  padding-bottom: 0; /* Remove padding-bottom */
+  border-radius: 50%; /* Creates a circle shape */
+  background: white;
+  position: relative;
+  border: none;
+  margin-right: 10px; /* Adjust the spacing between the text and the circle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px; /* Center the text vertically within the circle */
+  margin-left: 10px; /* Add margin to the left to push the circle away from the text */
+
+}
+
+/* Style the arrow button container */
+.arrow-button {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  border: none;
+  margin-left: -122px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 50px;
+  position: relative; /* Create a positioning context for the pseudo-element */
+  overflow: hidden; /* Hide any overflowing pseudo-element content */
+}
+
+
+
+
+
+/* Style the home-pic div */
+.home-pic {
+  flex: 1;
+  text-align: center;
+}
+
+/* Style the image */
+.home-pic img {
+  max-width: 85%;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 290px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .container {
   background: #DBC2F5;
