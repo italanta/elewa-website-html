@@ -8,7 +8,7 @@ body{
     height: 100%;
 }
 /* headers */
-.headers{
+.headers1{
     position: relative;
     display: grid;
     place-items: center;
@@ -25,14 +25,14 @@ margin-top: 15px;
 
 }
 
-.headers nav a{
+.headers1 nav a{
     text-decoration: none;
     color: black;
     font-size: large;
     margin-left: 40px;
 
 }
-.headers button{
+.headers1 button{
     width: 120px;
     height: 40px;
     border-radius: 25px;
@@ -47,7 +47,7 @@ margin-top: 15px;
 
 /* end of nav bar */
 /* introduction  */
-.wel-content{
+.wel-content1{
     position: absolute;
     width: 500px;
     height: max-content;
@@ -62,13 +62,13 @@ margin-top: 15px;
    
 }
 
-.wel-content h1{
+.wel-content1 h1{
     font-size: 4.0rem;
     font-weight: bold;    
 font-family: 'Roboto', sans-serif;
 
 }
-.wel-content p{
+.wel-content1 p{
 font-size: 1.7rem;
 font-family: 'Roboto', sans-serif;
 }
@@ -76,7 +76,7 @@ span{
     font-size: 1.7rem;
     font-family: 'Roboto', sans-serif;
 }
-.wel-content button{
+.wel-content1 button{
     color: white;
     background-color: black;
     border: none;
@@ -88,14 +88,14 @@ span{
     display: flex;
     flex-direction: row;
     }
-.wel-content #potential{
+.wel-content1 #potential{
     font-size: 0.8rem;
     font-weight: bolder;
     margin-left: 30px;
     margin-top: 7px;
 
 }   
-.wel-content .material-symbols-outlined{
+.wel-content1 .material-symbols-outlined{
 width: 25px;
 background-color: white;
 color: black;
