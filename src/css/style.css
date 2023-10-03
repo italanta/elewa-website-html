@@ -13,9 +13,8 @@ h1 {
   /* font-family:"Times New Roman", serif; */
   font-family: 'Onest', sans-serif;
   font-weight: 600;
+  margin: 0 0 100px 120px;
   color: #202020;
-  margin-left: 120px;
-  margin-bottom: 100px;
 }
 
 .news article h2 {
@@ -35,9 +34,7 @@ h1 {
 }
 
 section {
-  margin-top: 140px;
-  margin-left: 50px;
-  margin-right: 100px;
+  margin: 140px 100px 0 50px;
 }
 
 .news article {
@@ -48,9 +45,7 @@ section {
   border-bottom: 2px solid #b8b7b7; /* Add a border to each article */
   /* box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1); */
   padding: 10px; /* Add padding to create spacing between content and border */
-  margin-left: 110px;
-  margin-right: 100px;
-  margin-top: 50px;
+  margin: 50px 100px 0 110px;
 }
 
 .news article::before {
@@ -71,3 +66,30 @@ section {
   margin-bottom: 50px;
   color: #5f5c5c;
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 20px; /* Add some padding for better readability on smaller screens */
+  }
+
+  h1 {
+    font-size: 32px; /* Reduce the font size for the heading */
+    margin: 0 0 30px 20px; /* Adjust the heading's margin for smaller screens */
+  }
+
+  .news article {
+    flex-direction: column; /* Stack articles vertically on smaller screens */
+    margin: 20px; /* Adjust the margin between articles */
+    padding: 20px; /* Add padding to articles for better spacing */
+  }
+
+  .news article::before {
+    display: none; /* Hide the border-like effect on smaller screens */
+  }
+
+  .news article button {
+    margin: 10px 0; /* Adjust the button's margin for better spacing */
+    margin-bottom: 30px; /* Increase the bottom margin for buttons */
+  }
+}
+
