@@ -27,7 +27,24 @@
   background-color: blanchedalmond;
   display: flex;
   gap: 20px;
+  color: #000000;
+  font: normal normal normal 18px/100px DM Sans;
+  text-align: left;
 
+}
+
+.text label{
+  text-decoration: underline;
+  color: #000000;
+  font: normal normal bold 18px/100px DM Sans;
+  text-align: left;
+}
+
+.text select{
+  background-color: transparent;
+  border: 0px;
+  height: 20px;
+  
 }
 
 .contbtn button{
