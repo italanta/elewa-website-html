@@ -1,5 +1,54 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+/* * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 10px;
+} */
+.ft{
+  background-color: rgb(35, 35, 77);
+}
+
+.p1{
+  text-align: center;
+}
+
+.btn1{
+  text-align: center;
+}
+.lists{
+  display: flex;
+  margin: 15px;
+  padding-bottom: 10%;
+}
+.logos{
+  float: right;
+}
+
+.category{
+  display: flex;
+  margin: 15px;
+}
+
+@media only screen and (min-width: 280px) {
+  .ft {
+    display: block;
+    padding-bottom: 30px;
+  }
+
+  .lists{
+    display: block;
+    padding-bottom: 30px;
+  }
+
+  .logos{
+    display: flex;
+    padding: 10px;
+  }
+
+  .category{
+    display: block;
+    padding-bottom: 30px;
+  }
+
 }
