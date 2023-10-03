@@ -1,3 +1,8 @@
+
+body{
+  background: #DBC2F5;
+
+}
 /* Navbar styles */
 .navbar {
   display: flex;
@@ -38,9 +43,22 @@
   font-family: DM Sans, Regular;
   margin-right: 20px;
 }
+
 .menu{
   display: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Contact button styles */
 .btn button {
