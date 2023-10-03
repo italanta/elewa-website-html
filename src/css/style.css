@@ -3,12 +3,14 @@
   margin: 0;
   padding: 0;
   background-color: #DBC2F5;
+  
 }
 
 .header{
   background-color: transparent;
   display: flex;
   height: auto;
+  width:80%;
   margin: 52px 180px;
   justify-content: space-between;
   align-items: center;
@@ -18,6 +20,7 @@
 .logo img{
   height: 65px;
   opacity: 1;
+  max-width: 100%;
 }
 
 .text{
