@@ -278,6 +278,118 @@ p {
   top: -30px;
 }
 
+.styling {
+  position: relative;
+  text-align: center; /* Horizontally center the text within the div */
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  height: 100vh;
+  background: #fae9e8; 
+}
+
+.styling h2 {
+  top: 2880px;
+left: 764px;
+width: 521px;
+height: 47px;
+text-align: left;
+font: normal normal medium 36px/30px DM Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+
+.styling p {
+  top: 2932px;
+left: 764px;
+width: 521px;
+height: 89px;
+text-align: left;
+font: normal normal normal 22px/30px DM Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+
+.overall {
+  display: flex; /* Use flexbox for horizontal alignment */
+  justify-content: space-around; /* Spread the divs horizontally with space between them */
+  align-items: center; /* Vertically center the divs if needed */
+  margin-left: 920px;
+}
+
+.container1,
+.container2,
+.container3 {
+  /* Add your styles for the containers here */
+  width: 100px; /* Set the width as needed */
+  height: 100px; /* Set the height as needed */
+  margin: 30px;
+}
+
+.container1 {
+  top: 3011px;
+  left: 1025px;
+  width: 181px;
+  height: 181px;
+  background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
+  mix-blend-mode: multiply;
+  border-radius: 110px;
+  opacity: 1;
+  margin-top: 200px;
+}
+
+.container2 {
+  top: 2920px;
+  left: 1236px;
+  width: 181px;
+  height: 272px;
+  background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
+  mix-blend-mode: multiply;
+  border-radius: 110px;
+  opacity: 1;
+  margin-top: 120px;
+}
+
+.container3 {
+  top: 2831px;
+  left: 1447px;
+  width: 181px;
+  height: 361px;
+  background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
+  mix-blend-mode: multiply;
+  border-radius: 110px;
+  opacity: 1;
+}
+
+/* section partners */
+
+.partner
+{
+  top: 102px;
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  left: 14px;
+  width: 127px;
+  height: 29px;
+  background: transparent url('img/Image 9.png') 0% 0% no-repeat padding-box; 
+  filter: grayscale(100%); 
+  mix-blend-mode: multiply;
+  opacity: 1;
+  margin: 20px;
+}
+
+.partner > div img.partner-logo {
+  margin-top: 200px;
+  width: 100px; /* Set a specific width for the logos (adjust as needed) */
+  height: auto; 
+  margin-left: 20px;
+}
+
+
 
 
 
