@@ -1,0 +1,97 @@
+h1 {
+    top: 30;
+    text-align: center;
+    
+}
+
+/* Define the styles for the button */
+.arrow-button {
+    position: absolute;
+    left: 500px;
+    background-color: hsl(0, 0%, 4%); /* Background color of the button */
+    color: #fff; /* Text color */
+    border-radius: 29px; /* Remove button border */
+    padding: 10px 20px; /* Adjust padding as needed */
+    cursor: pointer; /* Add pointer cursor on hover */
+    position: relative; /* Add relative positioning to the button */
+}
+
+/* Define the styles for the arrow span */
+.arrow {
+    position: relative;
+    width: 2;
+    background-size: contain; /* Make sure the image fits the span */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-position: center; /* Center the image within the span */
+    width: 20px; /* Adjust the width of the arrow */
+    height: 20px; /* Adjust the height of the arrow */
+    left: 15%;
+    display: inline-block; /* Make the span an inline-block element */
+    opacity: 1;
+}
+
+/* Define the styles for the white circle */
+.circle {
+    position: absolute; /* Absolute positioning within the button */
+    background-image: url('https://res.cloudinary.com/dyl3rncv3/image/upload/v1695972080/elewa-education-website/Shared/toRightArrow_tlcdnk.svg'); /* Set the arrow image as background */
+    width: 40px; /* Adjust the width of the circle */
+    height: 40px; /* Adjust the height of the circle */
+    background-color: #fff; /* White background color for the circle */
+    border-radius: 50%; /* Make it a circle with border-radius */
+    top: 50%; /* Position the circle vertically centered */
+    left: 90%; /* Position the circle horizontally centered */
+    transform: translate(-50%, -50%); /* Center the circle using translate */
+}
+
+
+.long-line {
+    position: relative;
+    top: 70px;
+    width: 100%; /* Adjust the width as needed */
+    height: 2px; /* Adjust the height as needed */
+    background-color: #000; /* Change the color as needed */
+}
+
+.Headquarters {
+    position: relative;
+    top: 56px;
+}
+
+.Contact {
+    position: absolute;
+    top: 180px;
+    left: 300px;
+}
+
+.Navigation {
+    position: absolute;
+    top: 180px;
+    left: 550px;
+  
+}
+
+li, a {
+    color: black;
+}
+
+.Brands {
+    position: absolute;
+    top: 180px;
+    left: 800px;
+}
+
+.Privacy {
+    position: absolute;
+    top: 180px;
+    left: 1000px;
+   
+}
+
+.logo {
+    position: relative;
+    top: 150px;
+    width: 50px;
+    height: 20px;
+     
+}
+
