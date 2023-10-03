@@ -5,20 +5,13 @@
   }
 .overview-wraper {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   align-items: center;
   background-color: #dbc2f5;
   gap: 2rem;
   padding: 3rem;
 }
 
-@media screen and (max-width: 768px) {
-  .overview-wraper {
-    display: block;
-    background-color: dbc2f5;
-    padding: 1rem;
-  }
-}
 .overview-wraper > .overview-img {
   display: flex;
   justify-content: center;
