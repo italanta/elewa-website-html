@@ -4,13 +4,13 @@
   padding: 0;
 }
 images {
-  display: flex;
+  display: justify;
   /* Make the images display horizontally */
   align-items: center;
   /* Vertically center the images */
   margin: 0 auto;
   /* Center the images */
-  padding: 200px;
+  padding: 0px;
   /* Add some padding */
   flex-wrap: wrap;
 }
@@ -24,22 +24,24 @@ images {
   /* Add spacing between images */
   filter: grayscale(100%);
   /* Add a grayscale filter to all images */
+  line-height: normal;
+  size-adjust: 100px;
 }
 
 @media screen and (max-width: 768px) {
   .images {
-    padding: 10px ;
+    padding: 0px ;
     /* Reduce padding on smaller screens */
   }
 
   .images  {
-    max-width: 50%;
+    max-width: 100%;
     /* Reduce image size on smaller screens */
     margin-right: 5px;
     /* Reduce spacing between images on smaller screens */
   }
   .content{
-    margin-bottom:20px
+    margin-bottom:30px
 
   }
 
