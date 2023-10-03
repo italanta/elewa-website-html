@@ -11,7 +11,7 @@
 
   /* To Apply a background color to the body */
  body {
-  background-color: #d4aad7;
+  background-color: #d4c5ee;
   font-family: Arial, sans-serif;
 }
 
@@ -40,13 +40,14 @@
  }
 /* To select the boxes */
 select{
-  width: 20%;
+  color:black;
+  width: 10%;
   padding: 10px;
   margin-top: 10px;
   height: auto;
   margin-inline-start: 30px;
   border: 1px solid #000000;
-  border-radius: 5px;
+
   }
  
 /* To Style the button */
@@ -78,10 +79,6 @@ img{
 
 /* To style the title */
 h1{
-  font-size: 30px;
-  margin-bottom: 20px;
-}
-h2{
   font-size: 30px;
   margin-bottom: 20px;
 }
