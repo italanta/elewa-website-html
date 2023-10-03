@@ -2,11 +2,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: #DBC2F5;
 }
 
 .header{
-  /* background-color: transparent; */
-  background-color: aqua;
+  background-color: transparent;
   display: flex;
   height: auto;
   margin: 52px 180px;
@@ -15,16 +15,12 @@
   
 }
 
-.logo{
-  background-color: blueviolet;
-}
-
 .logo img{
-  height: 50px;
+  height: 65px;
+  opacity: 1;
 }
 
 .text{
-  background-color: blanchedalmond;
   display: flex;
   gap: 20px;
   color: #000000;
