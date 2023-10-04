@@ -5,7 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
   <title>Collaboration and Contribution</title>
   <link rel="stylesheet" href="src/css/style.css">
 
@@ -13,50 +16,52 @@
 </head>
 
 <body>
-  <header>
-    <!--logo  -->
-    <div class="logo">
-      <a href="index.html">
-        <img src="https://res.cloudinary.com/dyl3rncv3/image/upload/v1695970671/elewa-education-website/Shared/elewa-logo_eocvkz.png" alt="logo">
-      </a>
-    </div>
-    <!-- nav bar -->
-    <nav class="topnav">
-      <ul class="nav-list">
-        <li class="dropdown">
-          <a href="#" class="dropbtn">Solution</a>
-          <ul class="dropdown-content">
-            <li><a href="collaboration.html">Collaboration</a></li>
-            <li><a href="contribution.html">Contribution</a></li>
-            <li><a href="community.html">Community</a></li>
-          </ul>
-        </li>
-        <li><a href="#project">Project</a></li>
-        <li><a href="#company">Company</a></li>
-        <li><a href="#news">News</a></li>
-      </ul>
-    </nav>
-    
-    <button class="contact">Contact us</button>
-  </header>
+  <!-- Header -->
+      <header>
+        <div class="navbar">
+            <div class="logo">
+              <a href="#">
+                <img class="logo-img" src="https://res.cloudinary.com/dyl3rncv3/image/upload/v1695970671/elewa-education-website/Shared/elewa-logo_eocvkz.png" alt="logo">
+              </a>
+            </div>
+            <!-- navbar links -->
+            <ul class="links">
+                <li class="nav_1_link"><a href="solutions">Solutions <i class="fa-solid fa-angle-up fa-rotate-180"></i></a></li>
+                <li class="nav_2_links"><a href="projects">Projects</a></li>
+                <li class="nav_2_links"><a href="company">Company</a></li>
+                <li class="nav_2_links"><a href="news">News</a></li>
+            </ul>
+            <a class="action_btn" href="contact">Contact Us</a>
+            <!-- navbar toggle button -->
+            <div class="toggle_btn">
+                <i class="fa-sharp fa-solid fa-bars"></i>
+            </div>
+            <!-- Dropdown menu -->
+            <div class="navbar_dropdown_menu">
+                <li class="nav_1_link"><a href="solutions">Solutions <i class="fa-solid fa-angle-up fa-rotate-180"></i></a></li>
+                <li class="nav_2_links"><a href="projects">Projects</a></li>
+                <li class="nav_2_links"><a href="company">Company</a></li>
+                <li class="nav_2_links"><a href="news">News</a></li>
+                <li class="dropdown_action_btn"><a href="contact">Contact Us</a></li>
+            </div>
+        </div> 
+    </header>
 
-  <!-- home section -->
-  <div class="home-container">
-    <article class="home_content">
-      <h1>Training at scale</h1>
-      <h2>Human-centered, meaningful and</h2>
-      <h2>enjoyable</h2>
+    <!-- JavaScript for the navbar toggle functionality -->
+    <script>
+      const toggleBtn = document.querySelector('.toggle_btn')
+      const toggleBtnIcon = document.querySelector('.toggle_btn i')
+      const dropDownMenu = document.querySelector('.navbar_dropdown_menu')
 
-      <!-- button -->
-      <button class="contact">Unlock your potential</button>
-    </article>  
+      toggleBtn.onclick = function () {
+          dropDownMenu.classList.toggle('open')
+          const isOpen = dropDownMenu.classList.contains('open')
 
-    <!-- image -->
-    <div class="home_img">
-      <img src="assets/Union 2.png" alt="Training">  
-    </div>        
+          toggleBtnIcon.classList = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'
+      }
 
-  </div>
+  </script>
+
 </body>
 
 </html>

@@ -1,133 +1,173 @@
-/* Apply these styles to all screen sizes */
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  background: #F9F8F4 0% 0% no-repeat padding-box;
-  font-family: 'DM Sans', Regular;
 }
 
-/* Reset default list styling */
-ul.nav-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-/* Style the header */
+/* Header Styles */
 header {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 20px;
-  color: black;
+  position: relative;
+  padding: 0 2rem; /* Adjust padding as needed */
 }
 
-/* Style the logo */
-.logo img {
-  width: 153px;
-  height: 65px;
-  filter: grayscale(100%);
-}
-
-/* Style the navigation links */
-.nav-list {
+/* Navbar Styles */
+.navbar {
+  width: 80%;
+  height: 60px;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 2%;
   display: flex;
-  justify-content: center;
   align-items: center;
-  opacity: 1;
+  justify-content: space-between;
+  cursor: pointer;
+  background: transparent;
 }
-.nav-list li {
-  margin: 0;
-  padding: 20px;
+
+/* List Styles */
+li {
   list-style: none;
 }
 
-.nav-list a {
+/* Anchor Styles */
+a {
   text-decoration: none;
   color: #000000;
-  padding: 1px 2px;
-  transition: background-color 0.3s;
-  text-align: left;
-  letter-spacing: 0px;
+  font-size: 14px;
 }
 
-/* Style for the dropdown toggle button */
-.dropbtn {
-  display: block;
-  color: rgb(0, 0, 0);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  cursor: pointer;
+/* Logo Image Styles */
+.logo-img {
+  width: 153px;
+  height: 65px;
+  color: #000000;
+  filter: brightness(0%) contrast(100%);
 }
 
-/* Hover effect for the toggle button */
-.dropbtn:hover {
-  background-color: #ffffff;
-  color: black;
-  
+/* Navigation Links Hover Styles */
+.nav_2_links:hover {
+  text-decoration: underline;
 }
 
-/* Style for the dropdown content */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #333;
-  min-width: 160px;
-  z-index: 1;
-}
-
-/* Style for the dropdown items */
-.dropdown-content li {
-  float: none;
-}
-
-/* Style for the dropdown links */
-.dropdown-content li a {
-  padding: 12px 16px;
-  color: rgb(0, 0, 0);
-  display: block;
-  text-align: left;
-  text-decoration: none;
-}
-
-/* Show dropdown content when the dropdown toggle button is hovered */
-.dropdown:hover .dropdown-content {
+/* Web Screen Styles */
+/* Note: This comment indicates that the following styles apply to the web screen only */
+.navbar .links {
   display: flex;
+  gap: 2rem;
 }
 
+.navbar .links .nav_1_link {
+  font-weight: bold;
+  text-decoration: underline;
+}
 
-/* Style the "Contact us" button */
-.contact {
+.navbar .toggle_btn {
+  color: #000000;
+  font-size: 24px;
+  display: none; /* Hide the toggle button by default */
+}
+
+/* Action Button Styles */
+.action_btn {
   background-color: #2D2E52;
-  color: white;
+  padding: 5px 10px;
   border: none;
-  border-radius: 22px;
-  cursor: pointer;
-  width: 134px;
-  height: 44px;
-  opacity: 1;
+  outline: none;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-size: 12px;
+  line-height: 22px;
+  transition: scale 0.2 ease;
 }
 
-/* Media query for smaller screens */
-@media (max-width: 1440px) {
-  header {
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center elements horizontally */
+/* Dropdown Menu Styles */
+/* Note: These styles are for the dropdown menu */
+.navbar_dropdown_menu {
+  position: absolute;
+  right: 2rem;
+  top: 60px;
+  height: 0;
+  width: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: none; /* Hide the dropdown menu by default */
+}
+
+/* Dropdown Menu Open Styles */
+.navbar_dropdown_menu.open {
+  height: 50vh;
+  transition: transform .3s ease-in-out, opacity .3s ease-in-out;
+}
+
+/* Dropdown Menu List Item Styles */
+.navbar_dropdown_menu li {
+  padding: 1.0rem;
+  display: flex;
+  align-items: center;
+}
+
+/* Dropdown Action Button Styles */
+.navbar_dropdown_menu .dropdown_action_btn {
+  width: 50%;
+  height: 8%;
+  display: flex;
+  justify-content: center;
+  background-color: #2D2E52;
+  padding: 5px 5px;
+  margin-top: 5%;
+  margin-left: 10%;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+}
+
+/* Dropdown Action Button Link Styles */
+.navbar_dropdown_menu .dropdown_action_btn a {
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/* Responsive Design Media Queries */
+@media (max-width: 768px) {
+  /* Navbar Adjustments for Smaller Screens */
+  .navbar {
+      width: 100%;
+      margin-top: 10%;
   }
 
-  .logo img {
-    margin-bottom: 10px; /* Add spacing between logo and navigation */
+  .navbar .links,
+  .navbar .action_btn {
+      display: none;
   }
 
-  .nav-list {
-    flex-direction: column; /* Stack navigation links vertically */
-    align-items: center; /* Center links horizontally */
+  .navbar .toggle_btn {
+      display: block;
   }
 
-  .nav-list li {
-    padding: 10px 0; /* Adjust spacing between links */
+  /* Dropdown Menu Adjustments for Smaller Screens */
+  .navbar_dropdown_menu {
+      display: block;
+      width: unset;
+      left: 40%;
+      top: 300px;
   }
 
-  /* You can further adjust styles for smaller screens here */
+  /* Dropdown Menu Link Styles for Smaller Screens */
+  .navbar_dropdown_menu a {
+      align-items: center;
+      font-size: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Further Adjustments for Even Smaller Screens */
+  .navbar_dropdown_menu {
+      left: 5rem;
+      top: 200px;
+  }
+
+  /* Adjust Logo Image Size */
+  .logo-img {
+      width: 110px;
+      height: 50px;
+  }   
 }
