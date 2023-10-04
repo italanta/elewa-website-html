@@ -7,13 +7,13 @@
 }
 
 /* Style for the overview container */
-.overview-container {
+.homepage-overview-container {
     background-color: #DBC2F5; /* Background color for the overview container */
     width: 100%; /* Make it 100% wide */
 }
 
 /* Style for the overview image section */
-.overview-image-section {
+.homepage-overview-image {
     width: 100%; /* Make it 100% wide to ensure responsiveness */
     justify-content: center;
 }
@@ -29,21 +29,12 @@
 }
 
 /* Style for the overview content section */
-.overview-content-section {
+.homepage-overview-content {
     width: 100%; /* Make it 100% wide to ensure responsiveness */
 }
 
-#overview-image {
-    align-items: center;
-    height: auto; /* Maintain the aspect ratio of the image */
-    width: 100%; /* Make it 100% wide for responsiveness */
-    max-height: 450px; /* Limit the maximum height of the image */
-    max-width: 400px; /* Limit the maximum width of the image */
-    padding: 35px; /* Add padding to the image container */
-}
-
 /* Style for the h1 element within the overview content section */
-.overview-content-section h1 {
+.homepage-overview-content h1 {
     font-size: 24px; /* Set font size */
     color: #000000; /* Set text color */
     line-height: 32px; /* Set line height */
@@ -53,7 +44,7 @@
 }
 
 /* Style for paragraphs within the overview content section */
-.overview-content-paragraph {
+.homepage-overview-paragraph {
     font-size: 18px; /* Set font size */
     color: #000000; /* Set text color */
     line-height: 24px; /* Set line height */
@@ -66,7 +57,7 @@
 
 @media only screen and (min-width: 768px) {
     /* Adjust the width, center it horizontally, and add padding to the overview container */
-    .overview-container {
+    .homepage-overview-container {
         width: 768px; 
         margin: 0 auto; /* Center the container horizontally */
         padding: 100px; /* Add padding around the container */
@@ -80,22 +71,22 @@
     }
 
     /* Increase the font size of the h1 element within the overview content section */
-    .overview-content-section h1 {
+    .homepage-overview-content h1 {
         font-size: 28px;
     }
     
     /* Increase the font size of paragraphs within the overview content section */
-    .overview-content-paragraph {
+    .homepage-overview-paragraph {
         font-size: 20px;
     }
 }
 
 /* Apply the following styles only for screens with a minimum width of 1200px (desktops and laptops) */
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 850px) {
     /* Adjust the width and height of the overview container */
-    .overview-container {
-        width: 1200px; /* Set the width to 1200px */
+    .homepage-overview-container {
+        width: unset; /* Set the width to 1200px */
         height: 110vh; /* Set the height to 110% of the viewport height */
         /* display: flex; */ /* (Commented out for reference) */
     }
@@ -108,26 +99,26 @@
     }
 
     /* Style for the image section */
-    .overview-image-section {
+    .homepage-overview-image {
         width: 50%; /* Set the width to 50% */
         float: left; /* Float the image section to the left */
     }
 
     /* Style for the content section */
-    .overview-content-section {
+    .homepage-overview-content {
         width: 50%; /* Set the width to 50% */
         float: right; /* Float the content section to the right */
     }
 
     /* Increase the font size and adjust the padding of the h1 element within the overview content section */
-    .overview-content-section h1 {
+    .homepage-overview-content h1 {
         padding: 120px 0px 20px; /* Add padding (top, right, bottom) */
         text-align: left; /* Align the text to the left */
         font-size: 20px; /* Increase the font size to 20px */
     }
     
     /* Increase the font size and adjust the padding of paragraphs within the overview content section */
-    .overview-content-paragraph {
+    .homepage-overview-paragraph {
         padding: 10px 0px 10px; /* Add padding (top, right, bottom) */
         text-align: left; /* Align the text to the left */
         font-size: 16px; /* Increase the font size to 16px */
