@@ -22,14 +22,14 @@
   display: flex;
   gap: 20px;
   color: #000000;
-  font: Sans-serif;
+  font-style: Sans-serif;
   text-align: left;
 }
 
 .dropdown label {
   text-decoration: underline;
   color: #000000;
-  font: large;
+  font-style: Sans-serif;
   text-align: left;
 }
 
@@ -41,7 +41,7 @@
 .elewa-nav-btn button {
   background-color: #2d2e52;
   color: #ffffff;
-  font: large;
+  font-style: Sans-serif;
   width: 120px;
   height: 40px;
   text-align: center;
