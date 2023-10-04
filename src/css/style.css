@@ -1,134 +1,111 @@
-/* Media query for screens with a maximum width of 630px (small screens) */
-
-@media screen and (max-width: 768px) {
-    /* Styling for images on small screens */
-    img {
-        height: auto;
-        max-width: 100%;
-        width: 10vw;
-        /* Image width for small screens */
-        padding: 1px;
-        /* Image padding for small screens */
-        filter: grayscale(100%);
+    /* Media query for screens with a maximum width of 630px (small screens) */
+    
+    @media screen and (max-width: 768px) {
+        /* Styling for images on small screens */
+        img {
+            height: auto;
+            max-width: 100%;
+            width: 15vw;
+            /* Image width for larger screens */
+            padding: 2px;
+            /* Image padding for larger screens */
+            filter: grayscale(100%);
+            image-rendering: pixelated;
+        }
+        /* Styling for the .patners container on small screens */
+        .patners {
+            width: 90%;
+            /* Set a fixed width on larger screens */
+            height: 129px;
+            background: transparent url('img/Image 9.png') 0% 0% no-repeat padding-box;
+            opacity: 1;
+            padding-left: 6vw;
+            padding-bottom: 11vw;
+            /* Adjust opacity for larger screens (20%) */
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            max-width: 100%;
+            position: fixed;
+            bottom: 0;
+        }
+        /* Styling for the .container on small screens */
+        .container {
+            display: flex;
+            justify-content: center;
+            /* Horizontally center the content */
+            align-items: center;
+            /* Vertically center the content */
+            height: 100vh;
+            /* Set the container's height to the viewport height */
+            padding-left: 20px;
+            /* Adjust the left padding as needed */
+            padding-right: 20px;
+            /* Adjust the right padding as needed */
+        }
     }
-    /* Styling for the .patners container on small screens */
-    .patners {
-        top: 1082px;
-        left: 184px;
-        width: 100vw;
-        /* Full width on small screens */
-        height: 129px;
-        background: transparent url('img/Image 9.png') 0% 0% no-repeat padding-box;
-        opacity: 1;
-        /* Adjust opacity for small screens (20%) */
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        max-width: 100%;
+    /* Media query for screens with a minimum width of 630px and above (larger screens) */
+    
+    @media screen and (min-width: 768px) {
+        /* Styling for images on larger screens */
+        img {
+            height: auto;
+            max-width: 100%;
+            width: 15vw;
+            /* Image width for larger screens */
+            padding: 2px;
+            /* Image padding for larger screens */
+            filter: grayscale(100%);
+            image-rendering: pixelated;
+        }
+        /* Styling for the .patners container on larger screens */
+        .patners {
+            width: 90%;
+            /* Set a fixed width on larger screens */
+            height: 129px;
+            background: transparent url('img/Image 9.png') 0% 0% no-repeat padding-box;
+            opacity: 1;
+            padding-left: 6vw;
+            padding-bottom: 11vw;
+            /* Adjust opacity for larger screens (20%) */
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            max-width: 100%;
+            position: fixed;
+            bottom: 0;
+        }
+        /* Styling for the .container on larger screens */
     }
-    /* Styling for the .container on small screens */
-    .container {
-        display: flex;
-        justify-content: center;
-        /* Horizontally center the content */
-        align-items: center;
-        /* Vertically center the content */
-        height: 100vh;
-        /* Set the container's height to the viewport height */
-        padding-left: 20px;
-        /* Adjust the left padding as needed */
-        padding-right: 20px;
-        /* Adjust the right padding as needed */
+    /* Media query for screens with a minimum width of 1500px */
+    
+    @media screen and (min-width: 1500px) {
+        /* Styling for images on extra-large screens */
+        img {
+            height: auto;
+            max-width: 100%;
+            width: 10vw;
+            /* Image width for extra-large screens */
+            padding: 2px;
+            /* Image padding for extra-large screens */
+            filter: grayscale(100%);
+            image-rendering: pixelated;
+        }
+        /* Styling for the .partners container on extra-large screens */
+        .patners {
+            width: 80%;
+            /* Set a fixed width on extra-large screens */
+            height: 129px;
+            background: transparent url('img/Image 9.png') 0% 0% no-repeat padding-box;
+            opacity: 1;
+            padding-left: 11vw;
+            padding-bottom: 11vw;
+            /* Adjust opacity for extra-large screens (20%) */
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            max-width: 100%;
+            position: fixed;
+            bottom: 0;
+        }
     }
-}
-
-
-/* Media query for screens with a minimum width of 630px and above (larger screens) */
-
-@media screen and (min-width: 768px) {
-    /* Styling for images on larger screens */
-    img {
-        height: auto;
-        max-width: 100%;
-        width: 12vw;
-        /* Image width for larger screens */
-        padding: 2px;
-        /* Image padding for larger screens */
-        filter: grayscale(100%);
-    }
-    /* Styling for the .patners container on larger screens */
-    .patners {
-        top: 1082px;
-        left: 184px;
-        width: 1300px;
-        /* Set a fixed width on larger screens */
-        height: 129px;
-        background: transparent url('img/Image 9.png') 0% 0% no-repeat padding-box;
-        opacity: 1;
-        /* Adjust opacity for larger screens (20%) */
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        max-width: 100%;
-    }
-    /* Styling for the .container on larger screens */
-    .container {
-        display: flex;
-        justify-content: center;
-        /* Horizontally center the content */
-        align-items: center;
-        /* Vertically center the content */
-        height: 100vh;
-        /* Set the container's height to the viewport height */
-        padding-left: 20px;
-        /* Adjust the left padding as needed */
-        padding-right: 20px;
-        /* Adjust the right padding as needed */
-    }
-}
-
-
-/* Media query for screens with a minimum width of 1500px */
-
-@media screen and (min-width: 1500px) {
-    /* Styling for images on extra-large screens */
-    img {
-        height: auto;
-        max-width: 100%;
-        width: 12vw;
-        /* Image width for extra-large screens */
-        padding: 2px;
-        /* Image padding for extra-large screens */
-        filter: grayscale(100%);
-    }
-    /* Styling for the .partners container on extra-large screens */
-    .patners {
-        top: 1082px;
-        left: 184px;
-        width: 1300px;
-        /* Set a fixed width on extra-large screens */
-        height: 129px;
-        background: transparent url('img/Image 9.png') 0% 0% no-repeat padding-box;
-        opacity: 1;
-        /* Adjust opacity for extra-large screens (20%) */
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        max-width: 100%;
-    }
-    /* Styling for the .container on extra-large screens */
-    .container {
-        display: flex;
-        justify-content: center;
-        /* Horizontally center the content */
-        align-items: center;
-        /* Vertically center the content */
-        height: 100vh;
-        /* Set the container's height to the viewport height */
-        padding-left: 20px;
-        /* Adjust the left padding as needed */
-        padding-right: 20px;
-        /* Adjust the right padding as needed */
-    }
-}
-
