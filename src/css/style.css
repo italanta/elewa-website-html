@@ -189,11 +189,42 @@ padding-bottom: 20px;
         top: 300px;
     }
 
+    
+
     .navbar_dropdown_menu a {
         align-items: center;
         font-size: 30px;
     }
 }
+
+@media only screen and (min-width: 768px) { 
+    .home-container{
+      width: 550px;
+      margin: 0 auto;
+      padding-top: 30px;
+      padding-left: 40px;
+    }
+  
+    .home_content{
+      padding: 0;
+    }
+  
+    .home_content h1{
+      font-size: 36px;
+      line-height: 48px;
+    }
+  
+    .home_content h2{
+      font-size: 22px;
+      line-height: 34px;
+    }
+  
+    #home_img{
+      max-height: 450px;
+      max-width: 400px;
+    }
+  
+  }
 
 @media (max-width: 360px) {
     .navbar_dropdown_menu {
