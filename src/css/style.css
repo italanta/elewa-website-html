@@ -2,11 +2,6 @@
     box-sizing: border-box;
 }
 
-body {
-    height: 100vh;
-    background-color: #F9F8F4;
-}
-
 header {
     position: relative;
     padding: 0 2rem;
@@ -22,6 +17,7 @@ header {
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
+    background: transparent;
 }
 
 li {
@@ -51,6 +47,11 @@ a {
     gap: 2rem;
 }
 
+.navbar .links .nav_1_link {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 .navbar .toggle_btn {
     color: #000000;
     font-size: 24px;
@@ -76,9 +77,9 @@ a {
     top: 60px;
     height: 0;
     width: 500px;
-    background: #F9F8F4;
     border-radius: 10px;
     overflow: hidden;
+    display: none;
     /* transition: height 0.2s cubic-biezer(0.175, 0.885, 0.32, 1.275); */
 }
 
