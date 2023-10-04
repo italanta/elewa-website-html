@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap');
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: DM Sans-Regular;
+}
+.booklet{
+  height: 710px;
+  width: 100vw;
+  margin: auto;
+  overflow: hidden;
+  background: #FBE8D7;
+}
+.navbar{
+  margin:  0px 120px;
+}
+.logo{
+  filter: brightness(0);
+  width: 7.5rem;
+}
+.navbar-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.nav-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin-left: 80px;
+}
+.nav-item{
+  margin: 10px 20px;
+}
+.nav-link{
+  text-decoration: none;
+  color: #000;
+  position: relative;
+}
+.fa-xs{
+  margin-left: 10px;
+}
+.header-button{
+  background: #2d2e52;
+  border-radius: 22px;
+  width: 8.375rem;
+  padding: 0.7em;
+  border: none;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 200px;
+}
+.booklets-section{
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+  height: 600px;
+  padding: 20px;
+  margin:  0px 120px;
+}
+.booklets-content{
+  margin-top: 50px;
+  width: 40%;
+}
+.booklet-text{
+  width: 100%;
+}
+.booklet-text h1{
+  font: 550 50px DM Sans, Regular;
+}
+.booklet-text p{
+  font: 400 20px DM Sans, Regular;
+}
+.home-button button{
+  background-color: #000;
+  color: #fff;
+  width: 39%;
+  border-radius: 35px;
+  border: none;
+  display: flex;
+  text-align: center;
+  font: 15px DM Sans, Medium ;
+  margin-top: 50px;
+}
+span{
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.home-button button i{
+  color: #fff;
+  font-size: 45px;
+  margin-left: 20px;
+}
+.container{
+  position: absolute;
+  width: 95%;
+  height: 80%;
+  right: 4%;
+  bottom: -5%;
+}
+.curved-shape{
+  position: absolute;
+  background: transparent linear-gradient(289deg, #F2AD69 0%, #F2AD6900 100%) 0% 0% no-repeat padding-box;
+  transform: rotate(-25deg);
+  border-radius: 1000px;
+  left: 70px;
+  top: 170px;
+  height: 100%;
+  width: 100%;
+}
+.icons i{
+  display: none;
+}
+
+
+/* ----css for small screen----- */
+@media only screen and (max-width:768px){
+  .navbar{
+    margin:  10px 30px;
+  }
+  .icons i{
+    display: block;
+    font-size: 36px;
+  }
+  .nav-item {
+    margin: 30px ;
+    font: 20px DM Sans, Medium ;
+  }
+  .nav-item span{
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  .navbar-nav{
+    padding: 10px;
+  }
+  .nav-menu{
+    display: block;
+    background: #F9F8F4;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    transition: 0.5s;
+    z-index: 3;
+    margin: 0px 0px;
+    padding-top: 30px;
+    padding-left: 0px;
+  }
+  .header-button{
+    margin-left: 25px;
+  }
+  .fa-times{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+  }
+  .booklets-section{
+    margin: 0px 30px;
+    width: 100vw;
+    height: 100vh;
+  }
+  .booklets-content{
+    margin-top: 0px;
+    width: 70%;
+  }
+  .booklet-text h1{
+    font: 550 30px DM Sans, Regular;
+  }
+  .booklet-text p{
+    font: 400 15px DM Sans, Regular;
+  }
+  .home-button button{
+    width: 39vh;
+  }
+  .container{
+    bottom: -10%;
+  }
+}
+
+@media (min-width:769px) and  (max-width:992px){
+  .navbar{
+    margin:  0px 50px;
+  }
+  .header-button{
+    margin-left: 40px;
+  }
+  .nav-item{
+    margin: 10px 15px;
+  }
+  .navbar-nav{
+    display: flex;
+  }
+  .fa-xs{
+    padding-left: 5px;
+  }
+  .booklets-section{
+    margin: 0px 60px;
+    width: 100vw;
+    height: 100vh;
+    padding: 0px;
+  }
+  .booklets-content{
+    margin: 0px;
+    width: 70%;
+  }
+  .home-button button{
+    width: 38.5vh;
+  }
+}
+
+@media (min-width:993px) and (max-width:1200px){
+  .navbar{
+    margin:  0px 70px;
+  }
+  .navbar-nav{
+    display: flex;
+  }
+  .nav-menu{
+    width: 78%;
+    display: flex;
+  }
+  .header-button{
+    margin-left: 120px;
+  }
+  .fa-xs{
+    padding-left: 7px;
+  }
+  .booklets-section{
+    margin: 0px 90px;
+    width: 100vw;
+    height: 100vh;
+    padding: 0px;
+  }
+  .booklets-content{
+    margin: 0px;
+    width: 60%;
+  }
+  .home-button button{
+    width: 38.5vh;
+  }
+}

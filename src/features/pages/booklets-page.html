@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booklets-page</title>
+    <link rel="stylesheet" href="booklets-page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- <script defer type="module" src="dist\out-tsc\index.js"></script>     -->
+</head>
+<body>
+    <section class="booklet">
+        <div class="navbar">
+            <nav class="navbar-nav" >
+              <img src="Link → elewa-logo.png.svg" class="logo" alt="Elewa">
+              <ul class="nav-menu">
+                <li class="nav-item solutions"><span>Solutions</span><i class="fa fa-chevron-down fa-xs"></i></li>
+                <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Company</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">News</a></li>
+                <!-- <li class="nav-item"></li> -->
+                <div class="icons">
+                  <a href="" class="contact"><button class="header-button">Contact Us</button></a>
+                  <i class="fa fa-times" onclick="closemenu()"></i>
+                </div>
+              </ul>
+              <div class="icons"><i class="fa fa-bars" onclick="openmenu()"></i></div>
+            </nav>
+        </div>
+        <section class="booklets-section">
+            <div class="booklets-content" >
+              <div class="booklet-text">
+                <h1>Booklets</h1>
+                <p>Your organisation has the potential to turn every task into an opportunity to 
+                  learn. From growing crops, to nursing someone to good health, to developing the 
+                  next-generation technology, let’s work together to make the magic happen.
+                </p>
+              </div>
+              <div class="home-button">
+                <button>
+                  <span>Unlock your potential</span>
+                  <i class='fas fa-arrow-circle-right' ></i> 
+                </button>
+              </div>
+            </div>
+            <div class="container">
+                <div class="curved-shape"></div>
+            </div>
+          </section>
+    </section>
+
+    <script>
+      let sidemenu=document.querySelector(".nav-menu");
+      
+      function openmenu(){
+        sidemenu.style.right="0";
+      }
+  
+      function closemenu(){
+        sidemenu.style.right="-200px";
+      }
+    </script>
+    
+</body>
+</html>
