@@ -3,3 +3,12 @@
   margin: 0;
   padding: 0;
 }
+.header {
+  background-color: transparent;
+  display: flex;
+  height: auto;
+  width: 80%;
+  margin: 52px 180px;
+  justify-content: space-between;
+  align-items: center;
+}
