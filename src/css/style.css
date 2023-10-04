@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
 }
 
 body {
@@ -79,11 +80,12 @@ a {
     background: #F9F8F4;
     border-radius: 10px;
     overflow: hidden;
+    display: none;
     /* transition: height 0.2s cubic-biezer(0.175, 0.885, 0.32, 1.275); */
 }
 
 .navbar_dropdown_menu.open {
-    height: 70vh;
+    height: 100vh;
     transition: transform .3s ease-in-out,opacity .3s ease-in-out;
 }
 
@@ -111,6 +113,57 @@ a {
     color: #FFFFFF;
     font-size: 16px;
     line-height: 22px; 
+}
+
+.home_contact {
+background-color: #2D2E52;
+color: white;
+border: none;
+border-radius: 22px;
+cursor: pointer;
+width: 200px;
+height: 44px;
+opacity: 1;
+
+}
+
+.home-container{
+background-color: #F9F8F4;
+width: 100%;  
+}
+
+.home_content{
+width: 100%;
+padding: 0px 0px 10px 30px;
+}
+
+.home_content h1{
+font-size: 28px;
+color: black;
+line-height: 40px;
+text-align: left;
+font-weight: 700;  
+}
+
+.home_content h2{
+font-size: 20px;
+color: black;
+line-height: 24px;
+text-align: left;
+font-weight: 600;
+/* padding-top: 20px; */
+padding-bottom: 20px;
+}
+
+.home_img_section{
+    height: auto;
+    width: 100%;
+    padding: 30px;
+
+}
+#home_img{
+    max-height: 350px;
+    max-width: 300px;
 }
 
 /*ReSPONSIVE DESIGN*/
@@ -142,10 +195,16 @@ a {
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 360px) {
     .navbar_dropdown_menu {
-        left: 5rem;
-        top: 200px;
+        left: 1rem;
+        top: 60px;
+        width: 360px;             
+    }
+
+    .navbar_dropdown_menu.open{
+        padding-top: 30%; 
+        padding-left: 20%;
     }
 
     .logo-img{
