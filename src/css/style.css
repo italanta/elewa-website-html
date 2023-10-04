@@ -15,7 +15,7 @@ a {
 }
 
 .footer_container {
-  height: 100vh;
+  /* height: 100vh; */
   background: #292a50;
   border-radius: 100px 100px 0 0;
 }
@@ -23,11 +23,11 @@ a {
 .footer_wrapper {
   max-width: 1502px;
   margin: 0 auto;
-  padding-top: 200px;
+  padding-top: 100px;
 
   display: flex;
   flex-direction: column;
-  gap: 160px;
+  gap: 120px;
 }
 
 .top_footer {
@@ -36,7 +36,7 @@ a {
   align-items: center;
   justify-content: center;
   gap: 75px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 
 .footer_desc {
@@ -81,6 +81,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  align-self: center;
 }
 
 .bottom_footer {
@@ -215,4 +216,3 @@ a {
     gap: 28px;
   }
 }
-
