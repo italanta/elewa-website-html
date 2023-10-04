@@ -1,16 +1,26 @@
-/* Style the container div */
+/* Default styles for your image container */
 .image-container {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(250, 249, 248); /* Whitish Cream */
-
-
 }
 
 /* Style the images within the container */
 .image-container img {
-   
     border: none; /* Remove any borders */
     margin: 10px; /* Add 10px of margin around each image (adjust as needed) */
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    .image-container {
+        flex-direction: column; /* Stack images vertically */
+        text-align: center; /* Center-align text within container */
+    }
+
+    /* Adjust margin for images */
+    .image-container img {
+        margin: 5px; /* Decrease margin to 5px for smaller screens (adjust as needed) */
+    }
 }
