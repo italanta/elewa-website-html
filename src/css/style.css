@@ -113,3 +113,38 @@ button.contact_us-btn {
   height: 100%;
   object-fit: cover;
 }
+
+/* Responsive design */
+@media screen and (max-width: 1024px) {
+  .hero-section__container {
+    background: red;
+    padding-inline: 20px;
+  }
+
+  .hero_title {
+    font-size: 72px;
+  }
+
+  .hero_desc {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .hero-section__container {
+    flex-direction: column-reverse;
+    max-height: max-content;
+  }
+
+  .hero_section-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero_image-cover {
+    height: 60vh;
+    object-fit: contain;
+  }
+}
