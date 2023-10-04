@@ -18,10 +18,9 @@ h1{
 }
 
 .button{
-    display: flex;
+    display: grid;
     border-radius: 1rem;
     padding-top: 3rem;
-    align-content: center;
     background-color: rgb(48, 48, 108);
 }
 
@@ -53,3 +52,7 @@ h1{
     font-size: 15px;
 }
 
+.row .socialicons{
+    display: inline-block;
+    color: white;
+}
