@@ -38,3 +38,12 @@
   border: 0px;
   height: 20px;
 }
+.elewa-nav-btn button {
+  background-color: #2d2e52;
+  color: #ffffff;
+  font: large;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  border-radius: 22px;
+}
