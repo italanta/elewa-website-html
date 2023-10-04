@@ -2,4 +2,52 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: #DBC2F5;
+}
+header .logo img{
+  height: 65px;
+  width: 153px;
+  
+}
+header{
+  width: 85%;
+  height: 65px;
+  margin: 53px auto;
+  display: flex;
+  justify-content: space-between;
+}
+header .navlink {
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'DM Sans', sans-serif;
+}
+header .navlink div:active{
+  text-decoration: underline;
+  font-weight: bold;
+}
+header .navlink div:hover{
+  text-decoration: underline;
+  }
+header .contact{
+  display:flex;
+  align-items: center;
+}
+header .contact button{
+  background-color: #2D2E52;
+  width: 134px;
+  height: 44px;
+  color: white;
+  border-radius: 30px;
+  font-size: 18px;
+  font-family: 'DM Sans', sans-serif;
+  border: none;
+  padding: 5px;
+}
+#solution-menu{
+  display: flex;
+}
+.dropdown{
+  padding-left: 5px;
 }
