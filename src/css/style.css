@@ -17,3 +17,24 @@
   opacity: 1;
   max-width: 100%;
 }
+
+.dropdown {
+  display: flex;
+  gap: 20px;
+  color: #000000;
+  font: Sans-serif;
+  text-align: left;
+}
+
+.dropdown label {
+  text-decoration: underline;
+  color: #000000;
+  font: large;
+  text-align: left;
+}
+
+.dropdown select {
+  background-color: transparent;
+  border: 0px;
+  height: 20px;
+}
