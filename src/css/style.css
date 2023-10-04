@@ -18,8 +18,8 @@ h1 {
     font-family: "adobe-clean", sans-serif;
     font-weight: 600;
     color: #202020;
-    margin-left: 120px;
-    margin-bottom: 100px;
+    margin:0 0 100px 120px
+    
 }
 
 /* Styles for h2 and p within .news article */
@@ -36,16 +36,12 @@ h1 {
     filter: blur(0.5px);
     color: #5f5c5c;
     font-size: 17px;
-    margin-bottom: 45px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 45px auto
 }
 
 /* Styles for section */
 section {
-    margin-top: 140px;
-    margin-left: 50px;
-    margin-right: 70px;
+    margin:140px 70px 0 50px; /*margin shorthand */
 }
 
 /* Styles for .news article */
@@ -56,9 +52,7 @@ section {
     align-items: center;
     border-bottom: 2px solid #b8b7b7;
     padding: 10px;
-    margin-left: 110px;
-    margin-right: 100px;
-    margin-top: 50px;
+    margin:50px 100px 0 110px;
     position: relative; /* Add relative positioning */
 }
 
@@ -98,15 +92,11 @@ section {
     }
 
     section {
-        margin-top: 50px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin: 50px 20px 0 20px;
     }
 
     /* Adjust margins for .news article on smaller screens */
     .news article {
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-top: 20px;
+        margin: 20px 20px 0 20px;
     }
 }
