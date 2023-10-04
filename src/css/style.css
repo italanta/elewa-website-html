@@ -1,3 +1,4 @@
+
 /* Apply the following styles to all elements */
 * {
     box-sizing: border-box; /* Box sizing includes borders and padding in the element's total width and height */
@@ -124,6 +125,4 @@
         font-size: 16px; /* Increase the font size to 16px */
     }
 }
-
-
 
