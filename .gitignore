@@ -53,3 +53,5 @@ environment.prod.ts
 package-lock.json
 package.json
 
+#husky
+.husky
