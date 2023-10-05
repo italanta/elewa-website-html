@@ -5,7 +5,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: aqua;
+    /* background-color: aqua; */
     margin:0 50px 0 50px;
     width: max-content;
 
