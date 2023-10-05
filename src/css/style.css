@@ -62,5 +62,25 @@ h1 {
     transform: translateX(-700%); /* Slide the arrow to the left */
   }
 
+  .block-one{     
+    width: 300px;
+    height: 200px;
+    display: block;
+    background: linear-gradient(to right, #fae9e8,#e69083);
+  }
+
+  .block-two{
+    top: 47%;
+    left: 37vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #e69083,#fae9e8);
+
+  }
+
   
   
