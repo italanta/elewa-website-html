@@ -4,50 +4,174 @@
   padding: 0;
   background-color: #DBC2F5;
 }
-header .logo img{
-  height: 65px;
-  width: 153px;
-  
-}
-header{
-  width: 85%;
-  height: 65px;
-  margin: 53px auto;
-  display: flex;
-  justify-content: space-between;
-}
-header .navlink {
-  display: flex;
-  width: 40%;
-  justify-content: space-evenly;
-  align-items: center;
-  font-family: 'DM Sans', sans-serif;
-}
-header .navlink div:active{
-  text-decoration: underline;
-  font-weight: bold;
-}
-header .navlink div:hover{
-  text-decoration: underline;
+@media screen and (max-width: 1440px) {
+  header .logo a img{
+    height: 65px;
+    width: 153px;
+    
   }
-header .contact{
-  display:flex;
-  align-items: center;
+  header{
+    width: 85%;
+    height: 65px;
+    margin: 53px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  header .navlink {
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+  }
+  header .navlink div:active{
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  header .navlink div:hover{
+    text-decoration: underline;
+    }
+  header .contact{
+    display:flex;
+    align-items: center;
+  }
+  header .contact button{
+    background-color: #2D2E52;
+    width: 134px;
+    height: 44px;
+    color: white;
+    border-radius: 30px;
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+    border: none;
+    padding: 5px;
+  }
+  #solution-menu{
+    display: flex;
+  }
+  .dropdown{
+    padding-left: 5px;
+  }
+
 }
-header .contact button{
-  background-color: #2D2E52;
-  width: 134px;
-  height: 44px;
-  color: white;
-  border-radius: 30px;
-  font-size: 18px;
-  font-family: 'DM Sans', sans-serif;
-  border: none;
-  padding: 5px;
+
+
+
+/* tablet media query */
+@media all and (max-width: 768px){
+  .header-container{
+    width: 768px;
+    color: red;
+  }
+  header{
+    width: 728px;
+    height: 33px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  header .logo a img{
+    height: 33px;
+    width: 77px;
+  }
+  header .navlink {
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'DM Sans', sans-serif;
+  }
+  header .navlink div:active{
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  header .navlink div:hover{
+    text-decoration: underline;
+    }
+  header .contact{
+    display:flex;
+    align-items: center;
+  }
+  header .contact button{
+    background-color: #2D2E52;
+    width: 134px;
+    height: 44px;
+    color: white;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: 'DM Sans', sans-serif;
+    border: none;
+  }
+  #solution-menu{
+    display: flex;
+  }
+  .dropdown{
+    padding-left: 3px;
+  }
+
 }
-#solution-menu{
-  display: flex;
-}
-.dropdown{
-  padding-left: 5px;
+
+
+
+/* mobile media query */
+@media all and (max-width: 360px){
+  header .logo a img{
+    height: 33px;
+    width: 77px;
+  }
+  .header-container{
+    width: 360px;
+    color: green;
+  }
+  header{
+    width: 320px;
+    height: 65px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  header .navlink {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    /* min-height: fit-content; */
+    
+    padding-top: 10px;
+    width: 40%;
+    font-family: 'DM Sans', sans-serif;
+  }
+  header .navlink div{
+    padding-top: 10px;
+  }
+  header .navlink div:active{
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  header .navlink div:hover{
+    text-decoration: underline;
+    }
+
+  header .contact{
+    display:flex;
+    align-items: center;
+  }
+  header .contact button{
+    background-color: #2D2E52;
+    width: 67px;
+    height: 22px;
+    color: white;
+    border-radius: 30px;
+    font-size: 10px;
+    font-family: 'DM Sans', sans-serif;
+    border: none;
+    padding: 5px;
+  }
+  #solution-menu{
+    display: flex;
+  }
+  .dropdown{
+    padding-left: 5px;
+  }
 }
