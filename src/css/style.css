@@ -1,3 +1,12 @@
-.test {
-  color: red;
+
+.footer-background{
+  background-color:#292a50;
 }
+
+
+.footer-h2{
+  color: #fff;
+  text-align: center;
+  padding-top: 10px;
+}
+
