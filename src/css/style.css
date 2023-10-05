@@ -75,6 +75,6 @@
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
   .news-item {
-    width: 80%; /* Adjust the width for smaller screens */
+    width: 70%; /* Adjust the width for smaller screens */
   }
 }
