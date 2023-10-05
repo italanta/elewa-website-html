@@ -1,0 +1,84 @@
+
+.footer-container{
+  align-items: center;
+  font-family: 'DMSans-Regular';
+  font-size: 16px;
+  background-color: #292A50;
+  color: #FFFFFF;
+  height: 947px;
+  width: 680px;
+  padding: 128px 64px 32px 64px;
+  max-width: 693px;
+  box-sizing: border-box;
+  border-top-right-radius: 50px;
+  transition: all 0s ease 0s;
+  transform: none;
+
+}
+.headquaters{
+
+}
+.contact{
+
+}
+.navigation{
+
+}
+
+.other-footer-properties{
+  display: flex;
+  align-content: center;
+  padding: 1rem 0;
+  max-width: 1200px;
+  margin-inline: auto;
+  list-style-type: none;
+}
+.slider-button {
+  position: relative;
+  min-width: 200px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000000;
+  border: 1px solid;
+  border-radius: 29px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+.footer-text{
+  font-family: 'DMSans-Regular';
+  font-size: 16px;
+  text-decoration: none solid rgb(255,255,255);
+  height: 250px;
+  width: 1230px;
+
+}
+
+.first-line{
+  font-size: 38px;
+  font-weight: 300;
+  text-align: center;
+  height: 50px;
+  width: 511;
+  display: inline-block;
+
+}
+
+.second-line{
+  font-size: 38px;
+  font-weight: 300;
+  text-align: center;
+  height: 50px;
+  width: 555px;
+  display: block;
+
+}
+
+
+
+
+/* .slider-button
+ */
