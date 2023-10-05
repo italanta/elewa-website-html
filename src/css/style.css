@@ -2,5 +2,80 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background: #dbc2f5 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.header {
+  background-color: transparent;
+  display: flex;
+  height: auto;
+  width: 80%;
+  margin: 52px 180px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  height: 65px;
+  opacity: 1;
+  max-width: 100%;
+}
 
+.dropdown {
+  display: flex;
+  gap: 20px;
+  color: #000000;
+  font-style: Sans-serif;
+  text-align: left;
+}
+
+.dropdown label {
+  text-decoration: underline;
+  color: #000000;
+  font-style: Sans-serif;
+  text-align: left;
+}
+
+.dropdown select {
+  background-color: transparent;
+  border: 0px;
+  height: 20px;
+}
+.elewa-nav-btn button {
+  background-color: #2d2e52;
+  color: #ffffff;
+  font-style: Sans-serif;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  border-radius: 22px;
+}
+
+img {
+  height: 779px;
+  margin-left: 10%;
+  margin-top: 4%;
+}
+.image {
+  display: flex;
+  width: 100%;
+}
+.paragraph {
+  display: flexbox;
+  margin-left: 5%;
+  margin-top: 15%;
+}
+h1 {
+  font-size: 62px;
+  text-align: left;
+  font: normal normal medium 62px/80px DM Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+h2 {
+  text-align: left;
+  font: normal normal normal 32px/42px DM Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
 }
