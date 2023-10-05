@@ -6,8 +6,14 @@
 
 
 
+body{
+  height: -webkit-fill-available;
+}
 
 
+html{
+  height: -webkit-fill-available;
+}
 
 footer {
   background-color: rgb(24, 24, 66);
@@ -15,43 +21,74 @@ footer {
   aspect-ratio: 16/9;
   border-top-right-radius: 6em;
   border-top-left-radius: 6em;
-  overflow: auto;
+  overflow-y: scroll;
+  scroll-snap-type: mandatory;
   overflow-x: hidden;
   
 }
 
 
 
-
-footer .container1 > p{
-  transform: translateY(-3em);
+ 
+ .container1 > p{
+  margin-top: 1px;
+  margin-bottom: 5em;
   background: linear-gradient(90deg, cyan, magenta);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-    padding: 10px;
-    width: 13em;
+    padding: 25px;
+    width: 20em;
     animation: animateColor 4s ease-in-out infinite;
     transition: all 3s;
-}
+    transform: translateX(15em);
+  font-size: 20px;
+    
+} 
 
 
+
+
+
+ 
+
+
+
+
+
+
+ 
 
 footer .container1{
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 8em;
-  font-size: 3em;
+
+  transform: translateY(-0.5em); 
+
 }
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 footer button{
-  transform: translateX(-28em);
-  width: 17em;
-  aspect-ratio: 16/5;
+  transform: translateX(28em); 
+
+  width: 15em;
+  height: 3em;
   border-radius: 28px;
   border-bottom-color: transparent;
   border-top-color: transparent;
@@ -63,10 +100,12 @@ footer button{
   border: 1px solid white;
   color: white;
   
-}
+} 
 
 
 
+
+ 
 
 footer button i{
   color: red;
@@ -74,27 +113,27 @@ footer button i{
   position: relative;
   z-index: 5;
   left: 10px;
-}
+  bottom: 1.3px;
+
+} 
 
 
 
-
-
+ 
 
 
 button::after{
   content: "";
   position: absolute;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   clip-path: circle(50%);
   background-color: white;
   z-index: 1;
-  bottom: 14px;
+  bottom: 2px;
+  right: 2px;
 
 } 
-
-
 
 
 
@@ -107,15 +146,21 @@ button::after{
   display: flex;
   flex-direction: row;
   border: 2px solid;
-  justify-content: center;
+  justify-content: space-around;
   gap: 5em;
   margin-top: 8em;
   background: linear-gradient(90deg, white 80%, black, brown);
+
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  font-size: 0.5em;
 
-}
+} 
+
+
+
+
 
 
 
@@ -124,6 +169,7 @@ button::after{
   justify-content: space-around;
   margin-top: 5em;
   flex-direction: row;
+  font-size: 1em;
 }
 
 
@@ -249,10 +295,74 @@ button::after{
 
 
 
+/* Adding media queries */
+
+
+@media (max-width: 768px) {
+
+footer{
+  height: 100%;
+
+}
+
+
+  footer .container1 {
+    margin-top: 4em; /* Adjusting margin for mobile */
+    
+  }
+
+  footer .container1 > p {
+    font-size: 1.5em; /* Adjust font size for mobile */
+  }
+
+  footer button {
+
+    right: 20em;
+    width: 180px;
+    top: 10px;
+  height:50px;
+  font-size: 15px;
+
+
+  }
+
+
+  footer button i{
+    transform: translateX(-0.1em);
+    font-size: 10px
+  }
 
 
 
 
+
+  button::after{
+    width: 15px;
+    height: 15px;
+
+  }
+
+  .container2 {
+    margin-top: 4em; /* Adjusting margin for mobile */
+    gap: 0.7em;
+    font-size: 1em;
+
+  }
+
+  .container2 .section1,
+  .container2 .section2,
+  .container2 .section3,
+  .container2 .section4,
+  .container2 .section5 {
+    gap: 0.5em; /* Adjusting gap for mobile */
+  }
+
+.container3{
+  margin-top: 8em;
+}
+
+
+}
 
 
 
