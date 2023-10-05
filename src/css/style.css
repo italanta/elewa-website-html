@@ -3,6 +3,43 @@ body {
   padding: 0;
 }
 
+.nav{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  background-color: transparent;
+  align-items: center;
+}
+
+.nav-logo img{
+  max-height: 54px;
+  filter: grayscale(100%) brightness(0%);
+  margin-left: 100%;
+}
+
+.options{
+  width: 320px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.options a{
+  text-decoration: none;
+  padding-left: 5%;
+}
+
+.nav button{
+  margin-right: 5%;
+  background: #000;
+  border-radius: 999px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  padding: 0px 18px;
+  height: 30px;
+}
+
 .container{
     display: flex;
     height: 752px;
