@@ -2,8 +2,9 @@
 body {
     background-color: #F9F8F4;
     margin-top: 0px;
-    /* overflow-x: hidden; */
-    width: 1440px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 1920px;
     height: 6753px;
 }
 .header-hero{
@@ -132,5 +133,6 @@ a {
      font-size: 25px;
      font-weight: bolder;
      margin: 0.15rem;
+     
 
  }
