@@ -88,10 +88,9 @@ li, a {
 }
 
 .logo {
-    position: relative;
-    top: 150px;
-    width: 50px;
-    height: 20px;
-     
+    position: absolute;
+    top: 440px;
+    left: 0px;
+    transform: scale(0.5);
 }
 

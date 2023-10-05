@@ -161,6 +161,50 @@ p {
     opacity: 0.85;
 }
 
+.vvob {
+    position: absolute;
+    top: 600px;
+    right: 400px; 
+    transform: scale(0.1); /* Reduce the size by 50% */
+    
+  }
+
+  .farmbetter {
+    position: absolute;
+    top: 640px;
+    right: 240px;
+    transform: scale(0.1);
+  }
+
+  .Ksa {
+    position: absolute;
+    top: 640px;
+    left: 560px;
+    transform: scale(0.1);
+  }
+
+  .WWF {
+    position: absolute;
+    top: 600px;
+    left: 560px;
+    transform: scale(0.1);
+  }
+
+  .enabel {
+    position: absolute;
+    top: 507px;
+    transform: scale(0.1);
+  }
+
+  .spotlights {
+    position: absolute;
+    top: 800px;
+    margin-right: 300px;
+    left: 0;
+    transform: scale(0.1);
+  }
+  
+
 /* Media Queries */
 @media (max-width: 768px) {
     /* Add your mobile-specific styles here */
