@@ -1,160 +1,117 @@
-#body{
-    background-color:beige ;
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  color: black;
 }
-/* This styles the navbar */
-#NavBar{
-    display: flex;
-    margin-top: 53px;
-    justify-content: space-between;
-}
-.list{
-    display: flex;
-    font-size:large;
-    cursor: pointer;
-}
-.elewa{
-    font-size: xx-large;
-    margin-top: 5px;
-    height: 65px;
-    width: 153;
-    margin-left: 130px;
-}
-.curved-underline {
-    border-radius: 50%;
-    border-bottom: 2px solid;
-    margin-top: 10px;
-  }
-.contact{
-    margin-top: 8px;
-    height: 44px;
-    width: 134px;
-    font: optional;
-    cursor: pointer;
-    border-radius: 20px;
-    color: #F9F8F4;
-    background-color:navy ;
-    margin-right: 211px;
+body{
+  background-color:#F9F8F4;
 
 }
-/* this styles the image content */
-.image {
+nav{
+  height: 80px;
+  width: 100%;
+  justify-content: space-between;
+  background-color:#F9F8F4;
+}
+label.logo{
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+  padding: 0 100px;
+  line-height: 80px;
+}
+.curved-line{
+  border-radius: 50%;
+  border-bottom: 2px solid;
+}
+nav ul{
+  float: right;
+  margin-right: 200px;
+}
+.nav-button {
+  background:#2D2E52 0% 0% no-repeat padding-box;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-left: 150px;
+}
+
+
+nav li{
+  display: inline-block;
+  margin: 0 8px;
+  line-height: 80px;
+}
+nav a {
+  color:black; 
+  font-size: 18px;
+  padding: 7px 10px;
+}
+#icon{
+  color: black;
+  font-size: 30px;
+  line-height: 80px;
+  float: right ;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#icontwo{
+  color: black;
+  font-size: 30px;
+  line-height: 80px;
+  float: right ;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width:1048px){
+ label.logo{
+  font-size: 32px;
+  padding-left: 60px;
+ }
+ nav ul{
+  margin-right:20px;
+ }
+ nav a{
+  font-size: 17px;
+ }
+}
+@media (max-width:912px){
+  #icon{
     display: block;
-    margin-right: 0;
-    width: 553px;
-    height: 556px;
-    opacity: 0.85;
   }
-  /* this styles the title for the content */
-  .title {
-    font:  normal normal medium 82px/110px DM Sans;
-    width: 839px;
-    font-size: 50px;
-    margin-bottom: -10px;
-    /* margin-left: 10px; */
-
-  }
-  .enjoyable{
-    margin-top: -1px;
-    margin-right: 260px;
-  }
-  /* this styles the paragraph for the content */
-  .content {
-    margin-right: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  nav ul{
+    position: fixed;
+    width: 100%;
+    height:100vh;
+    background: #F9F8F4;
+    top: 80px;
+    left: -100%;
     text-align: center;
-    height: 100vh;
-    /* border-bottom: 100px; */
-    /* margin-right: 200px; */
+    transition:all .5s ;
   }
-  .intro{
-    padding: 0;
+  nav li{
+    display: block ;
+    margin: 10px 0;
+    line-height: 30px;
   }
-  
-  .paragraph {
-    text-align: center;
-    font-family: Arial, sans-serif;
+  .nav-button{
+    margin-right: 120px;
+  }
+  nav a{
     font-size: 20px;
-    margin: 0;
-    padding: 0;
-    /* margin-left: 500px; */
   }
-  
-  .text-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 450px;
-    margin: 0;
-    padding: 0;
+  a.active,a:hover{
+    text-decoration: underline;
   }
-  /* this styles the button for  the content */
-  .contactButton {
-    margin-right: 150px;
-    background: black;
-    color: white;
-    font-family: inherit;
-    padding: 0.45em;
-    padding-left: 1.0em;
-    font-size: 17px;
-    font-weight: 500;
-    border-radius: 0.9em;
-    border: none;
-    letter-spacing: 0.05em;
-    display: flex;
-    align-items: center;
-    box-shadow: inset 0 0 1.6em -0.6em white;
-    overflow: hidden;
-    position: relative;
-    height: 2.8em;
-    padding-right: 3em;
+  nav ul.show{
+    left: 0;
   }
-  
-  .iconButton {
-    margin-left: 1em;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    color: black;
-    height: 2.2em;
-    width: 2.2em;
-    border-radius: 0.9em;
-    box-shadow: 0.1em 0.1em 0.6em 0.2em black;
-    right: 0.3em;
-    transition: all 0.3s;
-  }
-  /* there is the footer style for the page */
-  #footer {
-    display: flex;
-    background-color: gray;
-    height: 100px;
-    justify-content: center; 
-    align-items: center;
-  }
-  
-  .footers {
-    display: flex;
-    justify-content: space-between;
-    width: 100%; 
-  }
-  
-  .imgfooter {
-    height: 100px;
-    width: 150px;
-  }
-  
-  li {
-    list-style: none;
-  }
-  
-  .li {
-    flex: 1; 
-    display: flex;
-    justify-content: space-between;
-  }
-  
- 
-  
+}
+
