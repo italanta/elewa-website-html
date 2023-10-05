@@ -142,25 +142,23 @@ a {
 }
 
 .socials {
-  bottom: 20px;
+  bottom: 200px;
   right: 10px;
   display: flex;
   justify-content: flex-end;
 }
 
-.socials img {
-  width: 30px;
-}
 
 #facebook {
-  width: 15px;
-  margin-left: 100px;
+  width: 10px;
+  height: auto;
+  margin-left: 20px;
   margin-top: -50px;
 }
 
 #instagram {
   width: 30px;
-  margin-left:20px;
+  margin-left:25px;
   margin-top: -50px;
 }
 
