@@ -32,16 +32,24 @@
   text-align: center;
   border-width: thin;
   border-color: #fff;
-  padding-top: 40px;
+  padding-top: 35px;
   border-radius: 50px;
   border-style: solid;
   width: 15%;
   height: 3px;
   margin:0 auto;
   margin-top: 50px;
+
 }
 
+.footer-button:hover{
+  background-color: #fff;
+  transition: 1.5s;
+}
 
+.button-footer{
+  color: #fff;
+}
 
 /* .button-footer {
   font-family: DMSans-Regular;
