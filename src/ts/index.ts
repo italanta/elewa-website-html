@@ -1,9 +1,6 @@
-/**
- *
- */
-interface ProjectItem {
-  title: string;
-  description: string;
-  tag: string;
-  imgSrc: string;
-};
+// interface ProjectItem {
+//   title: string;
+//   description: string;
+//   tag: string;
+//   imgSrc: string;
+// };
