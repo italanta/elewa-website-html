@@ -137,6 +137,37 @@ a {
 .footer-logo img {
   width: 150px;
   height: auto;
-  padding-left: 110px;
+  padding-left: 115px;
   padding-top: 100px;
 }
+
+.socials {
+  bottom: 20px;
+  right: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.socials img {
+  width: 30px;
+}
+
+#facebook {
+  width: 15px;
+  margin-left: 100px;
+  margin-top: -50px;
+}
+
+#instagram {
+  width: 30px;
+  margin-left:20px;
+  margin-top: -50px;
+}
+
+#linkedIn {
+  width: 30px;
+  margin-left: 20px;
+  margin-top: -50px;
+  margin-right: 150px;
+}
+
