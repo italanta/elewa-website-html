@@ -1,15 +1,16 @@
 /* Styling the pages landing page and hero section */
 body {
-    background-color: #F9F8F4;
+    background-color: #FAE9E8;
     margin-top: 0px;
     overflow-x: hidden;
-    overflow-y: scroll;
-    width: 1920px;
-    height: 6753px;
+    overflow-y: hidden;
+    width: 85%;
+    height: auto;
+    font-size: clamp(20px, 3vw, 20px);
 }
 .header-hero{
-    height: 1082px;
-    width: 1920px;
+    height: auto;
+    width: 85%;
     margin-top: 0px;
     margin-left: 0px;
     background: #FAE9E8 0% 0% no-repeat padding-box;
@@ -20,7 +21,7 @@ body {
     justify-content: space-between;
     /* margin-top: 53px;
     margin-left: 209px; */
-    width: 1502px;
+    width: 1402px;
     height: 65px;
 }
 .header-container img {
@@ -55,8 +56,10 @@ a {
 
 .header-button {
     margin-top: 53px;
+    margin-left: 100px;
     width: 134px;
     height: 44px;
+    border: none;
     background: #2D2E52 0% 0% no-repeat padding-box;
     border-radius: 22px;
     opacity: 1;
@@ -119,6 +122,7 @@ a {
     margin-top: 550px;
     margin-left: 209px;
     background: #000000 0% 0% no-repeat padding-box;
+    border: none;
     border-radius: 29px;
     opacity: 1;
     color: white;
@@ -136,3 +140,20 @@ a {
      
 
  }
+@media  (min-width:320px) and (max-width:767px){
+    .hero-container {
+        margin-top: 300px;
+        font-size: large;
+        font-weight: 600;
+    }
+   
+}
+
+@media (min-width:768px) and (max-width:1199px) {
+    .hero-container {
+        margin-top: 100px;
+        font-size: large;
+        font-weight: 600;
+    }
+
+}
