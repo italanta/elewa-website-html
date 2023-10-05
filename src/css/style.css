@@ -18,7 +18,6 @@ header {
 .navbar {
   width: 80%;
   height: 60px;
-  max-width: 1400px;
   margin: 0 auto;
   margin-top: 2%;
   display: flex;
@@ -62,6 +61,8 @@ a {
 .action_btn {
   background-color: #2D2E52;
   padding: 5px 10px;
+  width: 15%;
+  text-align: center;
   border: none;
   outline: none;
   border-radius: 20px;
@@ -115,17 +116,6 @@ a {
   line-height: 22px;
 }
 
-/* .home_contact {
-background-color: #2D2E52;
-color: white;
-border: none;
-border-radius: 22px;
-cursor: pointer;
-width: 200px;
-height: 44px;
-opacity: 1;
-
-} */
 
 .home-container {
   background-color: #F9F8F4;
@@ -134,7 +124,7 @@ opacity: 1;
 
 .home_content {
   width: 100%;
-  padding: 0px 0px 10px 30px;
+  padding: 30px 0px 10px 30px;
 }
 
 .home_content h1 {
@@ -142,7 +132,7 @@ opacity: 1;
   color: black;
   line-height: 40px;
   text-align: left;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .home_content h2 {
@@ -150,8 +140,8 @@ opacity: 1;
   color: black;
   line-height: 24px;
   text-align: left;
-  font-weight: 600;
-  /* padding-top: 20px; */
+  font-weight: 500;
+  padding-top: 30px;
   padding-bottom: 20px;
 }
 
@@ -258,7 +248,7 @@ opacity: 1;
 
 @media only screen and (min-width: 768px) {
   .home-container {
-    width: 550px;
+    width: 100%;
     margin: 0 auto;
     padding-top: 30px;
     padding-left: 40px;
@@ -274,13 +264,19 @@ opacity: 1;
   }
 
   .home_content h2 {
-    /* font-size: 22px; */
-    line-height: 34px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: lighter;
   }
 
   #home_img {
     max-height: 450px;
     max-width: 400px;
+
+  }
+
+  .home_img_section{
+    padding-left: 22%;
   }
 
 }
@@ -289,25 +285,27 @@ opacity: 1;
   .home-container {
     width: 80%;
     margin: 0 auto;
-    padding-top: 6%;
+    padding-top: 3%;
     /* background-color: blueviolet; */
   }
 
   .home_content {
     width: 50%;
     float: left;
-    margin-top: 10%;
+    margin-top: 12%;
+    padding-right: 8%;
   }
 
   .home_content h1 {
-    font-size: 42px;
+    font-size: 40px;
     line-height: 50px;
+    padding-right: 12%;
   }
 
   .home_content h2 {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 27px;
-    margin-right: 20%;
+  
   }
 
   .home_img_section {
