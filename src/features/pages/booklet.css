@@ -79,7 +79,7 @@ font-family: 'Roboto', sans-serif;
 .content #description{
 font-size: 1.7rem;
 font-family: 'Roboto', sans-serif;
-margin: 30px 0 0 0;
+margin: 30px 0 0 0 ;
 }
 span{
     font-size: 1.7rem;
@@ -116,11 +116,7 @@ margin: 9px 0 0 5px;
     width: 78%;
     height: 800px;
     margin: 20% 0 0 35%  ;
-    /* margin-left: 35%;
-    margin-top: 20%;     */
-    border-bottom-left-radius: 200px;
-    border-top-left-radius: 350px;
-    border-top-right-radius: 400px;
+    border-radius: 350px 400px 0 200px;
     transform: rotate(-25deg); 
     
 }
@@ -131,7 +127,7 @@ margin: 9px 0 0 5px;
     }
     .menu{
         display: block;
-        margin: -4.2% 0 0 80%;
+        margin: -4.2% 0 0 90%;
         
     }
     .content{
