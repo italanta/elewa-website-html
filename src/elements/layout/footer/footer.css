@@ -1,36 +1,58 @@
-*{
+/* *{
     text-decoration: none;
     list-style: none;
     font-family: Arial, Helvetica, sans-serif; 
+} */
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 .footer {
         background-color: blue;
-        color: #fff;
-        padding: 20px;
+        color: hsl(0, 0%, 100%);
+        padding: 100px;
         text-align: center;
         border-top-left-radius: 80px; 
         border-top-right-radius: 80px;
+        margin-bottom: 0px;
     }
     
-.slidecontainer {
+    .button {
+        margin-top: 10px;
+        border: solid 2px white;
+        background-color: blue;
+        color: white;
+        text-align: center;
+        border-radius: 20px;
+        width: 250px;
+        height: 50px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+/* .slidecontainer {
         margin-top: 10px;
         border: solid 2px white;
         text-align: center;
         border-radius: 20px;
         width: 200px;
         height: 50px;
-    }
+    } */
     
-.slidecontainer p {
-        font-weight: bold;
-        font-size: 18px;
+/* .slidecontainer p {
+
         color: white;
-    }
+    } */
 .footer-separator {
         width: 100%;
         border-top: 2px solid #fff;
         margin: 20px 0;
     }
+.footer-c{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+
+}
     
 .footer-content-wrapper {
         display: flex;
@@ -38,18 +60,11 @@
         gap: 160px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
-        overflow: hidden;
     }
     
 .footer-content {
     text-align: left;
     padding: 10px;
-    display: grid;
-    position: relative;
-    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-    left: 0; */
-    right: 0;
-    bottom: 0;
     }
     
 .footer-content h4 {
@@ -69,12 +84,21 @@
         display: block;
     }
     
-.footer-content ul li:first-child {
-        font-weight: bold;
+.footer-content ul li:{
+    border-top-right-radius: 80px;
+    width:2%;
+    margin-left: 0%;
     }
+.footer-icons{
+    margin-left: 80%;
+}
+.footer-icons a{
+    margin: 10px;
+}
 .footer-logo{
-        width:2%;
-        margin-left: 0%;
-    }
-.footer-icon{
+}
+.footer-logo img{
+    filter: brightness(0);
+    width: 7.5rem;
+    margin-right: 100%;
 }
