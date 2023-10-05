@@ -1,7 +1,7 @@
 * {
   background: #DBC2F5 0% 0% no-repeat padding-box;
   opacity: 1;
-  font-family: DM Sans serif;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .container{
@@ -15,7 +15,7 @@
   flex-direction: row;
   gap: 53px;
   align-items: center;
-  font-family: DM Sans;
+  font-family: 'DM Sans', sans-serif;
   color: #000000;
   letter-spacing: 0px;
   text-align: left;
@@ -42,7 +42,7 @@
   max-height: 81px;
   height: auto;
   font-size: 2em;
-  font-weight: 400;
+  font-weight: 40px;
   margin-top: 60px;
 }
 .container .text-side p{
@@ -50,7 +50,7 @@
   max-height: 314px;
   height: auto;
   font-size: 1em;
-  font-weight: normal;
+  font-weight: 500;
 }
 
 
