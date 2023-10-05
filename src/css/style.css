@@ -115,7 +115,7 @@ a {
     line-height: 22px; 
 }
 
-.home_contact {
+/* .home_contact {
 background-color: #2D2E52;
 color: white;
 border: none;
@@ -125,34 +125,34 @@ width: 200px;
 height: 44px;
 opacity: 1;
 
-}
+} */
 
 .home-container{
-background-color: #F9F8F4;
-width: 100%;  
+    background-color: #F9F8F4;
+    width: 100%;  
 }
 
 .home_content{
-width: 100%;
-padding: 0px 0px 10px 30px;
+    width: 100%;
+    padding: 0px 0px 10px 30px;
 }
 
 .home_content h1{
-font-size: 28px;
-color: black;
-line-height: 40px;
-text-align: left;
-font-weight: 700;  
+    font-size: 28px;
+    color: black;
+    line-height: 40px;
+    text-align: left;
+    font-weight: 700;  
 }
 
 .home_content h2{
-font-size: 20px;
-color: black;
-line-height: 24px;
-text-align: left;
-font-weight: 600;
-/* padding-top: 20px; */
-padding-bottom: 20px;
+    font-size: 20px;
+    color: black;
+    line-height: 24px;
+    text-align: left;
+    font-weight: 600;
+    /* padding-top: 20px; */
+    padding-bottom: 20px;
 }
 
 .home_img_section{
@@ -165,6 +165,36 @@ padding-bottom: 20px;
     max-height: 350px;
     max-width: 300px;
 }
+
+/* Style for the anchor */
+.home_contact {
+    text-decoration: none;
+    color: #FFFFFF; /* Change the text color to black */
+    font-size: 16px; /* Adjust font size as needed */
+    display: flex;
+    background-color: #000000; /* Circular background color */
+    width: 42%;
+    padding: 8px; /* Adjust padding as needed */
+    border-radius: 30px;
+  }
+  
+  /* Style for the arrow image */
+  .home_contact img {
+    display: inline-block;
+    vertical-align: middle; /* Align the image vertically with the text */
+    width: 25px; /* Adjust arrow size as needed */
+    height: 20px; /* Adjust arrow size as needed */
+    margin-left: 5px; /* Add space between text and arrow */
+    background-color: #FFFFFF;
+    border-radius: 50%; /* Make it circular */
+  }
+  
+  /* Center the text and arrow vertically */
+  .arrow-circle {
+    display: flex;
+    align-items: center;
+  }
+  
 
 /*ReSPONSIVE DESIGN*/
 @media (max-width:768px) {
