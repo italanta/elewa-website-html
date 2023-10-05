@@ -1,86 +1,166 @@
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #fae9e8;
-  }
-
-  body {
-    margin-top: 100px;
-    margin-left: 50px; 
+.navbar{
+  margin:  0px 120px;
+}
+.logo{
+  filter: brightness(0);
+  width: 7.5rem;
+}
+.navbar-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.nav-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin-left: 80px;
+}
+.nav-item{
+  margin: 10px 20px;
+}
+.nav-link{
+  text-decoration: none;
+  color: #000;
+  position: relative;
+}
+.fa-xs{
+  margin-left: 10px;
+}
+.header-button{
+  background: #2d2e52;
+  border-radius: 22px;
+  width: 8.375rem;
+  padding: 0.7em;
+  border: none;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 200px;
 }
 
-h1 {
-    font-family: DMSans-Regular;
-  }     
-  
-  .button {
-    display: inline-block;
-    border-radius: 30px;
-    padding: 10px 20px;
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    transition: background-color 0.3s, color 0.3s;
-    text-decoration: none;
-    margin-top: 10px;
-  }
-  
-  .button:hover {
-    background-color: #fff;
-    color: black;
-  }
-  
-  .circle {
-    display: inline-block;
-    background-color: transparent; /* Set the circle's background to transparent */
-    margin-right: 10px; /* Add some space between the circle and the text */
-    transition: background-color 0.3s; /* Added background-color transition */
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fae9e8;
+}
 
+body {
+  margin-left: 200px;
+}
+
+.details-container {
+  color: black;
+  padding: 20px;
+  position: relative;
+  margin-top: 100px;
+
+}
+
+.details-container h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.0rem;
+}
+
+.details-container p {
+  font-family: 'DMSans-Regular';
+  font-size: clamp(1rem,.387rem + .9739vw,1.4rem);
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+
+.button {
+  display: inline-block;
+  border-radius: 30px;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.3s, color 0.3s;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.circle {
+  display: inline-block;
+  background-color: transparent;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
 
 .button:hover .circle i {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
-  
-  .circle i {
-    display: block;
-    text-align: center;
-    line-height: 1.6; /* Adjust as needed for vertical alignment */
-    background-color: white; /* Background color for the arrow */
-    color: black; /* Text color for the arrow */
-    border-radius: 50%; /* Make the arrow circular */
-    transition: transform 1.5s; /* Added transform transition for the arrow */
-    padding: 5px; /* Increase the padding to make the circle larger */
-  }
-  
-  .button:hover .circle i {
-    transform: translateX(-700%); /* Slide the arrow to the left */
+.circle i {
+  display: block;
+  text-align: center;
+  line-height: 1.6;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  transition: transform 1.5s;
+  padding: 5px;
+}
+
+.button:hover .circle i {
+  transform: translateX(-700%);
+}
+
+.block-one,
+.block-two,
+.container {
+  width: 650px;
+  height: 400px;
+  position: relative;
+  border-bottom-left-radius: 300px;
+  border-top-left-radius: 300px;
+  border-bottom-right-radius: 300px;
+  border-top-right-radius: 300px;
+}
+
+.block-one {
+  background-image: linear-gradient(to right, #fae9e8, #e69083);
+}
+
+.block-two {
+  background-image: linear-gradient(to right, #e69083, #fae9e8);
+  margin-left: 30%;
+  margin-top: -20%;
+}
+
+.container {
+  background-image: linear-gradient(to right, #fae9e8, #e69083);
+  width: 600px;
+  height: 450px;
+  margin-left: 20%;
+  margin-top: -10%;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+  body {
+    margin-top: 50px;
+    margin-left: 10px;
   }
 
-  .block-one{     
-    width: 300px;
-    height: 200px;
-    display: block;
-    background: linear-gradient(to right, #fae9e8,#e69083);
+  .container {
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
   }
 
-  .block-two{
-    top: 47%;
-    left: 37vw;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    width: 200px;
-    height: 300px;
-    border-radius: 20px;
-    background: linear-gradient(to right, #e69083,#fae9e8);
-
-  }
-
-  
-  
+  /* Add more responsive styling as needed */
+}
