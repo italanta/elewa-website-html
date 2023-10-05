@@ -12,7 +12,7 @@
   padding-top: 10px;
   background-color:#292a50;
   border-radius: 70px 70px 0px 0px;
-  height: 900px;
+  height: 750px;
 
 }
 
@@ -28,6 +28,7 @@
   font-size: 3.5rem ;
 }
 
+/*{button styling and the hover effects}*/
 .footer-button {
   text-align: center;
   border-width: thin;
@@ -97,10 +98,10 @@
   border: none;
 }
 
-
+/*{contacts, location and other links}*/
 
 .horizontal-line{
-  width: 90%;
+  width: 82%;
   margin:0 auto;
   margin-top: 100px;
 }
@@ -131,4 +132,11 @@ a {
   font-size: 12px;
 }
 
+/*{logo and the social media icons}*/
 
+.footer-logo img {
+  width: 150px;
+  height: auto;
+  padding-left: 110px;
+  padding-top: 100px;
+}
