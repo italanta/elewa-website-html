@@ -64,3 +64,15 @@
   margin:0 auto;
   margin-top: 100px;
 }
+
+.Footer-link{
+  color: #fff;
+  font-family: 'DM Sans', sans-serif;
+  font-size:15px;
+  padding-left: 27px;
+}
+
+ul {
+  display: inline-block;
+  margin: 0 10px;
+}
