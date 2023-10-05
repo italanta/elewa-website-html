@@ -1,5 +1,4 @@
 body{
-    outline: 3px solid black;
     top:0px;
     left:0px;
     width:1920px;
@@ -22,17 +21,16 @@ body{
 #h1-Box{
     /* Layout Properties */
     position: absolute;
-    outline: 3px solid purple;
+    justify-content: left;
     top: 377px;
     left: 209px;
     width: 915px;
     height: 106px;
-}
-h1{
     /* UI Properties */
+     /* font: normal normal medium ; */
     text-align: left;
-    font: normal normal normal 82px/110px ;
-    font-family: 'DM Sans', sans-serif;
+    font-size:82px ; 
+    font-family: 'DM Sans';
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
@@ -45,8 +43,6 @@ h1{
     left: 209px;
     width: 741px;
     height: 197px;
-}
-p{
     /* UI Properties */
     text-align: left;
     font: normal normal normal 32px/42px 'DM Sans';
@@ -66,6 +62,9 @@ height: 58px;
 background: #000000 0% 0% no-repeat padding-box;
 border-radius: 29px;
 opacity: 1;   
+}
+#uypbtn-Text{
+    outline: 3px solid gold;
 }
 .designs{
     /* UI Properties */
