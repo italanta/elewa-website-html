@@ -55,16 +55,21 @@
 
 .button-footer {
   border-radius: 50%;
-  height: 38px;
-  width: 38px;
+  height: 30px;
+  width: 30px;
   background-color: #fff;
+  background-image: url('src/images/black-arrow.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   border: none;
   position: absolute;
-  top: 0%;
-  right: 0;
-  transform: translateX(0);
+  top: 8%;
+  right: 2%;
+  transform: translateY(0%);
   transition: transform 0.5s ease, background-color 0.5s ease;
 }
+
 
 .button-footer img {
   width: 100%;
@@ -80,8 +85,11 @@
   color: black;
 }
 .footer-button:hover .button-footer {
-  transform: translateX(-430%);
+  transform: translateX(-555%);
   background-color: black;
+  height: 30px;
+  width: 30px;
+  top: 10%;
 }
 
 
