@@ -1,15 +1,18 @@
+/* Global styles */
+body, html {
+  margin: 0;
+  padding: 0;
+}
 
-.front{
+/* Header styles */
+.front {
   background-color: #F9F8F4;
 }
+
+/* Dropdown icon styles */
 .dropdown i.fa-angle-down {
   vertical-align: -3px; /* Adjust the value as needed to move the icon down */
 }
-
-
-
-
-
 
 /* Navbar styles */
 .navbar {
@@ -55,9 +58,11 @@
   margin-right: 20px;
 }
 
-.menu{
+/* Menu styles */
+.menu {
   display: none;
 }
+
 /* Contact button styles */
 .btn button {
   background-color: transparent;
@@ -70,16 +75,12 @@
   background-color: black;
 }
 
+/* Black logo styles */
 .black-logo {
   filter: grayscale(100%) brightness(0%);
 }
-/* Reset some default styles */
-body, html {
-  margin: 0;
-  padding: 0;
-}
 
-/* Style the homecontainer */
+/* Homecontainer styles */
 .homecontainer {
   display: flex;
   justify-content: space-between;
@@ -88,71 +89,68 @@ body, html {
   background-color: #F9F8F4;
 }
 
-/* Style the info div */
+/* Info div styles */
 .info {
   flex: 1;
   padding: 20px;
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Center the content vertically */
-  align-items: center; /* Center the content horizontally */
+  justify-content: center;
+  align-items: center;
 }
-/* Style the first heading with an adjusted margin-top */
+
+/* Aligned heading styles */
 .info .aligned-heading {
   margin-left: -90px; /* Adjust the margin as needed to align with the second heading */
 }
 
-
+/* Heading styles */
 .info h2 {
   font-size: 44px;
-  
   font-family: 'DM Sans', sans-serif;
   color: black;
   font-weight: 100;
-  margin: 10px 0; /* Add margin to separate headings from each other */
-
+  margin: 10px 0;
 }
 
 .info h3 {
   font-size: 18px;
   font-weight: 100;
   color: black;
-  margin: 10px 0; /* Add margin to separate headings from each other */
+  margin: 10px 0;
   font-family: 'DM Sans', sans-serif;
-
 }
 
-/* Style the ::before pseudo-element (the arrow inside the circle) */
+/* Arrow button styles */
 .arrow-button .circle:before {
-  content: '→'; /* Use multiple right arrow characters to create the arrow shape */
-  font-size: 24px; /* Adjust the font size to control the arrow's appearance */
+  content: '→';
+  font-size: 24px;
   position: absolute;
   color: black;
   top: 50%;
-  left: 50%; /* Adjust the position as needed */
-  transform: translate(-50%, -50%); /* Center the arrow vertically within the circle */
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-/* Style the circle container */
+/* Circle styles */
 .circle {
-  width: 30px; /* Increase the width to make the circle larger */
-  height: 30px; /* Maintain a 1:1 aspect ratio for a circle */
-  padding-bottom: 0; /* Remove padding-bottom */
-  border-radius: 50%; /* Creates a circle shape */
+  width: 30px;
+  height: 30px;
+  padding-bottom: 0;
+  border-radius: 50%;
   background: white;
   position: relative;
   border: none;
-  margin-right: 10px; /* Adjust the spacing between the text and the circle */
+  margin-right: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  line-height: 30px; /* Center the text vertically within the circle */
-  margin-left: 10px; /* Add margin to the left to push the circle away from the text */
-
+  line-height: 30px;
+  margin-left: 10px;
 }
 
-/* Style the arrow button container */
+/* Arrow button container styles */
 .arrow-button {
   display: flex;
   align-items: center;
@@ -164,21 +162,17 @@ body, html {
   font-size: 16px;
   cursor: pointer;
   border-radius: 50px;
-  position: relative; /* Create a positioning context for the pseudo-element */
-  overflow: hidden; /* Hide any overflowing pseudo-element content */
+  position: relative;
+  overflow: hidden;
 }
 
-
-
-
-
-/* Style the home-pic div */
+/* Home-pic div styles */
 .home-pic {
   flex: 1;
   text-align: center;
 }
 
-/* Style the image */
+/* Image styles */
 .home-pic img {
   max-width: 85%;
   height: auto;
@@ -186,26 +180,7 @@ body, html {
   margin-right: 290px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Container styles */
 .container {
   background: #DBC2F5;
   display: flex;
@@ -230,16 +205,15 @@ body, html {
 
 /* Media query for small screens */
 @media (max-width: 480px) {
- .menu{
-  display: block;
- }
- .btn button {
-  display: none;
- }
- .navcontainer {
-  display: none;
- }
-
+  .menu {
+    display: block;
+  }
+  .btn button {
+    display: none;
+  }
+  .navcontainer {
+    display: none;
+  }
   .container {
     display: block;
     width: auto;
@@ -255,37 +229,59 @@ body, html {
     margin-left: 15%;
     margin-top: 5%;
   }
+  
+  .homecontainer{
+    display: block;
+  }
+  .info {
+    text-align: left; /* Adjust text alignment for mobile view */
+  }
+
+  .info .aligned-heading {
+    margin-left: 0; /* Reset the margin for mobile view */
+  }
+
+  .info h2{
+    text-align: center; /* Center the elements for mobile view */
+    margin: 10px 0; /* Add margin to all elements for spacing */
+
+  }
+  .info h3{
+    text-align: center; /* Center the elements for mobile view */
+    margin: 0px 0; /* Add margin to all elements for spacing */
+
+  }
+  .info .arrow-button {
+    text-align: center; /* Center the elements for mobile view */
+    margin: 0 0 0 0; /* Add margin to all elements for spacing */
+  }
+  
 }
 
 /* Media query for medium screens */
 @media (min-width: 481px) and (max-width: 767px) {
-  /* Navbar styles */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: transparent;
-  padding: 2px;
-  width: 100%;
-  /* max-width: 1200px; */
-  margin: 0 auto;
-}
-.logo img {
-  width: 50px;
-  height: auto;
-}
-.btn button {
-  background-color: transparent;
-  border: 2px solid black;
-  padding: 5px 5px;
-  font-size: 8px;
-  color: white;
-  cursor: pointer;
-  border-radius: 20px;
-  background-color: black;
-}
- 
- 
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 2px;
+    width: 100%;
+  }
+  .logo img {
+    width: 50px;
+    height: auto;
+  }
+  .btn button {
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 5px 5px;
+    font-size: 8px;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: black;
+  }
   .container {
     display: block;
     width: auto;
@@ -302,12 +298,10 @@ body, html {
     margin-left: 15%;
     margin-top: 5%;
   }
- 
 }
 
 /* Media query for large screens */
 @media (min-width: 767px) and (max-width: 1280px) {
- 
   .container {
     display: flex;
     width: auto;
