@@ -178,6 +178,36 @@ header {
   position: relative;
   z-index: 999;
 }
+@media (max-width: 768px) {
+  .heading {
+    top: 100px;
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .paragraph {
+    top: 100px;
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .elipse1,
+  .elipse2 {
+    display: none;
+    /* Hiding the ellipses on smaller screens */
+  }
+
+  button {
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+ 
+}
 
 
 
