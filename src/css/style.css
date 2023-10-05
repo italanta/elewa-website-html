@@ -11,7 +11,40 @@
   text-align: left;
   font-size: 20px;
   font-family: 'DM Sans', sans-serif;
-  
+
+}
+
+.context{
+  margin-top: 50px;
+  width: 400px;
+  word-spacing: 4px;
+
+}
+.fa-solid fa-angle-down{
+  font-size: 12px;
+}
+.context a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+ 
+}
+.contact{
+  border-radius: 20px;
+  padding-left: 10px;
+  background-color: black;
+  padding: 5px 0px;
+  margin-left: 260px;
+  margin-top: 45px;
+  color:white;
+  font-size: 12px;
+  width: 100px;
+  text-align: center;
+}
+
+.header{
+  display: flex;
+
 }
 
 /* The dropdown container */
@@ -20,107 +53,27 @@
   overflow: hidden;
 }
 
-/* Dropdown button */
-.dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: black;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+.logo{
+  padding-top: 30px;
+  filter: grayscale(100%) brightness(0%);
+  max-width: 100px;
+  margin-right: 400px;
+  margin-top: 05px;
+  margin-left: 200px;
+
+
 }
 
-/* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
-
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #DBC2F5;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-/* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.navbar {
-  position: relative;
-  color: black;
-  font-size: 12px;
-  width: 100%;
-  padding: 20px 500px;
-  background-color: #DBC2F5;;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  z-index: 100;
-  justify-content: 50vh;
-  display: flex;
-  margin-left: 40px;
-  text-decoration: none;
-  z-index: 100;
-  overflow: hidden;
-}
-.button{
-  background: black;
-  border-radius: 10px;
-  position: absolute;
-  right: 150px;
-  color: white;
-  
-}
-nav a{
-  font-size: 12px;
-  color: black;
-  font-weight: 300;
-  margin-left: 35px;
-  transition: .3s;
-}
-nav a:hover{
-  color: blue;
-}
 .sub-container {
   margin-left: 05%;
   margin-top: 15%;
   max-width: 60%;
   
   margin-right: 20%;
-
-   
-   
-  
-
-
 }
 
 
-body{
-  background-color: #DBC2F5;
-}
+
 
 .pic img {
   padding-right: 20%;
