@@ -16,10 +16,32 @@
 
 }
 
-.footer-button{
-  border: 10px;
-  padding-top: 40px;
+
+.header{
+  text-align: center;
+  padding-top: 100px;
 }
+
+.footer-span{
+  color: #fff;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 3.5rem ;
+}
+
+.footer-button{
+  text-align: center;
+  border-width: thin;
+  border-color: #fff;
+  padding-top: 40px;
+  border-radius: 50px;
+  border-style: solid;
+  width: 15%;
+  height: 3px;
+  margin:0 auto;
+  margin-top: 50px;
+}
+
+
 
 /* .button-footer {
   font-family: DMSans-Regular;
@@ -38,17 +60,3 @@
   box-sizing: border-box;
 } */
 
-.header{
-  text-align: center;
-  padding-top: 100px;
-}
-
-.footer-span{
-  color: #fff;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 3.5rem ;
-}
-
-.footer-button{
-  text-align: center;
-}
