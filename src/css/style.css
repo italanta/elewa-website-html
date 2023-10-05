@@ -1,19 +1,29 @@
 
 /*{footer styling}*/
 
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
 
+*{margin: 0;} *
+
+.footer-background{
+  padding-top: 10px;
+}
 .footer-section{
   padding-top: 10px;
   background-color:#292a50;
-  border-radius: 70px;
+  border-radius: 70px 70px 0px 0px;
   height: 900px;
-  object-fit: cover;
+
 }
 
-.footer-h2{
-  color: #fff;
+.header{
   text-align: center;
+}
 
+.footer-span{
+  color: #fff;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 3.5rem ;
 }
 
 .footer-button{
