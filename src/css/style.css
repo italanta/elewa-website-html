@@ -1,0 +1,99 @@
+body{
+    outline: 3px solid black;
+    top:0px;
+    left:0px;
+    width:1920px;
+    height:1082px;
+    /* UI Properties */
+    background:#FCF6E4 0% 0% no-repeat padding-box;
+    opacity:1;
+}
+#header-Sctn{
+   outline:3px solid blue;
+   /* top,left etc are used for absolute positioning */
+   position:absolute;
+   top: 53px;
+   left: 209px;
+   width: 1502px;
+   height: 65px;
+   background: transparent url('img/Image 2.png') 0% 0% no-repeat padding-box;
+   opacity: 1
+}
+#h1-Box{
+    /* Layout Properties */
+    position: absolute;
+    outline: 3px solid purple;
+    top: 377px;
+    left: 209px;
+    width: 915px;
+    height: 106px;
+}
+h1{
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 82px/110px ;
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+#p-Box{
+    /* Layout Properties */
+    position: absolute;
+    outline: 3px solid gold;
+    top: 513px;
+    left: 209px;
+    width: 741px;
+    height: 197px;
+}
+p{
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 32px/42px 'DM Sans';
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+#uypbtn-Box{
+/* Layout Properties */
+position: absolute;
+outline: 3px solid black;
+top: 767px;
+left: 209px;
+width: 267px;
+height: 58px;
+/* UI Properties */
+background: #000000 0% 0% no-repeat padding-box;
+border-radius: 29px;
+opacity: 1;   
+}
+.designs{
+    /* UI Properties */
+background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
+mix-blend-mode: multiply;
+border-radius: 600px;
+opacity: 1;
+}
+#d1{
+    /* Layout Properties */
+position: absolute;
+top: 737px;
+left: 291px;
+width: 462px;
+height: 461px;
+}
+#d2{
+/* Layout Properties */
+position: absolute;
+top: 504px;
+left: 830px;
+width: 462px;
+height: 694px;   
+}
+#d3{
+    position: absolute;
+    top: 276px;
+    left: 1369px;
+    width: 462px;
+    height: 922px;
+}
