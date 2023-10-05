@@ -58,9 +58,9 @@ footer img{
     
 }
 
-@media (max-width: 320px) {
+@media (max-width: 360px) {
     footer img{
-        height: 15px;
+        height: 20px;
         padding: 0 5px 0 5px;
     }
     
