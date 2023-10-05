@@ -5,10 +5,8 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* background-color: aqua; */
     margin:0 50px 0 50px;
     width: max-content;
-
 }
 /*Styling the company brand images*/
 footer img{
@@ -18,34 +16,30 @@ footer img{
 }
 
 /*Responsive page for mobile devices*/
-@media only screen and (max-width: 1461px){
+@media (max-width: 320px) {
     footer img{
-        display: flex;
-        height: 40px;
-        padding: 0 20px 0 20px;
-        /* margin: 0 0 0 -82px; */
+        height: 20px;
+        padding: 0 5px 0 5px;
     }
     footer{
-        display: flex;
+        margin: 0 5px 0 5px;
+    }
+    
+}
+@media (max-width: 600px){
+    footer img{
+        height: 40px;
+        padding: 0 12px 0 12px;
+        
+    }
+    footer{
         margin: 0 -10px 0 -10px;
         justify-content: center;
+        background-color: aqua;
     }
     .partners{
-        display: flex;
         margin: 0 -10px 0 -10px;
         justify-content: center;
     }
 }
 
-@media only screen and (min-width: 68px) {
-    footer img{
-        display: flex;
-        height: 20px;
-        padding: 0 5px 0 5px;
-    }
-    footer{
-        display: flex;
-        margin: 0 5px 0 5px;
-    }
-    
-}
