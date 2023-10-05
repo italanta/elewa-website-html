@@ -5,37 +5,46 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin:0 50px 0 50px
+    background-color: aqua;
+    margin:0 50px 0 50px;
+    width: max-content;
+
 }
 /*Styling the company brand images*/
 footer img{
     height: 50px;
     padding: 0 40px 0 40px;
+    filter: grayscale();
 }
 
 /*Responsive page for mobile devices*/
-@media screen and (max-width: 768px){
+@media only screen and (max-width: 1461px){
     footer img{
+        display: flex;
         height: 40px;
         padding: 0 20px 0 20px;
         /* margin: 0 0 0 -82px; */
     }
     footer{
+        display: flex;
         margin: 0 -10px 0 -10px;
         justify-content: center;
     }
     .partners{
+        display: flex;
         margin: 0 -10px 0 -10px;
         justify-content: center;
     }
 }
 
-@media screen and (max-width: 360px) {
+@media only screen and (min-width: 68px) {
     footer img{
+        display: flex;
         height: 20px;
         padding: 0 5px 0 5px;
     }
     footer{
+        display: flex;
         margin: 0 5px 0 5px;
     }
     
