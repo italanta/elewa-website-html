@@ -49,7 +49,7 @@
   transform: translateX(0);
   font-family: 'DM Sans', sans-serif;
   font-size: 14px;
-  transition: transform 0.5s ease, color 0.5s ease;
+  transition: transform 1s ease, color 1s ease;
   color: #fff;
 }
 
@@ -67,7 +67,7 @@
   top: 8%;
   right: 2%;
   transform: translateY(0%);
-  transition: transform 0.5s ease, background-color 0.5s ease;
+  transition: transform 1.5s ease, background-color 1.5s ease;
 }
 
 
