@@ -1,155 +1,99 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'DM Sans', sans-serif;
+.heading {
+  top: 377px;
+  left: 209px;
+  width: 1218px;
+  height: 106px;
+  text-align: left;
+  font: normal normal medium 82px/110px DM Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-left: 130px;
+
 }
 
-.footer2{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 800px;
-  
-  
-}
- .socials {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   margin-top: 30px;
- }
-.footer3{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.footer2 h1{
-  font-size: 50px;
-  letter-spacing: 2px;
-  font-weight: 600;
-  margin-top: 40px;
-  padding: 40px;
-}
-.footer {
-  background-color: #2d2e52;
-  padding: 3rem 0.5rem;
-  max-width: 100%;
-  border-top-right-radius: 30px;
-  border-top-left-radius: 30px;
-  color: white;
+body {
+  background-color: #FCF6E4;
+  font-family: 'DM Sans';
 }
 
-.footer-navigations {
-  display: flex;
-  justify-content: space-between;
-  align-items: start;
-  padding: 1.5rem 1rem;
+.paragraph {
+  text-align: left;
+  font: normal normal normal 29px/32px DM Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  top: 513px;
+  left: 209px;
+  width: 741px;
+  height: 224px;
+  margin-left: 130px;
+  margin-top: -40px;
+  word-spacing: 13px;
+ 
 }
 
-.h4 {
-  font-size: 13px;
-  font-weight: bold;
-  margin: 0 0 25px 0;
-  
+.elipse1 {
+  top: 737px;
+  left: 10px;
+  width: 362px;
+  height: 461px;
+  background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
+  mix-blend-mode: multiply;
+  border-radius: 600px;
+  opacity: 1;
+  margin-left: 150px;
 }
 
-.footer-navigations a {
-  
-  font-size: 13px;
-  font-weight: normal;
+.elipse2 {
+  top: 504px;
+  left: 392px;
+  /* Adjusted left value to position it to the left of elipse1 */
+  width: 462px;
+  height: 694px;
+  background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
+  mix-blend-mode: multiply;
+  border-radius: 600px;
+  opacity: 1;
+  margin-left: 600px;
+  margin-top: -630px;
+}
+.elipse3{
+  top: 276px;
+  left: 1369px;
+  width: 462px;
+  height: 922px;
+  background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
+  mix-blend-mode: multiply;
+  border-radius: 600px;
+  opacity: 1;
+  margin-left: 1200px;
+  margin-top: -840px;
 }
 
-.footer-imgs {
-  padding: 1.5rem 1rem;
-  position: relative;
-}
-
-.footer-imgs .logo {
-  max-width: 150px;
-
-  filter: brightness(0) invert(1) grayscale(1) contrast(1000%);
-}
-
-.footer-imgs .icons {
-  position: absolute;
-  right: 7%;
-  bottom: 100%;
-}
-
-.footer-imgs .icons img {
-  margin-right: 1rem;
-  width: 20px;
-  height: 20px;
-}
-
-@media only screen and (min-width: 850px) {
-  .footer h4 {
-    font-size: 24px;
-    max-width: 45%;
-    margin: 0 auto 2rem auto;
-  }
-
-  .footer-navigations .headquarters,
-  .footer-navigations .contact,
-  .footer-navigations .brands {
-    display: block;
-  }
-
-  .footer-navigations {
-    margin: 4rem 4rem 0 4rem;
-    border-top: 1px solid white;
-  }
-
-  .footer-navigations h4 {
-    margin-left: 0;
-    margin-bottom: 1rem;
-  }
-
-  .footer-imgs {
-    padding: 1.5rem 5rem;
-  }
-
-  .footer-imgs .icons {
-    bottom: 30%;
-  }
-
-  .footer-imgs img {
-    margin-right: 1.5rem;
-  }
-  .footer2 {
-   /* font-family: 'DM Sans', sans-serif; */
-   text-align: center;
-   align-items: center;
-   display: flex;
-   flex-direction: column;
-  
-  }
-  /* added an svg icon which is an arrow pointing to the right */
 button {
   cursor: pointer;
+  max-width: 250px;
+  color: white;
+  font-weight: 700;
   font-family: Helvetica, "sans-serif";
   transition: all .2s;
-  padding: 8px 25px;
-  border-radius: 100px;
-  background: #2d2e52;
-  border: 1px solid white;
+  padding: 8px 20px;
+  border-radius: 42px;
+  background: #0D0E0B;
+  border: 1px solid transparent;
   display: flex;
   align-items: center;
-  justify-content: left;
-  max-width: 500px;
-  font-size: 13px;
-  color:white;
-  margin: 20px 0 60px 0;
-  text-align: right;
-  
-
+  font-size: 15px;
+  margin-left: 195px;
+  margin-top: 23px;
 
 }
 
 button:hover {
-  background: white;
+  background: #FFFFFF;
   color: black;
+  border: 1px solid black;
 }
 
 button>svg {
@@ -160,540 +104,153 @@ button>svg {
 
 button:hover svg {
   transform: translateX(5px);
+  color: white;
 }
 
 button:active {
   transform: scale(0.95);
 }
+
+
+/* Style the navigation links */
+
+.button{
+  margin-left: -200px;
+  margin-top: 90px;
+ 
 }
-/* this is what it would look like on smaller screens */
+
+
+nav {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 17px;
+  cursor: pointer;
+  margin: 0 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Style the "Contact Us" button on the left */
+.contact-us {
+  float: left;
+  /* Float the button to the left */
+  margin-right: 20px;
+  /* Add some spacing between the button and navigation links */
+}
+
+/* Style the "Contact Us" button on the top left */
+.contact-button {
+  position: absolute;
+  top: 5px;
+  right: 178px;
+}
+
+.contact-us {
+  background: #2D2E52;
+  border-radius: 22px;
+  padding: 0.7em;
+  border: none;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  
+}
+
+.logo img {
+  width: 9.5rem;
+  filter: brightness(0);
+
+
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Limit the width of the content */
+  max-width: 100%;
+  /* Change to 100% to make it full-width */
+  /* Center the content horizontally */
+  margin: 0 auto;
+  /* Arrange items side by side with space in between */
+  display: flex;
+  justify-content: space-between;
+  /* Center the content vertically */
+  align-items: center;
+  /* Add padding for spacing */
+  padding: 10px 20px;
+}
+
+header {
+
+  background-color: transparent;
+  color: #000;
+  height: var(--elewa-website-header-bg-height);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  position: relative;
+  z-index: 999;
+  margin-bottom: 180px;
+}
+
 @media (max-width: 768px) {
-  .footer h4 {
-    font-size: 24px;
-    max-width: 45%;
-    margin: 0 auto 2rem auto;
-
-  }
-
-  .footer {
-    background-color: black;
-    padding: 3rem 0.5rem;
-    max-width: 80%;
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
-    color: white;
-  }
-
-  .footer-navigations .headquarters,
-  .footer-navigations .contact,
-  .footer-navigations .brands {
-    display: block;
-  }
-
-  body {
-    background-color: white;
-    max-width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-
-  .footer-navigations {
-    margin: 4rem 4rem 0 4rem;
-    border-top: 1px solid white;
-  }
-
-  .footer-navigations h4 {
+  .heading {
+    top: 100px;
+    width: 100%;
     margin-left: 0;
-    margin-bottom: 1rem;
-  }
-
-  .footer-imgs {
-    padding: 1.5rem 5rem;
-  }
-
-  .footer-imgs .icons {
-    bottom: 30%;
-  }
-
-  .footer-imgs img {
-    margin-right: 1.5rem;
-  }
-
-  .footer2 {
-    /* font-family: 'DM Sans', sans-serif; */
     text-align: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
+    font-size: 32px;
+  }
 
+  .paragraph {
+    top: 100px;
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    font-size: 18px;
+  
+  }
+
+  .elipse1,
+  .elipse2 {
+    display: none;
+    /* Hiding the ellipses on smaller screens */
   }
 
   button {
-    cursor: pointer;
-    font-weight: 700;
-    font-family: Helvetica, "sans-serif";
-    transition: all .2s;
-    padding: 8px 15px;
-    border-radius: 100px;
-    background: #2d2e52;
-    border: 1px solid white;
-    display: flex;
-    align-items: center;
-    max-width: 300px;
-    font-size: 15px;
-    color: white;
-    margin-top: 40px;
-
-  }
-
-  button:hover {
-    background: white;
-    color: black;
-  }
-
-  button>svg {
-    width: 34px;
-    margin-left: 10px;
-    transition: transform .3s ease-in-out;
-  }
-
-  button:hover svg {
-    transform: translateX(5px);
-  }
-
-  button:active {
-    transform: scale(0.95);
-  }
-  .heady2{
-    display: none;
-    
-  }
-  .cont2{
-    display: none;
-  }
-  .solve{
-    display: none;
-  }
-    button {
-      cursor: pointer;
-      font-weight: 700;
-      font-family: Helvetica, "sans-serif";
-      transition: all .2s;
-      padding: 8px 15px;
-      border-radius: 100px;
-      background: black;
-      border: 1px solid white;
-      display: flex;
-      align-items: center;
-      max-width: 300px;
-      font-size: 15px;
-      color: white;
-      margin-top: 40px;
-  
-    }
-  .socials{
-    display:flex ;
-    flex-direction: row;
-    justify-content: space-between;
+    margin: 0 auto;
     margin-top: 30px;
   }
 
+
+
+
 }
 
-
- /*  to center the entire page and add a margin on the sides */
- body {
-   display: block;
-   align-items: center;
+h1 {
+  font-size: 53px;
+  letter-spacing: 5px;
  
- }
-
- /* Style the header section */
- header {
-   /* Transparent background and black text */
-   background-color: transparent;
-   color: #000;
-   height: var(--elewa-website-header-bg-height);
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   font-family: DMSans-Regular;
-
-   /* Keep it on top of other elements */
-   position: relative;
-   z-index: 999;
- }
-
- /* Container for header content */
- .container {
-   /* Limit the width of the content */
-   max-width: 100%;
-   /* Change to 100% to make it full-width */
-
-   /* Center the content horizontally */
-   margin: 0 auto;
-
-   /* Arrange items side by side with space in between */
-   display: flex;
-   justify-content: space-between;
-
-   /* Center the content vertically */
-   align-items: center;
-
-   /* Add padding for spacing */
-   padding: 10px 20px;
- }
-
- /* Style the logo */
- .logo img {
-   width: 7.5rem;
-   filter: brightness(0);
-   margin-left: 145px;
-
- }
-
- nav {
-   display: flex;
-   align-items: center;
-   /* Center navigation links vertically */
- }
-
- nav a {
-   text-decoration: none;
-   color: #000000;
-   font-family: 'DMSans-Regular', Arial, sans-serif;
-   font-size: 18px;
-   cursor: pointer;
-   margin: 0 20px;
-   /* Add margin to create space between links */
- }
-
- nav a:hover {
-   text-decoration: underline;
- }
-
- .sol {
-   font-weight: 900;
-   text-decoration: underline;
- }
-
- /* Adding styles for the arrow container */
- .arrow {
-   display: inline-block;
-   margin-left: 5px;
-   /* Spacing between "Solutions" and the arrow */
-   transition: transform 0.3s;
-   /* Smooth transition for arrow rotation */
- }
-
- /* Styling the inverted greater-than sign */
- .arrow::before {
-   content: "\203A";
-   /* Unicode character for an inverted greater-than sign */
-   display: inline-block;
-   transform: translateY(2px);
-   /* Adjusting vertical alignment */
-   transition: transform 0.3s;
-   /* Adding smooth transition for arrow rotation */
- }
-
- /* Rotating the arrow when the "sol" class is hovered */
- .sol:hover .arrow::before {
-   transform: translateY(2px) rotate(180deg);
-   /* Rotating the arrow 180 degrees on hover */
- }
-
- /* Optionally, customize arrow color or other styles */
- .arrow::before {
-   color: #000;
-   /* Arrow color (adjust to your preference) */
-   font-size: 14px;
-   /* Arrow size (adjust if needed) */
- }
-
-
-
-
- /* Style the "Contact Us" button */
- .button {
-   background: #2d2e52;
-   border-radius: 22px;
-   width: 8.375rem;
-   padding: 0.7em;
-   font-weight: bold;
-   font-family: Arial, sans-serif;
- }
-
- .contact-us {
-   background: #2d2e52;
-   border-radius: 22px;
-   width: 8.375rem;
-   padding: 0.7em;
-   border: none;
-   text-align: center;
-   color: #fff;
-   cursor: pointer;
-   margin-left: auto;
-   /* Push "Contact Us' to the right by using auto margin */
- }
-
- /* Add styles for the mobile menu */
- .nav-toggle {
-   display: none;
- }
-
- .nav-menu {
-   display: flex;
-   /* Change to flex to make navigation items horizontal */
-   align-items: center;
-   /* Center navigation links vertically */
- }
-
- /* Styles for the hamburger menu */
- .hamburger {
-   display: none;
-   cursor: pointer;
- }
-
- .line {
-   width: 30px;
-   height: 3px;
-   background-color: #000;
-   /* Change the color as needed */
-   margin: 4px 0;
- }
-
- /* Add styles for the contact button inside the menu */
- .contact-us-mobile {
-   background: #2d2e52;
-   border-radius: 22px;
-   width: 8.375rem;
-   padding: 0.7em;
-   border: none;
-   text-align: center;
-   color: #fff;
-   cursor: pointer;
-   display: none;
-   /* Hide the mobile "Contact Us" button by default */
-   margin-top: 10px;
-   /* Add spacing between the button and menu items */
- }
-
- .contact-button1 {
-   display: none;
-   color: white;
- }
-
-
- .contact-us {
-   display: inline-block;
-   /* Show the "Contact Us" button */
-   margin-top: 10px;
-   /* Add spacing between the button and menu items */
- }
-
- /* Add a media query to switch to the hamburger menu on smaller screens */
- @media (max-width: 768px) {
-   .nav-container {
-     text-align: center;
-     /* Align navigation buttons in the center */
-   }
-
-   .nav-menu {
-     display: none;
-     flex-direction: column;
-     /* Stack navigation items vertically */
-     background-color: #fff;
-     /* Background color for the mobile menu */
-     position: absolute;
-     /* Position the mobile menu */
-     top: 100%;
-     /* Position it below the header */
-     left: 0;
-     right: 0;
-     z-index: 1000;
-     /* Ensure it's above other content */
-   }
-
-   .hamburger {
-     display: block;
-     margin-left: 50%;
-   }
-
-   .nav-toggle:checked+.nav-menu {
-     display: flex;
-     /* Show the mobile menu when the toggle is checked */
-   }
-
-   /* Style each mobile menu item */
-   .nav-menu a {
-     padding: 10px 20px;
-     text-align: center;
-     text-decoration: none;
-     color: #000000;
-     font-family: 'DMSans-Regular', Arial, sans-serif;
-     font-size: 13px;
-     cursor: pointer;
-     border-bottom: 1px solid #ccc;
-     
-   }
-
   
-   .nav-menu a:last-child {
-     border-bottom: none;
-   
-   }
-
   
-   .contact-us-mobile {
-     display: inline-block;
-   }
-
-  
-   .contact-us {
-     display: none;
-   }
-
-   .contact-button1 {
-     display: block;
-   }
  
-   
- }
- #container {
-   font-family: Arial, sans-serif;
-   display: flex;
-   flex-direction: row;
-   gap: 2rem;
-   background-color: #f0f0f0;
-   color: #000;
-   height: 100vh;
-   padding: 2vh 10%;
-
-   @media screen and (max-width: 768px) {
-     flex-direction: column;
-     height: 100vh;
-   }
- }
-
- .contact-left {
-   display: flex;
-   flex-direction: column;
-   height: 80vh;
-   width: 40%;
-
-   @media screen and (max-width: 768px) {
-     width: 100%;
-     height: 40%;
-   }
- }
-
- .left-text {
-   height: 50%;
-   display: flex;
-   flex-direction: column;
-   gap: 1rem;
-   padding-bottom: 8rem;
- }
-
- .left-text h1 {
-   font-size: 2.5rem;
-   font-weight: 500;
- }
-
- 
- 
- h1{
-  top: 386px;
-  left: 50px;
-  width: 839px;
-  height: 216px;
-  text-align: left;
-  font: normal normal medium 82px/110px DM Sans;
-  letter-spacing: 0px;
-  color: #000000;
-  opacity: 1;
-  font-size: 50px;
-  margin-top: -130px;
-  letter-spacing: 4px;
-  padding: 170px;
-  line-height: 70px;
-  margin-top: 3px;
-  margin-bottom: 10px;
-
-  
- }
-
-h2{
-  
-  top: 665px;
-  left: 204px;
-  width: 633px;
-  height: 302px;
-  text-align: left;
-  font: normal normal normal 32px/42px DM Sans;
-  letter-spacing: 0px;
-  color: #000000;
-  opacity: 1;
-  margin-left: 165px;
-  
-}
-@media screen and (max-width: 768px) {
-  .container {
-    padding: 0.5rem;
-  }
-
-  .logo img {
-    max-width: 150px;
-  }
-
-  nav {
-    margin-top: 1rem;
-    text-align: center;
-  }
-
-  nav a {
-    font-size: 16px;
-    margin: 0 10px;
-  }
-
-  .contact-us {
-    width: 100%;
-    margin-left: 0;
-  }
-
-  .contact-button1 {
-    display: inline-block;
-  }
-  h2 {
-      font-size: 15px;
-      /* Adjust the font size for smaller screens */
-      text-align: center;
-      /* Center the text on smaller screens */
-      margin-top: 20px;
-      /* Add margin to create space */
-      margin-left: auto;
-      margin-right: auto;
-      max-width: 60%;
-      /* Limit the width of the h2 element */
-    }
-
-    /* Responsive styles for h1 */
-    h1 {
-      font-size: 20px;
-      /* Adjust the font size for smaller screens */
-      text-align: center;
-      /* Center the text on smaller screens */
-      margin-bottom: 20px;
-     
-      margin-left: auto;
-      margin-right: auto;
-      max-width: 60%;
-      /* Limit the width of the h1 element */
-    }
 }
 
+.logo{
+  margin-left: 120px;
+}
