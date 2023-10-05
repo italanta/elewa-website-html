@@ -1,4 +1,24 @@
+*{
+    margin: 0;
+}
+
+
 
 .footer{
-    background-color: ;
+    background-color:#292A50;
+    height: 730px;
+}
+
+.section-one{
+    text-align: center;
+}
+
+.section-two{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: space-between;
 }
