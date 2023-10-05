@@ -5,8 +5,10 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin:0 50px 0 50px;
+    margin:0 3% 0 3%;
+    /* background-color: aqua; */
     width: max-content;
+    overflow: hidden;
 }
 /*Styling the company brand images*/
 footer img{
@@ -16,15 +18,26 @@ footer img{
 }
 
 /*Responsive page for mobile devices*/
-@media (max-width: 320px) {
+
+@media (max-width:1280px) {
     footer img{
-        height: 20px;
-        padding: 0 5px 0 5px;
+        height: 60px;
+        padding: 0 20px 0 20px;
     }
-    footer{
-        margin: 0 5px 0 5px;
+}
+@media (max-width:1024px){
+    footer img{
+        height: 50px;
+        padding: 0 20px 0 20px;
     }
-    
+}
+
+@media (max-width: 800px){
+    footer img{
+        height: 40px;
+        padding: 0 20px 0 20px;
+        
+    }
 }
 @media (max-width: 600px){
     footer img{
@@ -32,14 +45,24 @@ footer img{
         padding: 0 12px 0 12px;
         
     }
-    footer{
-        margin: 0 -10px 0 -10px;
-        justify-content: center;
-        background-color: aqua;
-    }
-    .partners{
-        margin: 0 -10px 0 -10px;
-        justify-content: center;
-    }
+   
+    
 }
 
+@media (max-width:480px) {
+    footer img{
+        height: 25px;
+        padding: 0 12px 0 12px;
+        
+    }
+    
+}
+
+@media (max-width: 320px) {
+    footer img{
+        height: 15px;
+        padding: 0 5px 0 5px;
+    }
+    
+    
+}
