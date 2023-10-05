@@ -18,6 +18,7 @@
 
 .footer-button{
   border: 10px;
+  padding-top: 40px;
 }
 
 /* .button-footer {
@@ -39,6 +40,7 @@
 
 .header{
   text-align: center;
+  padding-top: 100px;
 }
 
 .footer-span{
