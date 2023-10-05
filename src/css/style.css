@@ -106,7 +106,7 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-style:normal;
-    font-size: 82px/110px;
+    font-size:medium 82px/110px;
     letter-spacing: 0px;
     color:#000000;
     opacity: 1;
@@ -343,3 +343,124 @@ h1 {
 
 
 }
+@media (max-width: 400px){
+    #header {
+        left: 0px; /* Adjust header position */
+        width: auto; /* Allow header to expand */
+    }
+    #logo{
+        margin-right:0%;
+    }
+    h1{
+        position: absolute;
+        margin-top: -15%;
+        width:40%;
+        /* text */
+        font-size:medium;
+    }
+    #p1{
+        position: absolute;
+        width:50%;
+        margin-top: -28%;
+        /* text */
+        font-size: 12px;
+    }
+    #contactNavBtn{
+        display:none;
+    }
+    .homeLinks {
+        display:none;
+        position: relative;
+        left:-10%;
+        margin-right: 10%; /* Adjust margin */
+        width: 500px; /* Adjust width */
+    }
+
+    #homeFlexBox {
+        position: relative;
+        display:block;
+        margin-top: -70%;
+        left: 20px; /* Adjust flex container position */
+        width:30%;
+        width: auto; /* Allow flex container to expand */
+        
+    }
+
+    .homepageImage {
+        position: relative;
+        top:30%;
+        left: 0; /* Adjust image position */
+        width: 80%; /* Adjust image width */
+        height: 60%;
+    }
+    #UYPbtn {
+        position:absolute;
+        margin-top: -50%;
+        left: 0px; /* Adjust button position */
+        width:50%;
+        height:5%;
+    }
+    #UYPbtn:hover .arrowHead {
+        border-left-color: #FFFFFF; /* Change arrow head color to white on hover */
+    }
+    
+    #UYPbtn:hover #btnCircle {
+        background-color: #000000; 
+        left:30px; /* Move btnCircle to the right on hover */
+    }
+    #UYPbtn:hover #buttonText {
+        background-color: #FFFFFF;
+        left: 40%; /* Move to the right on hover */
+    }
+    
+    #UYPbtn:hover {
+        background-color: #FFFFFF; /* Change background to white on hover */
+        color: #000000; /* Change text color to black on hover */
+    }
+    #buttonText {
+        position:absolute;
+        /* outline:2px solid yellow; */
+        transition:left 0.3s;
+        background-color: #000000;
+        /* text */
+        font-size:8px;
+    }
+      
+    #btnCircle {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        width: 25px;
+        height: 25px;
+        margin-left: -35%;
+        border-radius: 50%;
+        background-color: #fff;
+        transition: left 0.3s; /* Add a smooth transition effect for horizontal movement */
+        
+    }
+    .arrowBar {
+        /* outline: 2px solid yellow; */
+        margin-left: 3px;
+        width:40%;
+        height: 3px; /* Adjust the thickness of the arrow bar */
+        background-color: #000; /* Adjust the color as needed */
+        position: absolute;
+        margin-top: -25%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+    .arrowHead {
+        /* outline: 2px solid yellow; */
+        
+        border-left: 15px solid transparent; /* Adjust the size of the arrow head */
+        border-right: 0;
+        border-top:6px solid transparent;
+        border-bottom: 6px solid transparent;
+        border-left-color: #000; /* Adjust the color to match the arrow bar */
+        position: absolute;
+        margin-top: -25%;
+        right: 0;
+        transform: translateY(-50%);
+    }
+
+}
+
