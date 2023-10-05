@@ -94,3 +94,26 @@ button.contact_us-btn {
   height: 100%;
   object-fit: contain;
 }
+
+@media screen and (max-width: 768px) {
+  .about_hero_section-container {
+    flex-direction: column-reverse;
+    height: max-content;
+    padding: 0 12px;
+    margin-bottom: 20px;
+  }
+
+  .about_hero_desc {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about_hero-title {
+    font-size: 64px;
+  }
+
+  .about_hero-body {
+    font-size: 24px;
+  }
+}
