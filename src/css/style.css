@@ -143,11 +143,30 @@ p {
     filter: grayscale(100%); /*this is to ensure that the images are dull i.e they are black and white*/
     mix-blend-mode: multiply;
     opacity: 1;
+    margin-left: 20px;
+    margin-top: 30px;
   }
   .partner > div img {
     margin-top: 200px;
     width: 200px; /* Set a specific width for the logos (adjust as needed) */
     height: 190px; /* Set a specific height for the logos (adjust as needed) */
+  }
+
+  @media screen and (max-width: 768px) {
+    .partner {
+      flex-direction: column; /* so has to Stack the logos vertically on mobile/smaller screens */
+      align-items: center; /* Center the logos horizontally on smaller screens */
+    }
+  
+    .partner > div {
+      margin-right: 0; /* Remove margin between logos on smaller screens */
+      margin-bottom: 20px; /* Add spacing between logos vertically (adjust as needed) */
+    }
+  
+    .partner > div img {
+      width: 150px; /* Adjust the width for smaller screens */
+      height: 140px; /* Adjust the height for smaller screens */
+    }
   }
   
  
