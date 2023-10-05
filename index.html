@@ -10,15 +10,8 @@
   <link rel="stylesheet" href="src/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
-  <script>
-    $(document).ready(function(){
-      $('#icon').click(function(){
-        $('ul').toggleClass('show');
-        $('#icon i').toggleClass('fa-bars fa-times');
-      })
-    })
-  </script>
-  <!-- <script defer type="module" src="dist\out-tsc\index.js"></script> -->
+  <!-- <script src="./src/ts/index.ts"></script> -->
+  <script defer type="module" src="dist\out-tsc\index.js"></script>
 </head>
 <body id="body">
   <!--This is the navbar of the page-->
@@ -39,26 +32,7 @@
       <i class="fas fa-times"></i>
     </label>
   </nav>
-  
-  
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const solutionsTab = document.querySelector(".solution");
-        const solutionMenu = document.querySelector(".menu");
 
-        solutionsTab.addEventListener("click", function () {
-            solutionMenu.classList.toggle("open");
-        });
-        
-        // Close the menu if you click outside of it
-        // document.addEventListener("click", function (event) {
-        //     if (!solutionMenu.contains(event.target) && event.target !== solutionsTab) {
-        //         solutionMenu.classList.remove("open");
-        //     }
-        // });
-    });
-
-</script>  
 </body>
 
 </html>

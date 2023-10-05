@@ -33,9 +33,9 @@ nav ul{
 .nav-button {
   background:#2D2E52 0% 0% no-repeat padding-box;
   color: white;
-  padding: 5px 10px;
+  padding: 10px 30px;
   border: none;
-  border-radius: 10px;
+  border-radius: 22px;
   font-size: 18px;
   margin-left: 150px;
 }
@@ -70,7 +70,7 @@ nav a {
   display: none;
 }
 
-@media (max-width:1048px){
+@media (max-width:909px){
  label.logo{
   font-size: 32px;
   padding-left: 60px;
@@ -82,7 +82,7 @@ nav a {
   font-size: 17px;
  }
 }
-@media (max-width:912px){
+@media (max-width:1181px){
   #icon{
     display: block;
   }
@@ -102,7 +102,7 @@ nav a {
     line-height: 30px;
   }
   .nav-button{
-    margin-right: 120px;
+    margin-left: 50px;
   }
   nav a{
     font-size: 20px;
@@ -113,6 +113,8 @@ nav a {
   nav ul.show{
     left: 0;
   }
-  
+
 }
+
+
 
