@@ -65,14 +65,30 @@
   margin-top: 100px;
 }
 
-.Footer-link{
+.footer-footer{
+  display: table;
+}
+
+.Footer-a{
   color: #fff;
   font-family: 'DM Sans', sans-serif;
   font-size:15px;
-  padding-left: 27px;
+  padding-left: 80px;
+  padding-top: 20px;
+
 }
 
 ul {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0px;
+  display: table-cell;
 }
+
+a {
+  margin-left: 80px;
+  color: #fff;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
+}
+
+
