@@ -11,76 +11,85 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+<style>
+html {
+  font-size: 16px; 
+}
 
-  <style>
-    section {
-      display: flex;
-      align-items: center;
-      padding: 40px;
-      background-color: rgb(224, 198, 251);
-    }
-  
-    .container {
-      display: flex;
-      align-items: flex-start;
-      flex: 1;
-      justify-content: center;
-      margin-top: 30px;
-    }
-  
-    .image img {
-      height: 800px;
-      width: 100%;
-    }
-  
-    .description {
-      padding-left: 80px;
-      max-width: 40%;
-      margin-bottom: 100px;
-    }
-  
-    .description h2 {
-      font-family: 'Quicksand', sans-serif;
-      font-size: 52px;
-      margin-bottom: 30px;
-      margin-top: 200px;
-      letter-spacing: 2px;
-    }
-  
-    .description p {
-      font-family: 'Quicksand', sans-serif;
-      font-size: 32px;
-      line-height: 1.4;
-      margin-bottom: 32px;
-    }
+body {
+  font-size: 1rem; 
+}
 
-    @media screen and (max-width: 768px) {
-      .container {
-        flex-direction: column;
-        text-align: center;
-      }
+section {
+  display: flex;
+  align-items: center;
+  padding: 2.5rem; 
+  background-color: rgb(224, 198, 251);
+}
 
-      .image img {
-        height: auto;
-        max-width: 100%;
-      }
+.container {
+  display: flex;
+  align-items: flex-start;
+  flex: 1;
+  justify-content: center;
+  margin-top: 1.875rem; 
+}
 
-      .description {
-        padding: 20px;
-        max-width: 100%;
-      }
+.image img {
+  height: 50rem; 
+  width: 100%;
+}
 
-      .description h2 {
-        font-size: 36px;
-        margin-top: 100px;
-      }
+.description {
+  padding-left: 5rem; 
+  max-width: 50rem; 
+  margin-bottom: 6.25rem; 
+}
 
-      .description p {
-        font-size: 24px;
-      }
-    }
-  </style>
-  
+.description h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 3.25rem; 
+  margin-bottom: 3.25rem; 
+  margin-top: 12.5rem;
+  letter-spacing: 0.0625em; 
+}
+
+.description p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2rem; 
+  line-height: 1.4;
+  margin-bottom: 2rem; 
+ 
+}
+
+@media screen and (max-width: 48em) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image img {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .description {
+    padding: 1.25rem; 
+    max-width: 100%;
+  }
+
+  .description h2 {
+    font-size: 2.25rem; 
+    margin-top: 1.25rem; 
+  }
+
+  .description p {
+    font-size: 1.5rem; 
+    
+  }
+}
+
+</style>
 
   <script defer type="module" src="dist\out-tsc\index.js"></script>
 </head>
