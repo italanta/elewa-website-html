@@ -1,16 +1,29 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-.header{
-  font-size: 2em;
-  margin-bottom: 20px;
+
+
+
+
+
+
+
+.header-desktop{
+  margin-bottom: 70px;
   text-align: center;
+font-size:50px ;
+margin-top: 115px;
+}
+
+.header-mobile{
+  margin-bottom: 30px;
+  text-align: center;
+font-size: 20px;
+margin-top: 70px;
+padding-left: 20px;
+box-sizing: content-box;
 }
 
 body{
   font-family: sans-serif;
+  box-sizing: border-box;
 }
 
 /*to hide mobile-specific elements by default */
@@ -27,13 +40,49 @@ body{
 @media(min-width:800px){
 
   body{
-    background-color: blue;
-    color: white;
+    background-color: rgb(59, 59, 113);
+    color:aliceblue;
+    border-radius: 10px;
   }
 
 /*Show desktop-specific elements */
 .desktop-only{
   display: block;
+}
+
+.button-desktop{
+  outline:1px solid white;
+  border-radius: 40px;
+  /*to create some space between border and text */
+  box-sizing: border-box;
+  padding: 1px;
+  margin:0;
+  width:max-content;
+  height: max-content;
+  margin-left:530px ;
+  font-size: 10px;
+  padding-left: 30px;
+  padding-right: 44px;
+margin-bottom:20px;
+padding-top:2px;
+padding-bottom: 2px;
+  
+}
+
+.arrow-desktop{
+  margin-top: -52px;
+}
+
+.arrow-desktop img{
+  width:16px ;
+  height: 16px;
+  margin-left: 664px;
+  border: 1px solid whitesmoke;
+  border-radius: 100px;
+
+  background-color: white;
+  padding:5px;
+  
 }
 
 }
@@ -44,11 +93,46 @@ body{
   body{
     background-color: black;
     color: white;
+    border: 40px solid white;
+    border-radius: 30px;
   }
 
 /*show mobile specific elements */
 .mobile-only{
   display:block;
+}
+
+.button-mobile{
+  outline:1px solid white;
+  border-radius: 40px;
+  /*to create some space between border and text */
+  box-sizing: border-box;
+  padding: 1px;
+  margin:0;
+  width:max-content;
+  height: max-content;
+  margin-left:85px ;
+  font-size: 10px;
+  padding-left: 30px;
+  padding-right: 44px;
+margin-bottom:50px;
+padding-top:2px;
+padding-bottom: 2px;
+}
+.arrow-mobile{
+  margin-top: -81px;
+}
+
+.arrow-mobile img{
+  width:16px ;
+  height: 16px;
+  margin-left: 214px;
+  border: 1px solid whitesmoke;
+  border-radius: 100px;
+
+  background-color: white;
+  padding:5px;
+  
 }
 
 }
