@@ -58,8 +58,8 @@
   height: 30px;
   width: 30px;
   background-color: #fff;
-  background-image: url('src/images/black-arrow.png');
-  background-size: cover;
+  background-image: url('/src/images/black-arrow.png');
+  background-size: 50%;
   background-repeat: no-repeat;
   background-position: center;
   border: none;
@@ -90,6 +90,11 @@
   height: 30px;
   width: 30px;
   top: 10%;
+  background-image: url('/src/images/white-arrow.png');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
 }
 
 
