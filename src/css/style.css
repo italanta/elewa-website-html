@@ -180,12 +180,14 @@ body{
         flex-direction: column;
         align-items: center;
         gap: 0;
+        transition: all 400ms ease-out;
     }
    
     .list {
         flex-direction: column;
         align-items: center;
         padding: 20px;
+        
     }
     .navbar label {
         display: inline-flex;
