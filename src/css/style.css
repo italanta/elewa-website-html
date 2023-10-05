@@ -149,6 +149,280 @@ p {
     width: 200px; /* Set a specific width for the logos (adjust as needed) */
     height: 190px; /* Set a specific height for the logos (adjust as needed) */
   }
+
+
+
+  /*Educational section */
+
+  .education h1{
+    display: flex;
+    flex-direction: row;
+    font-size: 46px;
+    color: #000000;
+    font-weight: 700;
+    margin-left: 350px;
+  }
+  .design
+  {
+    margin-left: 70px;
+    background: #e4d6f7;
+    top: 2685px;
+    width: 486px;
+    height: 430px;
+
+
+  }
+  .circle1 {
+    margin-top: 110px;
+    position: absolute;
+    left: 00px;
+    width: 250px;
+    height: 270px;
+    background: transparent linear-gradient(90deg, #DBC2F500 0%, #DBC2F5E6 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: multiply;
+    opacity: 1;
+    z-index: 1; /* Set a higher z-index for circle1 */
+    border-radius: 700px 700px 700px 700px;
+}
+
+.circle2 {
+    position: absolute;
+    margin-top: 110px;
+    left: 200px;
+    width: 250px;
+    height: 270px;
+    transform: matrix(-1, 0, 0, -1, 0, 0);
+    background: transparent linear-gradient(90deg, #DBC2F500 0%, #DBC2F5E6 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: multiply;
+    opacity: 1;
+    z-index: 2;
+    border-radius: 700px 700px 700px 700px;
+
+}
+
+  .design h2 
+  {
+    padding-top: 100px;
+    left: 259px;
+    width: 435px;
+    height: 47px;
+    padding-left: 20px;
+    text-align: left;
+    font: normal normal medium 36px/30px DM Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 2;
+    margin-bottom: -30px;
+  }
+  .design p
+  {
+    margin-top: -10px;
+    text-align: left;
+    font: normal normal normal 22px/30px DM Sans;
+    top: 2932px;
+    left: 259px;
+    width: 354px;
+    height: 89px;
+    padding: 20px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 2;
+  }
+
+  /*this refers to the content development part*/
+  .development
+  {
+    background: #FCF6E4;
+    width: 890px;
+    margin-top: -450px;
+    margin-left: 570px;
+    height: 430px;
+  }
+  .development h2{
+    padding-top: 100px;
+    left: 259px;
+    width: 435px;
+    height: 47px;
+    padding-left: 20px;
+    text-align: left;
+    font: normal normal medium 36px/30px DM Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 2;
+    margin-bottom: -30px;
+  }
+  .development p
+  {
+    margin-top: -10px;
+    text-align: left;
+    font: normal normal normal 22px/30px DM Sans;
+    top: 2932px;
+    left: 259px;
+    width: 354px;
+    height: 89px;
+    padding: 20px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 2;
+  }
+
+  .circle3 {
+    margin-top: 220px;
+    position: absolute;
+    left: 760px;
+    width: 100px;
+    height: 100px;
+    background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: multiply;
+    opacity: 1;
+    z-index: 1; /* Set a higher z-index for circle1 */
+    border-radius: 700px 700px 700px 700px;
+}
+.circle4 {
+    margin-top: 130px;
+    position: absolute;
+    left: 880px;
+    width: 130px;
+    height: 200px;
+    background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: multiply;
+    opacity: 1;
+    z-index: 1; /* Set a higher z-index for circle1 */
+    border-radius: 400px 400px 400px 400px;
+}
+.circle5 {
+    margin-top: 75px;
+    position: absolute;
+    left: 1060px;
+    width: 150px;
+    height: 260px;
+    background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: multiply;
+    opacity: 1;
+    z-index: 1; /* Set a higher z-index for circle1 */
+    border-radius: 400px 400px 400px 400px;
+}
+
+
+/*this is the convesational phase*/
+
+.Conversational
+{
+    margin-left: 70px;
+    background: #FAE9E8;
+    height: 430px;
+    width: 930px;
+}
+.Conversational h2{
+    padding-top: 170px;
+    left: 259px;
+    width: 435px;
+    height: 47px;
+    padding-left: 20px;
+    text-align: left;
+    font: normal normal medium 36px/30px DM Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 2;
+    margin-bottom: -30px;
+  }
+  .Conversational p
+  {
+    margin-top: -10px;
+    text-align: left;
+    font: normal normal normal 22px/30px DM Sans;
+    top: 2932px;
+    left: 259px;
+    width: 354px;
+    height: 89px;
+    padding: 20px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 2;
+  }
+  .circle6 {
+    margin-top: 108px;
+    position: absolute;
+    left: 300px;
+    width: 250px;
+    height: 160px;
+    background: transparent linear-gradient(270deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: multiply;
+    opacity: 1;
+    z-index: 1; /* Set a higher z-index for circle1 */
+    border-radius: 400px 400px 400px 400px;
+}
+.circle7 {
+    margin-top: 180px;
+    position: absolute;
+    left: 450px;
+    width: 260px;
+    height: 160px;
+    background: transparent linear-gradient(90deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: multiply;
+    opacity: 1;
+    z-index: 1; /* Set a higher z-index for circle1 */
+    border-radius: 400px 400px 400px 400px;
+}
+.Ldesign
+{
+    overflow: hidden; /* Clip any content or shapes that extend beyond the container */
+    margin-top: -430px;
+    position: absolute;
+    margin-left: 1010px;
+    background: #FBE8D7;
+    width: 450px;
+    height: 430px;
+}
+.Ldesign h2{
+    padding-top: 170px;
+    left: 259px;
+    width: 435px;
+    height: 47px;
+    padding-left: 20px;
+    text-align: left;
+    font: normal normal medium 36px/30px DM Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 2;
+    margin-bottom: -30px;
+  }
+  .Ldesign p
+  {
+    margin-top: -10px;
+    text-align: left;
+    font: normal normal normal 22px/30px DM Sans;
+    top: 2932px;
+    left: 259px;
+    width: 354px;
+    height: 89px;
+    padding: 20px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 2;
+  }
+  .circle8 {
+    margin-top: 288px;
+    position: absolute;
+    left: 94px;
+    width: 370px;
+    height: 290px;
+    background: transparent linear-gradient(289deg, #F2AD69 0%, #F2AD6900 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: multiply;
+    opacity: 1;
+    z-index: 1;
+    transform: scaleX(-1) scaleY(1) rotate(490deg) rotate(88deg); /* Flip horizontally and vertically, then rotate */
+    clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
+    border-radius: 60% 70% 90% 10%; /* Adjust the border radius for the bottom right corner */
+}
+
+
+
+
+
+
+
+
   
  
   
