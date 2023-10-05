@@ -121,3 +121,46 @@
         width: 320px;
     }
 }
+
+#image{
+    background: transparent url('img/gettyimages-98473330-2048x2048.png') 0% 0% no-repeat padding-box;
+    border-radius: 1000px 1000px 0px 0px;
+    opacity: 1;
+    width: 641px;
+    height: 775px;
+}
+
+.heading{
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-size: 32px;
+    margin-left: 4rem;
+    font-style: DM Sans, Medium;
+    
+} 
+
+.home-page-overview{
+    display: flex;
+    justify-content: center;
+    background: #DBC2F5 0% 0% no-repeat padding-box;
+    opacity: 1;
+    
+
+}
+
+.paragraph{
+    font-style: normal normal normal  DM Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-size: 22px;
+    margin-top: 4rem;
+    margin-left: 4rem;
+
+}
+.container-2{
+    margin-top: 15rem;
+}
+
+
