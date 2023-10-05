@@ -1,5 +1,203 @@
+/* @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,500;1,700&display=swap"); */
+@import url("sections/hero.css");
+@import url("sections/header.css");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,500;9..40,700&family=League+Spartan:wght@300&family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,500;1,700&display=swap");
+
+:root {
+  --roboto: "Roboto";
+}
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "DM Sans", serif;
+  margin-left: 10px;
+}
+body {
+  /* padding-left: 2.5rem;
+  padding-right: 2.5rem; */
+  padding: 50px;
+  background-color: #f9f8f4;
+}
+ul {
+  list-style-type: none;
+}
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+li {
+  text-decoration: none;
+}
+/* media queries */
+/* Styles for screens smaller than 576px (mobile phones in portrait mode) */
+@media (max-width: 575px) {
+  /* Add your CSS styles here */
+  .nav__icon {
+    display: inline;
+  }
+  .nav__links {
+    display: none;
+  }
+  .nav__button {
+    display: none;
+  }
+  .hero {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero__image {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .hero__text h4 {
+    font-size: 40px;
+  }
+  .hero__text p {
+    font-size: large;
+    white-space: wrap;
+  }
+  .hero__button button {
+    margin-top: 40px;
+  }
+}
+
+/* Styles for screens between 576px and 767px (mobile phones in landscape mode) */
+@media (min-width: 576px) and (max-width: 767px) {
+  /* Add your CSS styles here */
+  /* .nav__icon {
+    display: none;
+  }
+  .hero {
+    margin-top: 100px;
+  } */
+  .nav__links {
+    display: none;
+  }
+  .nav__button {
+    display: none;
+  }
+  .hero {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero__image {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 390px;
+  }
+  .hero__text h4 {
+    font-size: 40px;
+  }
+  .hero__text p {
+    font-size: large;
+    white-space: wrap;
+  }
+  .hero__button button {
+    margin-top: 40px;
+  }
+}
+
+/* Styles for screens between 768px and 991px (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Add your CSS styles here */
+  .nav__links {
+    display: none;
+  }
+  .nav__button {
+    display: none;
+  }
+  .hero {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 10%; */
+  }
+  .hero__image {
+    display: flex;
+    /* overflow: hidden; */
+    margin-top: 30px;
+    height: 400px;
+    margin-left: 30px;
+  }
+  .hero__text h4 {
+    font-size: 40px;
+  }
+  .hero__text p {
+    font-size: large;
+    white-space: wrap;
+  }
+  .hero__button button {
+    margin-top: 40px;
+  }
+}
+
+/* Styles for screens between 992px and 1199px (small laptops and desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Add your CSS styles here */
+  .nav__icon {
+    display: none;
+  }
+  .hero {
+    margin-top: 100px;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    align-items: center;
+    margin-left: 90px;
+  }
+  .hero__image {
+    display: flex;
+
+    margin-top: 30px;
+    height: 450px;
+    margin-left: 100px;
+  }
+  .hero__text h4 {
+    font-size: 40px;
+  }
+  .hero__text p {
+    font-size: large;
+    white-space: wrap;
+  }
+  .hero__button button {
+    margin-top: 40px;
+  }
+}
+
+/* Styles for screens 2114px or larger (medium to large desktops) */
+@media (min-width: 1200px) and(max-width:2114px) {
+  /* Add your CSS styles here */
+  .nav__icon {
+    display: none;
+  }
+  .hero__image {
+    margin-top: 10%;
+    align-items: center;
+    margin-left: 70px;
+    padding: 2.5rem;
+  }
+}
+/* Hide the nav__icon when the minimum width is 1211px */
+@media (min-width: 1211px) {
+  .nav__icon {
+    display: none;
+  }
+  .nav {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .hero {
+    align-items: center;
+    margin-left: 20%;
+  }
 }

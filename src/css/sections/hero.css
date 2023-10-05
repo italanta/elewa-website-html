@@ -1,0 +1,54 @@
+/* Hero section Styles */
+.hero {
+  margin-top: 130px;
+
+  display: flex;
+  align-items: center;
+}
+.hero__div {
+  display: flex;
+  justify-content: space-between;
+}
+.hero__text {
+  display: inline-block;
+}
+.hero__text h4 {
+  font-family: var(--roboto);
+  display: flex;
+  font-size: 50px;
+  line-height: normal;
+  font-weight: bold;
+}
+.hero__text p {
+  display: flex;
+  font-size: 30px;
+  margin-top: 10px;
+  font-weight: bolder;
+  /* white-space: wrap; */
+}
+.hero__image {
+  display: flex;
+  justify-content: space-between;
+
+  object-fit: contain;
+
+  height: 550px;
+  width: 250px;
+}
+.hero__button button {
+  display: flex;
+  text-align: center;
+  background-color: #000;
+  padding: 10px 20px;
+
+  margin-top: 10px;
+
+  color: white;
+  border: none;
+  border-radius: 25px; /* Adjust the border-radius to control the roundness */
+  cursor: pointer;
+  font-size: 16px; /* Adjust font size as needed */
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease; /* Smooth background color transition*/
+}

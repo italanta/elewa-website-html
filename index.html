@@ -1,19 +1,85 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaboration and Contribution</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-  <title>Collaboration and Contribution</title>
-  <link rel="stylesheet" href="src/css/style.css">
+    <script defer type="module" src="dist\out-tsc\index.js"></script>
+  </head>
 
-  <script defer type="module" src="dist\out-tsc\index.js"></script>
-</head>
+  <body>
+    <!-- Navigation Section -->
+    <section class="nav-section">
+      <header>
+        <nav class="nav">
+          <!-- Nav Logo-->
+          <div class="nav__logo">
+            <img src="./src/assets/elewa-logo.png" alt="elewa_logo" />
+          </div>
+          <div class="nav__links">
+            <ul class="nav__links-list">
+              <li><a href="/">Solutions</a></li>
+              <li><a href="/">About</a></li>
+              <li><a href="/">Blogs</a></li>
+            </ul>
+          </div>
+          <div class="nav__button">
+            <button class="nav__button-contact" type="button">
+              Contact Us
+            </button>
+          </div>
+          <div class="nav__icon" id="open-modal-button">
+            <span><i class="fa fa-navicon" style="font-size: 36px"></i></span>
+          </div>
+          <!-- Modal section -->
+          <div class="modal" id="modal">
+            <div class="modal-content">
+              <span class="close" id="closeModal"
+                ><i class="fa fa-close" style="font-size: 24px"></i
+              ></span>
+              <div class="modal__items">
+                <ul>
+                  <li><a href="#">Solutions</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <button class="modal_button">Contact Us</button>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </section>
 
-<body>
-  <div>Welcome</div>
-</body>
+    <!-- Hero Section -->
 
+    <section class="hero">
+      <div class="hero__div">
+        <div class="hero__text">
+          <h4>Training at Scale</h4>
+          <p>Human-centered,meaningful and enjoyable</p>
+          <div class="hero__button">
+            <button>
+              Unlock your Potential <span><img src="" alt="" /></span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__image">
+        <img
+          src="./src/assets/elewa-hero-image.png"
+          alt="hero_image"
+          loading="lazy"
+        />
+      </div>
+    </section>
+  </body>
 </html>
