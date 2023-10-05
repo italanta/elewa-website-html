@@ -11,23 +11,31 @@
 </head>
 <body>
     <section class="booklet">
-        <div class="navbar">
-            <nav class="navbar-nav" >
-              <img src="Link → elewa-logo.png.svg" class="logo" alt="Elewa">
-              <ul class="nav-menu">
-                <li class="nav-item solutions"><span>Solutions</span><i class="fa fa-chevron-down fa-xs"></i></li>
-                <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Company</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">News</a></li>
-                <!-- <li class="nav-item"></li> -->
-                <div class="icons">
-                  <a href="" class="contact"><button class="header-button">Contact Us</button></a>
-                  <i class="fa fa-times" onclick="closemenu()"></i>
-                </div>
-              </ul>
-              <div class="icons"><i class="fa fa-bars" onclick="openmenu()"></i></div>
+        <header>
+          <div class="container">
+            <div class="logo">
+              <img src="https://user-images.githubusercontent.com/20738858/270645282-b8aaec9f-dbfc-4351-a60b-0851fa61831c.png" alt="Elewa Logo">
+            </div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <nav id="nav-menu" class="nav-menu">
+              <a href="#" class="sol">Solutions<span><i class="fa fa-chevron-down fa-xs"></i></span></a>
+              <a href="#">Projects</a>
+              <a href="#">Company</a>
+              <a href="#">News</a>
+              <div class="contact-button1">
+                <a href="#" class="button">Contact Us</a>
+              </div>
             </nav>
-        </div>
+            <label for="nav-toggle" class="hamburger">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </label>
+            <div class="contact-button">
+              <button class="contact-us">Contact Us</button>
+            </div>
+          </div>
+        </header>
         <section class="booklets-section">
             <div class="booklets-content" >
               <div class="booklet-text">
@@ -39,28 +47,16 @@
               </div>
               <div class="home-button">
                 <button>
-                  <span>Unlock your potential</span>
+                  <span  class="home-span">Unlock your potential</span>
                   <i class='fas fa-arrow-circle-right' ></i> 
                 </button>
               </div>
             </div>
-            <div class="container">
+            <div class="container-curve">
                 <div class="curved-shape"></div>
             </div>
           </section>
     </section>
-
-    <script>
-      let sidemenu=document.querySelector(".nav-menu");
-      
-      function openmenu(){
-        sidemenu.style.right="0";
-      }
-  
-      function closemenu(){
-        sidemenu.style.right="-200px";
-      }
-    </script>
     
 </body>
 </html>
