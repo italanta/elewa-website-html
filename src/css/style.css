@@ -1,537 +1,184 @@
-/* imported the 'DM Sans',
-sans-serif  font family */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'DM Sans', sans-serif;
+
+ .heading {
+   top: 377px;
+   left: 209px;
+   width: 1218px;
+   height: 106px;
+   text-align: left;
+   font: normal normal medium 82px/110px DM Sans;
+   letter-spacing: 0px;
+   color: #000000;
+   opacity: 1;
+   margin-left: 200px;
+ }
+ body{
+  background-color: antiquewhite;
+  font-family: 'DM Sans';
+ }
+
+ .paragraph {
+   text-align: left;
+   font: normal normal normal 32px/42px DM Sans;
+   letter-spacing: 0px;
+   color: #000000;
+   opacity: 1;
+   top: 513px;
+   left: 209px;
+   width: 741px;
+   height: 224px;
+   margin-left: 200px;
+ }
+
+ .elipse1 {
+   top: 276px;
+   position: absolute;
+   left: 467px;
+   width: 573px;
+   height: 860px;
+   transform: matrix(0, 1, -1, 0, 0, 0);
+   background: transparent linear-gradient(180deg, #E69083 0%, #E6908300 100%) 0% 0% no-repeat padding-box;
+   border-radius: 600px;
+   opacity: 1;
+ }
+
+ .elipse2 {
+   top: 562px;
+   position: absolute;
+   left: 954px;
+   width: 573px;
+   height: 860px;
+   transform: matrix(0, -1, 1, 0, 0, 0);
+   background: transparent linear-gradient(180deg, #E69083 0%, #E6908300 100%) 0% 0% no-repeat padding-box;
+   border-radius: 600px;
+   opacity: 1;
+ }
+
+ button {
+   cursor: pointer;
+   max-width: 250px;
+   color: white;
+   font-weight: 700;
+   font-family: Helvetica, "sans-serif";
+   transition: all .2s;
+   padding: 8px 20px;
+   border-radius: 42px;
+   background: #0D0E0B;
+   border: 1px solid transparent;
+   display: flex;
+   align-items: center;
+   font-size: 15px;
+   margin-left: 195px;
+   margin-top: 23px;
+ }
+
+ button:hover {
+   background: #FFFFFF;
+   color: black;
+   border: 1px solid black;
+ }
+
+ button>svg {
+   width: 34px;
+   margin-left: 10px;
+   transition: transform .3s ease-in-out;
+ }
+
+ button:hover svg {
+   transform: translateX(5px);
+   color: white;
+ }
+
+ button:active {
+   transform: scale(0.95);
+ }
+ /* Style the navigation links */
+
+
+
+
+ nav {
+   display: flex;
+   justify-content: center;
+   
+   align-items: center;
+  
+ }
+
+ nav a {
+   text-decoration: none;
+   color: #000000;
+   font-size: 17px;
+   cursor: pointer;
+   margin: 0 20px;
+ }
+
+ nav a:hover {
+   text-decoration: underline;
+ }
+
+ /* Style the "Contact Us" button on the left */
+ .contact-us {
+   float: left;
+   /* Float the button to the left */
+   margin-right: 20px;
+   /* Add some spacing between the button and navigation links */
+ }
+
+ /* Style the "Contact Us" button on the top left */
+ .contact-button {
+   position: absolute;
+   top: 35px;
+   right: 178px;
+ }
+
+ .contact-us {
+   background: #2D2E52;
+   border-radius: 22px;
+   padding: 0.7em;
+   border: none;
+   text-align: center;
+   color: #fff;
+   cursor: pointer;
+ }
+
+.logo img {
+  width: 9.5rem;
+  filter: brightness(0);
+  
+ 
 }
-
-.footer2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 800px;
-
-
-}
-
-.socials {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 30px;
-}
-
-.footer3 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.footer2 h1 {
-  font-size: 50px;
-  letter-spacing: 2px;
-  font-weight: 600;
-  margin-top: 40px;
-  padding: 40px;
-}
-
-.footer {
-  background-color: #2d2e52;
-  padding: 3rem 0.5rem;
+.container {
   max-width: 100%;
-  border-top-right-radius: 30px;
-  border-top-left-radius: 30px;
-  color: white;
-}
-
-.footer-navigations {
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  align-items: start;
-  padding: 1.5rem 1rem;
-}
-
-.h4 {
-  font-size: 13px;
-  font-weight: bold;
-  margin: 0 0 25px 0;
-
-}
-
-.footer-navigations a {
-
-  font-size: 13px;
-  font-weight: normal;
-}
-
-.footer-imgs {
-  padding: 1.5rem 1rem;
-  position: relative;
-}
-
-.footer-imgs .logo {
-  max-width: 150px;
-
-  filter: brightness(0) invert(1) grayscale(1) contrast(1000%);
-}
-
-.footer-imgs .icons {
-  position: absolute;
-  right: 7%;
-  bottom: 100%;
-}
-
-.footer-imgs .icons img {
-  margin-right: 1rem;
-  width: 20px;
-  height: 20px;
-}
-
-@media only screen and (min-width: 850px) {
-  .footer h4 {
-    font-size: 24px;
-    max-width: 45%;
-    margin: 0 auto 2rem auto;
-  }
-
-  .footer-navigations .headquarters,
-  .footer-navigations .contact,
-  .footer-navigations .brands {
-    display: block;
-  }
-
-  .footer-navigations {
-    margin: 4rem 4rem 0 4rem;
-    border-top: 1px solid white;
-  }
-
-  .footer-navigations h4 {
-    margin-left: 0;
-    margin-bottom: 1rem;
-  }
-
-  .footer-imgs {
-    padding: 1.5rem 5rem;
-  }
-
-  .footer-imgs .icons {
-    bottom: 30%;
-  }
-
-  .footer-imgs img {
-    margin-right: 1.5rem;
-  }
-
-  .footer2 {
-    /* font-family: 'DM Sans', sans-serif; */
-    text-align: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-
-  }
-
-  /* added an svg icon which is an arrow pointing to the right */
-  button {
-    cursor: pointer;
-    font-family: Helvetica, "sans-serif";
-    transition: all .2s;
-    padding: 8px 25px;
-    border-radius: 100px;
-    background: #2d2e52;
-    border: 1px solid white;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    max-width: 500px;
-    font-size: 13px;
-    color: white;
-    margin: 20px 0 60px 0;
-    text-align: right;
-
-
-
-  }
-
-  button:hover {
-    background: white;
-    color: black;
-  }
-
-  button>svg {
-    width: 34px;
-    margin-left: 10px;
-    transition: transform .3s ease-in-out;
-  }
-
-  button:hover svg {
-    transform: translateX(5px);
-  }
-
-  button:active {
-    transform: scale(0.95);
-  }
-}
-
-/* this is what it would look like on smaller screens */
-@media (max-width: 768px) {
-  .footer h4 {
-    font-size: 24px;
-    max-width: 45%;
-    margin: 0 auto 2rem auto;
-
-  }
-
-  .footer {
-    background-color: black;
-    padding: 3rem 0.5rem;
-    max-width: 80%;
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
-    color: white;
-  }
-
-  .footer-navigations .headquarters,
-  .footer-navigations .contact,
-  .footer-navigations .brands {
-    display: block;
-  }
-
-  body {
-    background-color: white;
-    max-width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-
-  .footer-navigations {
-    margin: 4rem 4rem 0 4rem;
-    border-top: 1px solid white;
-  }
-
-  .footer-navigations h4 {
-    margin-left: 0;
-    margin-bottom: 1rem;
-  }
-
-  .footer-imgs {
-    padding: 1.5rem 5rem;
-  }
-
-  .footer-imgs .icons {
-    bottom: 30%;
-  }
-
-  .footer-imgs img {
-    margin-right: 1.5rem;
-  }
-
-  .footer2 {
-    /* font-family: 'DM Sans', sans-serif; */
-    text-align: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
-
-  }
-
-  button {
-    cursor: pointer;
-    font-weight: 700;
-    font-family: Helvetica, "sans-serif";
-    transition: all .2s;
-    padding: 8px 15px;
-    border-radius: 100px;
-    background: #2d2e52;
-    border: 1px solid white;
-    display: flex;
-    align-items: center;
-    max-width: 300px;
-    font-size: 15px;
-    color: white;
-    margin-top: 40px;
-
-  }
-
-  button:hover {
-    background: white;
-    color: black;
-  }
-
-  button>svg {
-    width: 34px;
-    margin-left: 10px;
-    transition: transform .3s ease-in-out;
-  }
-
-  button:hover svg {
-    transform: translateX(5px);
-  }
-
-  button:active {
-    transform: scale(0.95);
-  }
-
-  .heady2 {
-    display: none;
-
-  }
-
-  .cont2 {
-    display: none;
-  }
-
-  .solve {
-    display: none;
-  }
-
-  button {
-    cursor: pointer;
-    font-weight: 700;
-    font-family: Helvetica, "sans-serif";
-    transition: all .2s;
-    padding: 8px 15px;
-    border-radius: 100px;
-    background: black;
-    border: 1px solid white;
-    display: flex;
-    align-items: center;
-    max-width: 300px;
-    font-size: 15px;
-    color: white;
-    margin-top: 40px;
-
-  }
-
-  .socials {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 30px;
-  }
-
-}
-
-body {
-  display: block;
   align-items: center;
-  margin: 0 6%;
-}
-
-/* .headers{
-  background-color: blueviolet;
-  display: flexbox;
-} */
-/* CSS for the header div with class "headers" */
-.headers {
-  background-color: #9785b6;
-  /* Background color of the header */
-  color: black;
-  /* Text color inside the header */
-  padding: 24px;
-  /* Add some padding to create spacing around the content */
-  text-align: center;
-  /* Center-align the content */
-  font-size: 14px;
-  font-family: 'DM Sans', sans-serif;
-}
-
-.headers nav ul li a:active {
-  border-bottom: 2px solid #0f0f0f;
-  /* Add a white (or desired color) border as an underline */
-}
-
-/* Style for the navigation links within the header */
-.headers nav ul {
-  list-style-type: none;
-  /* Remove bullet points for the list */
-  padding: 15px, 25px;
-  /* Remove padding for the list */
-}
-
-/* Style for the individual navigation items */
-.headers nav ul li {
-  display: inline;
-  /* Display list items inline */
-  margin-right: 20px;
-  /* Add spacing between navigation items */
-
-}
-
-/* Style for the navigation links */
-.headers nav ul li a {
-  text-decoration: none;
-  /* Remove underlines from links */
-  color: black;
-  /* Text color for the links */
-  border-bottom: 2px solid transparent;
-}
-
-/* Style for the "Contact us" button */
-.headers .btn {
-  background-color: #010f23;
-  /* Dark blue button background color */
-  color: #fff;
-  /* Button text color */
-  border: none;
-  /* Remove button border */
-  padding: 14px 25px;
-  /* Add padding to the button */
-  text-decoration: none;
-  /* Remove underlines from the button text */
-  cursor: pointer;
-  /* Change cursor to a pointer on hover */
-  border-radius: 30px;
-  /* Add rounded corners to the button */
-  float: right;
-  display: inline;
-  margin-top: 10px;
-
-}
-
-.logo {
-  width: 120px;
-  /* Set the width of the logo as needed */
-  height: auto;
-  /* Maintain the aspect ratio of the logo */
-  margin-right: 300px;
-  /* Add spacing between the logo and other links */
-  margin-top: 5px;
-
-
-}
-/* .first{
-  font-size: 24px;
-  font-family: 'DM Sans', sans-serif;
-  padding: 150px;
-  white-space: pre-wrap;
-  
-}
-
-.second{
-
-  font-family: 'DM Sans',
-    sans-serif;
-  font-size: 13;
-  padding: 150px;
-  margin-top: -300px;
-  font-weight: 100;
-}
-utton {
-  cursor: pointer;
-  font-family: Helvetica, "sans-serif";
-  transition: all .2s;
-  padding: 8px 25px;
-  border-radius: 100px;
-  background: #2d2e52;
-  border: 1px solid white;
+  /* Limit the width of the content */
+  max-width: 100%;
+  /* Change to 100% to make it full-width */
+  /* Center the content horizontally */
+  margin: 0 auto;
+  /* Arrange items side by side with space in between */
   display: flex;
+  justify-content: space-between;
+  /* Center the content vertically */
   align-items: center;
-  justify-content: left;
-  max-width: 500px;
-  font-size: 13px;
-  color: white;
-  margin: 20px 0 60px 0;
-  text-align: right;
-
-
-
+  /* Add padding for spacing */
+  padding: 10px 20px;
 }
-
-button:hover {
-  background: white;
-  color: black;
-}
-
-button>svg {
-  width: 34px;
-  margin-left: 10px;
-  transition: transform .3s ease-in-out;
-}
-
-button:hover svg {
-  transform: translateX(5px);
-}
-
-button:active {
-  transform: scale(0.95);
-}
-*{
-  background: rgb(162, 162, 239) ;
-  margin: 0;
-  padding: 0;
-  font-family: 'DM Sans', sans-serif;
-  
-}
-
-.heading{
-  font-size: 60px;
-  font-family: 'DM Sans', sans-serif;
-  padding: 130px;
-}
-.paragraph{
-  font-size: 25px;
-  padding: 130px;
-  
-
-} */
-
-/* imported the 'DM Sans',sans-serif  font family*/
-
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
-
-body {
-  background-color: #DBC2F5;
-
-
-}
-/* homepage styling */
-.homepage{
-  padding: 5%;
-  display: flex;
-  flex-direction: row;
-}
-.homepage img{
-  width: 95%;
-  
-}
-
-.homepage .information{
-  font-family: 'DM Sans',
-    'sans-serif';
-  margin-left: 9%;
-  font-size: 24px;
-  margin-top: 70px;
-  padding: 35px;
-  word-spacing: 12px;
-  line-height: 30px;
-  font-weight: 550;
-  
-
-  
-
-}
-*{
-font-family: 'DM Sans','sans-serif';
-}
-p{
-  margin-bottom: 35px;
-  font-family: 'DM Sans', 'sans-serif';
-}
-h1{
-  margin-bottom: 39px;
-  letter-spacing: 2px;
-}
-* {
+header {
+ 
+  background-color: transparent;
+  color: #000;
+  height: var(--elewa-website-header-bg-height);
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'DM Sans', sans-serif;
+
+  position: relative;
+  z-index: 999;
 }
+
+
+
+
