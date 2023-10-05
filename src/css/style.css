@@ -1,77 +1,87 @@
+
 * {
-  background: #DBC2F5 0% 0% no-repeat padding-box;
-  opacity: 1;
-  font-family: 'DM Sans', sans-serif;
+  background: #DBC2F5 0% 0% no-repeat padding-box; /* Set background color */
+  opacity: 1; /* Set opacity to fully visible */
+  font-family: 'DM Sans', sans-serif; /* Define font family */
 }
 
-.container{
-  top: 1316px;
-  left: 0px;
-  width: 100%;
-  height: 101vh;
-  background: #DBC2F5 0% 0% no-repeat padding-box;
-  opacity: 1;
-  display: flex;
-  flex-direction: row;
-  gap: 53px;
-  align-items: center;
-  font-family: 'DM Sans', sans-serif;
-  color: #000000;
-  letter-spacing: 0px;
-  text-align: left;
+
+.container {
+  top: 1316px; /* Set the top position */
+  left: 0px; /* Set the left position */
+  width: 100%; /* Take up 100% of the width */
+  height: 101vh; /* Set height to 101% of the viewport height */
+  background: #DBC2F5 0% 0% no-repeat padding-box; /* Set background color */
+  opacity: 1; /* Set opacity to fully visible */
+  display: flex; /* Use flex layout */
+  flex-direction: row; /* Arrange children in a row */
+  gap: 53px; /* Set gap between children */
+  align-items: center; /* Center children vertically */
+  font-family: 'DM Sans', sans-serif; /* Define font family */
+  color: #000000; /* Set text color to black */
+  letter-spacing: 0px; /* Set letter spacing */
+  text-align: left; /* Align text to the left */
 }
+
 
 .container .image-side {
-  margin-left: 160px;
+  margin-left: 160px; /* Set left margin */
 }
+
+
 .container .image-side img {
-  top: 1424px;
-  left: 209px;
-  width: 391px;
-  height: 455px;
-  border-radius: 1000px 1000px 0px 0px;
-  flex: 1;
+  top: 1424px; /* Set top position */
+  left: 209px; /* Set left position */
+  width: 391px; /* Set width */
+  height: 455px; /* Set height */
+  border-radius: 1000px 1000px 0px 0px; /* Apply border radius */
+  flex: 1; /* Expand to fill available space */
 }
+
+
 .container .text-side {
-  margin-right: 90px;
-  margin-top: 50px;
-}
-.container .text-side h2{
-  max-width: 837px;
-  width: auto;
-  max-height: 81px;
-  height: auto;
-  font-size: 2em;
-  font-weight: 40px;
-  margin-top: 60px;
-}
-.container .text-side p{
-  width: 456px;
-  max-height: 314px;
-  height: auto;
-  font-size: 1em;
-  font-weight: 500;
+  margin-right: 90px; /* Set right margin */
+  margin-top: 50px; /* Set top margin */
 }
 
 
+.container .text-side h2 {
+  max-width: 837px; /* Set maximum width */
+  width: auto; /* Adjust width automatically */
+  max-height: 81px; /* Set maximum height */
+  height: auto; /* Adjust height automatically */
+  font-size: 2em; /* Set font size */
+  font-weight: 40px; /* Set font weight (Note: Font weight is typically set using numeric values, e.g., 400 for normal, 700 for bold) */
+  margin-top: 60px; /* Set top margin */
+}
+
+.container .text-side p {
+  width: 456px; /* Set width */
+  max-height: 314px; /* Set maximum height */
+  height: auto; /* Adjust height automatically */
+  font-size: 1em; /* Set font size */
+  font-weight: 500; /* Set font weight (Note: Font weight is typically set using numeric values, e.g., 400 for normal, 700 for bold) */
+}
+
+/* Media query for screens with a maximum width of 768px */
 @media (max-width: 768px) {
   .container {
-    flex-direction: column; 
-    align-items: center; 
+    flex-direction: column; /* Change flex direction to column */
+    align-items: center; /* Center children horizontally */
   }
   .container .image-side,
   .container .text-side {
-    margin: 0; 
+    margin: 0; /* Remove margins */
   }
   .container .text-side {
-    text-align: center; 
+    text-align: center; /* Center text horizontally */
   }
   .container .text-side h2,
   .container .text-side p {
-    width: 100%; 
+    width: 100%; /* Take up 100% of the width */
   }
   .container .image-side img {
-    width: 100%; 
-    border-radius: 0; 
+    width: 100%; /* Take up 100% of the width */
+    border-radius: 0; /* Remove border radius */
   }
 }
