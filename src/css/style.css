@@ -1,6 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body{
     background-color: #f0f0f0;
@@ -429,4 +430,5 @@ place-items: center;
            margin: 55% 0 0 7%;
         }
     }
+
 
