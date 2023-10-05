@@ -1,351 +1,80 @@
-
-/* style.css */
-
-/* Set the background color to purple */
-body {
-    background-color: #DBC2F5; /* Hexadecimal color code for a light purple color */
-    margin: 0; /* Remove default body margin */
-    font-family: DM Sans, sans-serif;
-    color: rgb(0, 0, 0); /* Text color */
+/* Assuming you have a CSS file, add this to your CSS file or inside <style> tags in your HTML */
+.news-section {
+  height: 100vh;
+  width: 100vh;
 }
 
-.container {
-    display: flex;
-    flex-direction:row-reverse; /* Keep the order of elements as is for larger screens */
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
+.news-section h2 {
+  top: 5230px;
+  left: 209px;
+  width: 839px;
+  height: 81px;
+  text-align: left;
+  font: normal normal bold 62px/80px DM Sans;
+  letter-spacing: 2px;
+  color: #000000;
+  opacity: 1;
+  margin-left: 55px;
 }
 
-.text {
-    flex: 1;
-    padding: 20px;
-    margin-top: 130px;
-    
+.news-item {
+  display: flex; /* Use flexbox to align children horizontally */
+  align-items: center; /* Center-align children horizontally within each .news-item */
+  text-align: center; /* Center-align text within each .news-item */
+  margin: 20px; /* Add margin around each .news-item */
+  top: 5448px;
+  left: 209px;
+  width: 1502px;
+  opacity: 1;
+  border-bottom: 0.1px solid #40404085;
+  margin: 26px 266.63px 0 0; /* Remove margin to keep text close to the top */
+ width: 1502px;
 }
 
-/* Style for the title */
-.title {
-    font-size: 32px; /* Adjust the font size for the title */
-    font-weight: 550; /* Make the title bold */
-    margin-bottom: 20px; /* Add spacing below the title */
-    font-family: DM Sans, sans-serif;
+.news-item h3 {
+  text-align: center;
+  top: 5448px;
+  left: 259px;
+  width: 615px;
+  height: 81px;
+  font: normal normal bold 36px/55px DM Sans;
+  letter-spacing: -0.54px ;
+  color: #000000;
+  opacity: 1;
+  margin-bottom: 10px;
 }
 
-/* Style for the paragraphs */
-.text p {
-    font-size: 16px; /* Font size for paragraphs */
-    line-height: 1.5; /* Line height for better readability */
-    margin-bottom: 20px; /* Add spacing between paragraphs */
+.news-item p {
+  text-align: center;
+  font-size: 22px; /* Adjust the font size as needed */
+  margin-bottom: 40px; /* Add some spacing between the title and content */
+  font: normal normal bold 22px/55px DM Sans;
+  color: #40404085;
+  top: 5462px;
+  left: 984px;
+  width: 444px;
+  height: 29px;
+  letter-spacing: -0.33px;
+  opacity: 0.52;
 }
 
-/* Apply the same font to all paragraphs */
-.text p, .text li {
-    font-family: Arial, sans-serif;
+.read-more {
+  color: #222424; /* Optional: Customize link color */
+  text-decoration: none; /* Remove underlines from links */
+  margin-left: 30px; /* Add significant spacing to the left of the "Read More" link */
+  top: 5462px;
+  left: 1584px;
+  width: 111px;
+  height: 29px;
+  font: normal normal bold 22px/55px DM Sans;
+  letter-spacing: -0.33px;
+  opacity: 1;
+  margin-bottom: 20px;
 }
 
-/* Add styles for the image if needed */
-.image {
-    flex: 1;
-    padding: 20px;
-    text-align: center;
-    overflow: hidden; /* Hide the overflow from the U shape */
-}
-
-.image img {
-    max-width: 100%; /* Make sure the image fits within its container */
-}
-
-/* Responsive styles for smaller devices */
-
-/* Header styles */
-.site-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: transparent;
-    padding: 20px;
-    margin-left: 30px;
-    
-}
-
-/* Logo styles */
-.logo img {
-    width: 100px; /* Adjust the width to fit your logo size */
-    height: auto; /* Maintain aspect ratio */
-    filter: brightness(0);
-}
-
-/* Contact button styles */
-.contact-button {
-    background-color:#292a50;;
-    color:white; /* Black text color */
-    font-family: DM Sans, sans-serif; /* Specify your desired font */
-    font-size: 16px; /* Adjust font size as needed */
-    border: none;
-    cursor: pointer;
-    outline: none; /* Remove button outline */
-    width: 100px;
-    height: 40px;
-    border-radius: 25px;
-    margin-right: 120px;
-}
-/* Add this CSS to your existing stylesheet or create a new CSS file */
-/* Styles for the navbar */
-.navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: transparent;
-    padding: 20px;
-    margin-left: 30px;
-}
-
-/* Styles for menu items */
-.menu-item {
-    margin-right: 20px; /* Adjust spacing between menu items */
-    position: relative;
-}
-
-.menu-item:last-child {
-    margin-right: 0;
-}
-
-.menu-link {
-    text-decoration: none;
-    color: #000; /* Set your desired text color */
-}
-
-/* Apply the specified CSS to the "Solution" navigation item */
-.menu-item:first-child .menu-link {
-    text-decoration: underline;
-}
-
-/* Add the less-than sign ("<") facing down */
-.menu-item:first-child .menu-link::before {
-    content: '<';
-    position: absolute;
-    top: 50%; /* Adjust the vertical position of the less-than sign */
-    right: -10px; /* Adjust the horizontal position of the less-than sign */
-    transform: translateY(-25%) rotate(-90deg);
-    font-size: 12px; /* Adjust the font size of the less-than sign */
-    font-weight: bold;
-}
-
-/* Media Queries for Responsiveness */
-/* Media Queries for Responsiveness */
+/* Media query for smaller screens */
 @media screen and (max-width: 768px) {
-    /* Mobile Styles */
-    .site-header {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        background-color: transparent;
-        padding: 10px;
-        margin-left: 0;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        text-align: left;
-    }
-
-    .logo img {
-        max-width: 100%;
-        height: auto;
-        filter: brightness(0);
-        text-align: center;
-        margin-left: 0;
-        margin-bottom: 20px;
-    }
-
-    .navbar {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-
-    .menu-item {
-        margin-right: 0;
-        margin-bottom: 10px;
-        width: 100%;
-    }
-
-    .contact-button {
-        background-color: #292a50;
-        color: white;
-        font-family: DM Sans, sans-serif;
-        font-size: 14px; /* Decrease font size for a smaller button */
-        border: none;
-        cursor: pointer;
-        outline: none;
-        width: auto; /* Adjust width to fit content */
-        padding: 10px 20px; /* Add padding to make it smaller */
-        border-radius: 15px; /* Reduce border radius for a less rounded appearance */
-        margin: 0; /* Remove margin for a tighter layout */
-    }
-    
+  .news-item {
+    width: 80%; /* Adjust the width for smaller screens */
+  }
 }
-
-@media screen and (max-width: 600px) {
-    .container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .text {
-        margin-top: 30px;
-        padding: 10px;
-
-    }
-
-    .title {
-        font-size: 24px;
-
-    }
-
-    .text p {
-        font-size: 14px;
-        margin-bottom: 10px;
-
-
-    }
-
-    .image {
-        order: -1;
-        margin-bottom: 20px;
-    }
-}
-.hero {
-    position: relative;
-    text-align: center;
-    background-color: #DBC2F5;
-    height: 800px;
-    width: 800px;
-    margin: 0 auto;
-    margin-top: 10%;
- 
-  }
-  
-  /* Styling fo the circles and their layout*/
-  .circle-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    
-    
-    
-  }
-  
-  .left-circle,
-  .right-circle {
-    display: inline-block; 
-    margin: -60px; 
-    border-radius: 50%; 
-  }
-  
-  .left-circle {
-    top: 2917px;
-    left: 231px;
-    width: 382px;
-    height: 370px;
-    background: transparent linear-gradient(90deg, #DBC2F500 0%, #DBC2F5E6 100%) 0% 0% no-repeat padding-box;
-    mix-blend-mode: multiply;
-    opacity: 1;
-  }
-  
-  .right-circle {
-    top: 2917px;
-    left: 391px;
-    width: 382px;
-    height: 370px;
-    transform: matrix(-1, 0, 0, -1, 0, 0);
-    background: transparent linear-gradient(90deg, #DBC2F500 0%, #DBC2F5E6 100%) 0% 0% no-repeat padding-box;
-    mix-blend-mode: multiply;
-    opacity: 1;
-  }
-  
-  /* Styling for the hero div texts*/
-  .hero h2 {
-    top: 2910px;
-    left: 259px;
-    width: 535px;
-    height: 89px;
-    text-align: left;
-    font-family: 'DM Sans', sans-serif;
-    letter-spacing: 0px;
-    color: #000000;
-    opacity: 1;
-    font-size: 33px;
-    
-  }
-  
-  .hero p {
-    top: 2932px;
-    left: 259px;
-    width: 535px;
-    height: 89px;
-    text-align: left;
-    font-family: 'DM Sans', sans-serif;
-    letter-spacing: 0px;
-    opacity: 1;
-    font-size: 23px;
-    font-weight: 400;
-  }
- 
- /* Styling for the button */
-.button {
-    background-color: #000000;
-    border: none;
-    font-size: 16px;
-    color: #ccc;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline;
-    font-family: 'DM Sans', sans-serif;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 25px;
-    margin-top: 20%; /* Adjust the margin-top value */
-    float: left;
-}
-
-/* Styling for the circle within the button */
-.button .circle {
-    display: inline-flex;
-    margin-top: 0px;
-    justify-content: center;
-    align-items: center;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: white;
-    margin-left: 10px; /* Adjust the margin-left for spacing */
-    font-size: 24px; /* Reduce the font size for better centering */
-    color: #000;
-    position: relative;
-    top: 3px; /* Adjust the vertical position for centering */
-  }
-
-  /* Media Query for Smaller Devices (e.g., tablets and mobile) */
-@media screen and (max-width: 600px) {
-    .button {
-        float: none;
-    }
-    .hero h2 {
-        font-size: 25px;
-        margin-left: 10px;
-      }
-    
-      .hero p {
-        font-size: 18px;
-      }
-    }
-
-
