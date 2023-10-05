@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
 }
 
 /* Header Styles */
@@ -100,8 +101,7 @@ a {
 /* Dropdown Menu List Item Styles */
 .navbar_dropdown_menu li {
   padding: 1.0rem;
-  display: flex;
-  align-items: center;
+  display: flex;  align-items: center;
 }
 
 /* Dropdown Action Button Styles */
