@@ -4,8 +4,8 @@ body{
     width:1920px;
     height:1082px;
     /* UI Properties */
-    background:#FCF6E4 0% 0% no-repeat padding-box;
-    opacity:1;
+    background: #FBE8D7 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
 #header-Sctn{
    /* top,left etc are used for absolute positioning */
@@ -143,35 +143,21 @@ opacity: 1;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
 }
-.designs{
-    /* UI Properties */
-background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
-mix-blend-mode: multiply;
-border-radius: 600px;
-opacity: 1;
-}
-#d1{
+#design{
     /* Layout Properties */
-position: absolute;
-top: 737px;
-left: 291px;
-width: 462px;
-height: 461px;
-}
-#d2{
-/* Layout Properties */
-position: absolute;
-top: 504px;
-left: 830px;
-width: 462px;
-height: 694px;   
-}
-#d3{
-    position: absolute;
-    top: 276px;
-    left: 1369px;
-    width: 462px;
-    height: 922px;
+position:absolute;
+top: 430px;
+left: 472px;
+width: 1448px;
+height: 634px;
+/* UI Properties */
+/* background: transparent linear-gradient(289deg, #F2AD69 0%, #F2AD6900 100%) 0% 0% no-repeat padding-box; */
+background-image: linear-gradient(289deg, #F2AD69 0%, #F2AD6900 100%);
+background-color: transparent;
+background-repeat: no-repeat;
+background-origin: padding-box; /* Note: You might have intended to use background-clip here, not background-origin. */
+background-position: 0% 0%;
+opacity: 0.87;
 }
 /*phone responsive design. template=iphone 12 pro */
 @media(max-width: 390px){
