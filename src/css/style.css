@@ -41,6 +41,7 @@ body, h1, h2, p, ul, li {
 }
 
 .nav a {
+  display: none;
     text-decoration: none;
     color: inherit;
     margin-right: 20px; /* Adjust spacing as needed */
@@ -62,22 +63,89 @@ select {
     border: none;
 }
 
-/* Media queries for responsiveness */
-@media screen and (max-width: 1440px) {
-    .container {
-        max-width: 1200px;
-    }
+/* Reset some default browser styles */
+
+/* Styles remain the same */
+
+.nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-@media screen and (max-width: 768px) {
-    .container {
-        max-width: 728px;
-    }
+/* Hide nav links by default */
+.nav a {
+  display: none;
+} 
+
+/* Style dropdown button */
+.dropdown-btn {
+  background: transparent; 
+  border: none;
+  font-size: 16px;
+  font-size: 20px;
+  padding: 0;
+  cursor: pointer;
 }
 
-@media screen and (max-width: 360px) {
-    .container {
-        max-width: 320px;
-        padding: 10px; /* Adjust padding for mobile screens */
-    }
+/* Dropdown container */  
+.dropdown {
+  position: relative;   
+}
+
+/* Dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+} 
+
+/* Links inside dropdown */
+.dropdown-content a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  padding: 12px 16px; 
+}
+
+/* Change color of links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd; 
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+
+  /* Show dropdown button */
+  .dropdown-btn {
+    display: block;
+  }
+
+  /* Show nav links */
+  .dropdown-content a {
+    display: block; 
+  }
+
+}
+
+/* Media query for larger screens */
+@media (min-width: 769px) {
+
+  /* Hide dropdown button */
+  .dropdown-btn {
+    display: none;
+  }
+  
+  /* Show regular nav links */
+  .nav a {
+    display: block;
+  }
+
 }
