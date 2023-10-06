@@ -374,16 +374,28 @@ a {
   padding-left: 150px;
 }
 
+
+.nav-options {
+  text-align: center;
+  margin-top: -50px;
+}
+.nav-options p{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  display: inline;
+  padding-left: 20px;
+}
+
 /* contact-us button */
 .Contact-button{
-  margin-top: -100px;
+  margin-top: -30px;
 }
 .Contact-Us-button {
   border-radius: 20px;
   background-color: #292a50;
   width: 130px;
   height: 35px;
-  margin-left: 1050px;
+  margin-left: 1080px;
   padding-top: 0px;
   border: none;
 }
