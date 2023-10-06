@@ -38,8 +38,8 @@ a {
 }
 
 .logo-img{
-    width: 153px;
-    height: 65px;
+    width: 130px;
+    height: 60px;
     color: #000000;
     filter: brightness(0%) contrast(100%);
 }
@@ -131,17 +131,16 @@ a {
 }
 
 .home_content h1{
-    font-size: 28px;
+    font-size: 24px;
     color: black;
-    line-height: 40px;
+    line-height: 32px;
     text-align: left;
     font-weight: 600;  
 }
 
 .home_content h2{
-    font-size: 20px;
+    font-size: 16px;
     color: black;
-    line-height: 24px;
     text-align: left;
     font-weight: 500;
     padding-top: 30px;
@@ -158,35 +157,6 @@ a {
     max-height: 350px;
     max-width: 300px;
 }
-
-/* Style for the anchor */
-.home_contact {
-    text-decoration: none;
-    color: #FFFFFF; /* Change the text color to black */
-    font-size: 16px; /* Adjust font size as needed */
-    display: flex;
-    background-color: #000000; /* Circular background color */
-    width: 42%;
-    padding: 8px; /* Adjust padding as needed */
-    border-radius: 30px;
-  }
-  
-  /* Style for the arrow image */
-  .home_contact img {
-    display: inline-block;
-    vertical-align: middle; /* Align the image vertically with the text */
-    width: 25px; /* Adjust arrow size as needed */
-    height: 20px; /* Adjust arrow size as needed */
-    margin-left: 5px; /* Add space between text and arrow */
-    background-color: #FFFFFF;
-    border-radius: 50%; /* Make it circular */
-  }
-  
-  /* Center the text and arrow vertically */
-  .arrow-circle {
-    display: flex;
-    align-items: center;
-  }
   
 
 /*ReSPONSIVE DESIGN*/
@@ -283,18 +253,20 @@ a {
     .home_content{
       width: 50%;
       float: left;
-      margin-top: 12%;
-      padding-right: 11%;
+      margin-top: 12%; 
+      padding-right: 9.5%;
     }
   
     .home_content h1{
       font-size: 40px;
       line-height: 50px;
+      margin-right: 20%;
     }
   
     .home_content h2{
       font-size: 20px;
       line-height: 27px;
+      /* margin-right: 1%; */
     }
   
     .home_img_section{
