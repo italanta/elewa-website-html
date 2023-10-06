@@ -21,13 +21,14 @@
   color: #000000; /* Set text color to black */
   letter-spacing: 0px; /* Set letter spacing */
   text-align: left; /* Align text to the left */
+
 }
 
 
 .container .image-side {
   margin-left: 160px; /* Set left margin */
+  
 }
-
 
 .container .image-side img {
   top: 1424px; /* Set top position */
@@ -63,25 +64,55 @@
   font-weight: 500; /* Set font weight (Note: Font weight is typically set using numeric values, e.g., 400 for normal, 700 for bold) */
 }
 
-/* Media query for screens with a maximum width of 768px */
-@media (max-width: 768px) {
+/* Make image width and max-width 100% to scale with screen size */
+.container .image-side img {
+  width: 100%;
+  max-width: 391px; 
+}
+
+/* Make text content max-width 100% to prevent overflow */
+.container .text-side {
+  max-width: 100%;
+}
+
+/* Use clamp() to set responsive font sizes */ 
+.container .text-side h2 {
+  font-size: clamp(1.5rem, 5vw, 2rem); 
+}
+
+.container .text-side p {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+}
+
+/* Add media queries to adjust styling based on screen size */
+
+/* Small screens */
+@media (max-width: 576px) {
   .container {
-    flex-direction: column; /* Change flex direction to column */
-    align-items: center; /* Center children horizontally */
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
   }
-  .container .image-side,
+  
+  .container .image-side {
+    margin: 0;
+  }
+  
   .container .text-side {
-    margin: 0; /* Remove margins */
+    margin: 30px 0;
   }
-  .container .text-side {
-    text-align: center; /* Center text horizontally */
+}
+
+/* Medium screens */
+@media (min-width: 577px) and (max-width: 992px) {
+  .container {
+    gap: 30px;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
   }
-  .container .text-side h2,
-  .container .text-side p {
-    width: 100%; /* Take up 100% of the width */
-  }
-  .container .image-side img {
-    width: 100%; /* Take up 100% of the width */
-    border-radius: 0; /* Remove border radius */
+  
+  .container .image-side {
+    margin-left: 30px;
   }
 }
