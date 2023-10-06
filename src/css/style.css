@@ -696,4 +696,15 @@ h2{
       /* Limit the width of the h1 element */
     }
 }
+/* Set the width and height of the image */
+.imaging img {
+  width: 700px;
+  height: 700px;
+  margin-top: -700px;
+  margin-left: 1000px;
+  padding: 40px;
+  /* padding-left: 60px; */
+  float: right;
+
+}
 
