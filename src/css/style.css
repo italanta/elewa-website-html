@@ -364,14 +364,16 @@ a {
 
 /* About-Page styling */
 
-.nav-logo {
+.nav-logo img{
   filter:brightness(0);
-  width: 10%;
+  width: 9%;
   height: auto;
+  padding-top: 25px;
+  padding-left: 150px;
 }
 
 .about-title {
-  margin-left: 200px;
+  margin-left: 150px;
 }
 
 .about-title h2 {
@@ -385,6 +387,11 @@ a {
 }
 
 
+/* middle section  */
+
+.about-page-body {
+  padding-top: 150px;
+}
 
 /* about button styling and the hovering effects */
 
@@ -400,7 +407,7 @@ a {
   margin: 0 auto;
   margin-top: 40px;
   position: relative;
-  margin-left: 200px;
+  margin-left: 150px;
 }
 
 .about-button .text {
@@ -464,5 +471,5 @@ a {
   padding-left:700px;
   margin-top: -360px;
   height: auto;
-  width: 35%;
+  width: 40%;
 }
