@@ -3,3 +3,102 @@
   margin: 0;
   padding: 0;
 }
+.footer-button{
+  background:#292a50;
+  border:none;
+  color:white;
+  font-size:15px;
+  padding:7px ;
+  display: flex;
+}
+
+.footer{
+  background:#292a50;
+  height: 730px;
+  color:white;
+}
+
+.section-one{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+  justify-content: space-evenly;
+  margin: 0 200px 0 200px;
+
+}
+
+h1{
+  width: 30rem;
+  text-align: center;
+}
+.footer-button{
+  border: 1px solid white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  width: 13rem;
+}
+
+.arrow-icon{
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+}
+.btn-text{
+  margin-right: 15px;
+}
+
+.details{
+  display:grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 100px;
+  justify-content: center;
+  margin: auto;
+  width: 25%;
+  
+
+
+}
+
+.Social-icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10px 0 10px;
+
+}
+.icons>i{
+  margin: 6px;
+
+}
+
+ul *{
+  list-style: none ;
+  margin-bottom : 10px;
+  
+}
+.details>div{
+  width:180px;
+}
+
+.section-two{
+  margin: 0 180px 0 200px;
+
+}
+
+hr{
+ margin-left: 125px;
+  width: 85%;
+  text-align: center;
+}
+h3{
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.logo{
+  position: relative;
+  right: 80px;
+  filter: brightness(0) invert(1) grayscale(1) contrast(10000%); 
+}
