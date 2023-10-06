@@ -2,29 +2,55 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/src/css/content-development-page.css">
+  <script defer type="module" src="dist/out-tsc/index.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <title>Content Development Page</title>
- 
 </head>
 <body>
   <header>
-    <h1>Content Development Page</h1>
-    <nav>
-      <ul>
-        <li><a href="#summary">Summary</a></li>
-        <li><a href="#description">Description</a></li>
-        <li><a href="#template">Template</a></li>
-        <li><a href="#example">Example</a></li>
-        <li><a href="#resources">Resources</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <div class="logo">
+        <img src="https://user-images.githubusercontent.com/20738858/270645282-b8aaec9f-dbfc-4351-a60b-0851fa61831c.png" alt="Elewa Logo">
+      </div>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <nav id="nav-menu" class="nav-menu">
+        <a href="#" class="sol">Solutions<span<i class="fa fa-chevron-down fa-xs"></i></span></a>
+        <a href="#">Projects</a>
+        <a href="#">Company</a>
+        <a href="#">News</a>
+        <div class="contact-button1">
+          <a href="#" class="button">Contact Us</a>
+        </div>
+      </nav>
+      <label for="nav-toggle" class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </label>
+      <div class="contact-button">
+        <button class="contact-us">Contact Us</button>
+      </div>
+    </div>
   </header>
-
-  <main>
- 
-  </main>
-
-
-
+  <section class="section">
+    <div class="content">
+        <h1 class="topic">Content development</h1>
+        <p class="paragraph">Lorem ipsum dolor sit amet, consectetur </p>
+        <p class="paragraph">adipiscing elit, sed do eiusmod tempor dolorem</p>
+        <p class="paragraph">ipsum quia dolor sit Eos qui ratione voluptatem</p>
+        <p class="paragraph">sequi nesciunt.</p>
+        <button class="btn">Unlock your potential
+            <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div class="sphere">
+        <div class="sphere-shape1"></div>
+        <div class="sphere-shape2"></div>
+        <div class="sphere-shape3"></div>
+      </div>
+  </section>
 </body>
 </html>

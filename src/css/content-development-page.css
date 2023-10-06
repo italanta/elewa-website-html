@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-size: medium;
+}
+ body {
+    align-items: center;
+    background-color: #FCF6E4;
+    width: 100%;
+    height: 100vh;
+}
+/* Style the header section */
+header {
+    background-color: transparent;
+    color: #000;
+    height: var(--elewa-website-header-bg-height);
+    margin: 0;
+    padding: 0;
+    font-family: DMSans-Regular;
+    position: relative;
+    z-index: 999;
+ }
+    /* Container for header content */
+ .container {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+ }
+ /* Style the logo */
+    .logo img {
+        width: 7.5rem;
+        filter: brightness(0);
+    }
+    nav {
+        display: flex;
+        align-items: center;
+
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #000000;
+        font-family: 'DMSans-Regular', Arial, sans-serif;
+        font-size: 13px;
+        cursor: pointer;
+        margin: 0 20px;
+    }
+
+ nav a:hover {
+    text-decoration: underline;
+    }
+ .sol {
+    font-weight: 900;
+    text-decoration: underline;
+ }
+ .sol i {
+    display: inline-block;
+    margin-left: 5px;
+    transition: transform 0.3s;
+ }
+
+ .sol i::before {
+    display: inline-block;
+    transform: translateY(2px);
+    transition: transform 0.3s; 
+ }
+ .sol i::before {
+    color: #000;
+    font-size: 14px;
+ }
+/* Style the "Contact Us" button */
+.button {
+    background: #2d2e52;
+    border-radius: 22px;
+    width: 8.375rem;
+    padding: 0.7em;
+    font-weight: bold;
+}
+
+.contact-us {
+    background: #2d2e52;
+    border-radius: 22px;
+    width: 8.375rem;
+    padding: 0.7em;
+    border: none;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    margin-left: auto;
+}
+.nav-toggle {
+    display: none;
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+/* Styles for the hamburger menu */
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+.line {
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    margin: 4px 0;
+}
+
+/* Add styles for the contact button inside the menu */
+.contact-us {
+    background: #2d2e52;
+    border-radius: 22px;
+    width: 8.375rem;
+    padding: 0.7em;
+    border: none;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    margin-top: 10px;
+
+}
+.contact-button1 {
+    display: none;
+    color: white;
+}
+.contact-us {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* content development page css */
+.sphere{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  align-content: center;
+  margin-top: 5.8rem;
+
+}
+.sphere-shape1{
+    border-radius: 600px;
+    background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
+    width: 400px;
+    height: 400px;
+    mix-blend-mode: multiply;
+}
+.sphere-shape2{
+    border-radius: 600px;
+    background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
+    width: 400px;
+    height: 600px;
+    mix-blend-mode: multiply;
+}
+.sphere-shape3{
+    border-radius: 600px;
+    background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
+    width: 400px;
+    height: 750px;
+    mix-blend-mode: multiply;
+}
+/* Text paragraph css */
+.content{ 
+    z-index: 1;
+    position: absolute;
+    top: 27%;
+    text-align: left;
+    left: 11%;
+}
+.topic{
+    text-align: left;
+    font-weight: 500;
+    font-size: 60px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    padding: 25px;
+}
+.paragraph{
+    text-align: left;
+    font: normal normal normal 25px/32px DM Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-left: 4%;
+}
+.btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 29px;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #000000;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 5px 10px;
+    margin-top: 35px;
+    margin-left: 4%;
+}
+
+.btn i {
+    font-size: 26px;
+    margin-left: 10px;
+    color: #ffffff;
+}
+
+/* Add a media query to switch to the hamburger menu on smaller screens */
+@media (max-width: 768px) {
+    .nav-container {
+        text-align: center;
+    }
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        background-color: #fff;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+    }
+
+    .hamburger {
+        display: block;
+        margin-left: 50%;
+    }
+
+    .nav-toggle:checked + .nav-menu {
+        display: flex; /* Show the mobile menu when the toggle is checked */
+    }
+
+    /* Style each mobile menu item */
+    .nav-menu a {
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        color: #000000;
+        font-family: 'DMSans-Regular', Arial, sans-serif;
+        font-size: 13px;
+        cursor: pointer;
+        border-bottom: 1px solid #ccc;
+    }
+
+    /* Style the last mobile menu item (Contact Us) */
+    .nav-menu a:last-child {
+        border-bottom: none; 
+    }
+
+    /* Show the mobile "Contact Us" button in hamburger menu */
+    .contact-us-mobile {
+        display: inline-block;
+        color: #fff;
+
+    }
+    /* Hide the desktop "Contact Us" button in mobile mode */
+    .contact-us {
+        display: none;
+        color: #fff;
+    }
+
+    .contact-button1 {
+        display: block;
+    }
+    .topic{
+        text-align: left;
+        font-weight: 500;
+        font-size: 40px;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        padding: 25px;
+    }
+    .paragraph{
+        text-align: left;
+        font: normal normal normal 18px DM Sans;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        margin-left: 4%;
+    }
+    .btn {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-radius: 29px;
+        color: #ffffff;
+        font-size: 14px;
+        background-color: #000000;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        padding: 5px 10px;
+        margin-top: 35px;
+        margin-left: 4%;
+    }
+    
+    .btn i {
+        font-size: 26px;
+        margin-left: 10px;
+        color: #ffffff;
+    }
+}
+
