@@ -160,7 +160,7 @@ a {
   height: auto;
   padding-left: 115px;
   padding-top: 100px;
-  filter: brightness(100);
+  filter: brightness(100000);
 }
 
 .socials {
@@ -334,7 +334,7 @@ a {
 
 /* logo in mobile view */
 
-.footer-logo {
+.footer-logo img{
   margin-left: 100px;
   margin-top: -80px;
 }
@@ -365,11 +365,13 @@ a {
 /* About-Page styling */
 
 .nav-logo {
-  filter:brightness(0)
+  filter:brightness(0);
+  width: 10%;
+  height: auto;
 }
 
 .about-title {
-  margin-left: 250px;
+  margin-left: 200px;
 }
 
 .about-title h2 {
@@ -398,7 +400,7 @@ a {
   margin: 0 auto;
   margin-top: 40px;
   position: relative;
-  margin-left: 250px;
+  margin-left: 200px;
 }
 
 .about-button .text {
@@ -455,4 +457,12 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   border: none;
+}
+
+/* landing page image */
+.landing-page-image  img{
+  padding-left:700px;
+  margin-top: -360px;
+  height: auto;
+  width: 35%;
 }
