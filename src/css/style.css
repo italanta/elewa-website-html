@@ -220,3 +220,63 @@ height: 694px;
     }
 
 }
+/*tablet responsive design. template=ipad air */
+@media(max-width: 820px){
+    #header-Sctn{
+        /* outline: 3px solid blue; */
+        top:5%;
+        left:1%;
+        width: 27%;
+    }
+    .navbar{
+        width:90%;
+       font-size:12px;
+    }
+    
+    .navbar li{
+      margin-right: 1px;  
+    }
+    .contact-button{
+        left:70%;
+    }
+
+    #logo{
+        width:100px;
+        height:50px;
+    }
+    #h1-Box{
+        top:18%;
+        left:7%;
+        width:50%;
+        font-size:23px;
+    }
+    #p-Box{
+        top:25%;
+        left:7%;
+        width:50%;
+        font-size:20px;
+    }
+    #uypbtn-Box{
+        left:2%;
+        top:38%;
+        width:-40%;
+    }
+    
+    #d1{
+        width: 20%;
+        left:1%;
+        top:45%;
+    }
+    #d2{
+        width:20%;
+        left:25%;
+        top:35%;
+    }
+    #d3{
+      width: 20%; 
+      left:49%;
+      top:25%;
+    }
+
+}
+
