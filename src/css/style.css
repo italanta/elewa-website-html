@@ -182,6 +182,10 @@ a {
 
 @media (max-width: 667px) {
   *{margin: 0;} *
+  .button-footer{
+    display: none;
+  }
+
   .footer-section{
     padding-top: 10px;
     background-color:#000;
@@ -235,7 +239,7 @@ a {
   color: #fff;
 }
 
-.button-footer {
+.mobile-button-footer {
   border-radius: 50%;
   height: 30px;
   width: 30px;
@@ -252,21 +256,20 @@ a {
   transition: transform 1.5s ease, background-color 1.5s ease;
 }
 
-
-.button-footer img {
+.moblile-button-footer img {
   width: 100%;
   height: 100%;
 }
 
-.footer-button:hover {
+.mobile-footer-button:hover {
   background-color: #fff;
   transition: 1.5s;
 }
-.footer-button:hover .mobile-text {
+.mobile-footer-button:hover .mobile-text {
   transform: translateX(45px);
   color: black;
 }
-.footer-button:hover .button-footer {
+.mobile-footer-button:hover .mobile-button-footer {
   transform: translateX(-555%);
   background-color: black;
   height: 30px;
