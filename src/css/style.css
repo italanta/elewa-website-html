@@ -1,56 +1,4 @@
-body {
-  background-color: #DBC2F5;
-  margin: 0;
-  font-family: Arial, sans-serif;
-  color: rgb(0, 0, 0);
-}
 
-.container {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-/* Text Content Styles */
-.text {
-  flex: 1;
-  padding: 20px;
-  margin-top: 20%;
-}
-
-/* Image Section Styles */
-.image {
-  flex: 1;
-  padding: 20px;
-  text-align: center;
-  overflow: hidden;
-  border-radius: 6500px 6500px 0px 0px;
-}
-
-/* Heading and Paragraph Styles */
-h2,
-p {
-  margin: 0;
-}
-
-h2 {
-  font-size: 30px;
-  margin-bottom: 10px;
-}
-
-p {
-  font-size: 20px;
-  line-height: 1.5;
-  margin-bottom: 30px;
-}
-
-.image img {
-  max-width: 100%;
-}
 
 /* Media Query for Small Screens (Max Width: 600px) */
 @media screen and (max-width: 600px) {
@@ -179,106 +127,8 @@ p {
   color: #000000;
   opacity: 1;
 }
-/* Center the hero div and its content */
-.hero {
-  position: relative;
-  text-align: center; /* Horizontally center the text within the div */
-  display: flex;
-  flex-direction: column; 
-  align-items: center; 
-  justify-content: center; 
-  height: 100vh; 
-}
 
-/* Styling fo the circles and their layout*/
-.circle-container {
-  display: flex;
-  text-align: left; /* To horizontally align the circles */
-}
-
-.left-circle,
-.right-circle {
-  display: inline-block; 
-  margin: -60px; 
-  border-radius: 50%; 
-}
-
-.left-circle {
-  top: 2917px;
-  left: 231px;
-  width: 282px;
-  height: 270px;
-  background: transparent linear-gradient(90deg, #DBC2F500 0%, #DBC2F5E6 100%) 0% 0% no-repeat padding-box;
-  mix-blend-mode: multiply;
-  opacity: 1;
-}
-
-.right-circle {
-  top: 2917px;
-  left: 391px;
-  width: 282px;
-  height: 270px;
-  transform: matrix(-1, 0, 0, -1, 0, 0);
-  background: transparent linear-gradient(90deg, #DBC2F500 0%, #DBC2F5E6 100%) 0% 0% no-repeat padding-box;
-  mix-blend-mode: multiply;
-  opacity: 1;
-}
-
-/* Styling for the hero div texts*/
-.hero h2 {
-  top: 2880px;
-  left: 259px;
-  width: 535px;
-  height: 89px;
-  text-align: left;
-  font: normal normal medium 36px/30px DM Sans;
-  letter-spacing: 0px;
-  color: #000000;
-  opacity: 1;
-}
-
-.hero p {
-  top: 2932px;
-  left: 259px;
-  width: 535px;
-  height: 89px;
-  text-align: left;
-  font: normal normal normal 22px/30px DM Sans;
-  letter-spacing: 0px;
-  color: #000000;
-  opacity: 1;
-}
-
-/* Styling for the button*/
-.button {
-  background-color: #000000;
-  border: none;
-  font-size: 16px;
-  color: #ccc;
-  padding: 10px 20px;
-  position: relative;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  border-radius: 25px;
-  margin-top: 45px;
-}
-
-.circle {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: white;
-  margin-left: 30px;
-  font-size: 40px;
-  color: #000;
-  top: -30px;
-}
-
-.styling {
+.booklet {
   position: relative;
   text-align: center; /* Horizontally center the text within the div */
   display: flex;
@@ -286,107 +136,310 @@ p {
   align-items: center; 
   justify-content: center; 
   height: 100vh;
-  background: #fae9e8; 
+  background: #FBE8D7 0% 0% no-repeat padding-box;
 }
 
-.styling h2 {
-  top: 2880px;
-left: 764px;
-width: 521px;
-height: 47px;
+.booklet h2 {
+  top: 377px;
+  left: 209px;
+width: 839px;
+height: 106px;
 text-align: left;
-font: normal normal medium 36px/30px DM Sans;
+font: normal normal  82px/110px DM Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;;
+}
+
+.booklet p {
+  top: 513px;
+left: 209px;
+width: 841px;
+height: 224px;
+text-align: left;
+font: normal normal 32px/42px DM Sans;
 letter-spacing: 0px;
 color: #000000;
 opacity: 1;
 }
 
-.styling p {
-  top: 2932px;
-left: 764px;
-width: 521px;
-height: 89px;
-text-align: left;
-font: normal normal normal 22px/30px DM Sans;
-letter-spacing: 0px;
-color: #000000;
-opacity: 1;
+.book {
+  top: 430px;
+left: 472px;
+width: 1448px;
+height: 634px;
+background: transparent linear-gradient(289deg, #F2AD69 0%, #F2AD6900 100%) 0% 0% no-repeat padding-box;
+opacity: 0.87;
+transform: rotate(-30deg);
+border-radius: 310px;
+margin-left: 365px;
+overflow: hidden;
+
 }
 
-.overall {
-  display: flex; /* Use flexbox for horizontal alignment */
-  justify-content: space-around; /* Spread the divs horizontally with space between them */
-  align-items: center; /* Vertically center the divs if needed */
-  margin-left: 920px;
-}
 
-.container1,
-.container2,
-.container3 {
-  /* Add your styles for the containers here */
-  width: 100px; /* Set the width as needed */
-  height: 100px; /* Set the height as needed */
-  margin: 30px;
-}
+/*education section*/
 
-.container1 {
-  top: 3011px;
-  left: 1025px;
-  width: 181px;
-  height: 181px;
-  background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
-  mix-blend-mode: multiply;
-  border-radius: 110px;
-  opacity: 1;
-  margin-top: 200px;
-}
-
-.container2 {
-  top: 2920px;
-  left: 1236px;
-  width: 181px;
-  height: 272px;
-  background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
-  mix-blend-mode: multiply;
-  border-radius: 110px;
-  opacity: 1;
-  margin-top: 120px;
-}
-
-.container3 {
-  top: 2831px;
-  left: 1447px;
-  width: 181px;
-  height: 361px;
-  background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
-  mix-blend-mode: multiply;
-  border-radius: 110px;
-  opacity: 1;
-}
-
-/* section partners */
-
-.partner
-{
-  top: 102px;
-  padding: 2px;
+.education h1{
   display: flex;
   flex-direction: row;
-  left: 14px;
-  width: 127px;
-  height: 29px;
-  background: transparent url('img/Image 9.png') 0% 0% no-repeat padding-box; 
-  filter: grayscale(100%); 
+  font-size: 46px;
+  color: #000000;
+  font-weight: 700;
+  margin-left: 350px;
+}
+.design
+{
+  margin-left: 70px;
+  background: #e4d6f7;
+  top: 2685px;
+  width: 486px;
+  height: 430px;
+
+
+}
+.circle1 {
+  margin-top: 110px;
+  position: absolute;
+  left: 00px;
+  width: 250px;
+  height: 270px;
+  background: transparent linear-gradient(90deg, #DBC2F500 0%, #DBC2F5E6 100%) 0% 0% no-repeat padding-box;
   mix-blend-mode: multiply;
   opacity: 1;
-  margin: 20px;
+  z-index: 1; /* Set a higher z-index for circle1 */
+  border-radius: 700px 700px 700px 700px;
 }
 
-.partner > div img.partner-logo {
-  margin-top: 200px;
-  width: 100px; /* Set a specific width for the logos (adjust as needed) */
-  height: auto; 
-  margin-left: 20px;
+.circle2 {
+  position: absolute;
+  margin-top: 110px;
+  left: 200px;
+  width: 250px;
+  height: 270px;
+  transform: matrix(-1, 0, 0, -1, 0, 0);
+  background: transparent linear-gradient(90deg, #DBC2F500 0%, #DBC2F5E6 100%) 0% 0% no-repeat padding-box;
+  mix-blend-mode: multiply;
+  opacity: 1;
+  z-index: 2;
+  border-radius: 700px 700px 700px 700px;
+
+}
+
+.design h2 
+{
+  padding-top: 100px;
+  left: 259px;
+  width: 435px;
+  height: 47px;
+  padding-left: 20px;
+  text-align: left;
+  font: normal normal medium 36px/30px DM Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 2;
+  margin-bottom: -30px;
+}
+.design p
+{
+  margin-top: -10px;
+  text-align: left;
+  font: normal normal normal 22px/30px DM Sans;
+  top: 2932px;
+  left: 259px;
+  width: 354px;
+  height: 89px;
+  padding: 20px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 2;
+}
+
+/*this refers to the content development part*/
+.development
+{
+  background: #FCF6E4;
+  width: 890px;
+  margin-top: -450px;
+  margin-left: 570px;
+  height: 430px;
+}
+.development h2{
+  padding-top: 100px;
+  left: 259px;
+  width: 435px;
+  height: 47px;
+  padding-left: 20px;
+  text-align: left;
+  font: normal normal medium 36px/30px DM Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 2;
+  margin-bottom: -30px;
+}
+.development p
+{
+  margin-top: -10px;
+  text-align: left;
+  font: normal normal normal 22px/30px DM Sans;
+  top: 2932px;
+  left: 259px;
+  width: 354px;
+  height: 89px;
+  padding: 20px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 2;
+}
+
+.circle3 {
+  margin-top: 220px;
+  position: absolute;
+  left: 760px;
+  width: 100px;
+  height: 100px;
+  background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
+  mix-blend-mode: multiply;
+  opacity: 1;
+  z-index: 1; /* Set a higher z-index for circle1 */
+  border-radius: 700px 700px 700px 700px;
+}
+.circle4 {
+  margin-top: 130px;
+  position: absolute;
+  left: 880px;
+  width: 130px;
+  height: 200px;
+  background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
+  mix-blend-mode: multiply;
+  opacity: 1;
+  z-index: 1; /* Set a higher z-index for circle1 */
+  border-radius: 400px 400px 400px 400px;
+}
+.circle5 {
+  margin-top: 75px;
+  position: absolute;
+  left: 1060px;
+  width: 150px;
+  height: 260px;
+  background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
+  mix-blend-mode: multiply;
+  opacity: 1;
+  z-index: 1; /* Set a higher z-index for circle1 */
+  border-radius: 400px 400px 400px 400px;
+}
+
+
+/*this is the convesational phase*/
+
+.Conversational
+{
+  margin-left: 70px;
+  background: #FAE9E8;
+  height: 430px;
+  width: 930px;
+}
+.Conversational h2{
+  padding-top: 170px;
+  left: 259px;
+  width: 435px;
+  height: 47px;
+  padding-left: 20px;
+  text-align: left;
+  font: normal normal medium 36px/30px DM Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 2;
+  margin-bottom: -30px;
+}
+.Conversational p
+{
+  margin-top: -10px;
+  text-align: left;
+  font: normal normal normal 22px/30px DM Sans;
+  top: 2932px;
+  left: 259px;
+  width: 354px;
+  height: 89px;
+  padding: 20px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 2;
+}
+.circle6 {
+  margin-top: 108px;
+  position: absolute;
+  left: 300px;
+  width: 250px;
+  height: 160px;
+  background: transparent linear-gradient(270deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
+  mix-blend-mode: multiply;
+  opacity: 1;
+  z-index: 1; /* Set a higher z-index for circle1 */
+  border-radius: 400px 400px 400px 400px;
+}
+.circle7 {
+  margin-top: 180px;
+  position: absolute;
+  left: 450px;
+  width: 260px;
+  height: 160px;
+  background: transparent linear-gradient(90deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
+  mix-blend-mode: multiply;
+  opacity: 1;
+  z-index: 1; /* Set a higher z-index for circle1 */
+  border-radius: 400px 400px 400px 400px;
+}
+.Ldesign
+{
+  overflow: hidden; /* Clip any content or shapes that extend beyond the container */
+  margin-top: -430px;
+  position: absolute;
+  margin-left: 1010px;
+  background: #FBE8D7;
+  width: 450px;
+  height: 430px;
+}
+.Ldesign h2{
+  padding-top: 170px;
+  left: 259px;
+  width: 435px;
+  height: 47px;
+  padding-left: 20px;
+  text-align: left;
+  font: normal normal medium 36px/30px DM Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 2;
+  margin-bottom: -30px;
+}
+.Ldesign p
+{
+  margin-top: -10px;
+  text-align: left;
+  font: normal normal normal 22px/30px DM Sans;
+  top: 2932px;
+  left: 259px;
+  width: 354px;
+  height: 89px;
+  padding: 20px;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 2;
+}
+.circle8 {
+  margin-top: 288px;
+  position: absolute;
+  left: 94px;
+  width: 370px;
+  height: 290px;
+  background: transparent linear-gradient(289deg, #F2AD69 0%, #F2AD6900 100%) 0% 0% no-repeat padding-box;
+  mix-blend-mode: multiply;
+  opacity: 1;
+  z-index: 1;
+  transform: scaleX(-1) scaleY(1) rotate(490deg) rotate(88deg); /* Flip horizontally and vertically, then rotate */
+  clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
+  border-radius: 60% 70% 90% 10%; /* Adjust the border radius for the bottom right corner */
 }
 
 
