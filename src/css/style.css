@@ -368,8 +368,14 @@ a {
   filter:brightness(0)
 }
 
+.about-title {
+  margin-left: 250px;
+}
+
+
+/* about button styling and the hovering effects */
+
 .about-button {
-  text-align: center;
   border-width: thin;
   border-color: #000;
   background-color: #000;
@@ -381,6 +387,7 @@ a {
   margin: 0 auto;
   margin-top: 40px;
   position: relative;
+  margin-left: 250px;
 }
 
 .about-button .text {
@@ -416,6 +423,7 @@ a {
   width: 100%;
   height: 100%;
 }
+
 
 .about-button:hover {
   background-color: #fff;
