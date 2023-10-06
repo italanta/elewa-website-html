@@ -372,6 +372,17 @@ a {
   margin-left: 250px;
 }
 
+.about-title h2 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 50px;
+}
+
+.about-title h3 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 30px;
+}
+
+
 
 /* about button styling and the hovering effects */
 
