@@ -20,11 +20,19 @@ body{
     }
 .footer-title{
     font-size: 3.5rem;
+    margin-top: -50px;
+}
+#title2{
+    margin-top: -50px;
 }
 button {
     margin-top: 10px;
     border: solid 2px white;
-    background-color: blue;
+    background-color: white;
+    background-image: url(/src/elements/assets/toRightArrow_tlcdnk.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
     border-radius: 50%;
     width: 25px;
     height: 25px;
@@ -32,13 +40,19 @@ button {
 
 .slidecontainer {
     margin-top: 10px;
+    margin: 0 auto;
     border: solid 2px white;
     text-align: center;
     border-radius: 20px;
     width: 200px;
     height: 50px;
     }
-    
+
+.slidecontainer:hover {
+    background-color: #fff;
+
+    transition: ease 3s;
+    }
 /* .slidecontainer p {
 
         color: white;
@@ -66,7 +80,7 @@ button {
     text-align: left;
     padding: 10px;
     }
-.footer-contenta {
+.footer-contentm {
     text-align: left;
     padding: 10px;
     }
@@ -77,6 +91,10 @@ button {
     }
     
 .footer-content ul {
+        list-style-type: none;
+        padding: 0;
+    }
+.footer-contentm ul {
         list-style-type: none;
         padding: 0;
     }
@@ -106,3 +124,31 @@ button {
     width: 7.5rem;
     margin-right: 100%;
 }
+
+.slidecontainer-m{
+    /* margin-top: 10px;
+    margin: 0 auto;
+    border: solid 2px white;
+    text-align: center;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px; */
+    display: hide;
+    transform: scale(0);
+}
+h1 {
+    transform: scale(0);
+}
+@media screen and (max-width: 667px) {
+    .footer {
+      background-color: rgb(21, 22, 21);
+    }
+    .footer-title{
+        transform: scale(0);
+    }
+    
+    .footer-contentm{
+        display: inline;
+    }
+    
+  }
