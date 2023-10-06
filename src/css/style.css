@@ -46,9 +46,8 @@ body{
     display: flex;
     width: 450px;
     flex-direction: row-reverse;
-    margin-left: -40px;
-    margin-top: -15%;
     overflow: hidden;
+    margin: -15% 0 0 -40px;
     
    }
    .display #about{
@@ -266,10 +265,10 @@ body{
     width: 450px;
     height: 250px;
     background-image: linear-gradient(to right, #f7d7b1, #f2ba7f);
-    border-bottom-left-radius: 200px;
        border-top-left-radius: 200px;
        border-bottom-right-radius: 200px;
-       border-top-right-radius: 200px;
+       border-top-right-radius: 200px; */
+       border-radius: 200px;
        transform: rotate(-28deg);
        margin: 10% 0 0 12%;
    }
