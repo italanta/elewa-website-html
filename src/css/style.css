@@ -364,6 +364,8 @@ a {
 
 /* About-Page styling */
 
+
+/* nav styles */
 .nav-logo img{
   filter:brightness(0);
   width: 9%;
@@ -372,6 +374,29 @@ a {
   padding-left: 150px;
 }
 
+/* contact-us button */
+.Contact-button{
+  margin-top: -100px;
+}
+.Contact-Us-button {
+  border-radius: 20px;
+  background-color: #292a50;
+  width: 130px;
+  height: 35px;
+  margin-left: 1050px;
+  padding-top: 0px;
+  border: none;
+}
+
+.Contact-Us-button p{
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  color: #fff;
+  padding-top: -3px;
+  font-size: 14px;
+}
+
+/* titles */
 .about-title {
   margin-left: 150px;
 }
@@ -390,7 +415,7 @@ a {
 /* middle section  */
 
 .about-page-body {
-  padding-top: 150px;
+  padding-top: 230px;
 }
 
 /* about button styling and the hovering effects */
