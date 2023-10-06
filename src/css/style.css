@@ -372,6 +372,7 @@ a {
   text-align: center;
   border-width: thin;
   border-color: #000;
+  background-color: #000;
   padding-top: 35px;
   border-radius: 50px;
   border-style: solid;
@@ -390,15 +391,15 @@ a {
   font-family: 'DM Sans', sans-serif;
   font-size: 14px;
   transition: transform 1s ease, color 1s ease;
-  color: #000;
+  color: #fff;
 }
 
 .button-about {
   border-radius: 50%;
   height: 30px;
   width: 30px;
-  background-color: #000;
-  background-image: url('/src/images/white-arrow.png');
+  background-color: #fff;
+  background-image: url('/src/images/black-arrow.png');
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: center;
@@ -417,20 +418,20 @@ a {
 }
 
 .about-button:hover {
-  background-color: #000;
+  background-color: #fff;
   transition: 1.5s;
 }
 .about-button:hover .text {
   transform: translateX(45px);
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 .about-button:hover .button-about {
   transform: translateX(-555%);
-  background-color: #fff;
+  background-color: #000;
   height: 30px;
   width: 30px;
   top: 10%;
-  background-image: url('/src/images/black-arrow.png');
+  background-image: url('/src/images/white-arrow.png');
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: center;
