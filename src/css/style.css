@@ -52,7 +52,6 @@ body{
   height: 24px;
   font-family: "DM Sans", sans-serif;
   text-align: left;
-  /* font: normal normal normal 18px/100px DM Sans; */
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
@@ -107,16 +106,12 @@ body{
 
 
 .content-dev-center{
-  /* display: flex;
-  align-items: center; */
   width: 100%;
 }
 
 
   .content-dev-center-text{
-    /* padding-top: 272px; */
     margin-top: 195px;
-    /* margin-bottom: 194px; */
     width: 700px;
   }
 
@@ -226,7 +221,6 @@ body{
   mix-blend-mode: multiply;
   border-radius: 210px;
   opacity: 1;
-  /* float: right; */
 
   margin: 106px 0 0 60px;
   
