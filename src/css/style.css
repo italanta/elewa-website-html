@@ -1,0 +1,28 @@
+body {
+    position: relative;
+
+  }
+  
+  .partners {
+    width: 220px;
+    height: 100px;
+  }
+  
+  #partners-all {
+    outline:3px solid yellow;
+    text-align: center;
+    padding: 20px 0;
+    display:flex;
+    justify-content: center;
+    position: absolute;
+    top: 1082px;
+    left: 100px;
+    width: 1087px;
+    height: 90px;
+    bottom: 20px;
+    /* UI Properties */
+    background: transparent url('img/Image 9.png') 0% 0% no-repeat padding-box;
+    mix-blend-mode: multiply;
+    opacity: 1;
+  }
+  
