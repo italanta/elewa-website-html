@@ -5,16 +5,19 @@
     font-family: 'DM Sans', sans-serif;
 }
 
+/* Body styles */
 body {
     height: 100vh;
     background-color: #F9F8F4;
 }
 
+/* Header styles */
 header {
     position: relative;
     padding: 0 2rem;
 }
 
+/* Navbar styles */
 .navbar {
     width: 80%;
     height: 60px;
@@ -37,6 +40,7 @@ a {
     font-size: 14px;
 }
 
+/* Logo image styles */
 .logo-img{
     width: 130px;
     height: 60px;
@@ -44,22 +48,25 @@ a {
     filter: brightness(0%) contrast(100%);
 }
 
+/* Navbar link hover styles */
 .nav_2_links:hover {
     text-decoration: underline;
 }
 
-/*This one goes to the web screen*/
+/*This one goes to the web screen/larger screens*/
 .navbar .links {
     display: flex;
     gap: 2rem;
 }
 
+/* Navbar toggle button styles */
 .navbar .toggle_btn {
     color: #000000;
     font-size: 24px;
     display: none; 
 }
 
+/* Action button styles */
 .action_btn {
     background-color: #2D2E52;
     padding: 5px 10px;
@@ -119,18 +126,19 @@ a {
     line-height: 22px; 
 }
 
-
-.home-container{
+/* About container styles */
+.about-container{
     background-color: #F9F8F4;
     width: 100%;  
 }
 
-.home_content{
+/* About content styles */
+.about_content{
     width: 100%;
-    padding: 30px 0px 10px 30px;
+    padding: 30px 20px 10px 30px;
 }
 
-.home_content h1{
+.about_content h1{
     font-size: 24px;
     color: black;
     line-height: 32px;
@@ -138,7 +146,7 @@ a {
     font-weight: 600;  
 }
 
-.home_content h2{
+.about_content h2{
     font-size: 16px;
     color: black;
     text-align: left;
@@ -147,58 +155,66 @@ a {
     padding-bottom: 20px;
 }
 
-.home_img_section{
+/* About image section styles */
+.about_img_section{
     height: auto;
     width: 100%;
     padding: 30px;
 
 }
-#home_img{
+#about_img{
     max-height: 350px;
     max-width: 300px;
 }
   
 
 /*ReSPONSIVE DESIGN*/
+/* Header responsive designs for tablet */
 @media (max-width:768px) {
+    /* Navbar adjustments for mobile screens */
     .navbar {
         width: 100%;
         margin-top: 10%;
     }   
 
+    /* Hide destop navbar elements */
     .navbar .links,
     .navbar .action_btn {
         display: none;
     }
 
+    /* Show mobile toggle button */
     .navbar .toggle_btn {
         display: block;
     }
 
+    /* Adjust dropdown menu width and position */
     .navbar_dropdown_menu {
         display: block;
-        width: unset;
-        left: 40%;
-        top: 300px;
+        width: 768px;
+        left: 1rem;
+        top: 60px;
     }
 
-    
+    /* center dropdown menu elements */
+    .navbar_dropdown_menu.open{
+        padding-top: 30%; 
+        padding-left: 30%;
+    }
 
     .navbar_dropdown_menu a {
         align-items: center;
-        font-size: 30px;
+        font-size: 40px;
     }
 }
 
+/* Additional adjustments for smaller screens(header)(if needed) */
 @media (max-width: 360px) {
-    .navbar_dropdown_menu {
-        left: 1rem;
-        top: 60px;
-        width: 360px;             
+    .navbar_dropdown_menu {      
+        width: 100%;             
     }
 
     .navbar_dropdown_menu.open{
-        padding-top: 30%; 
         padding-left: 20%;
     }
 
@@ -207,75 +223,81 @@ a {
         height: 50px;
     }
 
+    .navbar_dropdown_menu a {
+        font-size: 30px;
+    }
+
     /* .navbar_dropdown_menu li */
 }
 
+/* Home styles for tablet screens */
 @media only screen and (min-width: 768px) { 
-    .home-container{
+    .about-container{
       width: 100%;
       margin: 0 auto;
       padding-top: 30px;
       padding-left: 40px;
     }
   
-    .home_content{
-      padding: 0;
+    .about_content{
+      padding: 1%;
     }
   
-    .home_content h1{
+    .about_content h1{
       font-size: 36px;
       line-height: 48px;
     }
   
-    .home_content h2{
+    .about_content h2{
       font-size: 18px;
       line-height: 25px;
     }
 
-    .home_img_section {
+    .about_img_section {
         padding-left: 22%;
     }
   
-    #home_img{
+    #about_img{
       max-height: 450px;
       max-width: 400px;
     }
   
   }
 
+  /* Home styles for smaller screens(mobile) */
 @media only screen and (min-width: 900px) { 
-    .home-container{
+    .about-container{
       width: 80%;
       margin: 0 auto;
       padding-top: 3%;
     }
   
-    .home_content{
+    .about_content{
       width: 50%;
       float: left;
       margin-top: 12%; 
       padding-right: 9.5%;
     }
   
-    .home_content h1{
+    .about_content h1{
       font-size: 40px;
       line-height: 50px;
       margin-right: 20%;
     }
   
-    .home_content h2{
+    .about_content h2{
       font-size: 20px;
       line-height: 27px;
       /* margin-right: 1%; */
     }
   
-    .home_img_section{
+    .about_img_section{
       padding: 2%;
       width: 50%;
       float: right;
     }
   
-    #home_img{
+    #about_img{
       max-height: 480px;
       max-width: 430px;
     }
