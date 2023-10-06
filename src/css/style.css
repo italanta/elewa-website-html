@@ -22,3 +22,39 @@
     display: flex;
     justify-content: space-between;
 }
+
+
+.btn-unlock{
+    background-color: #000000;
+    color: #FFFFFF;
+    opacity: 1;
+    border-radius: 29px;
+    display: flex;
+    width: 11.5rem;
+    height: 2.5rem;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    padding: 0.2rem;
+    justify-content: space-evenly;
+}
+
+.btn-unlock:hover{
+    flex-direction: row-reverse; 
+    transition: ease-in-out;
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 1px solid black;
+}
+
+.btn-unlock:hover .arrow-icon {
+    filter: invert(100%);
+}
+
+
+.arrow-icon{
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
