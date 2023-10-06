@@ -1,23 +1,23 @@
-    #main-container{
+#main-container{
         background-color: #f8f7f3;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
-    h1{
+h1{
         margin-bottom: 50px;
     }
     
-    #test{
+#test{
     
-      padding: 5%;
+        padding: 5%;
     
     }
-    #test-grid{
+#test-grid{
         display: grid;
         width: 100%;
         grid-template-columns: 100px 50px 100px;
         justify-content: space-between;
     }
-    #test-grid::after{
+#test-grid::after{
         content: "";
         display: block;
         background-color: #ccc;
@@ -25,22 +25,79 @@
         margin: 40px 0; /* 40px top and bottom, 0 left and right */
         width: 1430px;
     }
-    #test-grid h2{
+#test-grid h2{
         white-space: nowrap;
        color: rgb(82, 80, 80);
     }
-    #test-grid p{
+#test-grid p{
         white-space: nowrap;
         color: #bdb8b8;
         font-weight: 600;
         align-self: center;
     }
-    #read-more{
-     text-align: right;
-     align-self: center;
-    }
-    hr{
+#read-more{
+        text-align: right;
+        align-self: center;
+}
+hr{
         margin:2em 0;
         width: 100%;
         color: rgb(56, 55, 55);
     }
+
+    /* Media Query for smaller screens (e.g., tablets) */
+@media (max-width: 575px) {
+    #test-grid {
+        grid-template-columns: 1fr; 
+        text-align: center;
+      }
+    #test-grid::after {
+        width: 100%; /* Adjusted to be responsive */
+        margin: 20px 0; /* Reduced margin for smaller screens */
+      } 
+
+    }
+/* Styles for screens between 576px and 767px (mobile phones in landscape mode) */
+@media (min-width: 576px) and (max-width: 767px) {
+    #test-grid {
+        grid-template-columns: 1fr; 
+        text-align: center;
+      }
+    #test-grid::after {
+        width: 100%; /* Adjusted to be responsive */
+        margin: 20px 0; /* Reduced margin for smaller screens */
+      } 
+}
+/* Styles for screens between 768px and 991px (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+    #test-grid {
+        grid-template-columns: 1fr; 
+        text-align: center;
+      }
+    #test-grid::after {
+        width: 100%; /* Adjusted to be responsive */
+        margin: 20px 0; /* Reduced margin for smaller screens */
+      } 
+}
+/* Styles for screens between 992px and 1199px (small laptops and desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    #test-grid {
+        grid-template-columns: 1fr; 
+        text-align: center;
+      }
+    #test-grid::after {
+        width: 100%; /* Adjusted to be responsive */
+        margin: 20px 0; /* Reduced margin for smaller screens */
+      } 
+}
+/* Styles for screens 1200px or larger (medium to large desktops) */
+@media (min-width: 1200px) {
+    #test-grid {
+        grid-template-columns: 1fr; 
+        text-align: center;
+      }
+    #test-grid::after {
+        width: 100%; /* Adjusted to be responsive */
+        margin: 20px 0; /* Reduced margin for smaller screens */
+      } 
+}
