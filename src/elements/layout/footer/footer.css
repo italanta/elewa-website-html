@@ -137,6 +137,7 @@ button {
     transform: scale(0);
 }
 h1 {
+    display: block;
     transform: scale(0);
 }
 @media screen and (max-width: 667px) {
@@ -145,6 +146,7 @@ h1 {
     }
     .footer-title{
         transform: scale(0);
+        
     }
     
     .footer-contentm{
