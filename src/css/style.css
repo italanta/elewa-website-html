@@ -173,3 +173,50 @@ height: 694px;
     width: 462px;
     height: 922px;
 }
+/*phone responsive design. template=iphone 12 pro */
+@media(max-width: 390px){
+    #header-Sctn{
+        top:5%;
+        left:1%;
+        width: 18%;
+    }
+    .navbar{
+        display: none;
+    }
+    #logo{
+        width:-15%;
+        height: -15%;
+    }
+    #h1-Box{
+        top:22%;
+        left:7%;
+        width:50%;
+        font-size:25px;
+    }
+    #p-Box{
+        top:40%;
+        left:7%;
+        width:90%;
+        font-size:25px;
+    }
+    #uypbtn-Box{
+        left:1%;
+        top:52%;
+        width:-40%;
+    }
+    
+    #d1{
+        width: 30%;
+        left:3%;
+
+    }
+    #d2{
+        width:30%;
+        left:36%;
+    }
+    #d3{
+      width: 30%; 
+      left:69%;
+    }
+
+}
