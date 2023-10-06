@@ -38,7 +38,7 @@ body{
 #p-Box{
     /* Layout Properties */
     position: absolute;
-    outline: 3px solid gold;
+    /* outline: 3px solid gold; */
     top: 513px;
     left: 209px;
     width: 741px;
@@ -53,6 +53,7 @@ body{
 #uypbtn-Box{
 /* Layout Properties */
 position: absolute;
+position: relative ;                   
 outline: 3px solid black;
 top: 767px;
 left: 209px;
@@ -64,7 +65,33 @@ border-radius: 29px;
 opacity: 1;   
 }
 #uypbtn-Text{
-    outline: 3px solid gold;
+outline: 3px solid gold;
+/* Layout Properties */
+position: absolute;
+top:19px;
+left:42px;
+width: 157px;
+height: 21px;
+/* UI Properties */
+margin-top:0%;
+/* text-align: left; */
+justify-content: center;
+font: normal normal normal 16px/42px DM Sans;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+#uypbtn-Circle{
+    outline:3px solid green;
+    position:absolute;
+    top:8px;
+    left:216px;
+    width:42px;
+    height:42px;
+    border-radius: 50%;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
 .designs{
     /* UI Properties */
