@@ -72,3 +72,8 @@ h2{
     cursor: pointer;
 
 }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
