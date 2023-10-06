@@ -43,6 +43,7 @@ body {
   border-radius: 600px;
   opacity: 1;
   margin-left: 150px;
+  z-index: -1;
 }
 
 .elipse2 {
@@ -57,6 +58,7 @@ body {
   opacity: 1;
   margin-left: 600px;
   margin-top: -630px;
+  z-index: -1;
 }
 .elipse3{
   top: 276px;
@@ -69,6 +71,7 @@ body {
   opacity: 1;
   margin-left: 1200px;
   margin-top: -840px;
+  z-index: -1;
 }
 
 button {
