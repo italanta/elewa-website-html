@@ -15,29 +15,29 @@ body{
         text-align: center;
         border-top-left-radius: 80px; 
         border-top-right-radius: 80px;
+        margin-top: 10px;
         margin-bottom: 0px;
     }
-    
-    .button {
-        margin-top: 10px;
-        border: solid 2px white;
-        background-color: blue;
-        color: white;
-        text-align: center;
-        border-radius: 20px;
-        width: 250px;
-        height: 50px;
-        font-weight: bold;
-        font-size: 18px;
+.footer-title{
+    font-size: 3.5rem;
+}
+button {
+    margin-top: 10px;
+    border: solid 2px white;
+    background-color: blue;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
     }
-/* .slidecontainer {
-        margin-top: 10px;
-        border: solid 2px white;
-        text-align: center;
-        border-radius: 20px;
-        width: 200px;
-        height: 50px;
-    } */
+
+.slidecontainer {
+    margin-top: 10px;
+    border: solid 2px white;
+    text-align: center;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    }
     
 /* .slidecontainer p {
 
@@ -66,7 +66,11 @@ body{
     text-align: left;
     padding: 10px;
     }
-    
+.footer-contenta {
+    text-align: left;
+    padding: 10px;
+    }
+        
 .footer-content h4 {
         font-size: 16px;
         margin-bottom: 10px;
