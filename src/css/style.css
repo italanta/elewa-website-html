@@ -1,0 +1,50 @@
+body{
+    background-color: #DBC2F5;
+    opacity: 100%;
+    position: absolute;
+    max-width:1920px;
+    height:fit-content
+    /* overflow: hidden; */
+}
+
+.image{
+position: absolute;
+top: 108px;
+left: 209px;
+width: 641px;
+height: 775px;
+/* UI Properties */
+background: transparent url('img/gettyimages-98473330-2048x2048.png') 0% 0% no-repeat padding-box;
+border-radius: 1000px 1000px 0px 0px;
+opacity: 1;
+}
+#h1-Box{
+    /* Layout Properties */
+position: absolute;
+top: 296px;
+left: 960px;
+width: 837px;
+height: 81px;
+/* UI Properties */
+display:flex;
+justify-content: left;
+font: normal normal medium 62px/80px DM Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+
+
+#p-Box{
+position: absolute;
+top: 434px;
+left: 965px;
+width: 756px;
+height: 444px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 32px/42px DM Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
