@@ -101,19 +101,71 @@ img.logo {
     padding-top: 80px;
 }
 
-.btn2 {
+/* .btn2 {
     cursor: pointer;
-    /* display: inline-block; */
     padding: 15px 30px;
     color: #fff;
     line-height: 1.2rem;
     background-color: transparent;
     border-radius: 40px;
+    border-width: thin;
+    border-color: #fff;
     font-size: 15px;
     margin-left: 450px;
     border-width:white;
     margin-bottom: 70px;
+} */
+
+/* Button styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
+
+.container {
+    text-align: center;
+}
+
+.btn2 {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.8s ease;
+    padding: 10px 50px;
+    font-size: 18px;
+    margin-left: 400px;
+}
+
+.btn2 .arr {
+    display: inline-block;
+    transition: all 0.8s ease;
+    position: absolute;
+    right: 10px;
+    margin: auto;
+    
+}
+
+.btn2:hover {
+    background: #fff;
+    color: #333;
+    border-color: white;
+}
+
+.btn2:hover .arr {
+    background: #333;
+    right: 90%;
+    transform: translateX(50%);
+    color: #fff;
+}
+  
+  
 
 hr {
     margin-left: 100px;
@@ -174,6 +226,32 @@ hr {
 
 /* End of Footer */
 
+/* Mobile */
+@media(max-width: 768px) {
+    .list {
+        flex-direction: column;
+        height: 120px;
+        padding: 20px;
+    }
+
+    .list ul {
+        padding: 10px 10px;
+        margin: 0 3px;
+    }
+
+    .flex-items {
+        flex-direction: column;
+    }
+
+    .flex-columns .column, .flex-grid .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .team img {
+        width: 70%;
+    }
+}
 
 
 
