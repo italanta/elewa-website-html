@@ -1,64 +1,107 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
     box-sizing: border-box;
 }
-.contact{
-    float: right;
-    background-color: black;
-    border: none;
-    border-radius: 2px;
-    font-size: medium;
-    padding: 0px 10px;
-    margin-top: 25px;
-}
 
+body{
+    font-family: fantasy;
+}
 nav{
+    background: white;
+    height: 80px;
     width: 100%;
-    height: 70px;
-    line-height: 70px;
-    padding: 0px 100px;
-    position: fixed;
-    background-color: rgb(243, 173, 235);
+    display: flex;
+    /* flex-direction: row; */
+    overflow: hidden;
 }
-
-nav .logo img{
-    size: 1px;
-    float: left;
-    cursor: pointer;
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    margin-left: 400px;
+    
 }
 nav ul{
-    justify-items: center;
+    justify-self: center;
+    margin-right: 20px;
 }
-nav li{
+nav ul li{
     display: inline-block;
-    list-style: none;
-    align-items: center;
+    line-height: 80px;
+    margin: 0 5px;
 }
-nav li a{
-    text-decoration: none;
-    text-transform:capitalize;
-    font-size: 17px;
-    padding: 0px 20px;
+nav ul li a{
     color: black;
+    font-size: 17px;
+    margin: 4px;
 }
-nav .contact{
+.button{
+    margin: 0 0 0 700px;
+    background-color: black;
     color: white;
-    font-size: 23px;
-    border-radius: 3rem;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+
 }
-
-.select1{
-    border: none;
-    background-color: rgb(243, 173, 235);
+.checkbtn{
+    line-height: 65px;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;  
+    display: none;     
 }
-
-@media only screen and (min-width: 280px) {
-    nav{
-        display: block;
+#check{
+    display: none;
+}
+@media (max-width: 952px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
     }
-
-    nav ul{
-        display: block;
+    nav ul li a{
+        font-size: 16px;
     }
+}
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+        margin-left: 90% ;
+        margin-top: -73%;
+    }
+    .button{
+        margin-left: 10px;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: white;
+        top: 80px;
+        left: 0%;
+        transition: all .5s;
+        text-align: center;
+    }
+    nav ul li{
+        display: block;
+        line-height: 30px;
+        margin: 50px 0;
+    }
+    nav ul li a{
+        font-size: 25px;
+    }
+    a:hover, a.active{
+        background: none;
+        color: black;
+    }
+    
 }
