@@ -143,10 +143,7 @@ body{
        background-image: linear-gradient(to right,transparent,#ebc359); 
        width: 200px;
        height: 130px;
-       border-bottom-left-radius: 200px;
-       border-top-left-radius: 200px;
-       border-bottom-right-radius: 200px;
-       border-top-right-radius: 200px;
+       border-radius: 200px;
        margin: -20% 0 0 55%;
        transform: rotate(-90deg);
    }
@@ -156,10 +153,7 @@ body{
        background-image: linear-gradient(to right,transparent,#ebc359); 
        width: 300px;
        height: 150px;
-       border-bottom-left-radius: 200px;
-       border-top-left-radius: 200px;
-       border-bottom-right-radius: 200px;
-       border-top-right-radius: 200px;
+       border-radius: 200px;
        margin: -22% 0 0 69%;
        transform: rotate(-90deg);
    }
@@ -213,10 +207,7 @@ body{
     width: 300px;
     height: 200px;
     z-index: 1;
-    border-bottom-left-radius: 200px;
-       border-top-left-radius: 200px;
-       border-bottom-right-radius: 200px;
-       border-top-right-radius: 200px;
+    border-radius: 200px;
 
    }
    .display2 .parent1 #oval2{
@@ -224,10 +215,7 @@ body{
     width: 300px;
     height: 200px;
     z-index: 1;
-    border-bottom-left-radius: 200px;
-       border-top-left-radius: 200px;
-       border-bottom-right-radius: 200px;
-       border-top-right-radius: 200px;
+    border-radius: 200px;
     margin: -20% 0 0 30%;
    }
    /* end of display 2 */
@@ -266,12 +254,9 @@ body{
     width: 450px;
     height: 250px;
     background-image: linear-gradient(to right, #f7d7b1, #f2ba7f);
-       border-top-left-radius: 200px;
-       border-bottom-right-radius: 200px;
-       border-top-right-radius: 200px; */
-       border-radius: 200px;
-       transform: rotate(-28deg);
-       margin: 10% 0 0 12%;
+    border-radius: 200px;
+    transform: rotate(-28deg);
+    margin: 10% 0 0 12%;
    }
 
 /* end of display 3 */
