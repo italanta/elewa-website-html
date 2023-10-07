@@ -15,6 +15,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Roboto:wght@100&display=swap"
     rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
   <!-- end of styling -->
 <script defer type="module" src="dist\out-tsc\index.js"></script>
 </head>
@@ -22,7 +23,12 @@
 <body>
 
     <header>
+      <nav class="navbar contain">
       <img src="images/elewa-logo.png" class="logo">
+      <input type="checkbox" id="toggler"/>
+      <label for="toggler"><i class="ri-menu-line"></i></label>
+
+        <div class="menu-list">
         <ul class="navlist">
             <li><a href="#">Solutions<span><img src="images/arrow-down.svg" alt="chevron-down" width="30px" height="15px" class="chevron"></span></a></li>
             <li><a href="#">Projects</a></li>
@@ -32,9 +38,8 @@
         <button class="contactus-btn">
           <a href="#">Contact us</a>
         </button>
-        <div class="menu"><span class="material-symbols-outlined">
-            menu
-          </span></div>
+        </div>
+      </nav>
     </header>
 
     <section class="hero">

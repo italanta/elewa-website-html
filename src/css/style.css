@@ -48,13 +48,17 @@ header{
 .contactus-btn {
   display: inline-block;
   text-decoration: none;
-  padding: 14px 40px;
-  background-color: darkblue;
+  padding: 10px;
+  width: 100px;
+  height: 40px;
+  background-color: #2D2E52;
   
   font-size: 14px;
   border-radius: 30px;
   cursor: pointer;
   margin-right: 200px;
+  position: relative;
+  bottom: 10px;
 }
 .contactus-btn>a{
   color: #FFFFFF;
@@ -64,7 +68,7 @@ header{
   font-size: 30px;
   z-index: 10001;
   cursor: pointer;
-  display: none;
+  /* display: none; */
 }
 
 .hero{
@@ -103,6 +107,8 @@ section{
   width: 700px;
   height: auto;
   margin-top: 100px;
+  position: relative;
+  top: 50px;
   /* float: right;
     max-width: 45%;
     position: absolute;
@@ -154,8 +160,27 @@ section{
 .links:hover .chevron {
   transform: rotate(180deg);
 }
+#toggler, .navbar label{
+  /* display: none; */
+  color: black;
+}
+.navbar{
+  display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: space-between;
+ width: fit-content;
+  gap: 20rem;
+} 
 
-@media (max-width: 1460px){
+
+.menu-list{
+  display: flex;
+  gap: 6rem;
+  margin-top: 30px;
+  justify-content: baseline;
+}
+/* @media (max-width: 1460px){
     section{
       padding: 0 12%;
       transition: .2s;
@@ -223,5 +248,36 @@ section{
         width: 100%;
         height: auto;
     }
-}
+} */
 
+@media only screen and (max-width: 768px){
+  .menu-list{
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 400ms ease-out;
+  }
+  .navlist{
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .navbar label {
+    display: inline-flex;
+    align-items: center;
+  }
+  #toggler:checked ~ .menu-list{
+   max-height: 100%;
+
+  }
+.hero{
+  display: none;
+  flex-direction: column;
+  position: relative;
+  top: 500px;
+  
+}
+  }
