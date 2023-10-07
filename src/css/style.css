@@ -88,6 +88,7 @@ section{
   line-height: 1;
   color: black;
   margin: 0 0 15px;
+  
 }
 
 .hero-text p{
@@ -199,7 +200,7 @@ section{
   .navlist{
     position: absolute;
     top: 100%;
-    right: 0;
+    right: -100%;
     width: 300px;
     height: 40vh;
     display: flex;
@@ -207,5 +208,20 @@ section{
     flex-direction: column;
     padding: 50px 20px;
   }
-  
+  .navlist a{
+      display: block;
+      margin: 7px 0;
+      margin-left: 0;
+  }
+  .navlist.open{
+    right: 0;
+  }  
 }
+
+@media (max-width: 680px){
+    .hero-img img{
+        width: 100%;
+        height: auto;
+    }
+}
+
