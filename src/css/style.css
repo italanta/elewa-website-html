@@ -399,11 +399,11 @@ a {
   display: none;
   position: absolute;
   background-color: #fff;
-  width: 1200px;
+  width: 1050px;
   height: 170px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  margin-left: -500px;
+  margin-left: -425px;
   border-radius: 20px;
   padding-top: 50px;
 }
@@ -416,29 +416,40 @@ a {
   text-decoration: none;
 }
 
+
 .group-menu {
   display: flex;
   justify-content: space-between;
 }
 
 .menu {
-  border-radius: 5px;
-  margin-right: 10px;
-  margin-left: 10px;
+  border-radius: 10px;
+  margin-right: 8px;
+  margin-left: 8px;
+  height: 150px;
+  width: auto;
+  overflow: hidden;
 }
+.menu a, .menu p {
+  text-align: left;
+}
+
 
 /* hover effect on the dropdown containers */
 .menu:hover {
-  border-radius: 5px;
-  background-color: #e6dddd;
-  margin-right: 10px;
-  margin-left: 10px;
+  background-color: #f8f3f3;
+  border-radius: 10px;
+  margin-right: 8px;
+  margin-left: 8px;
+  height: 150px;
+  width: auto;
   transition: 0.4s;
+
 }
 
 /* hover effect on the dropdown items */
 
-.dropdown-content a:hover {background-color: #e6dddd}
+.dropdown-content a:hover {background-color: #f8f3f3}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -448,8 +459,8 @@ a {
 /* shaped in the dropdown options */
 .Consultuncy-img {
   background-color: #292a50;
-  height: 80px;
-  width: 100px;
+  height: 30px;
+  width: 2%;
   border-radius: 50%;
   padding-left: 100px;
 
