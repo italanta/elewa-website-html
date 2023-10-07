@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: beige;
+}
+
 /* Reset some default styles */
 body, ul, li {
     margin: 0;
@@ -8,6 +16,7 @@ body, ul, li {
 /* Global styles */
 body {
     font-family: Arial, sans-serif;
+    
 }
 
 /* Header styles */
@@ -21,7 +30,7 @@ header {
 /* Logo styles */
 .logo {
     position: absolute; /* Add this line to position the logo */
-    top: 30; /* Adjust top to 0 for top placement */
+    top: 25px; /* Adjust top to 0 for top placement */
     left: 200px; /* Adjust left to 0 for left placement */
     width: 153px;
     height: 65px;
@@ -38,6 +47,9 @@ header {
 }
 
 .navbar ul {
+    position: absolute;
+    top: 50px;
+    left: 430px;
     list-style-type: none;
     padding: 0;
 }
@@ -72,6 +84,8 @@ header {
     color: #333;
 }
 
+
+
 /* Change color of dropdown items on hover */
 
 /* Show the dropdown menu on hover */
@@ -98,13 +112,15 @@ header {
 }
 /* "Unlock Your Potential" button styles */
 #unlock-button {
-    position: absolute; /* Change position to relative */
-    top: 325px;
-    left: 200px;
+    position: absolute; 
+   
+    top: 350px;
+    left: 180px;
     width: 180px;
     height: 40px;
     text-align: left;
-    font: normal normal 18px/42px DM Sans;
+    cursor: pointer;
+    font: normal normal;
     letter-spacing: 0px;
     background-color: black;
     background-repeat: no-repeat; /* Prevent repeating the background */ 
@@ -112,39 +128,91 @@ header {
     border-color: black;
     border-radius: 29px;
     border: 2px solid #000000;
-    cursor: pointer;
+    z-index: 1;
     opacity: 1;
     overflow: hidden; /* Ensure the icon doesn't overflow the button */
 }
+
+.circle {
+    position: absolute;
+    background-image: url('https://res.cloudinary.com/dyl3rncv3/image/upload/v1695972080/elewa-education-website/Shared/toRightArrow_tlcdnk.svg'); /* Set the arrow image as background */
+    background-size: 100% 100%;
+    background-position: center center;
+    top: 355px;
+    left: 330px;
+    background-color: #ecebeb;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+    
+}
+
+
 
 /* Main content styles */
 .main-content {
     text-align: center;
     padding: 20px;
     background-color: #ecebeb;
+  
 }
 
 h2 {
     position: absolute;
     top: 200px;
-    left: 200px;
+    left: 180px;
     width: 1920px;
     height: 447px;
     text-align: left;
-    font: normal normal bold 50px/50px DM Sans;
+    font: normal normal bold;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
 }
 
-p {
-    position: relative;
-    top: 180px;
-    left: 185px;
+.designs{
+
+    background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: multiply;
+    border-radius: 600px;
+    opacity: 1;
+    overflow: hidden;
+}
+
+#image1 {
+    position: absolute;
+    top: 340px;
+    left: 200px;
+    width: 200px;
+    height: 400px;
+}
+
+#image2 {
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    width: 300px;
+    height: 694px;
+}
+
+#image3 {
+    position: absolute;
+    top: 100px;
+    left: 900px;
+    width: 300px;
+    height: 922px;
+}
+
+ p {
+    position: absolute;
+    top: 250px;
+    left: 190px;
     width: 839px;
     height: 106px;
     text-align: left;
-    font: normal normal bold 20px/20px DM Sans;
+    font: normal normal;
     letter-spacing: 0px;
     color: #000000;
     opacity: 1;
@@ -183,10 +251,12 @@ p {
     transform: scale(0.1);
   }
 
-  .WWF {
-    position: absolute;
-    top: 600px;
-    left: 560px;
+  .wwf {
+    
+
+    left: 600px;
+    
+
     transform: scale(0.1);
   }
 
@@ -198,11 +268,32 @@ p {
 
   .spotlights {
     position: absolute;
-    top: 800px;
-    margin-right: 300px;
-    left: 0;
+    top: 300;
+    left: 803px;
+    display: flex;
     transform: scale(0.1);
   }
+
+  .partners {
+
+display:grid;
+grid-template-columns: repeat(6,1fr);
+margin-top: 200px;
+transform: scale(0.1);
+margin-right: 900px;
+    /*
+    position: absolute;
+    top: 600px;
+    left: 40;
+    display: flex;
+    align-items: center;
+    max-width: 100vw;
+    padding: 0rem 4rem;
+    padding-left: 100px;
+    background-color: var(--elewa-website-color-primary-offwhite-bg);
+    transform: scale(0.1);*/
+}
+  
   
 
 /* Media Queries */
@@ -262,3 +353,23 @@ p {
 @media (max-width: 480px) {
     /* Add your smaller mobile-specific styles here, if needed */
 }
+
+/* Default styles for all screen sizes */
+body {
+    font-size: 16px;
+  }
+  
+  /* Media query for screens 600px and below */
+  @media (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  /* Media query for screens 900px and below */
+  @media (max-width: 900px) {
+    body {
+      font-size: 12px;
+    }
+  }
+  
