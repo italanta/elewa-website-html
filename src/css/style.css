@@ -400,7 +400,7 @@ a {
   position: absolute;
   background-color: #fff;
   width: 1050px;
-  height: 170px;
+  height: 190px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   margin-left: -425px;
@@ -429,13 +429,16 @@ a {
   height: 150px;
   width: auto;
   overflow: hidden;
+  padding-top: 15px;
 }
 .menu-text{
   text-align: left;
   margin-left: -10px;
   margin-right: 10px;
 }
-
+.menu-text a{
+  margin-left: 20px;
+}
 
 /* hover effect on the dropdown containers */
 
