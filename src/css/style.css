@@ -1,15 +1,19 @@
 * {
   box-sizing: border-box;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
-/* Header Styles */
+body {
+  height: 50vh;
+  background-color: #DBC2F5;
+  margin: 0;
+  padding: 0;}
+
 header {
   position: relative;
-  padding: 0 2rem; /* Adjust padding as needed */
+  padding: 0 2rem;
 }
 
-/* Navbar Styles */
 .navbar {
   width: 80%;
   height: 60px;
@@ -20,53 +24,41 @@ header {
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
-  background: transparent;
 }
 
-/* List Styles */
 li {
   list-style: none;
-}
+} 
 
-/* Anchor Styles */
 a {
   text-decoration: none;
   color: #000000;
   font-size: 14px;
 }
 
-/* Logo Image Styles */
-.logo-img {
+.logo-img{
   width: 153px;
   height: 65px;
   color: #000000;
   filter: brightness(0%) contrast(100%);
 }
 
-/* Navigation Links Hover Styles */
 .nav_2_links:hover {
   text-decoration: underline;
 }
 
-/* Web Screen Styles */
-/* Note: This comment indicates that the following styles apply to the web screen only */
+
 .navbar .links {
   display: flex;
   gap: 2rem;
 }
 
-.navbar .links .nav_1_link {
-  font-weight: bold;
-  text-decoration: underline;
-}
-
 .navbar .toggle_btn {
   color: #000000;
   font-size: 24px;
-  display: none; /* Hide the toggle button by default */
+  display: none; 
 }
 
-/* Action Button Styles */
 .action_btn {
   background-color: #2D2E52;
   padding: 5px 10px;
@@ -75,36 +67,36 @@ a {
   border-radius: 20px;
   color: #FFFFFF;
   font-size: 12px;
-  line-height: 22px;
+  line-height: 22px; 
   transition: scale 0.2 ease;
 }
 
-/* Dropdown Menu Styles */
-/* Note: These styles are for the dropdown menu */
+
 .navbar_dropdown_menu {
   position: absolute;
   right: 2rem;
   top: 60px;
   height: 0;
   width: 500px;
+  background: #F9F8F4;
   border-radius: 10px;
   overflow: hidden;
-  display: none; /* Hide the dropdown menu by default */
+  display: none;
+  background-color: #DBC2F5;
+  /* transition: height 0.2s cubic-biezer(0.175, 0.885, 0.32, 1.275); */
 }
 
-/* Dropdown Menu Open Styles */
 .navbar_dropdown_menu.open {
-  height: 50vh;
-  transition: transform .3s ease-in-out, opacity .3s ease-in-out;
+  height: 100vh;
+  transition: transform .3s ease-in-out,opacity .3s ease-in-out;
 }
 
-/* Dropdown Menu List Item Styles */
 .navbar_dropdown_menu li {
   padding: 1.0rem;
-  display: flex;  align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-/* Dropdown Action Button Styles */
 .navbar_dropdown_menu .dropdown_action_btn {
   width: 50%;
   height: 8%;
@@ -116,23 +108,125 @@ a {
   margin-left: 10%;
   border: none;
   outline: none;
-  border-radius: 30px;
+  border-radius: 30px;   
 }
 
-/* Dropdown Action Button Link Styles */
 .navbar_dropdown_menu .dropdown_action_btn a {
   color: #FFFFFF;
   font-size: 16px;
-  line-height: 22px;
+  line-height: 22px; 
+  
 }
 
-/* Responsive Design Media Queries */
-@media (max-width: 768px) {
-  /* Navbar Adjustments for Smaller Screens */
+/* .home_contact {
+background-color: #2D2E52;
+color: white;
+border: none;
+border-radius: 22px;
+cursor: pointer;
+width: 200px;
+height: 44px;
+opacity: 1;
+
+} */
+
+.consultancy-container{
+  
+  width: unset;  
+  padding-top: 35px;
+}
+
+.consultancy_content{
+  width: 100%;
+  padding: 0px 0px 10px 30px;
+  /* background-color: #ffffff; */
+}
+
+.consultancy_content h1{
+  font-size: 28px;
+  color: black;
+  line-height: 40px;
+  text-align: left;
+  font-weight: 700;  
+}
+
+.consultancy_content h2{
+  font-size: 16px;
+  color: black;
+  line-height: 24px;
+  text-align: left;
+  font-weight: 100;
+  padding-bottom: 20px;
+  margin-right: 100px;
+}
+
+/* Style for the anchor */
+.home_contact {
+  text-decoration: none;
+  color: #FFFFFF; /* Change the text color to black */
+  font-size: 16px; /* Adjust font size as needed */
+  display: flex;
+  background-color: #000000; /* Circular background color */
+  width: 65%;
+  padding: 8px; /* Adjust padding as needed */
+  border-radius: 30px;
+}
+
+/* Style for the arrow image */
+.home_contact img {
+  display: inline-block;
+  vertical-align: middle; /* Align the image vertically with the text */
+  width: 25px; /* Adjust arrow size as needed */
+  height: 20px; /* Adjust arrow size as needed */
+  margin-left: 5px; /* Add space between text and arrow */
+  background-color: #FFFFFF;
+  border-radius: 50%; /* Make it circular */
+}
+
+/* Center the text and arrow vertically */
+.arrow-circle {
+  display: flex;
+  align-items: center;
+}
+
+/* circles */
+.containerss{
+  display: flex;
+  flex-direction: row;
+  mix-blend-mode: multiply;
+  margin-top: -120%;
+  margin-left: 10%;
+  position:absolute;
+}
+.circle_1{
+  background-color: #000000;
+  position:relative;
+  border-radius: 50%;
+  height: 300px;
+  width:300px;
+  background: transparent linear-gradient(90deg, #DBC2F500 0%, #DBC2F5E6 100%) 0% 0% no-repeat padding-box;
+
+}
+
+.circle_2{
+  background-color: #000000;
+  position: absolute;
+  border-radius: 50%;
+  height: 300px;
+  width:300px;
+  margin-left: 100px;
+  background: transparent linear-gradient(90deg, #DBC2F500 0%, #DBC2F5E6 100%) 0% 0% no-repeat padding-box;
+  transform: matrix(-1, 0, 0, -1, 0, 0);
+ }
+
+
+
+
+@media (max-width:768px) {
   .navbar {
       width: 100%;
       margin-top: 10%;
-  }
+  }   
 
   .navbar .links,
   .navbar .action_btn {
@@ -143,7 +237,6 @@ a {
       display: block;
   }
 
-  /* Dropdown Menu Adjustments for Smaller Screens */
   .navbar_dropdown_menu {
       display: block;
       width: unset;
@@ -151,23 +244,132 @@ a {
       top: 300px;
   }
 
-  /* Dropdown Menu Link Styles for Smaller Screens */
+  
+
   .navbar_dropdown_menu a {
       align-items: center;
       font-size: 30px;
   }
 }
 
-@media (max-width: 576px) {
-  /* Further Adjustments for Even Smaller Screens */
+@media (max-width: 360px) {
   .navbar_dropdown_menu {
-      left: 5rem;
-      top: 200px;
+      left: 1rem;
+      top: 60px;
+      width: 360px;             
   }
 
-  /* Adjust Logo Image Size */
-  .logo-img {
+  .navbar_dropdown_menu.open{
+      padding-top: 30%; 
+      padding-left: 20%;
+  }
+
+  .logo-img{
       width: 110px;
       height: 50px;
-  }   
+  }
+
+  /* .navbar_dropdown_menu li */
+}
+
+@media only screen and (min-width: 768px) { 
+  .consultancy-container{
+    width: unset;
+    margin: 50px;
+    padding-top: 6%;
+    
+  }
+
+  .consultancy_content{
+    padding: 1px;
+    width: -100%;
+    justify-content: left;
+  }
+
+  .consultancy_content h1{
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .consultancy_content h2{
+    line-height: 24px;
+  }
+
+  .containerss{
+    margin-top: -50%;
+    margin-left: 10%;   
+  }
+
+  .circle_1{
+    border-radius: 50%;
+    height: 490px;
+    width:490px;  
+  }
+  .circle_2{
+    height: 490px;
+    width:490px;
+    margin-left: 175px;
+  }  
+  
+  .home_contact {
+    font-size: 16px; /* Adjust font size as needed */
+    display: flex;
+    background-color: #000000; /* Circular background color */
+    width: 210px;
+    padding: 8px; /* Adjust padding as needed */
+  }
+  
+  /* Style for the arrow image */
+  .home_contact img {
+    width: 25px; /* Adjust arrow size as needed */
+    height: 25px; /* Adjust arrow size as needed */
+    margin-left: 5px; /* Add space between text and arrow */
+    background-color: #FFFFFF;
+    border-radius: 50%; /* Make it circular */
+  }
+}
+
+@media only screen and (min-width: 900px) { 
+  .consultancy-container{
+    width: 67%;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-right: 9%;
+    /* background-color: blueviolet; */
+  }
+
+  .consultancy_content{
+    width: 80%;
+    float: left;
+    margin-top: 10px;
+  }
+
+  .consultancy_content h1{
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  .consultancy_content h2{
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 10%;
+  }
+
+  .containerss{
+    margin-top: 1px;
+    margin-left: 300px;  
+  }
+
+  .circle_1{
+    border-radius: 50%;
+    height: 750px;
+    width:750px;  
+  }
+  .circle_2{
+    height: 750px;
+    width:750px;
+    margin-left: 300px;
+  }  
+
+
 }
