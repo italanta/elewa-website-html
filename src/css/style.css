@@ -202,6 +202,8 @@ body{
     }
     .navbar{
         justify-content:space-around;
+        gap: 1rem;
+        padding: 5px;
         
     }
 
