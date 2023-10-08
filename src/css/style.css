@@ -436,6 +436,7 @@ a {
 
 
 /* hover effect on the dropdown containers */
+
 .menu:hover {
   background-color: #f8f3f3;
   border-radius: 10px;
@@ -444,7 +445,6 @@ a {
   height: 150px;
   width: auto;
   transition: 0.4s;
-
 }
 
 /* hover effect on the dropdown items */
@@ -589,4 +589,13 @@ a {
   margin-top: -360px;
   height: auto;
   width: 40%;
+}
+
+/* business partners section */
+
+.partners img{
+  height: auto;
+  width: 900px;
+  margin-left: 220px;
+  margin-top: 100px;
 }
