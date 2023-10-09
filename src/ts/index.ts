@@ -1,3 +1,4 @@
+
 console.log ("welcome to Typescript")
 
 const toggleBtn: HTMLElement | null = document.querySelector('.toggle_btn');
