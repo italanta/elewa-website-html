@@ -371,19 +371,21 @@ a {
   width: 9%;
   height: auto;
   padding-top: 25px;
-  padding-left: 150px;
+  padding-left: 70px;
 }
 
 
 .nav-options {
   text-align: center;
   margin-top: -50px;
+  margin-left: -10px;
 }
 .nav-options p{
   font-family: 'DM Sans', sans-serif;
   font-size: 14px;
   display: inline;
   padding-left: 20px;
+  color: #000;
 }
 
 
@@ -403,7 +405,7 @@ a {
   height: 190px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  margin-left: -420px;
+  margin-left: -280px;
   border-radius: 20px;
   padding-top: 50px;
 }
