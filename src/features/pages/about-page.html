@@ -158,8 +158,10 @@
   </div>
   </div>
   <!-- mobile screen side nav -->
-  <div class="mobile-nav-icon">
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  <div class="mobile">
+    <div class="mobile-nav-icon">
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    </div>
   </div>
 </div>
 
@@ -197,11 +199,12 @@
 <!-- mobile screen side nav function -->
 <script>
   function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("mySidenav").style.height = "100%";
+    document.getElementById("mySidenav").style.width = "380px";
   }
 
   function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("mySidenav").style.height = "0";
   }
   </script>
 </body>
