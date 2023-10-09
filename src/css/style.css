@@ -739,7 +739,7 @@ a {
     width: 55%;
     height: 3px;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 10px;
     position: relative;
     margin-left: 20px;
   }
@@ -800,4 +800,11 @@ a {
     border: none;
   }
 
+  /* landing page image mobile screen */
+  .landing-page-image  img{
+    padding-left:20px;
+    margin-top: 20px;
+    height: auto;
+    width: 90%;
+  }
 }
