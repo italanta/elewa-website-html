@@ -1,78 +1,3 @@
-body {
-  background-color: #DBC2F5;
-  margin: 0;
-  font-family: Arial, sans-serif;
-  color: rgb(0, 0, 0);
-}
-
-.container {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-/* Text Content Styles */
-.text {
-  flex: 1;
-  padding: 20px;
-  margin-top: 20%;
-}
-
-/* Image Section Styles */
-.image {
-  flex: 1;
-  padding: 20px;
-  text-align: center;
-  overflow: hidden;
-  border-radius: 6500px 6500px 0px 0px;
-}
-
-/* Heading and Paragraph Styles */
-h2,
-p {
-  margin: 0;
-}
-
-h2 {
-  font-size: 30px;
-  margin-bottom: 10px;
-}
-
-p {
-  font-size: 20px;
-  line-height: 1.5;
-  margin-bottom: 30px;
-}
-
-.image img {
-  max-width: 100%;
-}
-
-/* Media Query for Small Screens (Max Width: 600px) */
-@media screen and (max-width: 600px) {
-  .container {
-      flex-direction: column; /* Stack elements vertically for smaller screens */
-      text-align: center; /* Center-align elements */
-  }
-  
-  .text {
-      margin-top: 20px; /* Reduce top margin for text on smaller screens */
-      padding: 10px; /* Reduce padding for text on smaller screens */
-  }
-  
-  .title {
-      font-size: 24px; /* Decrease font size for the title on smaller screens */
-  }
-  
-  .text p {
-      font-size: 14px; /* Decrease font size for paragraphs on smaller screens */
-      margin-bottom: 10px; /* Decrease spacing between paragraphs on smaller screens */
-  }
-}
 
 .header {
   display: flex;
@@ -179,106 +104,91 @@ p {
   color: #000000;
   opacity: 1;
 }
-/* Center the hero div and its content */
-.hero {
+
+.overall {
+  display: flex; /* Use flexbox for horizontal alignment */
+  justify-content: space-around; /* Spread the divs horizontally with space between them */
+  align-items: center; /* Vertically center the divs if needed */
+  margin-left: 320px;
+}
+
+.styling {
   position: relative;
   text-align: center; /* Horizontally center the text within the div */
   display: flex;
   flex-direction: column; 
   align-items: center; 
   justify-content: center; 
-  height: 100vh; 
+  height: 100vh;
+  background: #fae9e8; 
 }
 
-/* Styling fo the circles and their layout*/
-.circle-container {
-  display: flex;
-  text-align: left; /* To horizontally align the circles */
-}
-
-.left-circle,
-.right-circle {
-  display: inline-block; 
-  margin: -60px; 
-  border-radius: 50%; 
-}
-
-.left-circle {
-  top: 2917px;
-  left: 231px;
-  width: 282px;
-  height: 270px;
-  background: transparent linear-gradient(90deg, #DBC2F500 0%, #DBC2F5E6 100%) 0% 0% no-repeat padding-box;
-  mix-blend-mode: multiply;
-  opacity: 1;
-}
-
-.right-circle {
-  top: 2917px;
-  left: 391px;
-  width: 282px;
-  height: 270px;
-  transform: matrix(-1, 0, 0, -1, 0, 0);
-  background: transparent linear-gradient(90deg, #DBC2F500 0%, #DBC2F5E6 100%) 0% 0% no-repeat padding-box;
-  mix-blend-mode: multiply;
-  opacity: 1;
-}
-
-/* Styling for the hero div texts*/
-.hero h2 {
-  top: 2880px;
-  left: 259px;
-  width: 535px;
-  height: 89px;
-  text-align: left;
-  font: normal normal medium 36px/30px DM Sans;
-  letter-spacing: 0px;
-  color: #000000;
-  opacity: 1;
-}
-
-.hero p {
-  top: 2932px;
-  left: 259px;
-  width: 535px;
-  height: 89px;
-  text-align: left;
-  font: normal normal normal 22px/30px DM Sans;
-  letter-spacing: 0px;
-  color: #000000;
-  opacity: 1;
-}
-
-/* Styling for the button*/
-.button {
-  background-color: #000000;
-  border: none;
-  font-size: 16px;
-  color: #ccc;
-  padding: 10px 20px;
+.styling h2 {
   position: relative;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  border-radius: 25px;
-  margin-top: 45px;
+  top: 377px;
+  left: 0px;
+  width: 915px;
+  height: 106px;
+  text-align: left;
+  font: normal normal normal 82px/110px DM Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+
 }
 
-.circle {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: white;
-  margin-left: 30px;
-  font-size: 40px;
-  color: #000;
-  top: -30px;
+.styling p {
+  position: relative;
+  top: 313px;
+  left: 0px;
+  width: 741px;
+  height: 197px;
+  text-align: left;
+  font: normal normal normal 32px/42px DM Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-right: 160px;
 }
 
+.container1,
+.container2,
+.container3 {
+  margin: 30px;
+}
 
+.container1 {
+  top: 737px;
+left: 291px;
+width: 462px;
+height: 461px;
+background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
+mix-blend-mode: multiply;
+border-radius: 600px;
+opacity: 1;
+}
+
+.container2 {
+  top: 504px;
+left: 830px;
+width: 462px;
+height: 694px;
+background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
+mix-blend-mode: multiply;
+border-radius: 600px;
+opacity: 1;
+}
+
+.container3 {
+  top: 276px;
+left: 1369px;
+width: 462px;
+height: 922px;
+background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
+mix-blend-mode: multiply;
+border-radius: 600px;
+opacity: 1;
+}
 
 
 
