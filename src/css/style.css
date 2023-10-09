@@ -1,74 +1,58 @@
+/* Global styling for images and .partners */
+
+img {
+    height: 40%;
+    width: 21%;
+    padding: 2px;
+    filter: grayscale(100%);
+    image-rendering: pixelated;
+    margin-top: 4%;
+    transform: scale(0.8);
+    bottom: 0 !important;
+}
+
+.patners {
+    width: 90%;
+    height: 129px;
+    opacity: 1;
+    background-color: #F9F8F4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+
+/* Media query for screens with a maximum width of 630px */
+
 @media screen and (max-width: 630px) {
     img {
         height: 30%;
         width: 20%;
         padding: 2px;
-        filter: grayscale(100%);
-        image-rendering: pixelated;
-        margin-top: 4%;
-        transform: scale(0.8);
+        padding: 2px;
     }
     .patners {
-        width: 90%;
-        background-color: #F9F8F4;
-        height: 129px;
-        opacity: 1;
         padding: 0 4vw;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        max-width: 100%;
-        position: fixed;
-        bottom: 0;
     }
 }
+
+
+/* Media query for screens with a minimum width of 631px */
 
 @media screen and (min-width: 631px) {
     img {
         height: 40%;
         width: 21%;
         padding: 2px;
-        filter: grayscale(100%);
-        image-rendering: pixelated;
-        margin-top: 4%;
-        transform: scale(0.8);
         bottom: 0 !important;
     }
     .patners {
-        width: 90%;
-        height: 129px;
-        opacity: 1;
-        background-color: #F9F8F4;
         padding: 0 4vw 3vw 6vw;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        max-width: 100%;
-        position: fixed;
-        bottom: 0;
     }
 }
 
-@media screen and (min-width: 768px) {
-    img {
-        height: 40%;
-        width: 20%;
-        padding: 2px;
-        filter: grayscale(100%);
-        image-rendering: pixelated;
-        margin-top: 4%;
-        transform: scale(0.8);
-    }
-    .patners {
-        width: 80%;
-        height: 129px;
-        background-color: #F9F8F4;
-        opacity: 1;
-        padding-bottom: 3vw;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        position: fixed;
-        bottom: 0;
-    }
-}
+
+/* Rest of your CSS for other screen sizes... */
