@@ -588,7 +588,25 @@ p {
   font-size: 44px; /* Increase font size for the icons */
   line-height: 1; /* Adjust line-height for vertical alignment */
 }
+@media (max-width: 600px) {
+  .projects {
+    display: flex;
+    flex-direction: column; /* Stack projects vertically on small screens */
+  }
 
+  /* Adjust the margin for each project to create spacing */
+  .project1,
+  .project2,
+  .project3,
+  .project4 {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 50px;
+    flex: auto;
+  }
+
+}
 
 
 
