@@ -1,29 +1,19 @@
 @media screen and (max-width: 630px) {
-    /* Styling for images on small screens */
     img {
         height: 30%;
         width: 20%;
         padding: 2px;
-        /* Image padding for extra-large screens */
         filter: grayscale(100%);
         image-rendering: pixelated;
         margin-top: 4%;
         transform: scale(0.8);
-        /* Image width for larger screens */
-        padding: 2px;
     }
-    /* Styling for the .patners container on small screens */
     .patners {
         width: 90%;
-        /* Set a fixed width on larger screens */
         background-color: #F9F8F4;
         height: 129px;
-        /* background: transparent url('img/Image 9.png') 0% 0% no-repeat padding-box; */
         opacity: 1;
-        padding-right: 4vw;
-        padding-left: 4vw;
-        /* padding-bottom: 0vw; */
-        /* Adjust opacity for larger screens (20%) */
+        padding: 0 4vw;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -33,37 +23,23 @@
     }
 }
 
-
-/* Media query for screens with a minimum width of 630px and above (larger screens) */
-
 @media screen and (min-width: 631px) {
-    /* Styling for images on larger screens */
     img {
         height: 40%;
         width: 21%;
         padding: 2px;
-        /* Image padding for extra-large screens */
         filter: grayscale(100%);
         image-rendering: pixelated;
         margin-top: 4%;
         transform: scale(0.8);
-        /* Image width for larger screens */
-        /* padding: 2px; */
         bottom: 0 !important;
     }
-    /* Styling for the .patners container on larger screens */
     .patners {
         width: 90%;
-        /* Set a fixed width on larger screens */
         height: 129px;
-        /* background: transparent url('img/Image 9.png') 0% 0% no-repeat padding-box; */
         opacity: 1;
         background-color: #F9F8F4;
-        padding-left: 6vw;
-        padding-right: 4vw;
-        padding-bottom: 3vw;
-        /* padding-top: 7%; */
-        /* Adjust opacity for larger screens (20%) */
+        padding: 0 4vw 3vw 6vw;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -78,29 +54,20 @@
         height: 40%;
         width: 20%;
         padding: 2px;
-        /* Image padding for extra-large screens */
         filter: grayscale(100%);
         image-rendering: pixelated;
         margin-top: 4%;
         transform: scale(0.8);
-        /* Image width for larger screens */
-        padding: 2px;
     }
-    /* Styling for the .partners container on extra-large screens */
     .patners {
         width: 80%;
-        /* Set a fixed width on extra-large screens */
         height: 129px;
         background-color: #F9F8F4;
-        /* background: transparent url('img/Image 9.png') 0% 0% no-repeat padding-box; */
         opacity: 1;
-        /* padding-left: vw; */
         padding-bottom: 3vw;
-        /* Adjust opacity for extra-large screens (20%) */
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        /* max-width: 100%; */
         position: fixed;
         bottom: 0;
     }
