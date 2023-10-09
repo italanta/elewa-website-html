@@ -1,6 +1,6 @@
 /* Conversational Learning page */
 .main {
-    background-color: rgb(244, 223, 227);
+    background-color: rgb(254, 230, 235);
     padding-bottom: 10px;
     height: 500px;
 }
@@ -9,8 +9,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-     /* Background color for the navbar */
-    padding: 10px;
+    padding: 20px;
 }
 
 nav ul {
@@ -19,6 +18,7 @@ nav ul {
     padding: 0;
     display: flex;
     align-items: center; /* Vertically center the items */
+    margin-right: 250px;
 }
 
 nav ul li {
@@ -47,7 +47,13 @@ img.logo {
 .contact-link {
     margin-left: auto; /* Pushes it to the right */
     padding-right: 50px;
-    font-size: 20px;
+    font-size: 20px; 
+}
+.contact {
+    border-radius: 50px;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
 }
 
 .header {
@@ -64,7 +70,7 @@ img.logo {
     line-height: 1.2rem;
 }
 
-.btn1 {
+/* .btn1 {
         cursor: pointer;
         display: inline-block;
         padding: 15px 30px;
@@ -82,6 +88,49 @@ img.logo {
     margin-left: 20px;
     margin-right: 2px;
     padding: 10px 10px;
+} */
+
+.btn1 {
+    background: black;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.8s ease;
+    padding: 10px 50px;
+    font-size: 18px;
+    
+}
+
+.btn1 .arr {
+    display: inline-block;
+    transition: all 0.9s ease;
+    position: absolute;
+    right: 10px;
+    margin: auto;
+    
+}
+
+.btn1:hover {
+    background: #fff;
+    color: #333;
+    border-color: #333;
+}
+
+.btn1 .arr {
+    border-radius: 90px;
+    background-color: #fff;
+    color: #333;
+    padding: auto;
+    font-size: 25px;
+}
+
+.btn1:hover .arr {
+    background: black;
+    right: 90%;
+    transform: translateX(50%);
+    color: #fff;
 }
 /* End of Conversational Learning page */
 
@@ -100,21 +149,6 @@ img.logo {
     font-weight: 150;
     padding-top: 80px;
 }
-
-/* .btn2 {
-    cursor: pointer;
-    padding: 15px 30px;
-    color: #fff;
-    line-height: 1.2rem;
-    background-color: transparent;
-    border-radius: 40px;
-    border-width: thin;
-    border-color: #fff;
-    font-size: 15px;
-    margin-left: 450px;
-    border-width:white;
-    margin-bottom: 70px;
-} */
 
 /* Button styles */
 body {
