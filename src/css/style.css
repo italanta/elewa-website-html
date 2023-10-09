@@ -366,6 +366,10 @@ a {
 
 
 /* nav styles */
+.mobile-nav{
+  display: none;
+  transform: scale(0);
+}
 .nav-logo img{
   filter:brightness(0);
   width: 9%;
@@ -708,6 +712,13 @@ a {
   }
   /* slide navigation */
 
+  .mobile-nav{
+    display: contents;
+  }
+  .mobile-nav-icon {
+    margin-left: 330px;
+    margin-top: -80px;
+  }
   /* about-page body */
   .about-title {
     margin-left: 20px;
