@@ -807,4 +807,12 @@ a {
     height: auto;
     width: 90%;
   }
+
+  /* partners logos image mobile screen */
+  .partners img{
+    height: auto;
+    width: 320px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
 }
