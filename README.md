@@ -14,7 +14,7 @@ Welcome to the iTalanta "Discover" program! This guide provides students and con
 
 ## 1. Introduction to iTalanta "Discover" Program
 
-The iTalanta "Discover" program is designed to prepare learners for their first job, internship, or apprenticeship In this program, you will work in a simulated work environment, collaborating on open-source software projects. You will be mentored by experienced developers who will act as project managers, answer your questions, review your work, and provide guidance throughout your journey.
+The iTalanta "Discover" program is designed to prepare learners for their first job, internship, or apprenticeship In this program, you will work in a simulated work environment, collaborating on open-source software projects. You will be mentored by experienced developers who will act as project managers,answer your questions, review your work, and provide guidance throughout your journey.
 
 ## 2. Program Objectives
 
