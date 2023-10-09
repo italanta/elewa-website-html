@@ -15,15 +15,17 @@ margin-top: 115px;
 .header-mobile{
   margin-bottom: 30px;
   text-align: center;
-font-size: 20px;
+font-size: 17px;
 margin-top: 70px;
-padding-left: 20px;
+padding-right: 70px;
 box-sizing: content-box;
 }
 
 body{
   font-family: sans-serif;
   box-sizing: border-box;
+
+  
 }
 
 /*to hide mobile-specific elements by default */
@@ -42,7 +44,10 @@ body{
   body{
     background-color: rgb(59, 59, 113);
     color:aliceblue;
-    border-radius: 10px;
+    border-radius: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
   }
 
 /*Show desktop-specific elements */
@@ -59,42 +64,94 @@ body{
   margin:0;
   width:max-content;
   height: max-content;
-  margin-left:530px ;
+  margin-left:440px ;
   font-size: 10px;
-  padding-left: 30px;
+  padding-left: 20px;
   padding-right: 44px;
 margin-bottom:20px;
 padding-top:2px;
 padding-bottom: 2px;
+
   
 }
 
 .arrow-desktop{
   margin-top: -52px;
+  border-bottom: 1px solid white;
+  background:linear-gradient(to right,transparent 40%,white 20%,transparent 40%);
+  background-clip:padding-box;
+  
 }
 
 .arrow-desktop img{
   width:16px ;
   height: 16px;
-  margin-left: 664px;
+  margin-left: 565px;
   border: 1px solid whitesmoke;
   border-radius: 100px;
+  margin-bottom: 100px;
 
   background-color: white;
   padding:5px;
   
 }
 
+.grid-desktop{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  padding-left: 20px;
+white-space: nowrap;
 }
 
+.grid-desktop-h{
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+
+.grid-desktop-p{
+  font-size: 12px;
+
+}
+.grid-desktop-images{
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  max-width: 100%;
+  max-height:fit-content;
+}
+
+.logo img{
+width:100px;
+height: 70px;
+margin-top: 30px;
+filter:brightness(0) invert(1)  grayscale(1);
+
+}
+
+.img1,.img2,.img3{
+  height: 1%;
+  width: 1%;
+  margin-top: 53px;
+}
+
+.img1{
+  margin-left: 1100px;
+ 
+
+}
+.img2{
+  margin-left: 18px;
+}
+
+
+}
 /*styles for mobile below*/
 @media(max-width:799px){
 
   body{
     background-color: black;
     color: white;
-    border: 40px solid white;
-    border-radius: 30px;
+
   }
 
 /*show mobile specific elements */
@@ -111,7 +168,7 @@ padding-bottom: 2px;
   margin:0;
   width:max-content;
   height: max-content;
-  margin-left:85px ;
+  margin-left:70px ;
   font-size: 10px;
   padding-left: 30px;
   padding-right: 44px;
@@ -126,7 +183,7 @@ padding-bottom: 2px;
 .arrow-mobile img{
   width:16px ;
   height: 16px;
-  margin-left: 214px;
+  margin-left: 200px;
   border: 1px solid whitesmoke;
   border-radius: 100px;
 
@@ -135,4 +192,58 @@ padding-bottom: 2px;
   
 }
 
+.grid-mobile{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-top: 40px;
+  padding-left: 40px;
+white-space: nowrap;
 }
+
+
+.grid-mobile-h{
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+
+.grid-mobile-p{
+  font-size: 10px;
+
+}
+
+.grid-mobile-images{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  max-width: 50px;
+  max-height:fit-content;
+  padding-bottom: 500px;
+}
+
+ .logo img{
+  width:50%;
+  height: 20%;
+  filter:brightness(0) invert(1)  grayscale(1);
+  margin-top: 30px;
+  }
+  
+  .img1,.img2,.img3{
+    height: 1%;
+    width: 1%;
+  margin-top: 50px;
+
+
+  }
+  
+  .img3{
+    
+   padding-left: 20px;
+  
+  }
+  .img2{
+   padding-left: 20px; 
+  }
+  
+  }
+  
+
