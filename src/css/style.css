@@ -68,6 +68,9 @@
 }
 
 @media screen and (min-width: 1024px) {
+  #education-solution{
+    padding: 5% 8%;
+  }
 
   #education-content div:first-child{
   background-size: 70%;
