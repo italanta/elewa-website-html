@@ -9,3 +9,137 @@ body {
   background: #f9f8f4;
 }
 
+.menu-dropdown {
+  font-size: 3.6rem;
+  display: none;
+}
+
+.header-container {
+  display: flex;
+  margin-top: 65px;
+}
+
+.navbar {
+  display: flex;
+  margin-left: 351px;
+}
+.navbar a {
+  padding: 20px;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+.navbar button {
+  float: right;
+  margin-left: 250px;
+}
+/* .header-button {
+  margin-left: 40px;
+} */
+ .logo img{
+  margin-left: 209px;
+  height: 65px;
+  width: 153px;
+ }
+.header-button {
+  margin-top: 5px;
+  color: white;
+  border: none;
+  border-radius: 22px;
+  background: #2D2E52 0% 0% no-repeat padding-box;
+  width: 134px;
+  height: 44px;
+  cursor: pointer;
+  
+}
+.header-button:hover{
+  background: none;
+  border-color: black;
+  border-width: 1px;
+  border-style: dotted;
+  color: #2D2E52;
+}
+
+.hero{
+  display: flex;
+  
+}
+.hero-content{
+  width: 50%;
+  margin-top: 220px;
+  margin-left: 209px;
+}
+.hero-header {
+ width: 400px;
+ height: 150px;
+ font-weight: 800;
+ font-size: 35px;
+}
+.hero-header h1 {
+  font-weight: 800;
+}
+
+.hero-image{
+  width: 50%;
+  margin-top: 75px;
+}
+.hero-text{
+  width: 633px;
+  height: 220px;
+  font: bolder;
+}
+.hero-text p {
+  font-weight: 400;
+}
+@media (max-width: 768px) {
+  .logo {
+    margin-left: 0px;
+    }
+  .menu-dropdown{
+    display: block;
+  }
+  .navbar{
+    display: none;
+  }
+    .custom-select {
+      position: relative;
+      display: inline-block;
+    }
+  
+    /* Style for the custom select label */
+    .custom-select label {
+      cursor: pointer;
+    }
+  
+    /* Style for the custom dropdown icon */
+    .custom-select .dropdown-icon::after {
+      content: "\25BC";
+      /* Unicode for a downward-pointing triangle */
+    }
+  
+    /* Style for the hidden native select element */
+    .menu-dropdown select {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      cursor: pointer;
+    }
+  
+    .menu-dropdown {
+      position: relative;
+      left: 0;
+      display: flex;
+    }
+  
+    /* Style for the dropdown options container */
+    .options {
+      display: grid;
+      border-top: none;
+      background-color: #fff;
+    }
+
+  
+}

@@ -10,10 +10,68 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap"
       rel="stylesheet"
     />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 
     <title>iTalanta | About Section</title>
   </head>
   <body>
-    <h1>About Section</h1>
+        <section class="header-container">
+          <div class="logo">
+            <img
+              src="https://res.cloudinary.com/dyl3rncv3/image/upload/v1695970671/elewa-education-website/Shared/elewa-logo_eocvkz.png"
+              alt="Company logo">
+          </div>
+          <!-- <i class='bx bx-menu' id="menu-icon"></i> -->
+          <div class="navbar">
+            <a href="">Solutions</a>
+            <a href="">Projects</a>
+            <a href="">Company</a>
+            <a href="">News</a>
+            <button class="header-button" type="submit">Contact us</button>
+            
+          </div>
+          <div class="menu-dropdown">
+            <label for="dropdown"><i class='bx bx-menu' id="menu-icon"></i><span class="dropdown-icon"></span></label>
+            <select name="solutions" id="dropdown">
+              <option class="options">Solutions</option>
+              <option class="options">Projects</option>
+              <option class="options">Company</option>
+              <option class="options">News</option>
+              <option class="options"><button class="header-button" type="submit">Contact us</button></option>
+            </select>
+          
+          </div>
+            <!-- <div class="dropdown-menu">
+            <a href="">Solutions</a>
+            <a href="">Projects</a>
+            <a href="">Company</a>
+            <a href="">News</a>
+            <button class="header-button" type="submit">Contact us</button>
+          </div>
+          <script>
+            let menuIcon = document.querySelector('#menu-icon');
+              let drop = document.querySelector('.dropdown-menu');
+              menuIcon.onclick = () => {
+                menuIcon.classList.toggle('bx-x')
+                drop.classList.toggle('active')
+
+              }
+          </script> -->
+        </section>
+        <section class="hero">
+            <div class="hero-content">
+              <div class="hero-header">
+                <h1>Lorem ipsum dolor sit amet.</h1>
+              </div>
+              <div class="hero-text">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae unde, dignissimos dolorem sapiente autem officiis. Eaque soluta dolores voluptate sapiente unde, beatae expedita voluptas veritatis, doloribus repellat inventore nostrum rem ut possimus magnam! Unde, et.</p>
+              </div>
+            </div>
+            <div class="hero-image">
+                <img src="../../../assets/AboutImg.png" alt="">
+            </div>
+        </section>
+        
   </body>
 </html>
