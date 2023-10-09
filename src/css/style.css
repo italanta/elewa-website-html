@@ -809,11 +809,13 @@ a {
     display: none;
     position: absolute;
     background-color: #fff;
-    width: 50px;
-    height: 190px;
+    width: 365px;
+    height: 820px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    margin-left: -280px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
     border-radius: 20px;
     padding-top: 50px;
   }
@@ -826,12 +828,15 @@ a {
     text-decoration: none;
   }
 
-
   .group-menu {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
-
+  .dropdown-content .group-menu {
+    display: flex;
+    flex-direction: column;
+  }
   .menu {
     border-radius: 10px;
     margin-right: 8px;
@@ -840,12 +845,13 @@ a {
     width: auto;
     overflow: hidden;
     padding-top: 15px;
-    display: flexbox;
+
   }
   .menu-text{
     text-align: left;
-    margin-left: -10px;
+    margin-left: 5px;
     margin-right: 10px;
+    margin-top: -10px;
   }
   .menu-text a{
     margin-left: 20px;
