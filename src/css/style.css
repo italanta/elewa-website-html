@@ -693,3 +693,16 @@ a {
   margin-left: 220px;
   margin-top: 100px;
 }
+
+/* landing page mobile screen */
+@media (max-width: 667px) {
+  /* mobile-logo */
+  .nav-logo img{
+    filter:brightness(0);
+    width: 27%;
+    height: auto;
+    padding-top: 35px;
+    margin-left: -120px;
+  }
+
+}
