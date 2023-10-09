@@ -702,7 +702,27 @@ a {
     width: 27%;
     height: auto;
     padding-top: 35px;
-    margin-left: -120px;
+    margin-left: -130px;
+  }
+  /* slide navigation */
+
+  /* about-page body */
+  .about-title {
+    margin-left: 20px;
+  }
+  .about-page-body {
+    padding-top: 40px;
+  }
+
+  .about-title h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+  }
+
+  .about-title h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    padding-top: 10px;
   }
 
 }
