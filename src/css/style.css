@@ -4,6 +4,22 @@
   padding: 0px;
   background-color: #F9F8F4;
 }
+.logo-container {
+  width: 56px;
+  height: 56px;
+  margin-top: -10px;
+}
+.logo-img {
+  /* filter: brightness(0%); */
+  width: 120px;
+  height: 55px;
+}
+.menu-bar {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 60px;
+}
 .landing-page {
   
   max-width: 1440px;
