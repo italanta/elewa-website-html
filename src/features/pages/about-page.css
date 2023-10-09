@@ -75,9 +75,9 @@
 }
 
 .slidecontainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Vertically center contents */
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center; 
     margin-top: 10px;
     margin-left: 50px;
     border: solid 2px black;
@@ -86,18 +86,22 @@
     text-align: center;
     border-radius: 20px;
     width: 200px;
-    height: 50px;
+    height: 40px;
 }
-
+.slidecontainer p{
+    margin-top: -8px;
+    transition: transform 0.3s ease;
+}
 
 .slidecontainer:hover {
     background-color: grey;
     transition: ease 3s;
     }
-    
+
 .slidecontainer:hover button {
     transform: translateX(-150px);
     }
+
 .slidecontainer button {
     margin-top: 10px;
     border: solid 2px white;
