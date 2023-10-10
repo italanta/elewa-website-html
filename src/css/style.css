@@ -83,7 +83,7 @@ a {
   overflow: hidden;
   display: none;
   background-color: #DBC2F5;
-  /* transition: height 0.2s cubic-biezer(0.175, 0.885, 0.32, 1.275); */
+  transition: height 0.2s cubic-biezer(0.175, 0.885, 0.32, 1.275);
 }
 
 .navbar_dropdown_menu.open {
@@ -117,18 +117,6 @@ a {
   line-height: 22px; 
   
 }
-
-/* .home_contact {
-background-color: #2D2E52;
-color: white;
-border: none;
-border-radius: 22px;
-cursor: pointer;
-width: 200px;
-height: 44px;
-opacity: 1;
-
-} */
 
 .consultancy-container{
   
@@ -225,7 +213,7 @@ opacity: 1;
 @media (max-width:768px) {
   .navbar {
       width: 100%;
-      margin-top: 10%;
+      margin-top: 10px;
   }   
 
   .navbar .links,
@@ -239,16 +227,15 @@ opacity: 1;
 
   .navbar_dropdown_menu {
       display: block;
-      width: unset;
-      left: 40%;
-      top: 300px;
+      width: 768px;
+      left: 1rem;
+      top: 60px;
+            
   }
-
-  
 
   .navbar_dropdown_menu a {
       align-items: center;
-      font-size: 30px;
+      font-size: 40px;
   }
 }
 
