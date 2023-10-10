@@ -61,4 +61,50 @@ img {
   display: flexbox;
   margin-left: 5%;
   margin-top: 15%;
+  padding: 2px;
+  
+}
+.Union{
+  width: 85%;
+  height: 90%;
+}
+h1{
+  font-weight: 500;
+  font-size: 80px;
+  margin-top: 5%;
+}
+h2{
+  font-weight: 100;
+  font-size: 40px;
+  display: inline-block;
+  margin-top: 5%;
+  width: 70%;
+}
+.btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 267px;
+    height: 58px;
+    background: #000;
+    border-radius: 50px;
+    margin-top: 5%;
+}
+.arrow {
+    background: #FFFFFF;
+    color: #000;
+    border-radius: 50%;
+    padding: 10px; /* Adjust the padding as needed */
+    margin-left: 10px; /* Add some space between text and arrow */
+    font-size: 15px;
+}
+
+h3 {
+    margin: 0;
+    color: #FFFFFF;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
