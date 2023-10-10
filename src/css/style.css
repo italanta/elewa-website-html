@@ -180,30 +180,22 @@ opacity: 0.87;
         font-size:25px;
     }
     #p-Box{
-        top:40%;
+
+        top:30%;
         left:7%;
         width:90%;
-        font-size:25px;
+        font-size:2px;
     }
     #uypbtn-Box{
         left:1%;
-        top:52%;
+        top:82%;
         width:-40%;
     }
+    #design{
+        
+        width:90%;
+    }
     
-    #d1{
-        width: 30%;
-        left:3%;
-
-    }
-    #d2{
-        width:30%;
-        left:36%;
-    }
-    #d3{
-      width: 30%; 
-      left:69%;
-    }
 
 }
 /*tablet responsive design. template=ipad air */
@@ -215,15 +207,15 @@ opacity: 0.87;
         width: 27%;
     }
     .navbar{
-        width:90%;
-       font-size:12px;
+        width:80%;
+       font-size:11px;
     }
     
     .navbar li{
       margin-right: 1px;  
     }
     .contact-button{
-        left:70%;
+        left:68%;
     }
 
     #logo{
@@ -234,35 +226,23 @@ opacity: 0.87;
         top:18%;
         left:7%;
         width:50%;
-        font-size:23px;
+        font-size:20px;
     }
     #p-Box{
         top:25%;
         left:7%;
         width:50%;
-        font-size:20px;
+        font-size:12px;
     }
     #uypbtn-Box{
         left:2%;
-        top:38%;
+        top:43%;
         width:-40%;
     }
-    
-    #d1{
-        width: 20%;
-        left:1%;
-        top:45%;
+    #design{
+        left:0%;
+        width:59%;
     }
-    #d2{
-        width:20%;
-        left:25%;
-        top:35%;
-    }
-    #d3{
-      width: 20%; 
-      left:49%;
-      top:25%;
-    }
-
+   
 }
 
