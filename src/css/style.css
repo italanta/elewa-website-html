@@ -60,6 +60,15 @@
 }
 
 
+
+.social-icons>i{
+    margin: 10px
+}
+.logo{
+    filter: brightness(0) invert(1) grayscale(1) contrast(10000%);
+   
+}
+
  
 
 @media only screen and (min-width: 1200px) {
@@ -67,20 +76,34 @@
         position: relative;
         left: 40rem;
     }
+
+    .footer-icons{
+        display: flex;
+        justify-content: space-between;
+        width: 80rem;
+        position: relative;
+        left: 100px;
+        flex-wrap: wrap;
+ 
+    }
+
    hr{
     width: 80rem;
     position: relative;
     left: 100px;
    }
+
     .section-two{
         width: 80rem;
         position: relative;
         left: 100px;
     }
+
     h1{
         display: inline-block;
         width: 500px;
     }
+
     .headquarters *{
         margin-top: 8px;
      }
@@ -133,6 +156,7 @@
     }  
     .footer{
         height: 150vh;
+        background-color: black;
         
     }
     .section-two > div {
@@ -145,9 +169,10 @@
         margin-top: 2rem;
         height: fit-content;
         width: 18rem;
+        background-color: black;
     }
     hr{
-        width: 220px;
+        width: 245px;
         position: relative;
         left: 50px;
     }
@@ -159,7 +184,20 @@
         left: 40px;
 
     }
-    
+    .footer-icons{
+        position: relative;
+        left: 45px;
+        top: 50px;
+    }
+    .social-icons{
+        position: absolute;
+        bottom: 65px;
+        left: 155px;
+        
+    }
+    .social-icons>i{
+        margin: 2px;
+    }
     
    
 }
