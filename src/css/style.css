@@ -8,7 +8,7 @@
   text-decoration: none;
 }
 
-.container{
+.container {
   display: flex;
   top: 53px;
   left: 209px;
@@ -20,59 +20,55 @@
   align-items: center;
 }
 
-.menu{
+.menu {
   display: flex;
   height: 80px;
- 
 }
 
-.menuList{
+.menuList {
   display: flex;
   align-items: center;
   gap: 2.5rem;
   margin-right: 50px;
 }
 
-span img{
+span img {
   height: 65px;
   opacity: 1;
   max-width: 100%;
 }
 
-button{
+button {
   background: #2d2e52 0% 0% no-repeat padding-box;
   border-radius: 22px;
   opacity: 1;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 10px 30px;
   border: none;
-  font-size:18px;
+  font-size: 18px;
   text-align: center;
   letter-spacing: 0px;
-  margin-right:100px;
-  
-
+  margin-right: 100px;
 }
 
-.menuList li{
+.menuList li {
   display: inline-block;
   margin: 0 8px;
   line-height: 80px;
 }
 
-.menuList a{
+.menuList a {
   padding: 7px 10px;
 }
 
 .solution {
   text-decoration: underline;
   color: #000000;
-  text-align:left;
-  opacity:1;
+  text-align: left;
+  opacity: 1;
   font: normal normal bold 18px/100px DM Sans;
   cursor: pointer;
   position: relative;
-
 }
 
 .solution a::after {
@@ -85,3 +81,15 @@ button{
   text-decoration: none;
 }
 
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .container {
+    min-width: 320px;
+    flex-direction: column;
+  }
+}
