@@ -1,0 +1,224 @@
+
+/* nav styles */
+.mobile{
+  transform: scale(0);
+}
+.mobile-nav{
+  display: none;
+  transform: scale(0);
+}
+.nav-logo img{
+  filter:brightness(0);
+  width: 9%;
+  height: auto;
+  padding-top: 25px;
+  padding-left: 70px;
+}
+
+
+.nav-options {
+  text-align: center;
+  margin-top: -50px;
+  margin-left: -10px;
+}
+.nav-options p{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  display: inline;
+  padding-left: 20px;
+  color: #000;
+}
+
+
+/* solutions drop-down items */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  transition: 2s;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  width: 1050px;
+  height: 190px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left: -280px;
+  border-radius: 20px;
+  padding-top: 50px;
+}
+
+.dropdown-content a {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: -100px;
+  text-decoration: none;
+}
+
+
+.group-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  border-radius: 10px;
+  margin-right: 8px;
+  margin-left: 8px;
+  height: 150px;
+  width: auto;
+  overflow: hidden;
+  padding-top: 15px;
+}
+.menu-text{
+  text-align: left;
+  margin-left: -10px;
+  margin-right: 10px;
+}
+.menu-text a{
+  margin-left: 20px;
+}
+
+/* hover effect on the dropdown containers */
+
+.menu:hover {
+  background-color: #f8f3f3;
+  border-radius: 10px;
+  margin-right: 8px;
+  margin-left: 8px;
+  height: 150px;
+  width: auto;
+  transition: 0.4s;
+}
+
+/* hover effect on the dropdown items */
+
+.dropdown-content a:hover {background-color: #f8f3f3}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  transition: 2s;
+}
+
+/* shaped in the dropdown options */
+
+/* consultuncy shape */
+.Consultuncy-img {
+  background-image: linear-gradient(90deg, #fff 0%, #c0c2fa 55%, #a3a6ec 80%);
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  opacity: 80%;
+  margin-bottom: 10px;
+  margin-left:8px;
+}
+
+.Consultuncy-img-2 {
+  background-image: linear-gradient(90deg, #fff 0%, #c0c2fa 55%, #a3a6ec 80%);
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-left: 33px;
+  margin-top: -50px;
+  transform: scaleX(-1);
+  opacity: 80%;
+  margin-bottom: 10px;
+}
+
+/* Content shape */
+.Content-img {
+  background-image: linear-gradient(
+  180deg,
+  rgba(241, 209, 149, 1) 0%,
+  rgba(255, 238, 207, 0.6) 50%,
+  rgba(255, 255, 255, 0) 80%);
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-top: 40px
+}
+
+.Content-img-2 {
+  background-image: linear-gradient(
+  180deg,
+  rgba(241, 209, 149, 1) 0%,
+  rgba(255, 238, 207, 0.6) 50%,
+  rgba(255, 255, 255, 0) 80%);
+  height: 50px;
+  width: 30px;
+  border-radius: 70px 70px 0px 0px;
+  margin-left: 45px;
+  margin-top: -45px;
+}
+.Content-img-3 {
+  background-image: linear-gradient(
+  180deg,
+  rgba(241, 209, 149, 1) 0%,
+  rgba(255, 238, 207, 0.6) 50%,
+  rgba(255, 255, 255, 0) 90%);
+  height: 70px;
+  width: 30px;
+  border-radius: 70px 70px 0px 0px;
+  margin-left: 80px;
+  margin-top: -70px;
+}
+
+/* Conversational Learning */
+
+.Conversational-img {
+  background-image: linear-gradient(90deg, #fff 0%, #ee9090 55%, #fc6b6b 80%);
+  height: 30px;
+  width: 50px;
+  border-radius: 30px 30px 30px 30px;
+  opacity: 60%;
+  margin-bottom: 30px;
+}
+
+.Conversational-img-2 {
+  background-image: linear-gradient(90deg, #fff 0%, #ee9090 55%, #fc6b6b 80%);
+  height: 30px;
+  width: 50px;
+  border-radius: 30px 30px 30px 30px;
+  opacity: 60%;
+  margin-left: 35px;
+  margin-top: -53px;
+  transform: scaleX(-1);
+  margin-bottom: 15px;
+}
+
+/* Booklets shape */
+.Booklets-img {
+  background-image: linear-gradient(90deg, #fff 0%, #f5cd84 55%, #f0ae33 80%);
+  height: 30px;
+  width: 50px;
+  border-radius: 30px 30px 30px 30px;
+  opacity: 60%;
+  margin-bottom: 30px;
+}
+
+/* contact-us button */
+.Contact-button{
+  margin-top: -30px;
+}
+.Contact-Us-button {
+  border-radius: 20px;
+  background-color: #292a50;
+  width: 130px;
+  height: 35px;
+  margin-left: 1080px;
+  padding-top: 0px;
+  border: none;
+}
+
+.Contact-Us-button p{
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  color: #fff;
+  padding-top: -3px;
+  font-size: 14px;
+}
