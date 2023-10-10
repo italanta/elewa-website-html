@@ -1,0 +1,347 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #FCF6E4 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+/* Reset some default styles */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+/* body{
+    width: fit-content;
+    height: 1080px;
+    /* UI elements  */
+    /* background: #FCF6E4 0% 0% no-repeat padding-box;
+   opacity: 1;
+} */ */
+
+#header-section{
+    position: absolute;
+    position: relative;
+    top:50px;
+    left: 209px;
+    width: 1502px;
+    height: 65px;
+    background: transaprent url('img/Image 2.png') 0% 0% no-repeat paddiing-box;
+    opacity: 1;
+}
+
+#logo {
+    position: absolute;
+    width:100px;
+    height: 60px;
+    opacity: 1;
+}
+
+/* Navbar styling */
+.navbar {
+    color: #020202;
+    text-align: center;
+    padding: 10px;
+    /* UI Properties */
+    font: normal normal normal ;
+    font-size:18px/100px ;
+    font-family:'DM Sans';
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding:0;
+}
+.navbar li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: hhwb( 0% 7% 92%);
+    font-weight: bold;
+
+}
+.contact-button {
+    position: absolute;
+    background-color: #292A50;
+    left: 1000px;
+    color:white;
+    padding: 20px 60px;
+    top:0px;
+    border-radius: 40px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    transition: background-color 0.3 s ease;
+}
+h1{
+    position: absolute;
+    justify-content: left;
+    top:300px;
+    left: 20px;
+    width: 920px;
+    height: 106px;
+    /* UI porperties */
+    text-align: left;
+    font-size: 82px;
+    font-family: 'DM Sans';
+    letter-spacing: 0px;
+    color:#000000;
+    opacity: 1;
+    
+}
+
+p {
+     /* Layout Properties */
+     position: absolute;
+     top: 513px;
+     left: 20px;
+     width: 741px;
+     height: 197px;
+
+     /* UI Properties */
+     text-align: left;
+     font: normal normal normal 32px/42px 'DM Sans';
+     letter-spacing: 0px;
+     color: #000000;
+     opacity: 1;
+}
+#up-btn{
+    /* Layout Properties */
+    position: absolute;
+    position: relative ;                   
+    outline: 3px solid black;
+    top: 1206px;
+    left: 0px;
+    width: 267px;
+    height: 21px;
+    /* UI Properties */
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 29px;
+    opacity: 1;   
+    }
+    #up-btn-text{
+    /* Layout Properties */
+    position: absolute;
+    top:19px;
+    left:42px;
+    width: 157px;
+    height: 21px;
+    /* UI Properties */
+    margin-top:0%;
+    display:flex;
+    align-items: center;
+    font: normal normal normal 16px/42px DM Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    }
+    #up-btn-circle{
+        position:absolute;
+        top:8px;
+        left:216px;
+        width:42px;
+        height:42px;
+        border-radius: 50%;
+        /* UI Properties */
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+    .designs{
+        /* UI Properties */
+    background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: multiply;
+    left:0px;
+    border-radius: 600px;
+    opacity: 1;
+    }
+    #i1{
+        /* Layout Properties */
+    position: absolute;
+    top: 737px;
+    left: 291px;
+    width: 462px;
+    height: 461px;
+    }
+    #i2{
+    /* Layout Properties */
+    position: absolute;
+    top: 504px;
+    left: 830px;
+    width: 462px;
+    height: 694px;   
+    }
+    #i3{
+        position: absolute;
+        top: 276px;
+        left: 1369px;
+        width: 462px;
+        height: 922px;
+    }
+    /*phone responsive design. template=iphone 12 pro */
+    @media(max-width: 390px){
+        #header-section{
+            top:5%;
+            left:1%;
+            width: 18%;
+        }
+        .navbar{
+            display: none;
+        }
+        #logo{
+            width:-15%;
+            height: -15%;
+        }
+        h1{
+            top:22%;
+            left:7%;
+            width:50%;
+            font-size:25px;
+        }
+        p{
+            top:40%;
+            left:7%;
+            width:90%;
+            font-size:25px;
+        }
+        #up-btn-Box{
+            left:1%;
+            top:52%;
+            width:-40%;
+        }
+        
+        #i1{
+            width: 30%;
+            left:3%;
+    
+        }
+        #i2{
+            width:30%;
+            left:36%;
+        }
+        #i3{
+          width: 30%; 
+          left:69%;
+        }
+    
+    }
+    /*tablet responsive design. template=ipad air */
+    @media(max-width: 820px){
+        #header-section{
+            top:5%;
+            left:1%;
+            width: 27%;
+        }
+
+    .navbar{
+        display: none;
+    }
+    #logo{
+        width:-15%;
+        height: -15%;
+    }
+    h1{
+        top:22%;
+        left:7%;
+        width:50%;
+        font-size:25px;
+    }
+    p{
+        top:40%;
+        left:7%;
+        width:90%;
+        font-size:25px;
+    }
+    #up-btn{
+        left:1%;
+        top:52%;
+        width:-40%;
+    }
+    i1{
+        width: 30%;
+        left:3%;
+
+    }
+    i2{
+        width:30%;
+        left:36%;
+    }
+    i3{
+      width: 30%; 
+      left:69%;
+    }
+
+}
+/*tablet responsive design. template=ipad air */
+@media(max-width: 820px){
+    #header-section{
+        top:5%;
+        left:1%;
+        width: 27%;
+    }
+    .navbar{
+        width:90%;
+       font-size:12px;
+    }
+    
+    .navbar li{
+      margin-right: 1px;  
+    }
+    .contact-button{
+        left:70%;
+    }
+
+    #logo{
+        width:100px;
+        height:50px;
+    }
+    #h1{
+        top:18%;
+        left:7%;
+        width:50%;
+        font-size:23px;
+    }
+    #p{
+        top:25%;
+        left:7%;
+        width:50%;
+        font-size:20px;
+    }
+    #up-btn-Box{
+        left:2%;
+        top:38%;
+        width:-40%;
+    }
+    
+    #i1{
+        width: 20%;
+        left:1%;
+        top:45%;
+    }
+    #i2{
+        width:20%;
+        left:25%;
+        top:35%;
+    }
+    #i3{
+      width: 20%; 
+      left:49%;
+      top:25%;
+    }
+
+}

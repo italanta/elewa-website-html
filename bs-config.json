@@ -1,0 +1,8 @@
+{
+    "server": {
+      "baseDir": "./",
+      "index": "content-development-page.html"
+    }
+  }
+
+  
