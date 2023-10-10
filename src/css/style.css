@@ -1,4 +1,8 @@
 /* nav styles */
+
+.conversational {
+  background-color: #E69083;
+}
 .mobile{
   transform: scale(0);
 }
