@@ -200,10 +200,7 @@ opacity: 1;
         margin-top:250px;
         width:-40%;
     }
-    #design{
-        
-        width:90%;
-    }
+    
     #d1{
     /* outline:3px solid green; */
     left:7%;
@@ -259,12 +256,21 @@ opacity: 1;
     }
     #uypbtn-Box{
         left:2%;
-        top:43%;
+        margin-top:-11%;
         width:-40%;
     }
-    #design{
-        left:0%;
-        width:59%;
+   
+    #d1{
+    
+        left:7%;
+        height:45%;
+        width:35%;
+    
+    }
+    #d2{
+        height:45%;
+        left:25%;
+        width:35%;
     }
    
 }
