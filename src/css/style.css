@@ -1,7 +1,9 @@
 /* nav styles */
 
 .conversational {
-  background-color: #E69083;
+  /* background-color:#E69083; */
+  background-image: linear-gradient(90deg, #f8e6e4 0%, #f8dcd9 35%, #ffffff 100%);
+  opacity: 90%;
 }
 .mobile{
   transform: scale(0);
