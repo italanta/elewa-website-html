@@ -1,5 +1,7 @@
 /* nav styles */
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
 .conversational {
   /* background-color:#E69083; */
   background-image: linear-gradient(90deg, #f8e6e4 0%, #f8dcd9 35%, #ffffff 100%);
