@@ -32,10 +32,23 @@
     "jsdoc/require-jsdoc": [
       "error",
       {
-        "contexts": ["TSInterfaceDeclaration"]
+        "contexts": [
+          "TSInterfaceDeclaration",
+          "TSPropertySignature",
+          "ClassDeclaration",
+          "MethodDefinition"
+        ]
       }
     ],
-    "jsdoc/require-param": 2,
-    "jsdoc/require-param-description": 1
+    "jsdoc/require-description": "error",
+    "jsdoc/require-returns": [
+      "error",
+      {
+        "forceReturnsWithAsync": true
+      }
+    ],
+    "jsdoc/require-param-description": "error",
+    "jsdoc/require-property-description": "error",
+    "jsdoc/require-property-type": "error"
   }
 }
