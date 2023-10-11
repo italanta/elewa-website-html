@@ -301,7 +301,20 @@
   border: none;
 }
 
+  /* titles */
+  .about-title {
+    margin-left: 150px;
+  }
 
+  .about-title h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 50px;
+  }
+
+  .about-title h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 30px;
+  }
 
 
 /* landing page mobile screen */
@@ -649,3 +662,4 @@
     background-position: center;
     border: none;
   }
+}
