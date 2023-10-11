@@ -305,17 +305,20 @@
 
   /* titles */
   .about-title {
-    margin-left: 150px;
+    margin-left: 70px;
   }
 
   .about-title h2 {
     font-family: 'DM Sans', sans-serif;
-    font-size: 50px;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 90px;
   }
 
   .about-title h3 {
     font-family: 'DM Sans', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
+    font-weight: lighter;
   }
 
 
