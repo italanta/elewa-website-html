@@ -697,4 +697,32 @@
     background-position: center;
     border: none;
   }
+
+   /* Background shapes */
+
+   .Convo-shapes {
+    margin-left: 50px;
+    margin-top: -250px;
+  }
+  .Convo-shape-1 {
+    /* background-image: linear-gradient(90deg, #fff 0%, #ee9090 55%, #fc6b6b 80%); */
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    height: 200px;
+    width: 300px;
+    border-radius: 200px 200px 200px 200px;
+    opacity: 40%;
+    margin-bottom: 30px;
+    transform: scaleX(-1);
+  }
+
+  .Convo-shape-2 {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));;
+    height: 200px;
+    width: 300px;
+    border-radius: 200px 200px 200px 200px;
+    opacity: 40%;
+    margin-left: -80px;
+    margin-top: -303px;
+    margin-bottom: 15px;
+  }
 }
