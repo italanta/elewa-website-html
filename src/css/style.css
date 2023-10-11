@@ -36,6 +36,7 @@
   height: 40px;
   background-color: #2D2E52;
   font-size: 14px;
+  border: none;
   border-radius: 30px;
   cursor: pointer;
   position: relative;
