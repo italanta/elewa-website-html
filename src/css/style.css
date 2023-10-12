@@ -158,13 +158,13 @@ body, ul {
   margin-bottom: 4px;
   z-index: 1;
   position: relative;
-  color: #2D2E52;
+  color: #000000;
   background-color: #f9f8f403;
   margin-top: 0px;
 }
 
 .paragraph {
-  color: #2D2E52;
+  color: #000000;
   background-color: #f9f8f400;
 }
 
