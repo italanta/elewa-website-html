@@ -4,13 +4,17 @@
 body{
     background-color: #FAE9E8;
     margin: 0;
+    overflow-x: hidden;
 
+}
+/* menu */
+.menu{
+    display: none;
 }
 /* Adding style to the container that has the image and content */
 .homepage{
     display: flex;
     flex-direction: row;
-    padding: 8%;
     
 }
 /* Adding style to the image */
@@ -19,7 +23,6 @@ body{
 }
 /* Adding style to the container that holds the content */
 .homepage .details{
-    margin-left: 8%;
     font-family:'DM Sans', 'sans-serif';
     font-size: larger;
 }
@@ -41,37 +44,49 @@ body{
 /*Styling the container that holds the wordings*/
 .conv-content{
     margin-top: 10rem;
-    position: relative;
+    position: absolute;
     z-index: 1;
     margin-left: 9rem;
+    width: 40%;
+    overflow: hidden;
     font-size: large;
     font-family:'DM Sans', 'sans-serif';
 }
+.eclipses{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+    margin:  8% 0 0 25%;
+    width: 900px;
+    height: 450px;
+
+}
 /*Styling the first eclipse*/
 .eclipse-one{
-    width: 30rem;
+    width: 33rem;
     height: 20rem;
     border-radius: 33rem;
-    margin-top: 6rem;
-    margin-left: 20rem;
-    position: absolute;
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(230,144,131));
+    margin: 0 0 0 -300px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(230,144,131)); 
     
 }
 /*Styling the second eclipse*/
 .eclipse-two{
-    width: 120rem;
+    width: 33rem;
     height: 20rem;
     border-radius: 33rem;
-    margin-top: 14rem;
-    margin-right: 13rem;
-    position: relative;
+    margin: 0 0 0 300px;
+    margin-top: 8rem;
+    /* margin-right: 13rem;  */
+    position: absolute;
     background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(230,144,131));
     
 }
 /*Styling the container holding the details concerning the organization*/
 .conv-container p{
-    margin-right: 5rem;
+    /* margin-right: 5rem; */
+    width: 100%;
 }
 /*Styling the header*/
 .conv-content h1{
@@ -107,19 +122,16 @@ body{
 }
 /*Styling the navigation bar*/
 .top-nav{
-    background-color:  #FAE9E8;
-    margin: 0px;
-    overflow: hidden;
-    position: relative;
+    overflow-x: hidden;
     margin-top: 20px;
+    width: 100%;
 }
 /*Styling the centered menu*/
 .top-center {
-    float: none;
-    position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -40px;
 }
 /*Styling the navigation links*/
 .top-nav a{
@@ -143,53 +155,117 @@ body{
 /*Styling the contact us button*/
 .contact{
     float: right;
-    margin-right: 95px;
-    background-color: #2D2E52;
-    color: white;
-    padding: 5px;
-    width: 5rem;
+    position: relative;
     text-align: center;
-    border-radius: 33rem;
     font-size: 14px;
     font-family:'DM Sans', 'sans-serif';
-    margin-top: 10px;
+    top: -65px;
+    right: 100px;
+}
+
+.contact button{
+    background-color: #2D2E52;
+    padding: 5px;
+    width: 6rem;
+    border-radius: 33rem;
+    color: white;
 }
 /*Responsive page for mobile devices*/
-@media screen and (max-width:768px){
-    .top-nav{
-        float: none;
-        display: block; 
-    }
-/*Navigation bar for */
-    .top-center a {
-        position: relative;
-        top: 0;
-        left: -5.8rem;
-        transform: none;
-      }
-    .top-nav .contact{
-        margin-right: 210px;
-        margin-top: 10px;
+@media (max-width:768px){
+    body{
+        overflow-x: hidden;
     }
     .top-nav img{
-        margin-left: 25px;
+        margin: 0 0 0 80px;
     }
-    .conv-container {
-        margin-left: -7rem;
+   
+    .top-center{
+        display: none;
     }
+    .contact{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+        margin: -7% 0 0 80%;
+        position: fixed;
+    }
+    .eclipses{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        position: relative;
+        margin:  8% 0 0 20%;
+    
+    }
+    /*Styling the first eclipse*/
     .eclipse-one{
-        margin-left: 12rem;
-        width: 20rem;
-        height: 13rem;
-        margin-top: 110px;
-    }
-    .eclipse-two{
-        margin-left: -50px;
-        width: 200rem;
-        height: 12rem;
-    }
-    .conv-content p{
-        margin-right: 15px;
+        width: 25rem;
+        height: 15rem;
+        border-radius: 33rem;
+        margin: 0 0 0 -250px;
+        background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(230,144,131)); 
         
     }
+    /*Styling the second eclipse*/
+    .eclipse-two{
+        width: 25rem;
+        height: 15rem;
+        border-radius: 33rem;
+        margin: 0 0 0 200px;
+        margin-top: 8rem;
+        position: absolute;
+        background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(230,144,131));
+        
+    }
+    .conv-content{
+        margin: 100px 0 0 100px;
+        position: absolute;
+        width: 500px;
+    }
+   
+    
 }
+
+
+@media (max-width:425px){
+    .eclipses{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        position: relative;
+        margin:  8% 0 0 70%;
+        /* width: 100%; */
+        
+    
+    }
+    /*Styling the first eclipse*/
+    .eclipse-one{
+        border-radius: 33rem;
+        margin: 0 0 0 -180px;
+        background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(230,144,131)); 
+        
+    }
+    /*Styling the second eclipse*/
+    .eclipse-two{
+        border-radius: 33rem;
+        margin: 0 0 0 100px;
+        margin-top: 8rem;
+        position: absolute;
+        background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(230,144,131));
+        
+    }
+    .conv-content{
+        margin-top: 5rem;
+        margin-left: 30px;
+        width: 300px;
+        overflow: hidden;  
+    }
+
+    .conv-content p{
+        font-size: 1rem;
+    }
+
+}
+
