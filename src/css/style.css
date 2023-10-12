@@ -88,6 +88,31 @@
 
 
 /* Media query for screens with a maximum width of 768px (typical for tablets) */
+@media (max-width: 475px) {
+  .container .image-side img {
+    max-width: 60%;
+  }
+  .container .text-side h2 {
+    font-size: 1.5em;
+  }
+  .container .text-side p {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 640px) {
+  .container .image-side img {
+    max-width: 50%;
+  }
+  .container .text-side h2 {
+    font-size: 1.25em;
+  }
+  .container .text-side p {
+    font-size: 0.9em;
+  }
+}
+
+
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
@@ -108,6 +133,7 @@
   .container .text-side {
     margin-right: 0;
     text-align: center;
+    font-size: 1.1em;
   }
 
   .container .text-side h2 {
