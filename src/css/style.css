@@ -74,6 +74,7 @@ nav ul li a{
 }
 @media (max-width: 858px){
     .checkbtn{
+        float: inherit;
         display: block;
         margin-left: 90% ;
         margin-top: -73%;
