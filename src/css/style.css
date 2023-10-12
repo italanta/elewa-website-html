@@ -10,22 +10,32 @@ img{
 }
 .ft{
   background-color: rgb(30, 30, 96);
+   border-radius: 70px 70px 0 0;
+   padding-bottom: 2%;
 }
 .footer1{
+    width: 100%;
     color: white;
+    text-align: center;
 }
 
-.p1{
-  text-align: center;
-}
+
 
 .btn1{
-  text-align: center;
+    width: fit-content;
+  /* text-align: center; */
+  margin-top: 6%;
+  border: 2px solid red;
+  padding: 5px;
+
 }
 .lists{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  /* width: 100%; */
+  margin: 0 10% 0 10%;
+}
+.bottom-lists{
+    display: flex;
+    justify-content: space-between;
 }
 .logs{
     float: right;
