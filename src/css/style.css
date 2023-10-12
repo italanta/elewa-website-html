@@ -18,7 +18,7 @@
 
 .navlist {
   display: flex;
-  gap: 2rem
+  gap: 4rem
 }
 
 .navlist a {
@@ -41,6 +41,7 @@
   cursor: pointer;
   position: relative;
   bottom: 10px;
+  margin-left: 350px;
 }
 
 .contactus-btn>a {
@@ -105,7 +106,7 @@
 
 .menu-list {
   display: flex;
-  gap: 3rem;
+  
 }
 
 /* responsive to tablet screen */
@@ -122,6 +123,9 @@
     width: 100%;
     gap: 1rem;
 
+  }
+  .contactus-btn{
+    margin: 0;
   }
 
   .navlist {
@@ -154,5 +158,8 @@
     width: 100%;
     margin-left: 125px;
   }
+    .contactus-btn {
+      margin: 0;
+    }
 
 }
