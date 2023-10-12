@@ -726,3 +726,26 @@
     margin-bottom: 15px;
   }
 }
+
+
+/* Blogs section */
+
+.News-h1 {
+  font-family: 'DM Sans';
+  color: #000;
+  font-size: 35px;
+}
+
+
+.Content-h2 {
+  font-family: 'DM Sans';
+  font-weight: bold;
+  color: #464646;
+  font-size: 25px;
+}
+
+.Content-blog p{
+  font-family: 'DM Sans';
+  font-weight: bold;
+  color: #464646;
+}
