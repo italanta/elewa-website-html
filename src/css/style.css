@@ -3,3 +3,262 @@
   margin: 0;
   padding: 0;
 }
+
+.educational-conatiner{
+  background-color: #F9F8F4;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  font-family: sans-serif;
+  
+}
+
+.educational-section h1{
+  margin-bottom: 20px;
+  font-size: 2em;
+  font-weight: normal;
+}
+
+.educational-section{
+  /* border: solid rgb(255, 153, 0) 10px; */
+  width: fit-content;
+}
+
+.educational-section h3{
+  padding-bottom: .4em;
+  font-weight: normal;
+  z-index: 2;
+  position: relative;
+}
+
+.educational-section p{
+  font-weight: 100;
+  font-size: .9em;
+  z-index: 2;
+  position: relative;
+}
+
+.boxes-top {
+  /* border: solid rgb(212, 0, 255) 10px; */
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+
+}
+
+.box1 {
+  background: #F4EDFD 0% 0% no-repeat padding-box;
+  width: 290px;
+  height: 350px;
+  padding: 140px 20px;
+  text-align: left;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.box1:hover {
+  background-color: #9595969c;
+  cursor: pointer;
+}
+
+.cir1 {
+  background: transparent linear-gradient(90deg, #DBC2F500 0%, #DBC2F5E6 100%) 0% 0% no-repeat padding-box;
+  mix-blend-mode: multiply;
+  opacity: 1;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 8%;
+  left: 1%;
+}
+.cir2{
+  background: transparent linear-gradient(90deg, #DBC2F5E6 0%, #b2a7bf00 100%) 0% 0% no-repeat padding-box;
+  mix-blend-mode: multiply;
+  opacity: 1;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  position: absolute;
+  left: 40%;
+  top: 40%;
+}
+
+.box2 {
+  background-color: #FCF6E4;
+  width: 680px;
+  height: 350px;
+  padding: 140px 20px;
+  text-align: left;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.box2:hover {
+  background-color: #9595969c;
+  cursor: pointer;
+}
+ .shape1,
+ .shape2,
+ .shape3 {
+  background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
+  mix-blend-mode: multiply;
+  border-radius: 110px;
+  opacity: 1;
+  position: absolute;
+  transform: translateY(-50%);
+}
+.shape1{
+  height: 130px;
+  width: 130px;
+  left: 25%;
+  top: 80%;
+}
+.shape2 {
+  height: 200px;
+  width: 120px;
+  left: 50%;
+  top: 70%;
+}
+.shape3 {
+  height: 300px;
+  width: 120px;
+  left: 75%;
+  top: 58%;
+}
+
+.boxes-bottom{
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  gap: 15px;
+  width: fit-content;
+  margin-top: 15px;
+}
+
+.box3{
+  background-color: #FAE9E8;
+  width: 680px;
+  height: 350px;
+  padding: 140px 20px;
+  text-align: left;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.box3:hover {
+  background-color: #9595969c;
+  cursor: pointer;
+}
+.curve1,
+.curve2 {
+  height: 180px;
+  width: 280px;
+  border-radius: 110px;
+  opacity: 1;
+  position: absolute;
+}
+.curve1 {
+  background: transparent linear-gradient(90deg, #E6908300 0%, #E69083 100%) 0% 0% no-repeat padding-box;
+  left: 20%;
+  top: calc(10% + 22%);
+}
+.curve2 {
+  background: transparent linear-gradient(90deg, #E69083 0%, #E6908300 100%) 0% 0% no-repeat padding-box;
+  left: 40%;
+  top: calc(20% + 26%);
+}
+
+ .box4 {
+  background: #FBE8D7;
+  width: 290px;
+  height: 350px;
+  padding: 140px 20px;
+  text-align: left;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.box4:hover {
+  background-color: #9595969c;
+  cursor: pointer;
+}
+
+.box4:before {
+  content: "";
+  position: absolute;
+  background: transparent linear-gradient(289deg, #F2AD69 0%, #F2AD6900 100%) 0% 0% no-repeat padding-box;
+  transform: rotate(-45deg);
+  border-radius: 90px;
+  left: 95px;
+  top: 230px;
+  width: 286px;
+  height: 300px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+
+@media (max-width: 1024px) {
+  .educational-conatiner {
+    height: fit-content;
+  }
+  
+  .boxes-top,
+  .boxes-bottom {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .box1,
+  .box2,
+  .box3,
+  .box4 {
+    flex: 0 0 auto;
+    max-width: 100%;
+    margin-right: 15px;
+  }
+  .box1,
+  .box2,
+  .box3,
+  .box4 {
+    height: 300px;
+    width: 300px
+  }
+}
+@media (max-width: 768px) {
+  .educational-conatiner {
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+  }
+
+  .educational-section h2{
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .educational-section h3{
+    font-size: 1em;
+  }
+  .educational-section p{
+    font-size: 1em;
+  }
+  .boxes-top,
+  .boxes-bottom  {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .box1,
+  .box2,
+  .box3,
+  .box4 {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+}
+
+
+
