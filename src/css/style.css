@@ -790,6 +790,8 @@
     font-size: 15px;
     margin-left: 10px;
     margin-top: 50px;
+    display: flexbox;
+    width: 50px;
   }
 
 
