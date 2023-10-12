@@ -793,6 +793,16 @@
     display: flexbox;
     width: 50px;
   }
+  .Content-blog p{
+    font-family: 'DM Sans';
+    font-weight: bold;
+    font-size: 10px;
+    color: #c4c2c2;
+    margin-left: 80px;
+    margin-top: -25px;
+    width: 200px;
+    text-align: center;
+  }
 
 
 }
