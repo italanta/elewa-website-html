@@ -3,3 +3,288 @@
   margin: 0;
   padding: 0;
 }
+
+.section-educational-solutions {
+  background-color: #F9F8F4;
+  width: 100%;
+  min-height: 100vh;
+  font-family: 'DM Sans', sans-serif;
+  letter-spacing: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-educational-solutions .education-solutions {
+  width: fit-content;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.section-educational-solutions .education-solutions h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  margin-top: 20PX;
+}
+
+.section-educational-solutions .education-solutions .top-boxes {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  width: fit-content;
+}
+
+/* first box */
+
+.section-educational-solutions .education-solutions .educational-box .top-boxes .learning-box {
+  background: #F4EDFD 0% 0% no-repeat padding-box;
+  width: 290px;
+  height: 350px;
+  padding: 140px 20px;
+  text-align: left;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  
+}
+
+.section-educational-solutions .education-solutions .educational-box .top-boxes .learning-box:hover {
+  background-color: #9595969c;
+  cursor: pointer;
+}
+
+.section-educational-solutions .education-solutions .educational-box .top-boxes .learning-box h3,
+.section-educational-solutions .education-solutions .educational-box .top-boxes .learning-box p {
+  position: relative;
+  z-index: 2;
+}
+
+.section-educational-solutions .education-solutions .educational-box .top-boxes .learning-box .circle1 {
+  background: transparent linear-gradient(90deg, #DBC2F500 0%, #DBC2F5E6 100%) 0% 0% no-repeat padding-box;
+  mix-blend-mode: multiply;
+  opacity: 1;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 8%;
+  left: 1%;
+}
+
+.section-educational-solutions .education-solutions .educational-box .top-boxes .learning-box .circle2 {
+  background: transparent linear-gradient(90deg, #DBC2F5E6 0%, #b2a7bf00 100%) 0% 0% no-repeat padding-box;
+  mix-blend-mode: multiply;
+  opacity: 1;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  position: absolute;
+  left: 42%;
+  top: 40%;
+}
+
+/* second box */
+.section-educational-solutions .education-solutions .educational-box .top-boxes .content-box {
+  background-color: #FCF6E4;
+  width: 680px;
+  height: 360px;
+  padding: 140px 20px;
+  text-align: left;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-educational-solutions .education-solutions .educational-box .top-boxes .content-box:hover {
+  background-color: #9595969c;
+  cursor: pointer;
+}
+
+.section-educational-solutions .education-solutions .educational-box .top-boxes .content-box .content-circle,
+.section-educational-solutions .education-solutions .educational-box .top-boxes .content-box .content-circle2,
+.section-educational-solutions .education-solutions .educational-box .top-boxes .content-box .content-circle3 {
+  background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
+  mix-blend-mode: multiply;
+  border-radius: 110px;
+  opacity: 1;
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+.section-educational-solutions .education-solutions .educational-box .top-boxes .content-box .content-circle {
+  height: 130px;
+  width: 130px;
+  left: 25%;
+  top: 80%;
+}
+
+.section-educational-solutions .education-solutions .educational-box .top-boxes .content-box .content-circle2 {
+  height: 200px;
+  width: 120px;
+  left: 50%;
+  top: 70%;
+}
+
+.section-educational-solutions .education-solutions .educational-box .top-boxes .content-box .content-circle3 {
+  height: 300px;
+  width: 120px;
+  left: 75%;
+  top: 58%;
+}
+
+/* third box */
+.section-educational-solutions .education-solutions .bottom-boxes {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  width: fit-content;
+}
+
+.section-educational-solutions .education-solutions .bottom-boxes .conversational-box {
+  background-color: #FAE9E8;
+  width: 680px;
+  height: 360px;
+  padding: 140px 20px;
+  text-align: left;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-educational-solutions .education-solutions .bottom-boxes .conversational-box h3,
+.section-educational-solutions .education-solutions .bottom-boxes .conversational-box p {
+  position: relative;
+  z-index: 2; 
+}
+
+.section-educational-solutions .education-solutions .bottom-boxes .conversational-box:hover {
+  background-color: #9595969c;
+  cursor: pointer;
+}
+
+.section-educational-solutions .education-solutions .bottom-boxes .conversational-box .con-circle1,
+.section-educational-solutions .education-solutions .bottom-boxes .conversational-box .con-circle2 {
+  height: 180px;
+  width: 280px;
+  border-radius: 110px;
+  opacity: 1;
+  position: absolute;
+  
+}
+
+.section-educational-solutions .education-solutions .bottom-boxes .conversational-box .con-circle1 {
+  background: transparent linear-gradient(90deg, #E6908300 0%, #E69083 100%) 0% 0% no-repeat padding-box;
+  left: 20%;
+  top: calc(10% + 22%);
+}
+
+.section-educational-solutions .education-solutions .bottom-boxes .conversational-box .con-circle2 {
+  background: transparent linear-gradient(90deg, #E69083 0%, #E6908300 100%) 0% 0% no-repeat padding-box;
+  left: 40%;
+  top: calc(20% + 26%);
+}
+
+
+/* fourth box */
+
+.section-educational-solutions .education-solutions .educational-box .bottom-boxes .design-box {
+  background: #FBE8D7;
+  width: 300px;
+  height: 360px;
+  padding: 140px 20px;
+  text-align: left;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-educational-solutions .education-solutions .educational-box .bottom-boxes .design-box:hover {
+  background-color: #9595969c;
+  cursor: pointer;
+}
+
+.section-educational-solutions .education-solutions .educational-box .bottom-boxes .design-box h3,
+.section-educational-solutions .education-solutions .educational-box .bottom-boxes .design-box p {
+  position: relative;
+  z-index: 2;
+}
+
+.section-educational-solutions .education-solutions .educational-box .bottom-boxes .design-box::before {
+  content: "";
+  position: absolute;
+  background: transparent linear-gradient(289deg, #F2AD69 0%, #F2AD6900 100%) 0% 0% no-repeat padding-box;
+  transform: rotate(-45deg);
+  border-radius: 90px; 
+  left: 95px; 
+  top: 230px; 
+  width: 300px; 
+  height: 300px; 
+  z-index: 1;
+  overflow: hidden;
+}
+
+@media (max-width: 1024px) {
+  .section-educational-solutions .education-solutions .top-boxes,
+  .section-educational-solutions .education-solutions .bottom-boxes {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .section-educational-solutions .education-solutions .top-boxes .learning-box,
+  .section-educational-solutions .education-solutions .top-boxes .content-box,
+  .section-educational-solutions .education-solutions .bottom-boxes .conversational-box,
+  .section-educational-solutions .education-solutions .bottom-boxes .design-box {
+    flex: 0 0 auto;
+    max-width: 100%;
+    margin-right: 15px; 
+  }
+
+  .section-educational-solutions .education-solutions .educational-box .top-boxes .learning-box,
+  .section-educational-solutions .education-solutions .educational-box .top-boxes .content-box,
+  .section-educational-solutions .education-solutions .educational-box .bottom-boxes .conversational-box,
+  .section-educational-solutions .education-solutions .educational-box .bottom-boxes .design-box {
+    height: 300px; 
+    width: 300px
+  }
+}
+
+
+@media (max-width: 768px) {
+  .section-educational-solutions .education-solutions {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .section-educational-solutions .education-solutions h2{
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .section-educational-solutions .education-solutions h3{
+    font-size: 1em;
+  }
+
+  .section-educational-solutions .education-solutions p{
+    font-size: 1em;
+  }
+
+  .section-educational-solutions .education-solutions .top-boxes,
+  .section-educational-solutions .education-solutions .bottom-boxes {
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+
+  .section-educational-solutions .education-solutions .top-boxes .learning-box,
+  .section-educational-solutions .education-solutions .top-boxes .content-box,
+  .section-educational-solutions .education-solutions .bottom-boxes .conversational-box,
+  .section-educational-solutions .education-solutions .bottom-boxes .design-box {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+}
+
