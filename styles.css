@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'DM Sans', sans-serif;
+}
+
+body{
+  height: 100%;
+  background-color: #F9F8F4;
+}
+
+
+.main-nav{
+  margin: 2rem 11rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav svg{
+  filter: brightness(0);
+}
+
+.navigation{
+  display: inline;
+}
+
+.navigation div{
+  display: inline;
+  margin: 1rem;
+}
+
+.navigation a{
+  margin: 2rem;
+  text-decoration: none;
+  /* background:; */
+  
+}
+
+.caret-animation svg:hover{
+ transition: all 300ms ease;
+ transform: rotate(180deg);
+}
+
+.caret-animation svg:hover::after{
+  transition: all 500ms ease;
+  transform: rotate(0deg);
+ }
+ 
+
+.main-nav button{
+  background-color: #2D2E52;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+}
+
+li{
+  display: inline;
+}
+.parent{
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.black{
+  background-color: black;
+  height: 220px;
+  width: 30%;
+  border-radius: 40.3rem;
+}
+
+.orange{
+  background-color: black;
+  height: 220px;
+  width: 30%;
+  border-radius: 40.3rem;
+}
+.hero-png{
+    height:550px;
+    width:550px;
+}
+.body{
+    display:flex;
+}
+.text{
+    font-size: xx-large;
+}
