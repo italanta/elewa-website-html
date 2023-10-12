@@ -729,12 +729,15 @@
 
 
 /* Blogs section */
+*{
+  text-decoration: none;
+}
 
 .News-h1 {
   font-family: 'DM Sans';
   color: #000;
   font-size: 35px;
-  margin-left: 200px;
+  margin-left: 140px;
 }
 
 
@@ -743,19 +746,31 @@
   font-weight: bold;
   color: #464646;
   font-size: 25px;
-  margin-left: 200px;
+  margin-left: 140px;
+  margin-top: 50px;
+}
+
+.read-more a{
+  font-family: 'DM Sans';
+  color:#464646;
+  margin-left: 84%;
 }
 
 .read-more {
-  font-family: 'D';
+  margin-top: -40px;
+  margin-bottom: 70px;
 }
 
 .Content-blog p{
   font-family: 'DM Sans';
   font-weight: bold;
-  color: #464646;
+  color: #c4c2c2;
+  margin-left: 480px;
+  margin-top: -25px;
 }
 
 .horizontal-line {
-  width: 70%;
+  width: 80%;
 }
+
+
