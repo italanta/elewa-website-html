@@ -224,11 +224,8 @@ body{
         position: absolute;
         width: 500px;
     }
-   
     
 }
-
-
 @media (max-width:425px){
     .eclipses{
         display: flex;
