@@ -167,6 +167,7 @@ margin: 9px 0 0 30%;
         width: 80%;
         height: 65vh;
         margin: 3% 0 0 18%;
+        overflow: hidden;
     }
     .circles #c1{
         width: 250px;
@@ -240,11 +241,13 @@ margin: 9px 0 0 30%;
     .circles{
         margin: 3% 0 0 10%;
         width: 700px;
+        overflow: hidden;
     }
 
 }
 @media (max-width:600px) {
     .circles{
+        overflow: hidden;
         margin: 10% 0 0 0%;
     }
 }
