@@ -1,0 +1,109 @@
+body{
+position: relative;
+top: 0px;
+left: 0px;
+width: 1920px;
+height: 6753px;
+/* UI Properties */
+background: #F9F8F4 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+#header-Sctn{
+    /* top,left etc are used for absolute positioning */
+    outline:3px solid red;
+    position:absolute;
+    position: relative;
+    top: 53px;
+    left: 209px;
+    width: 1502px;
+    height: 65px;
+    background: transparent url('img/Image 2.png') 0% 0% no-repeat padding-box;
+    opacity: 1
+ }
+ #logo {
+     position: absolute; /* Add this line to position the logo */
+     
+     width: 153px;
+     height: 65px;
+     /* background: transparent url('img/Image 2.png') 0% 0% no-repeat padding-box; */
+     opacity: 1;
+ }
+ /* Navbar styles */
+ .navbar {
+     /* background-color: #333; */
+     color: #020202;
+     text-align: center;
+     padding: 10px;
+     /* UI Properties */
+     font: normal normal normal ;
+     font-size:18px/100px ;
+     font-family:'DM Sans';
+     letter-spacing: 0px;
+     color: #000000;
+     opacity: 1;
+ }
+ .navbar ul {
+     list-style-type: none;
+     padding: 0;
+ }
+ .navbar li {
+     display: inline;
+     margin-right: 20px;
+ }
+ .navbar a {
+     text-decoration: none;
+     color: hwb(0 7% 92%);
+     font-weight: bold;
+ }
+ .contact-button {
+     position: absolute;
+     background-color: #292A50;
+     top:0px;
+     left:1366px;
+     color: white;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 25px;
+     cursor: pointer;
+     text-transform: lowercase;
+     display: inline-block;
+     margin-top: 10px;
+     text-decoration: none;
+     transition: background-color 0.3s ease;
+ } 
+ #title-box{
+ position:absolute;
+ outline:3px solid black;
+/* Layout Properties */
+top: 230px;
+left: 209px;
+width: 893px;
+height: 93px;
+/* UI Properties */
+text-align: left;
+font: normal normal medium 72px/80px DM Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+ }
+#btns-box{
+    position:absolute;
+    outline:3px solid yellow;
+    top:367px;
+    height:44px;
+    width:1000px;
+}
+#proj-title{
+position:absolute;
+/* Layout Properties */
+top: 562px;
+left: 209px;
+width: 893px;
+height: 81px;
+/* UI Properties */
+text-align: left;
+font: normal normal medium 62px/80px DM Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;    
+}
