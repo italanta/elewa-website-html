@@ -1,27 +1,23 @@
-
-body{
+body {
   background: #DBC2F5;
-
 }
-/* Navbar styles */
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: transparent;
-  padding: 20px;
+  padding: 1.25rem;
   width: 100%;
-  max-width: 1200px;
+  max-width: 75rem;
   margin: 0 auto;
 }
 
-/* Logo styles */
 .logo img {
-  width: 100px;
+  width: 6.25rem;
   height: auto;
 }
 
-/* Navigation container styles */
 .navcontainer {
   display: flex;
   justify-content: center;
@@ -29,7 +25,6 @@ body{
   flex-grow: 1;
 }
 
-/* Navigation list styles */
 .navcontainer ul {
   display: flex;
   list-style-type: none;
@@ -38,37 +33,24 @@ body{
 }
 
 .navcontainer li {
-  font-size: 16px;
+  font-size: 1rem;
   color: black;
   font-family: DM Sans, Regular;
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 
-.menu{
+.menu {
   display: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* Contact button styles */
 .btn button {
   background-color: transparent;
-  border: 2px solid black;
-  padding: 5px 10px;
-  font-size: 16px;
+  border: 0.125rem solid black;
+  padding: 0.3rem 0.62rem;
+  font-size: 1rem;
   color: white;
   cursor: pointer;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   background-color: black;
 }
 
@@ -83,115 +65,127 @@ body{
   font-family: 'DM Sans', sans-serif;
 }
 
-/* Subcontainer styles */
 .subcontainer {
   flex: 2;
   transform: translateY(25%);
-  font-size: 22px;
+  font-size: 1.375rem;
   margin-right: 5%;
 }
 
-/* Image styles */
 .pic img {
   max-width: 55%;
-  margin-left: 35%;
-  margin-top: 10%;
+  margin-left: 5.625rem;
+  margin-top: 1.875rem;
 }
 
-/* Media query for small screens */
 @media (max-width: 480px) {
- .menu{
-  display: block;
- }
- .btn button {
-  display: none;
- }
- .navcontainer {
-  display: none;
- }
-
-  .container {
+  .menu {
     display: block;
-    width: auto;
+    margin-left: 2.625rem;
   }
-  .subcontainer {
-    flex: 2;
-    transform: translateY(25%);
-    font-size: 12px;
-    margin-right: 10%;
+  .btn button {
+    display: none;
   }
-  .pic img {
-    max-width: 55%;
-    margin-left: 15%;
-    margin-top: 5%;
+  .navcontainer {
+    display: none;
+  }
+  .logo img {
+    width: 6.25rem;
+    height: auto;
+    margin-left: 2.625rem;
+  }
+
+  .arrow-button {
+    margin-left: 1.62rem;
+    top: 1.25rem;
+  }
+  .left-circle,
+  .right-circle {
+    display: inline-block;
+    border-radius: 50%;
+    margin: -3.75rem;
+  }
+
+  .left-circle {
+    top: 0;
+    margin-bottom: 18.75rem;
+    left: 5rem;
+    width: 12.75rem;
+    height: 12.875rem;
+  }
+
+  .right-circle {
+    top: 0;
+    left: 5rem;
+    width: 12.75rem;
+    height: 12.875rem;
+    transform: matrix(-1, 0, 0, -1, 0, 0);
+  }
+
+  .left-circle h2 {
+    margin-top: 4.5rem;
+    margin-left: 1.95rem;
+    font-size: 1.8rem;
+  }
+  .hero p {
+    margin-top: 3rem;
+    margin-left: 1.925rem;
+    font-size: 1rem;
   }
 }
 
-/* Media query for medium screens */
-@media (min-width: 481px) and (max-width: 767px) {
-  /* Navbar styles */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: transparent;
-  padding: 2px;
-  width: 100%;
-  /* max-width: 1200px; */
-  margin: 0 auto;
-}
-.logo img {
-  width: 50px;
-  height: auto;
-}
-.btn button {
-  background-color: transparent;
-  border: 2px solid black;
-  padding: 5px 5px;
-  font-size: 8px;
-  color: white;
-  cursor: pointer;
-  border-radius: 20px;
-  background-color: black;
-}
- 
- 
-  .container {
+@media (min-width: 481px) and (max-width: 768px) {
+  .menu {
     display: block;
-    width: auto;
+    margin-left: 3.2rem;
   }
-  .subcontainer {
-    flex: 2;
-    transform: translateY(25%);
-    font-size: 18px;
-    margin-right: 10%;
-    margin-left: 10%;
+  .btn button {
+    display: none;
   }
-  .pic img {
-    max-width: 55%;
-    margin-left: 15%;
-    margin-top: 5%;
+  .navcontainer {
+    display: none;
   }
- 
-}
+  .logo img {
+    width: 6.25rem;
+    height: auto;
+    margin-left: 2.625rem;
+  }
 
-/* Media query for large screens */
-@media (min-width: 767px) and (max-width: 1280px) {
- 
-  .container {
-    display: flex;
-    width: auto;
+  .arrow-button {
+    margin-left: 1.62rem;
+    top: 1.25rem;
   }
-  .subcontainer {
-    flex: 2;
-    transform: translateY(25%);
-    font-size: 18px;
-    margin-right: 10%;
-    margin-left: 10%;
+  .left-circle,
+  .right-circle {
+    display: inline-block;
+    border-radius: 50%;
+    margin: -3.75rem;
   }
-  .pic img {
-    max-width: 55%;
-    margin-left: 15%;
-    margin-top: 5%;
+
+  .left-circle {
+    top: 0;
+    margin-bottom: 18.75rem;
+    left: 5rem;
+    width: 15.3125rem;
+    height: 15.625rem;
+  }
+
+  .right-circle {
+    top: 0;
+    left: 5rem;
+    width: 15.3125rem;
+    height: 15.625rem;
+    transform: matrix(-1, 0, 0, -1, 0, 0);
+  }
+
+  .left-circle h2 {
+    margin-top: 4.5rem;
+    margin-left: 1.95rem;
+    font-size: 1.8rem;
+  }
+  .hero p {
+    margin-top: 3rem;
+    margin-left: 1.925rem;
+    font-size: 1rem;
   }
 }
