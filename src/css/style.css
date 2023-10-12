@@ -1,11 +1,10 @@
-
-*{
-
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-body{
-  background: #FAE9E8;
+body {
+  background: #fae9e8;
 }
 .header {
   background-color: transparent;
@@ -51,20 +50,19 @@ body{
   text-align: center;
   border-radius: 22px;
 }
-.round1{
+.round1 {
   width: 100%;
   height: 100%;
-  background: linear-gradient(180deg, #E69083, #E6908300);
+  background: linear-gradient(180deg, #e69083, #e6908300);
 }
-.linear-gradients{
+.linear-gradients {
   width: 85%;
   margin-left: 15%;
   width: 1347px;
   height: 859px;
-  
 }
 
-.section-gradient{
+.section-gradient {
   width: 880px;
 }
 section {
@@ -74,13 +72,13 @@ section {
 }
 
 .simple-linear {
-  background: linear-gradient(to left, #E69083, #E6908300);
+  background: linear-gradient(to left, #e69083, #e6908300);
   /* margin-left: 20%; */
   width: 860px;
   height: 573px;
   /* margin-top: 10%; */
 }
-.aside{
+.aside {
   margin-top: -20%;
   width: 60%;
   margin-right: -2%;
@@ -93,17 +91,16 @@ aside {
 }
 
 .simple-linear2 {
-  background: linear-gradient(to left, #E69083, #E6908300);
+  background: linear-gradient(to left, #e69083, #e6908300);
   margin-left: 35%;
   width: 860px;
   height: 573px;
-
 }
-.h1-text{
+.h1-text {
   margin-left: 5px;
   margin-top: -180px;
 }
-h1{
+h1 {
   font-size: 65px;
   font-style: normal;
   font-variant: normal;
@@ -115,7 +112,7 @@ h1{
   margin-left: 89px;
   margin-top: -760px;
 }
-.p-text{
+.p-text {
   width: 590px;
   height: 270px;
 
@@ -133,11 +130,11 @@ h1{
   margin-left: 89px;
   margin-top: 60px;
 }
-.button{
+.button {
   margin-top: 10px;
   justify-content: space-evenly;
 }
-.btn{
+.btn {
   width: 240px;
   height: 38px;
   background-color: black;
@@ -148,19 +145,19 @@ h1{
   align-items: left;
 }
 
-.h3-text{
+.h3-text {
   color: #ffffff;
   display: flex;
   align-items: left;
   text-align: left;
   margin-left: 20px;
 }
-.right-arrow{
+.right-arrow {
   color: black;
   font-size: 20px;
   font-weight: 900;
 }
-.arrow{
+.arrow {
   background-color: #ffffff;
   border-radius: 50%;
 }
