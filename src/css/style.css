@@ -1,4 +1,4 @@
-body{
+/* body{
    background-color: #DBC2F5; 
 }
 .navbar{
@@ -8,8 +8,7 @@ body{
     margin-top: 30px;
     margin-left: 209px;
     margin-right: 209px;
-    /* width: 1502px;
-    height: 65px; */
+   
     color: #000000;
     background-color: rgba(255, 255, 255, 0.5);
     align-items: center;
@@ -46,4 +45,34 @@ body{
 .nav-item:hover{
     font-weight: bold;
     text-decoration: underline;    
+} */
+
+.partners{
+    background-color: #F9F8F4;
+    color: #000;
+    height: 161px;
+    width:100%;
 }
+.icon{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    height: 100px;
+    width:90%;
+    position: relative;
+    top: 25px;
+    left: 50px;
+    /* background-color: #fff; */
+}
+
+.icon>li{
+    position: relative;
+    top: 20px;
+    list-style-type: none;
+    left: 120px;
+}
+
+.img>img{
+    filter: grayscale(100%);
+}
+
