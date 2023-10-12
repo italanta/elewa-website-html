@@ -10,10 +10,9 @@
   top: 1316px; /* Set the top position */
   left: 0px; /* Set the left position */
   width: 100%; /* Take up 100% of the width */
-  height: 101vh; /* Set height to 101% of the viewport height */
   background: #DBC2F5 0% 0% no-repeat padding-box; /* Set background color */
   opacity: 1; /* Set opacity to fully visible */
-  display: flex; /* Use flex layout */
+  display: flex; 
   flex-direction: row; /* Arrange children in a row */
   gap: 53px; /* Set gap between children */
   align-items: center; /* Center children vertically */
@@ -21,6 +20,9 @@
   color: #000000; /* Set text color to black */
   letter-spacing: 0px; /* Set letter spacing */
   text-align: left; /* Align text to the left */
+
+  gap: 53px;
+  flex-direction: row;
 
 }
 
@@ -84,51 +86,41 @@
   font-size: clamp(1rem, 2vw, 1.25rem);
 }
 
-/* Add media queries to adjust styling based on screen size */
 
-/* Small screens */
-@media (max-width: 577px) {
+/* Media query for screens with a maximum width of 768px (typical for tablets) */
+@media (max-width: 768px) {
   .container {
     flex-direction: column;
-    text-align: center;
-    align-items: center;
+    gap: 20px;
   }
-  
+
   .container .image-side {
-    margin: 0;
+    margin-left: 0;
+    text-align: center;
   }
-  
+
+  .container .image-side img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 0;
+  }
+
   .container .text-side {
-    margin: 30px 0;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .container .text-side h2 {
+    max-width: 100%;
   }
 }
 
-@media (min-width: 577px) and (max-width: 830px) {
-  .container {
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
+/* Media query for screens with a maximum width of 480px (typical for mobile devices) */
+@media (max-width: 480px) {
+  .container .text-side p {
+    width: 100%;
   }
-  
-  .container .image-side {
-    margin: 0;
-  }
-  
-  .container .text-side {
-    margin: 30px 0;
-  }
-}
-
-/* Medium screens */
-@media (min-width: 830px) and (max-width: 992px) {
-  .container {
-    gap: 30px;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .container .image-side {
-    margin-left: 20px;
+  .container .text-side h2 {
+    font-size: 1.5em;
   }
 }
