@@ -8,92 +8,6 @@ height: 6753px;
 background: #F9F8F4 0% 0% no-repeat padding-box;
 opacity: 1;
 }
-#header-Sctn{
-    /* top,left etc are used for absolute positioning */
-    outline:3px solid red;
-    position:absolute;
-    position: relative;
-    top: 53px;
-    left: 209px;
-    width: 1502px;
-    height: 65px;
-    background: transparent url('img/Image 2.png') 0% 0% no-repeat padding-box;
-    opacity: 1
- }
- #logo {
-     position: absolute; /* Add this line to position the logo */
-     
-     width: 153px;
-     height: 65px;
-     /* background: transparent url('img/Image 2.png') 0% 0% no-repeat padding-box; */
-     opacity: 1;
- }
- /* Navbar styles */
- .navbar {
-     /* background-color: #333; */
-     color: #020202;
-     text-align: center;
-     padding: 10px;
-     /* UI Properties */
-     font: normal normal normal ;
-     font-size:18px/100px ;
-     font-family:'DM Sans';
-     letter-spacing: 0px;
-     color: #000000;
-     opacity: 1;
- }
- .navbar ul {
-     list-style-type: none;
-     padding: 0;
- }
- .navbar li {
-     display: inline;
-     margin-right: 20px;
- }
- .navbar a {
-     text-decoration: none;
-     color: hwb(0 7% 92%);
-     font-weight: bold;
- }
- .contact-button {
-     position: absolute;
-     background-color: #292A50;
-     top:0px;
-     left:1366px;
-     color: white;
-     padding: 10px 20px;
-     border: none;
-     border-radius: 25px;
-     cursor: pointer;
-     text-transform: lowercase;
-     display: inline-block;
-     margin-top: 10px;
-     text-decoration: none;
-     transition: background-color 0.3s ease;
- } 
- #title-box{
- position:absolute;
- outline:3px solid black;
-/* Layout Properties */
-top: 230px;
-left: 209px;
-width: 893px;
-height: 93px;
-/* UI Properties */
-text-align: left;
-font: normal normal medium 72px/80px DM Sans;
-letter-spacing: 0px;
-color: #000000;
-opacity: 1;
- }
-#btns-box{
-    position:absolute;
-    outline:3px solid yellow;
-    top:367px;
-    left:209px;
-    height:44px;
-    width:1000px;
-}
 #carousel{
 /* Layout Properties */
 outline:3px solid black;
@@ -104,6 +18,15 @@ width: 2011px;
 height: 1126px;
 /* UI Properties */
 opacity: 1;
+}
+#carousel-list{
+    position: relative;
+    outline:3px solid grey;
+    display:flex;
+    top:158px;
+    height:865px;
+    width:2011px;
+
 }
 #carousel-title{
 outline:3px solid blue;
@@ -119,4 +42,49 @@ font-family: 'DM Sans';
 letter-spacing: 0px;
 color: #000000;
 opacity: 1;    
+}
+.card{
+    outline:3px solid yellow;
+    top:158px;
+    margin-right:39px;
+}
+.card-img-box{
+outline:1px solid green;
+width: 474px;
+height: 616px;
+}
+img{
+    border-radius: 10px;
+    opacity: 1; 
+}
+.card-btn{
+    /* UI Properties */
+top:811px;
+border: 1px solid #707070;
+border-radius: 42px;
+opacity: 1;
+
+}
+.card-header{
+    width: 462px;
+    height: 89px;
+    top:867px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 36px 'DM Sans';
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1; 
+}
+.card-description{
+    /* Layout Properties */
+top:875px;
+width: 462px;
+height: 59px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 22px 'DM Sans';
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
 }
