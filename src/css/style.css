@@ -782,6 +782,7 @@
     color: #000;
     font-size: 25px;
     margin-left: 10px;
+    margin-bottom: 70px;
   }
   .Content-h2 {
     font-family: 'DM Sans';
@@ -789,7 +790,7 @@
     color: #464646;
     font-size: 15px;
     margin-left: 10px;
-    margin-top: 50px;
+    margin-top: 10px;
     display: flexbox;
     width: 50px;
   }
@@ -799,10 +800,24 @@
     font-size: 10px;
     color: #c4c2c2;
     margin-left: 80px;
-    margin-top: -25px;
+    margin-top: -65px;
     width: 200px;
     text-align: center;
   }
 
+  .read-more a{
+    font-family: 'DM Sans';
+    color:#464646;
+    font-size: 10px;
+  }
 
+  .read-more {
+    margin-top: -40px;
+    margin-bottom: 50px;
+    width: 2px;
+    margin-left: 80%;
+  }
+  .horizontal-line {
+    width: 95%;
+  }
 }
