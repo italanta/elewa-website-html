@@ -90,19 +90,32 @@ opacity: 1;
     position:absolute;
     outline:3px solid yellow;
     top:367px;
+    left:209px;
     height:44px;
     width:1000px;
 }
-#proj-title{
-position:absolute;
+#carousel{
 /* Layout Properties */
+outline:3px solid black;
+position: relative;
 top: 562px;
 left: 209px;
+width: 2011px;
+height: 1126px;
+/* UI Properties */
+opacity: 1;
+}
+#carousel-title{
+outline:3px solid blue;
+position:absolute;
+/* Layout Properties */
 width: 893px;
 height: 81px;
 /* UI Properties */
 text-align: left;
-font: normal normal medium 62px/80px DM Sans;
+font: normal normal medium;
+font-size:  62px;
+font-family: 'DM Sans';
 letter-spacing: 0px;
 color: #000000;
 opacity: 1;    
