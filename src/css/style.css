@@ -19,7 +19,7 @@
   font-weight: bold;
   color: #464646;
   font-size: 25px;
-  margin: 50px 140px 0px 0px;
+  margin: 50px 0px 0px 140px;
 }
 
 .read-more a{
@@ -29,14 +29,14 @@
 }
 
 .read-more {
-  margin: -40px 0px 70px 0px;
+  margin: -25px 0px 70px 0px;
 }
 
 .Content-blog p{
   font-family: 'DM Sans';
   font-weight: bold;
   color: #c4c2c2;
-  margin: -25px 480px 0px 0px;
+  margin: -25px 0px 0px 480px;
 }
 
 .horizontal-line {
@@ -58,7 +58,7 @@
     font-weight: bold;
     color: #464646;
     font-size: 15px;
-    margin: 10px 10px 0 0;
+    margin: 10px 10px 0 10px;
     display: flexbox;
     width: 50px;
   }
