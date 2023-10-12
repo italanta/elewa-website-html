@@ -4,21 +4,58 @@
   padding: 0px;
   background-color: #F9F8F4;
 }
-.logo-container {
-  width: 56px;
-  height: 56px;
-  margin-top: -10px;
-}
-.logo-img {
-  /* filter: brightness(0%); */
-  width: 120px;
-  height: 55px;
+
+.logo-txt{
+  font-family: 'HvDTrial Brandon Text', sans-serif;
+  font-size: 70px;
+  font-weight:400;
+  color:#000;
 }
 .menu-bar {
   display: flex;
   justify-content: space-between;
   align-content: center;
   margin-top: 60px;
+}
+.arrow-animation {
+  transform: -180deg;
+}
+.arrow-animation:hover {
+  transition: all 400ms ease;
+  transform: rotate(180deg);
+}
+.projects:hover {
+  text-decoration: underline;
+}
+.company:hover {
+  text-decoration: underline;
+}
+.news:hover {
+  text-decoration: underline;
+}
+.menu-links {
+  font-family: 'DM Sans', sans-serif ;
+  font-weight: 400;
+  font-size: 16px;
+  align-items: center;
+
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-content: space-between;
+}
+.button button {
+  margin-top: 2rem;
+  margin-left: -17rem;
+  background-color: #2D2E52;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 2rem;
+  border-color: transparent;
+  margin-right: 5.4rem;
+  font-family: 'DMSans-Regular', sans-serif;
+  font-size: 15.4px;
+  font-weight: 500;
 }
 .landing-page {
   
@@ -29,13 +66,25 @@
 
 .landing-content {
   align-items:center;
-  justify-items: auto;
+  justify-content: left;
   display: flex;
-  padding: 5%;
+  margin-top: 40px;
+  margin-left: 4rem;
 }
-.landing-desc {
+
+.landing-desc p{
+  font-size: 46px;
+  font-family: 'DMSans', sans-serif;
+  font-weight: 500;
+  align-items: left;
+  gap: 10px;
+}
+.landing-desc h2 {
   display: flex;
-  flex-direction: column;
+  font-size: 40px;
+  font-weight: 300;
+  font-family: 'DMSans', sans-serif;
+  white-space: nowrap;
   align-items: left;
   gap: 10px;
 }
@@ -53,13 +102,45 @@
   margin-top: 10px;
 }
 .landing-img {
+  width:90rem;
+  height:40rem;
   max-width: 75%;
-  
+  margin-top: 3rem;
+  margin-right:2rem;
+}
+
+.solutions{
+  display: flex;
+  justify-content: space-between;
+  align-content:center;
+  margin-right:2.1rem;
+}
+
+.projects{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 0.987rem;
+  text-decoration: none;
+  color:black;
+}
+.company{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 0.987rem;
+  text-decoration: none;
+  color:black;
+}
+.news{
+  text-decoration: none;
+  color:black;
 }
 .img-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 6rem;
 }
 .landing-desc h3 {
   text-align: left;
@@ -72,6 +153,35 @@
   font-family: 'DM Sans', sans-serif;
 }
 
+
+.Consultancy{
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 4rem;
+  margin-left: 0.5rem;
+}
+
+/* .hover-menu{
+  margin-left: -17rem;
+  margin-top: 3rem;
+  display: flex;
+  fill: white;
+  color: black;
+  font-family: 'DM Sans', sans-serif;
+  text-decoration: none;
+}
+
+.hover-1{
+ text-decoration: none;
+ color: black;
+ margin-top: 3rem;
+ margin-right: 2rem;
+ font-weight: 500;
+ font-size:14px;
+
+} */
 
 /* Mobile and Tablet design view */
 @media only screen and (max-width: 760px) {
