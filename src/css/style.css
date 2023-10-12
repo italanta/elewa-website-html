@@ -734,6 +734,7 @@
   font-family: 'DM Sans';
   color: #000;
   font-size: 35px;
+  margin-left: 200px;
 }
 
 
@@ -742,10 +743,19 @@
   font-weight: bold;
   color: #464646;
   font-size: 25px;
+  margin-left: 200px;
+}
+
+.read-more {
+  font-family: 'D';
 }
 
 .Content-blog p{
   font-family: 'DM Sans';
   font-weight: bold;
   color: #464646;
+}
+
+.horizontal-line {
+  width: 70%;
 }
