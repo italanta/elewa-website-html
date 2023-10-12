@@ -14,7 +14,7 @@
   <style>
 
 body {
-    background: #FAE9E8 0% 0% no-repeat padding-box;
+    background:#FCF6E4 0% 0% no-repeat padding-box;
     opacity: 1;
     font-family: DM Sans;
     }
@@ -95,33 +95,45 @@ header {
 }
 
 
-.background {
+.ellipse1 {
     position: absolute;
-    top: 29.27vw;
-    left: 49.69vw;
-    width: 29.80vw;
-    height: 44.79vw;
-    transform: matrix(0, -1, 1, 0, 0, 0);
-    background: transparent linear-gradient(180deg, #E69083 0%, #E6908300 100%) 0% 0% no-repeat padding-box;
-    border-radius: 600px;
+    top: 737px; /* (737px / 1920px) * 100vw */
+    left: 15.10vw; /* (291px / 1920px) * 100vw */
+    width: 24.06vw; /* (462px / 1920px) * 100vw */
+    height: 23.97vw; /* (461px / 1920px) * 100vw */
+    background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: multiply;
+    border-radius: 31.25vw; /* (600px / 1920px) * 100vw */
     opacity: 1;
     z-index: -1;
 }
 
-/* Custom CSS for the background on the left */
-.background-left {
+.ellipse2 {
     position: absolute;
-    top: 14.38vw;
-    left: 24.27vw;
-    width: 29.80vw;
-    height: 44.79vw;
-    transform: matrix(0, 1, -1, 0, 0, 0);
-    /* UI Properties */
-    background: transparent linear-gradient(180deg, #E69083 0%, #E6908300 100%) 0% 0% no-repeat padding-box;
-    border-radius: 600px;
+    top: 504px; /* (504px / 1920px) * 100vw */
+    left: 43.23vw; /* (830px / 1920px) * 100vw */
+    width: 24.06vw; /* (462px / 1920px) * 100vw */
+    height: 36.94vw; /* (694px / 1920px) * 100vw */
+    background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: multiply;
+    border-radius: 31.25vw; /* (600px / 1920px) * 100vw */
     opacity: 1;
     z-index: -1;
 }
+
+.ellipse3 {
+    position: absolute;
+    top: 276px; /* (276px / 1920px) * 100vw */
+    left: 71.51vw; /* (1369px / 1920px) * 100vw */
+    width: 24.06vw; /* (462px / 1920px) * 100vw */
+    height: 48.02vw; /* (922px / 1920px) * 100vw */
+    background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: multiply;
+    border-radius: 31.25vw; /* (600px / 1920px) * 100vw */
+    opacity: 1;
+    z-index: -1;
+}
+
 
 nav {
     display: flex;
@@ -416,8 +428,9 @@ button:active {
 </head>
 <body>
   <section class="main1">
-  <div class="background-left"></div>
-  <div class="background"></div>
+  <div class="ellipse1"></div>
+  <div class="ellipse2"></div>
+  <div class="ellipse3"></div>
   <header>
     <div class="container">
       <div class="logo">
@@ -446,8 +459,8 @@ button:active {
 
   <main class="main">
     <section class="hero">
-      <h1 class="heading">Conversational Learning</h1>
-      <h3>Your organisation has the potential to turn every task into an opportunity to learn. From growing crops, to nursing someone to good health, to developing the next-generation technology, let’s work together to make the magic happen.</h3>
+      <h1 class="heading">Content development</h1>
+      <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolorem ipsum quia dolor sit Eos qui ratione voluptatem sequi nesciunt.</h3>
       <button>
         <span>Unlock your potential</span>
         <svg width="34" height="34" viewBox="0 0 74 74" fill="white" xmlns="http://www.w3.org/2000/svg">Your organisation has the potential to turn every task into an opportunity to learn. From growing crops, to nursing someone to good health, to developing the next-generation technology. Let’s work together to make the magic happen.
