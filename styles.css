@@ -85,10 +85,14 @@ li{
 .hero-png{
     height:550px;
     width:550px;
+    margin-left: 14rem;
+    margin-top:2rem;
 }
 .body{
     display:flex;
 }
 .text{
     font-size: xx-large;
+    margin-top: 10rem;
+    margin-left: 2rem;
 }
