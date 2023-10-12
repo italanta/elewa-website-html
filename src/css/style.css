@@ -1,6 +1,9 @@
+*{
+    text-decoration: none;
+}
 h1{
  margin-top: 20vh;
- margin-left: 200px;
+ margin-left: 80px;
  font-size: 4em;
 }
 
@@ -9,12 +12,30 @@ h4{
     margin-left: 30px;
 }
 
+p{
+    /* margin-left: 80px; */
+    margin-top: 50px;
+}
+
 .content-holder{
     display: flex;
-    margin-left: px;
+    /* text-align: center; */
+}
+
+.text{
+    margin-left: 80px;
+    color: grey;
+}
+.read-more {
+    margin-top: 50px;
+    margin-left: 10%;
+    font-size: 30px;
+    display: block;
 }
 
 .spacer{
+    margin-left: 50px;
     background-color: gray;
     border: 2px solid black;
+    width: 90%;
 }
