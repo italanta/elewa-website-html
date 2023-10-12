@@ -63,8 +63,6 @@ margin: 15px 0 0 10%;
     position: absolute;
     width: 500px;
     height: max-content;
-    margin-left:20%;
-    margin-top: 10%;
     margin: 10% 0 0 20%;
     z-index: 2;
 }
@@ -167,9 +165,7 @@ margin: 9px 0 0 5px;
         transform: rotate(80deg);
         height: 400px;
         margin: 40% 0 0 40% ;
-        border-bottom-left-radius: 400px;
-        border-top-left-radius: 400px;
-        border-top-right-radius: 400px;
+        border-radius: 400px;
         transform: rotate(-15deg); 
     }
 }
