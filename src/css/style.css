@@ -154,6 +154,62 @@
 }
 
 
+
+.overview-content {
+  background-color: #DBC2F5;
+  opacity: 1;
+  align-items: center;
+  justify-items: auto;
+  display: flex;
+  padding: 5%;
+}
+.overview-img {
+  background-color: #DBC2F5;
+  max-width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ov-img {
+  max-width: 75%;
+  background-color: #DBC2F5;
+}
+.overview-desc {
+  background-color: #DBC2F5; 
+  margin-left: 2rem;
+  font-family: 'DM Sans', sans-serif;
+  
+}
+.overview-desc h4 {
+  font-size: 22.7px;
+  font-weight: 600;
+  padding: 10px;
+  padding-left: 2rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
+  background-color: #DBC2F5;
+}
+.overview-desc p {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 2rem;
+  font-family: 'DM Sans', sans-serif;
+  background-color: #DBC2F5;
+}
+
+.p-one{
+  margin-bottom: 1.4rem;
+}
+
+.p-two{
+  margin-bottom: 1.4rem;
+}
+
+.p-three{
+  margin-bottom: 1.4rem;
+}
+
 .Consultancy{
   text-decoration: none;
   color: #000;
