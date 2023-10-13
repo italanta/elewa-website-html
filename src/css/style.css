@@ -223,3 +223,85 @@
   font-size: 14px;
 }
 
+
+@media (max-width: 667px) {
+  /* mobile-logo */
+  .nav-logo img{
+    filter:brightness(0);
+    width: 34%;
+    height: auto;
+    padding-top: 35px;
+    margin-left: -50px;
+  }
+  /* slide navigation */
+  .mobile {
+    display: contents;
+  }
+  .nav-options {display: none;}
+  .Contact-button {
+    display: none;
+  }
+  .mobile-nav{
+    display: contents;
+  }
+  .mobile-nav-icon {
+    margin-left: 330px;
+    margin-top: -60px;
+  }
+  .sidenav {
+    height: 0;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    left: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 0px;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidenav a:hover {
+    background-color: transparent;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 100px;
+
+  }
+
+  /* contact us button in mobile */
+
+  .Contact-b{
+    margin-top: -30px;
+  }
+  .Contact-Us-b {
+    border-radius: 20px;
+    background-color: #292a50;
+    width: 130px;
+    height: 35px;
+    margin-left: 130px;
+    margin-top: 70px;
+    border: none;
+  }
+
+  .Contact-Us-b p{
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    color: #fff;
+    padding-top: -3px;
+    font-size: 14px;
+  }
