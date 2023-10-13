@@ -153,7 +153,41 @@ h1 {
     }
 }
 /* =================== */
+/* partner's section  */
+.partner-sec {
+    height: 100vh;
+    background-color: #f5f0f0;
 
+}
+.partners img{
+    display: flex;
+    height: 60px;
+    width: 90px;
+}
+img {
+    width: 10px;
+    height: auto;
+    padding: 20px;
+    color: transparent;
+
+}
+
+@media (max-width: 667px) {
+    img{
+        width: 20px;
+        height: auto;
+        padding: 30px;
+        display: block;
+    }
+
+    /* .home-page-overview {
+        margin-left: 60px;
+        margin-top: -50px;
+        width: 300px;
+    } */
+}
+
+/* ================ */
 /* The Footer */
 
 .footer {
