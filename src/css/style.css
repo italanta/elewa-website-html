@@ -706,23 +706,25 @@
     margin-top: -250px;
   }
   .Convo-shape-1 {
-    background-image: linear-gradient(90deg, #dbc2f5e6 0%, #dbc2f5e6 85%, #ece0f8e6 100%);
-    height: 200px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(102, 13, 247));;
+    height: 300px;
     width: 300px;
     border-radius: 200px 200px 200px 200px;
     opacity: 40%;
     margin-bottom: 30px;
     transform: scaleX(-1);
+    margin-top: -450px;
+    margin-left: 70px;
   }
 
   .Convo-shape-2 {
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));;
-    height: 200px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(102, 13, 247));;
+    height: 300px;
     width: 300px;
     border-radius: 200px 200px 200px 200px;
     opacity: 40%;
-    margin-left: -80px;
-    margin-top: -303px;
+    margin-left: 0px;
+    margin-top: -330px;
     margin-bottom: 15px;
   }
 }
