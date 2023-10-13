@@ -88,49 +88,6 @@ img.logo {
     margin-left: 20px;
     margin-right: 2px;
     padding: 10px 10px;
-} */
-
-.btn1 {
-    background: black;
-    border-radius: 30px;
-    color: #fff;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    transition: all 0.8s ease;
-    padding: 10px 50px;
-    font-size: 18px;
-    
-}
-
-.btn1 .arr {
-    display: inline-block;
-    transition: all 0.9s ease;
-    position: absolute;
-    right: 10px;
-    margin: auto;
-    
-}
-
-.btn1:hover {
-    background: #fff;
-    color: #333;
-    border-color: #333;
-}
-
-.btn1 .arr {
-    border-radius: 90px;
-    background-color: #fff;
-    color: #333;
-    padding: auto;
-    font-size: 25px;
-}
-
-.btn1:hover .arr {
-    background: black;
-    right: 90%;
-    transform: translateX(50%);
-    color: #fff;
 }
 /* End of Conversational Learning page */
 
@@ -286,6 +243,3 @@ hr {
         width: 70%;
     }
 }
-
-
-
