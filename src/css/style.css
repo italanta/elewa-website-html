@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #DBC2F5;
 }
 
 .nav{
@@ -39,98 +40,49 @@ body {
   padding: 0px 18px;
   height: 30px;
 }
-
-.container{
-    display: flex;
-    height: 752px;
-    max-width: 100%;
-    font-family: 'DM Sans', sans-serif;
-    background: #DBC2F5 0% 0% no-repeat padding-box;
+.menu{
+  display: none;
 }
-
-.picture {
-    margin-right: 10px; /* Add some spacing between the image and text */
-    margin-left: 10%;
-    
-}
-
-.picture img{
-    height: 70%;
-    max-width: 190%;
-    margin-left: 7%;
-    margin-top: 27%;
-}
-
-.words {
-    text-align: left;
-    letter-spacing: 0px;
-    color: #000000;
-    opacity: 1;
-    transform: translateY(31%);
-    font-size: 20px;
-    margin-left: 15%;
-    margin-right: 10%;
-    max-width: 35%;
-   
-}
-
-
 
 @media(max-width:480px){
-    .container {
-        display: block;
-        width: auto;
-        background: #DBC2F5;
-      }
-      .subcontainer {
-        flex: 2;
-        transform: translateY(25%);
-        font-size: 12px;
-        margin-right: 10%;
-      }
-      .pic img {
-        max-width: 55%;
-        margin-left: 15%;
-        margin-top: 5%;
-      }
+  .nav{
+    margin-top: 20px;
   }
-  @media (min-width: 481px) and (max-width: 767px) {
-    .container {
-        display: block;
-        width: auto;
-        background: #DBC2F5;
-      }
-      .subcontainer {
-        flex: 2;
-        transform: translateY(25%);
-        font-size: 18px;
-        margin-right: 10%;
-        margin-left: 10%;
-      }
-      .pic img {
-        max-width: 55%;
-        margin-left: 15%;
-        margin-top: 5%;
-      }
-}
-@media (min-width: 767px) and (max-width: 1280px){
-    body {
-        background: #DBC2F5;
+  .menu{
+    display: block;
+  }
+  .menu i.fa-bars{
+    margin-right: 20px;
+    font-size: 1.5rem;
+  }
+  .options{
+    display: none;
+  }
+  button{
+    display: none;
+  }
+  .nav-logo img{
+    margin-left: 20%;
+  }
+  }
+  @media (min-width: 481px) and (max-width: 768px) {
+    .nav{
+      margin-top: 23px;
     }
-    .container {
-        display: flex;
-        width: auto;
-      }
-      .subcontainer {
-        flex: 2;
-        transform: translateY(25%);
-        font-size: 18px;
-        margin-right: 10%;
-        margin-left: 10%;
-      }
-      .pic img {
-        max-width: 55%;
-        margin-left: 15%;
-        margin-top: 5%;
-      }
+    .menu{
+      display: block;
+    }
+    .menu i.fa-bars{
+      margin-right: 35px;
+      font-size: 2rem;
+    }
+    .options{
+      display: none;
+    }
+    button{
+      display: none;
+    }
+    .nav-logo img{
+      margin-left: 30%;
+    }
 }
