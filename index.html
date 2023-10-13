@@ -3,66 +3,59 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Collaboration and Contribution</title>
   <link rel="stylesheet" href="src/css/style.css">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">   <!-- external fontawesome feature and style -->
-
-  <!-- <script defer type="module" src="dist\out-tsc\index.js"></script> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
   <div class="navbar">
-    <nav class="navbar-nav" >
+    <nav class="navbar-nav">
       <img src="https://elewa.education/assets/images/elewa-logo.png" class="logo" alt="Elewa">
-      <ul class="nav-menu">
+           <ul class="nav-menu">
         <li class="nav-item solutions"><span>Solutions</span><i class="fa fa-chevron-down fa-xs"></i></li>
         <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
         <li class="nav-item"><a class="nav-link" href="#">Company</a></li>
         <li class="nav-item"><a class="nav-link" href="#">News</a></li>
-        <!-- <li class="nav-item"></li> -->
-        <div class="icons">
+        <li class="nav-item">
           <a href="" class="contact"><button class="header-button">Contact Us</button></a>
-          <i class="fa fa-times" onclick="closemenu()"></i>
-        </div>
+          <i class="fa fa-times" onclick="CloseMenu()"></i>        </li>
       </ul>
-      <div class="icons"><i class="fa fa-bars" onclick="openmenu()"></i></div>
+      <div><i class="fa fa-bars" onclick="OpenMenu()"></i>
+      </div>
     </nav>
-</div>
-
-  <div class="details-container ">
-    <h1>Conversational Learning</h1>
-    <p class="details">
-    <p>Your organisation has the potential to turn every task into an   </p>
-    <p>opportunity to learn. From growing crops, to nursing</p>
-    <p>someone to good health, to developing next-generation</p>
-    <p>technology. Let’s work together to make the magic happen.</p>
-  </p>
   </div>
-  <a href="https://elewa.education/contact" class="button">
-    Unlock your potential 
-    <div class="circle">
-        <i class="fa-solid fa-arrow-right right-arrow"></i>
+
+  <div class="container">
+    <div class="block-one">
+      <div class="details-container">
+        <h1>Conversational Learning</h1>
+        <p class="details">
+          Your organization has the potential to turn every task into an opportunity to learn. From growing crops, to nursing someone to good health, to developing next-generation technology. Let’s work together to make the magic happen.
+        </p>
+      </div>
+      <a href="https://elewa.education/contact" class="button">
+        Unlock your potential
+        <div class="circle">
+          <i class="fa-solid fa-arrow-right right-arrow"></i>
+        </div>
+      </a>
     </div>
-</a>
-<div class="container">
-<div class='block-one'></div>
-<div class="block-two"></div>
-</div>
+    <div class="block-two"></div>
+  </div>
 
-<script>
-  let sidemenu=document.querySelector(".nav-menu");
+  <script>
+    function OpenMenu() {
+      var navMenu = document.querySelector('.nav-menu');
+      navMenu.classList.add('active');
+    }
 
-  function openmenu(){
-    sidemenu.style.right="0";
-  }
-
-  function closemenu(){
-    sidemenu.style.right="-200px";
-  }
-</script>
+    function CloseMenu() {
+      var navMenu = document.querySelector('.nav-menu');
+      navMenu.classList.remove('active');
+    }
+  </script>
 </body>
+
 </html>
