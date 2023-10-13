@@ -29,7 +29,7 @@ Please review our [Workflow Documentation](./WORKFLOW-DOCUMENTATION.md) before b
 
 ## 3. Getting Started
 
-To get a local copy up and running, please follow these simple steps.
+To get a local copy up and running, please follow these simple steps
 
 ### Prerequisites
 
