@@ -1,0 +1,445 @@
+/* Conversational Learning page */
+.main {
+    background-color: rgb(254, 230, 235);
+    padding-bottom: 10px;
+    background: linear-gradient(to bottom, #ddddea, #c7c5c8);
+    height: 100vh;
+    width: 1000vh;
+}
+
+.convers{
+    background: linear-gradient(to bottom, #faf0f2, #e2c5d1);
+    height: 100vh;
+    width: 1300px;
+    
+}
+
+.rect {
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle at 50% 50%, transparent 30%, #e98998);
+    border-radius: 20%;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .rect1 {
+    top: 30%;
+    left: 30%;
+    height: 350px;
+    width: 550px;
+    border-radius: 200px;
+  }
+  
+  .rect2 {
+    top: 60%;
+    left: 50%;
+    height: 250px;
+    width: 550px;
+    border-radius: 180px;
+  }
+  
+  .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+
+/* CSS styles for the navbar */
+/* .navigate {
+    max-width: 1200px;
+    margin: auto; */
+    /* max-height: 20vh;
+    background-color: transparent; */
+/* } */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; /* Vertically center the items */
+    margin-right: 250px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
+
+/* Style for the logo image */
+img.logo {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    padding-right: 300px;
+    padding-left: 150px;
+}
+
+/* Style for the "Contact Us" link on the far right */
+.contact-link {
+    margin-left: auto; /* Pushes it to the right */
+    padding-right: 50px;
+    font-size: 20px; 
+}
+.contact {
+    border-radius: 50px;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+}
+
+.header {
+    padding-left: 200px;
+    padding-top: 100px;
+}
+
+.head {
+    font-size: 50px;
+    color: black;
+}
+.par {
+    font-size: 20px;
+    color: black;
+    line-height: 1.5rem;
+}
+
+/* .btn1 {
+        cursor: pointer;
+        display: inline-block;
+        padding: 15px 30px;
+        color: #fff;
+        background-color: black;
+        border: none;
+        border-radius: 20px;
+        font-size: 15px;
+    }
+.arr {
+    background-color: #fff;
+    color: #333;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 2px;
+    padding: 10px 10px;
+} */
+
+.btn1 {
+    background: black;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.8s ease;
+    padding: 10px 50px;
+    font-size: 18px;
+    
+}
+
+.btn1 .arr {
+    display: inline-block;
+    transition: all 0.9s ease;
+    position: absolute;
+    right: 10px;
+    margin: auto;
+    
+}
+
+.btn1:hover {
+    background: #fff;
+    color: #333;
+    border-color: #333;
+}
+
+.btn1 .arr {
+    border-radius: 70px;
+    background-color: #fff;
+    color: #333;
+    padding: auto;
+    font-size: 25px;
+}
+
+.btn1:hover .arr {
+    background: black;
+    right: 90%;
+    transform: translateX(50%);
+    color: #fff;
+}
+/* End of Conversational Learning page */
+/* ===================================================== */
+/* CONSULTANCY PAGE */
+.main1 {
+    /* Light purple background for the whole page */
+    background: linear-gradient(to bottom, #ddddea, #c7c5c8);
+    /* margin: 0; */
+    height: 100vh;
+    /* width: 1000vh; */
+    
+  }
+  
+  .circle {
+    width: 500px;
+    height: 500px;
+    /* background: radial-gradient(circle at 50% 50%, transparent 30%, #9a80c7); */
+    background-image: linear-gradient(to right, rgb(255,0,0,0), rgb(102,13,247));
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .circle1 {
+    top: 30%;
+    left: 30%;
+  }
+  
+  .circle2 {
+    top: 30%;
+    left: 50%;
+    transform: scale(-1);
+  }
+  
+  .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+/* ====================== */
+/* CONTENT DEV */
+.content{
+    background: linear-gradient(to bottom, #f3eae9, #f3cec9);
+    height: 100vh;
+    width: 1600px;
+}
+  
+.rec {
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle at 50% 50%, transparent 30%, #f0b172);
+    border-radius: 20%;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .rec1 {
+    top: 75%;
+    left: 25%;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+  }
+  
+  .rec2 {
+    top: 50%;
+    left: 50%;
+    height: 350px;
+    width: 250px;
+    border-radius: 180px;
+  }
+
+  .rec3 {
+    top: 25%;
+    left: 75%;
+    height: 500px;
+    width: 250px;
+    border-radius: 180px;
+  }
+  
+  .container {
+    position: relative;
+    z-index: 2;
+  }
+
+  /* HOME PAGE NEWS SECTION */
+  .news {
+    background-color: #f0eceb;
+    width: 1600px;
+    height: 100vh;
+    padding-top: 150px;
+  }
+
+  .newscenter {
+    align-items: center;
+    margin-left: 100px;
+  }
+  .flex-items {
+    display: flex;
+  }
+
+  .newspar {
+    padding-right: 80px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .faint {
+    padding-right: 80px;
+  }
+
+  .newbtn {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+  }
+
+  .hr1 {
+    padding-left: 10px;
+    margin-left: 0;
+    margin-right: 285px;
+  }
+/* ================== */
+/* The Footer */
+/* ============================== */
+
+.footer {
+    background-color: rgb(41, 41, 74);
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+.heading {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 150;
+    padding-top: 80px;
+}
+
+/* Button styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.btn2 {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.8s ease;
+    padding: 10px 50px;
+    font-size: 18px;
+    margin-left: 400px;
+}
+
+.btn2 .arr {
+    display: inline-block;
+    transition: all 0.8s ease;
+    position: absolute;
+    right: 10px;
+    margin: auto;
+    
+}
+
+.btn2:hover {
+    background: #fff;
+    color: #333;
+    border-color: white;
+}
+
+.btn2:hover .arr {
+    background: #333;
+    right: 90%;
+    transform: translateX(50%);
+    color: #fff;
+}
+  
+  
+
+hr {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.head1 {
+    color: white; 
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.list ul {
+    list-style-type: none;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+.list ul li {
+    margin-right: 10px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 20;
+    line-height: 1.2rem;
+}
+
+.logo1 {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    padding-right: 300px;
+    padding-left: 50px;  
+    margin-left: 60px;
+    padding-bottom: 40px;
+}
+
+.soc {
+    display: flex;
+    margin-right: 0px;
+}
+
+.social {
+    margin-left: 400px;
+}
+
+.social a {
+    padding: 10px;
+    color: #fff;
+    font-size: 10px; 
+}
+
+/* End of Footer */
+
+/* Mobile */
+@media (max-width: 768px) {
+    .navigate {
+        /* Tablets */
+        max-width: 728px;
+    }
+}
+
+@media (max-width:360px) {
+    .navigate {
+        /* Mobiles */
+        max-width: 320px;
+    }
+}
