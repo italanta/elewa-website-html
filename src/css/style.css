@@ -9,3 +9,19 @@
   width: 33%;
   margin: 20px 0px 0px 150px;
 }
+
+.Home-Page-h1 {
+  font-family: 'DM Sans';
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.Home-Page-text {
+  font-family: 'DM Sans';
+  font-size: 18px;
+}
+
+.Home-Page-Container {
+  margin-left: 700px;
+  margin-top: -350px;
+}
