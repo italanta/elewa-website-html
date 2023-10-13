@@ -20,7 +20,6 @@ body {
     height: auto;  
     text-align: center;  
     padding: 15px;  
-    /* border: 3px solid red;  */
 }
 .display img{  
     width: 70%;  
@@ -35,4 +34,19 @@ h2{
 }
 p{
     font-size: 22px;
+}
+
+@media (max-width:667px) {
+    .display{
+    margin: 20px 0 0 18px;
+    height: auto; 
+    width: auto;
+    }
+    .display img{
+        width: 90%;
+    }
+    .info{
+        margin: 50px 0 0 18px;
+        text-align: center;
+       }
 }
