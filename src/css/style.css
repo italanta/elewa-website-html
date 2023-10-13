@@ -19,13 +19,20 @@ img{
     text-align: center;
 }
 
-
+.potential{
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    height: min-content;
+    justify-content: center;
+}
 
 .btn1{
     width: fit-content;
   /* text-align: center; */
   margin-top: 6%;
-  border: 2px solid red;
+  border: 2px solid white;
+  border-radius: 12px;
   padding: 5px;
 
 }
@@ -58,7 +65,10 @@ img{
   color: white;
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1010px) {
+    .bottom-lists{
+        display: block;
+    }
   .ft {
     margin-bottom: 50%;
     padding-top: 55px;
