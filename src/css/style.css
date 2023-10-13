@@ -1,0 +1,49 @@
+/* CSS for the header */
+.header {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(0, 0%, 90%); 
+    padding: 10px 20px;
+    cursor: zoom-out;
+  }
+  
+  .logo {
+    max-width: 100px; 
+    height: auto;
+  }
+  
+  .nav-menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    color:black ;    
+
+  }
+  
+  .nav-item {
+    margin: 0 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #fff; /* Link color */
+    font-weight: bold; /* Adjust font-weight as needed */
+  }
+  
+  .header-button {
+    background: #fff; /* Button background color */
+    color: #2d2e52; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; /* Adjust the border-radius as needed */
+  }
+  
+  .header-button:hover {
+    background: #2d2e52; /* Button background color on hover */
+    color: #fff; /* Button text color on hover */
+  }
+  
