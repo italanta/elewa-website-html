@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-image: url(); */
+    background-color: #fcf8ea;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+/* headers */
+.headers{
+    position: relative;
+    display: grid;
+    place-items: center;
+    width:70%;
+    margin: -50px 0 0 200px;
+}
+#logo{
+width: 160px;
+height: 80px;
+position: relative;
+margin: 15px 0 0 10%;
+}
+
+.headers nav a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    margin-left: 40px;
+
+}
+
+.headers nav .material-symbols-outlined{
+    position: relative;
+    top: 9px;
+}
+.headers button{
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: rgb(40, 40, 88);
+    color: white;
+    text-decoration: none;
+    border: none;
+    font-size: 1rem;
+    margin: -30px 0 0 100%;
+}
+
+/* end of nav bar */
+/* introduction  */
+.content{
+    z-index: 5;
+    position: absolute;
+    width: 700px;
+    height: max-content;
+    margin: 10% 0 0 20%;
+    overflow: hidden;
+}
+
+
+.content h1{
+    font-size: 3.0rem;
+    font-weight: bold;    
+font-family: 'Roboto', sans-serif;
+
+}
+.content #description{
+font-size: 1.3rem;
+font-family: 'Roboto', sans-serif;
+margin-top: 30px;
+}
+span{
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+}
+.content button{
+    color: white;
+    background-color: black;
+    border: none;
+    margin: 40px 0 0 0px;
+    height: 45px;
+    border-radius:20px 20px 20px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    }
+.content #potential{
+    font-size: 0.8rem;
+    font-weight: bolder;
+    margin: 15px 0 0 10px;
+}   
+.content .material-symbols-outlined{
+    z-index: 5;
+width: 25px;
+background-color: white;
+color: black;
+border-radius: 50%;
+margin: 9px 0 0 30%;
+}  
+
+.circles{
+    position: absolute;
+    width: 80%;
+    height: 85vh;
+    margin-left: 18%;
+    overflow: hidden;
+}
+.circles #c1{
+    position: relative;
+    z-index: 1;
+    width: 400px;
+    height: 400px;
+    background-image: linear-gradient(to top,#fcf8ea,#ebc359); 
+    border-radius: 50%;
+    margin: 31% 0 0 10%;
+}
+.circles #c2{
+    z-index: 2;
+    width: 600px;
+    height: 400px;
+    background-image: linear-gradient(to left,#fcf8ea,#ebc359); 
+    border-radius: 200px;
+    margin: -31% 0 0 35%;
+    transform: rotate(90deg);
+}
+.circles #c3{
+    z-index: 3;
+    width: 800px;
+    height: 400px;
+    background-image: linear-gradient(to left,#fcf8ea,#ebc359); 
+    border-radius: 200px;
+    margin: -31% 0 0 60%;
+    transform: rotate(90deg);
+    
+}
+.menu{
+    display: none;
+}
+@media (max-width:1648px) {
+    .circles #c1{
+        width: 300px;
+        height: 300px;
+        margin: 33% 0 0 15%;
+    }
+    .circles #c2{
+        width: 500px;
+        height: 300px;
+        margin: -30% 0 0 35%;
+    }
+    .circles #c3{
+        width: 700px;
+        height: 300px;
+        margin: -30% 0 0 55%;
+        
+    }
+}
+@media (max-width:1298px) {
+    .content{
+        margin-left:10%;
+    }
+    .circles{
+        position: absolute;
+        width: 80%;
+        height: 65vh;
+        margin: 3% 0 0 18%;
+        overflow: hidden;
+    }
+    .circles #c1{
+        width: 250px;
+        height: 250px;
+        margin: 30% 0 0 15%;
+    }
+    .circles #c2{
+        width: 450px;
+        height: 250px;
+        margin: -33% 0 0 35%;
+    }
+    .circles #c3{
+        width: 550px;
+        height: 250px;
+        margin: -30% 0 0 60%;
+        
+    }
+}
+@media (max-width:1052px) {
+    .circles #c1{
+        width: 200px;
+        height: 200px;
+        margin: 36% 0 0 24%;
+    }
+    .circles #c2{
+        width: 400px;
+        height: 200px;
+        margin: -26% 0 0 38%;
+    }
+    .circles #c3{
+        width: 500px;
+        height: 200px;
+        margin: -28% 0 0 60%;
+        
+    }
+}
+@media (max-width:1020px) {
+ .content{
+    width: 500px;
+    margin: 10% 0 0 2%;
+ }
+    .circles #c1{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        margin: 30% 0 0 10%;
+    }
+    .circles #c2{
+        position: relative;
+        width: 300px;
+        height: 200px;
+        margin: -32% 0 0 32%;
+    }
+    .circles #c3{
+        position: relative;
+        width: 400px;
+        height: 200px;
+        margin: -31% 0 0 54%;
+        
+    }
+}
+@media (max-width:864px){
+    .menu{
+        position: fixed;
+        display: block;
+        margin: -8% 0 0 90%;
+    }
+    .headers{
+        display: none;
+    }
+    .circles{
+        margin: 3% 0 0 10%;
+        width: 700px;
+        overflow: hidden;
+    }
+
+}
+@media (max-width:600px) {
+    .circles{
+        overflow: hidden;
+        margin: 10% 0 0 0%;
+    }
+}
