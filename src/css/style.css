@@ -10,3 +10,13 @@ body {
     background-color: violet;
     padding: 20px;
   }
+
+.display img{
+    margin: 100px 0 0 80px;
+    width:50%;
+    height: 50%;
+}
+
+.info{
+    
+}
