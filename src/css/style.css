@@ -21,7 +21,23 @@
   font-size: 18px;
 }
 
+/* text container */
 .Home-Page-Container {
-  margin-left: 700px;
-  margin-top: -350px;
+  margin: -350px 0px 0px 700px;
+}
+
+/* mobile screen styling */
+@media (max-width:667px) {
+
+  .Home-Page-Image img{
+    height:auto;
+    width: 90%;
+    margin: 20px 0px 0px 18px;
+  }
+
+  .Home-Page-Container {
+    margin: 50px 0px 0px 18px;
+    text-align: center;
+  }
+
 }
