@@ -10,13 +10,29 @@ body {
     background-color: violet;
     padding: 20px;
   }
+/* .gasp{
+    display: flex;
+} */
 
-.display img{
-    margin: 100px 0 0 80px;
-    width:50%;
-    height: 50%;
+.display{
+    margin: 100px 0 0 0;
+    width: 50%;  
+    height: auto;  
+    text-align: center;  
+    padding: 15px;  
+    /* border: 3px solid red;  */
+}
+.display img{  
+    width: 70%;  
 }
 
 .info{
-    
+ margin: -50vh 200px 0 50%;
+ font-size: large;
+}
+h2{
+    font-size: 2em;
+}
+p{
+    font-size: 22px;
 }
