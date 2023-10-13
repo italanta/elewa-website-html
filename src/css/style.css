@@ -359,7 +359,7 @@ a {
   }  
 
 
-=======
+
 *{
   box-sizing: border-box;
   padding: 0;
@@ -476,4 +476,5 @@ nav a {
   nav ul.show{
     left: 0;
   }
+}
 }
