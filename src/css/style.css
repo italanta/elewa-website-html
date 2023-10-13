@@ -1,99 +1,92 @@
 body {
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  background: #DBC2F5;
 }
 
-.container{
-    display: flex;
-    height: 752px;
-    max-width: 100%;
-    font-family: 'DM Sans', sans-serif;
-    background: #DBC2F5 0% 0% no-repeat padding-box;
+.container {
+  display: flex;
+  min-height: 100vh;
+  height: 752px;
+  max-width: 100%;
+  font-family: 'DM Sans', sans-serif;
+  background: #DBC2F5 0% 0% no-repeat padding-box;
 }
 
 .picture {
-    margin-right: 10px; /* Add some spacing between the image and text */
-    margin-left: 10%;
-    
+  margin-right: 10px;
+  margin-left: 10%;
 }
 
-.picture img{
-    height: 70%;
-    max-width: 190%;
-    margin-left: 7%;
-    margin-top: 27%;
+.picture img {
+  height: 70%;
+  max-width: 190%;
+  margin-left: 7%;
+  margin-top: 27%;
 }
 
 .words {
-    text-align: left;
-    letter-spacing: 0px;
-    color: #000000;
-    opacity: 1;
-    transform: translateY(31%);
-    font-size: 20px;
-    margin-left: 15%;
-    margin-right: 10%;
-    max-width: 35%;
-   
+  text-align: left;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  transform: translateY(31%);
+  font-size: 20px;
+  margin-left: 15%;
+  margin-right: 10%;
+  max-width: 35%;
 }
 
-
-
-@media(max-width:480px){
-    .container {
-        display: block;
-        width: auto;
-        background: #DBC2F5;
-      }
-      .subcontainer {
-        flex: 2;
-        transform: translateY(25%);
-        font-size: 12px;
-        margin-right: 10%;
-      }
-      .pic img {
-        max-width: 55%;
-        margin-left: 15%;
-        margin-top: 5%;
-      }
+@media (max-width: 480px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: auto;
   }
-  @media (min-width: 481px) and (max-width: 767px) {
-    .container {
-        display: block;
-        width: auto;
-        background: #DBC2F5;
-      }
-      .subcontainer {
-        flex: 2;
-        transform: translateY(25%);
-        font-size: 18px;
-        margin-right: 10%;
-        margin-left: 10%;
-      }
-      .pic img {
-        max-width: 55%;
-        margin-left: 15%;
-        margin-top: 5%;
-      }
+  .words {
+    transform: translateY(0);
+    font-size: 1.1rem;
+    max-width: 80%;
+    text-align: center;
+    margin: 0px 45px 0px 45px;
+  }
+  .pic-img {
+    width: 100%;
+    margin-right: 0;
+  }
+  .picture img {
+    height: 90%;
+    margin: 0;
+  }
 }
-@media (min-width: 767px) and (max-width: 1280px){
-    body {
-        background: #DBC2F5;
-    }
-    .container {
-        display: flex;
-        width: auto;
-      }
-      .subcontainer {
-        flex: 2;
-        transform: translateY(25%);
-        font-size: 18px;
-        margin-right: 10%;
-        margin-left: 10%;
-      }
-      .pic img {
-        max-width: 55%;
-        margin-left: 15%;
-        margin-top: 5%;
-      }
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: auto;
+  }
+  .words {
+    transform: translateY(0);
+    font-size: 1.3rem;
+    max-width: 80%;
+    text-align: center;
+    margin: 0px 45px 0px 45px;
+  }
+  .pic-img {
+    width: 87%;
+  }
+  .picture {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    max-height: 73%;
+    margin-bottom: -10%;
+    margin-top: -15%;
+  }
 }
