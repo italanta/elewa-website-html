@@ -37,15 +37,11 @@
   position: relative;
 }
 
-.fa-bars {
-  display: inline-block;
-  cursor: pointer;
-}
-
+.fa-bars,
 .fa-times {
   display: none;
-  cursor: pointer;
 }
+
 
 .header-button {
   background: #2d2e52;
@@ -190,11 +186,11 @@
   }
 
   .fa-bars {
-    display: none;
+    display: inline-block;
   }
 
   .fa-times {
-    display: inline-block;
+    display: none;
   }
 
   .header-button {
