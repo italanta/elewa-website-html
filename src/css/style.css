@@ -1,15 +1,16 @@
 body{
    background-color: #DBC2F5; 
 }
-.navbar{
+
+
+/* .navbar{
     display: flex;
     justify-content: space-between;
     justify-items: baseline;
     margin-top: 30px;
     margin-left: 209px;
     margin-right: 209px;
-    /* width: 1502px;
-    height: 65px; */
+    
     color: #000000;
     background-color: rgba(255, 255, 255, 0.5);
     align-items: center;
@@ -46,4 +47,106 @@ body{
 .nav-item:hover{
     font-weight: bold;
     text-decoration: underline;    
+} */
+
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    gap: 10rem;
+    
 }
+.navbar a {
+    text-decoration: none;
+    color: #000;
+}
+
+.menu-list{
+    display: flex;
+    gap: 35px;
+    justify-items: baseline;
+    
+}
+.list {
+    list-style: none;
+    display: flex;
+    pointer-events: none;
+    gap: 20px;
+}
+.list *{
+  transition: .2s;
+}
+
+
+.list > * {
+  pointer-events: auto;
+}
+
+.links:hover{
+    font-weight: bold;
+    text-decoration: underline;    
+}
+
+#toggler,
+.navbar label {
+    display: none;
+    color: #000000;
+}
+
+#toggler:checked ~ .menu-list {
+    max-height: 100%;
+}
+.logo{
+    filter:brightness(0);
+}
+
+
+.btn-contact{
+    background-color: #2D2E52;
+    border-radius: 15px;
+    color: #FFFFFF;
+    opacity: 1;
+    text-align: center;
+    height: 24px;
+    width: 80px;
+    border: none;
+}
+
+@media only screen and (max-width: 678px) {
+
+    .menu-list{
+        
+        max-height: 0;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: center;
+        transition: all 400ms ease-out;
+        
+        width: 50rem;
+        gap: 1rem;
+    }
+
+   
+    .list {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        
+    }
+    .navbar label {
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    .navbar{
+        justify-content:space-around;
+        gap: 1rem;
+        padding: 5px;
+        
+    }
+
+  }
