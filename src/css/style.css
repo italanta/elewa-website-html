@@ -90,6 +90,69 @@ img.logo {
     padding: 10px 10px;
 }
 /* End of Conversational Learning page */
+/* ========== */
+/* Home Page Overview */
+body {
+    background-color: #dbc2f5e6;
+    height: auto;
+}
+.imag img{
+    margin-left: -350px, 0px, 0, 700px;
+    height: auto;
+    width: 35%;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.home-page-overview {
+    margin-left: 600px;
+    margin-top: -500px;
+    width: 500px;
+}
+.home {
+    width: 200px;
+}
+p {
+    font-size: 20px;
+}
+h1 {
+    font-weight: bold;
+}
+
+@media (max-width: 667px) {
+    .imag img{
+        margin-left: -100px, 0px, 0, 200px;
+        height: auto;
+        width: 70%;
+        margin-left: 50px;
+        margin-bottom: 50px;
+        margin-top: 60px;
+    }
+
+    .home-page-overview {
+        margin-left: 60px;
+        margin-top: -50px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 820px) {
+    .imag img{
+        margin-left: -100px, 0px, 0, 50px;
+        height: auto;
+        width: 90%;
+        margin-left: 50px;
+        margin-bottom: 50px;
+        padding-top: 150px;
+    }
+
+    .home-page-overview {
+        margin-left: 60px;
+        margin-top: -50px;
+        width: 700px;
+    }
+}
+/* =================== */
 
 /* The Footer */
 
