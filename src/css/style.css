@@ -1,49 +1,79 @@
 /* CSS for the header */
 .header {
-    display: block;
-    justify-content: space-between;
-    align-items: center;
-    background-color: hsl(0, 0%, 90%); 
-    padding: 10px 20px;
-    cursor: zoom-out;
-  }
-  
-  .logo {
-    max-width: 100px; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(231, 196, 243);
+  padding: 1rem 0;
+}
+
+.logo-container {
+    margin-right: 20px; /* Add margin to create space between logo and nav links */
+}
+
+.logo {
+    max-width: 100px;
     height: auto;
-  }
-  
-  .nav-menu ul {
+}
+
+.nav-menu ul {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Center the navigation horizontally */
     align-items: center;
     padding: 0;
     margin: 0;
-    color:black ;    
+    color: black;
+}
 
+.nav-item {
+    margin: 0 20px; /* Add margin to create space between nav links */
+}
+
+.nav-link {
+    color: black;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.header-button {
+  background-color: #484a66;
+  color: white;
+  padding: 0.5rem ;
+  border-radius: 15px;
+  font-size: 1.2rem;
+}
+
+.header-button:hover {
+    background: #2d2e52;
+}
+
+/* Style for the dropdown arrow */
+.with-dropdown .dropdown-arrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 5px 0 5px; /* Adjust the size of the arrow */
+    border-color: #333 transparent transparent transparent; /* Adjust the color of the arrow */
   }
   
-  .nav-item {
-    margin: 0 20px;
-  }
+
+/* responsive to mobile */
+/* @media only screen and (max-width: 320px) {
+    .navbar {
+      width: 100%;
+      margin-left: 125px;
+    }
+      .header-button {
+        margin: 0;
+      }
   
-  .nav-link {
-    text-decoration: none;
-    color: #fff; /* Link color */
-    font-weight: bold; /* Adjust font-weight as needed */
-  }
-  
-  .header-button {
-    background: #fff; /* Button background color */
-    color: #2d2e52; /* Button text color */
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px; /* Adjust the border-radius as needed */
-  }
-  
-  .header-button:hover {
-    background: #2d2e52; /* Button background color on hover */
-    color: #fff; /* Button text color on hover */
-  }
-  
+  } */
