@@ -10,19 +10,23 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/hero.css">
+
 
   <script defer type="module" src="dist\out-tsc\index.js"></script>
 </head>
 
 
 <body>
+
+    <!-- navbar/menu -->
     <nav class="navbar">
         <div class="navbar-left">
             <a href="#" class="logo">
                 <img class="elewa-logo" src="https://elewa.education/assets/images/elewa-logo.png"/>
             </a>
         </div>
-        <div class="navbar-middle">
+        <div class="navbar-middle" id="navMiddle">
             <ul class="nav-links" id="navLinks">
                 <li class="dropdown-3">
                     <a href="#" class="dropbtn">Solutions <i class="arrow down"></i></a>
@@ -73,9 +77,9 @@
                 <li><a href="#" class="menu">News</a></li>
             </ul>
         </div>
-        <div class="navbar-right">
+        <div class="navbar-right" id="navRight">
             <div class="Button">
-                <a href="#" class="contact-button" id="contactButton">Contact Us</a>
+                <a href="#" class="contact-button">Contact Us</a>
             </div>
         </div>
         <div class="line-btn" id="lineButton">
@@ -84,6 +88,30 @@
             <div class="line3"></div>
         </div>
     </nav>
+
+
+    <!-- the rest of the page/ hero section-->
+    <section class="container">
+        <div class="hero">
+
+            <!-- right column -->
+            <div class="part-1">
+                <h1 class="hero-heading">Training at scale</h1>
+                <h2 class="hero-prg">Human-centered, meaningful <br>and enjoyable</h2>
+                <div class="button-container">
+                   <div class="btn">
+                      <span class="text">Unlock your potential</span>
+                     <span class="circle">&#x1F862</span>
+                   </div>
+                </div >
+            </div>
+
+               <!-- left column -->
+            <div class="part-2">
+                <img src="/src/images/Union 2.jpg" class="union-img"/>
+            </div>
+        </div>
+    </section>
   
 
 </body>

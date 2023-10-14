@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background: #f9f8f4;
+}
+
+
+.container{
+  margin-top: 50px;
+  margin-right: 163px;
+  margin-left: 163px;
+}
+
+.hero{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.union-img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.part-1{
+  flex: 1; 
+  padding: 10px
+}
+
+.part-2{
+  flex: 1; 
+  padding: 10px
+}
+
+.hero-heading{
+  font-size: 44px;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.hero-prg{
+  font-size: 24px;
+  margin-bottom: 23px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+  
+  
+.btn {
+   background-color: black;
+  color: white;
+  font-size: 15px;
+  padding: 10px 3px;
+  cursor: pointer;
+  border-radius: 40px;
+  text-align: center;
+  border: 1px solid black;
+  transition: 1s;
+}
+
+.btn:hover{
+  background-color: white;
+  color: black;
+  
+  
+}
+
+.btn:hover .circle{
+  background-color: black;
+  color: white;
+  left: -133px;
+  transition: left 1.5s;
+
+}
+
+.circle {
+  color: black;
+  font-weight: bold;
+  background: white;
+  border-radius: 50%;
+  margin-left: 2px;
+  bottom: 1px;
+  padding: 8px 9px;
+  position: relative;
+  left: 0;
+  transition: left 1.5s;
+
+}
+
+.text {
+   padding: 3px;
+   font-size: small;
+   position: relative;
+   transition: 0s;
+   bottom: 1px;
+   background-color: #f9f8f400;
+}
+
+.btn:hover .text{
+ right: -33px;
+}
+
+@media screen and (max-width: 830px) {
+
+  .hero {
+    margin-top: 30px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+  }
+
+  .container{
+  margin-top: 30px;
+  margin-right: 6px;
+  margin-left: 9px;
+  height: 100vh;
+  
+}
+
+.part-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 75%;
+    margin-top: 0px;
+    
+  }
+
+  
+}
+
+

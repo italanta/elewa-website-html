@@ -6,11 +6,16 @@
   background-color: #F9F8F4;
 }
 
-
 .menu {
   text-decoration: none;
   margin-bottom: 2px;
   position: relative;
+  cursor: pointer;
+  
+}
+
+a{
+  cursor: pointer;
 }
 
 .menu::before {
@@ -52,9 +57,13 @@ body, ul {
 }
 
 
+
+
 .nav-links {
   display: flex;
   gap: 10px;
+  cursor: pointer;
+  
 }
 
 .nav-links li {
@@ -111,7 +120,7 @@ body, ul {
 
 
 .row {
-  background-color: white;
+  background-color: #FFFFFF;
   padding: 38px;
   margin-left: 0;
   margin-right: 0;
@@ -124,6 +133,7 @@ body, ul {
   font-size: 13px;
   position: relative;
   list-style: none;
+  z-index: -2;
 }
 
 .column-1,
@@ -294,6 +304,7 @@ body, ul {
 .dropdown-3 {
   position: relative;
   display: inline-block;
+  z-index: 400;
 }
 
 /* Dropdown Button Styles */
@@ -309,8 +320,9 @@ body, ul {
   left: 40%;
   transform: translateX(-45%);
   width: 975px;
-  background-color: #f9f8f400;
+  background-color: #deb61800;
   margin-left: 65px;
+  
 }
 
 /* Styles for Links Inside Dropdown */
@@ -323,6 +335,11 @@ body, ul {
   display: block;
 }
 
+.navbar-middle{
+  background-color: #F7F6F9;
+  
+}
+
 /* Media Query for Small Screens */
 @media screen and (max-width: 830px) {
   .navbar {
@@ -330,33 +347,63 @@ body, ul {
     margin-left: 0px;
   }
 
+  .navbar-middle{
+   
+    position: absolute; 
+    flex-direction: column;
+    display: none;
+    height: 30vh;
+    left: 20px;
+    width: 90%;
+    align-items:center;
+    justify-content: center;
+    top: 135px;
+    z-index: 4;
+    padding: 3px;
+    background-color: white;
+   
+  }
+.navbar-middle.open{
+display: flex;
+
+}
+
   .nav-links {
-    margin-top: 100px;
-    position: fixed;
+    top: 40px;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     gap: 30px;
-    font-size: 16px;
-    width: 50%;
-    display: none;
+    font-size: 18px;
     position: absolute;
-    left: 40%;
+    background-color: #00000002;
+
   }
 
-  .nav-links.open {
+
+  .navbar-right.open {
     display: flex;
+    
   }
 
-  .contact-button.open {
-    display: flex;
-  }
 
-  .contact-button {
+  .navbar-right{
     position: absolute;
     flex-direction: column;
-    margin-top: 300px;
-    left: 40%;
     display: none;
+    top: 322px;
+    left: 20px;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    background-color: white;
+    height: 20vh;
+    
+    
   }
+
+  
 
   .line1 {
     width: 28px;
@@ -392,22 +439,25 @@ body, ul {
     position: absolute;
     width: 280px;
     height: 100vh;
-    z-index: 2;
+    z-index: 3;
     top: -15px;
-    left: -90%;
+    left: -150px;
     background-color: #0f16d700;
     transform: translateX(0);
+
   }
 
  .row{
   flex-direction: column;
   position: absolute;
-  width: 250px;
+  width: 264px;
   padding: 15px;
   right: 10px;
   justify-content: center;
+  z-index: 5;
 
 }  
+
 
 
 
@@ -417,7 +467,6 @@ body, ul {
 
 .line-btn{
   position: relative;
-  
   
 }
 
