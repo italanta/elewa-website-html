@@ -19,7 +19,7 @@
 .nav-menu ul {
     list-style: none;
     display: flex;
-    justify-content: center; /* Center the navigation horizontally */
+    justify-content:center; /* Center the navigation horizontally */
     align-items: center;
     padding: 0;
     margin: 0;
@@ -44,12 +44,14 @@
 }
 
 .header-button {
-  background-color: #484a66;
-  color: white;
-  padding: 0.5rem ;
-  border-radius: 15px;
-  font-size: 1.2rem;
-}
+    background-color: #484a66; /* Adjust the button color as needed */
+    color: #fff; /* Adjust the text color as needed */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
 
 .header-button:hover {
     background: #2d2e52;
@@ -64,16 +66,26 @@
     border-width: 5px 5px 0 5px; /* Adjust the size of the arrow */
     border-color: #333 transparent transparent transparent; /* Adjust the color of the arrow */
   }
+
+  /* Add responsive design if needed */
+@media (max-width: 768px) {
+    .nav-menu {
+      display: none;
+    }
+  
+    .contact {
+      flex: 1;
+      text-align: center;
+      margin: 20px 0;
+    }
+  
+    .header-button {
+      padding: 10px 20px;
+    }
+  }
+
+
   
 
-/* responsive to mobile */
-/* @media only screen and (max-width: 320px) {
-    .navbar {
-      width: 100%;
-      margin-left: 125px;
-    }
-      .header-button {
-        margin: 0;
-      }
   
-  } */
+
