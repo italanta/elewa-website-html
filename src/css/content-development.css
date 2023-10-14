@@ -116,7 +116,7 @@ a {
 }
  .home_contact {
 background-color: #000000;
-color: white;
+color: solid rgb(255, 255, 255);
 border: none;
 text-align:left;
 top:786;
@@ -131,15 +131,15 @@ opacity: 1;
 } */
   h1{
     margin-top: -10px;
-    font-family: DM Sans,Medium;
-    font-size: 82px;
-    font-weight: 900;
+    font-family: DM Sans,Bold -72px;
+    size: 100px;
+    font-weight: 1300;
     opacity: 100%;
   }
   h2{
     margin-top: -20px ;
     font-family: DM Sans,serif;
-    font-size: 70px;
+    size: 32px;
     font-weight: 800;
   }
 .home-container {
@@ -227,7 +227,7 @@ opacity: 1;
 @media (max-width:768px) {
   .navbar {
     width: 100%;
-    margin-top: 10%;
+    margin-top: 10px;
   }
 
   .navbar .links,
@@ -257,13 +257,13 @@ opacity: 1;
 @media (max-width: 360px) {
   .navbar_dropdown_menu {
     left: 1rem;
-    top: 60px;
-    width: 360px;
+    top: 10px;
+    width: 200px;
   }
 
   .navbar_dropdown_menu.open {
-    padding-top: 30%;
-    padding-left: 20%;
+    padding-top: 10%;
+    padding-left: 0%;
   }
 
   .logo-img {
@@ -339,18 +339,27 @@ opacity: 1;
     max-height: 500px;
     max-width: 450px;
   }
+ 
   /*circles*/
   .containerss{
    border-radius:600px;
+   top: 0px;
+   left: 0px;
+   width: 1920px;
+   height: 1082px;
+  /* UI Properties */
+  background: #FCF6E4 0% 0% no-repeat padding-box;
+  opacity: 1;
    }
  .circle1{
+  position:space-between;
   background-color:#F2CF73;
-  margin-top: -20px;
-  margin-left: 1080px;
+  margin-top: -30px;
+  margin-left: 1130px;
   top:   276px;
   left:  1369;
-  width: 462px;
-  height: 922px;
+  width: 390px;
+  height: 700px;
   background:transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
   mix-blend-mode:multiply;
   border-radius: 600px;
@@ -358,28 +367,29 @@ opacity: 1;
 
  }
  .circle2{
+  position:space-between;
   background-color:#F2CF73;
-  margin-left: 550px;
-  margin-top: -810px;
+  margin-left: 630px;
+  margin-top: -520px;
   top:   504px;
   left:  830;
-  width: 462px;
-  height: 694px;
+  width: 450px;
+  height: 540px;
   background:transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
   mix-blend-mode: multiply;
   border-radius: 600px;
   opacity:1;
  }
 .circle3{
-  background:absolute;
-  position:space-between;
+  justify-content: center;
+  position:absolute;
   display: flex;
-  background-color:#F2CF73;
- margin-top: -373px;
-  top:   737px;
+  background-color:transparent#F2CF73;
+  margin-top: -108px;
+  top:   600px;
   left:  150px;
-  width: 462px;
-  height: 461px;
+  width: 430px;
+  height: 450px;
   background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
   mix-blend-mode: multiply;
   border-radius: 600px;
