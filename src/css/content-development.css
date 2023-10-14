@@ -114,29 +114,36 @@ a {
   font-size: 16px;
   line-height: 22px;
 }
-
-/* .home_contact {
-background-color: #2D2E52;
+ .home_contact {
+background-color: #000000;
 color: white;
 border: none;
+text-align:left;
+top:786;
+left:251;
 border-radius: 22px;
 cursor: pointer;
-width: 200px;
-height: 44px;
+width: 157px;
+height: 41px;
+font:normal normal normal 16px/42px DM Sans;
+letter-spacing: 0px;
 opacity: 1;
 } */
   h1{
-    margin-top: -30px;
-    font-family: DM Sans, Medium;
-    font-size: x-large;
+    margin-top: -10px;
+    font-family: DM Sans,Medium;
+    font-size: 82px;
+    font-weight: 900;
+    opacity: 100%;
   }
   h2{
-    margin-top: -12px;
-    font-family: DM Sans, Medium;
-  font-size: x-large;
+    margin-top: -20px ;
+    font-family: DM Sans,serif;
+    font-size: 70px;
+    font-weight: 800;
   }
 .home-container {
-  background-color: #F9F8F4;
+  background-color: #FCF6E4;
   width: 100%;
 }
 
@@ -189,6 +196,7 @@ opacity: 1;
   background: #000000 0% 0% no-repeat padding-box;
   border-radius: 29px;
   opacity: 1;
+  margin-top: 70;
 }
 
 .home_contact img {
@@ -337,6 +345,7 @@ opacity: 1;
    }
  .circle1{
   background-color:#F2CF73;
+  margin-top: -20px;
   margin-left: 1080px;
   top:   276px;
   left:  1369;
@@ -351,7 +360,7 @@ opacity: 1;
  .circle2{
   background-color:#F2CF73;
   margin-left: 550px;
-  margin-top: -700px;
+  margin-top: -810px;
   top:   504px;
   left:  830;
   width: 462px;
@@ -362,11 +371,13 @@ opacity: 1;
   opacity:1;
  }
 .circle3{
+  background:absolute;
+  position:space-between;
   display: flex;
   background-color:#F2CF73;
- margin-top: -550px;
+ margin-top: -373px;
   top:   737px;
-  left:  291px;
+  left:  150px;
   width: 462px;
   height: 461px;
   background: transparent linear-gradient(180deg, #F2CF73 0%, #F2CF7300 100%) 0% 0% no-repeat padding-box;
