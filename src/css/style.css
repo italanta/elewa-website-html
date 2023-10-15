@@ -60,13 +60,14 @@ body {
   z-index: 5;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
   margin: auto;
   width: 80%;
   margin-top: 25px;
   position: relative;
   top: 250px;
+  margin-right: 8%;
 
 }
 
@@ -230,16 +231,18 @@ body {
   .hero {
     display: flex;
     flex-direction: column;
-    margin: auto;
+    /* margin: auto; */
     width: 70%;
     top: 380px;
     gap: 1rem;
+    margin-right: 25%;
+   
 
   }
 
     .circles {
       z-index: 1;
-      /* position: relative; */
+      /* position: absolute; */
       width: 150%;
       height: 80vh;
       margin: -12% 0 0 -10%;
