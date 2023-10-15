@@ -2,4 +2,94 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: rgb(219, 194, 245);
 }
+.main-nav{
+  margin: 2rem 11rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .main-nav svg{
+  filter: brightness(0);
+} */
+.navigation{
+  display: inline;
+}
+
+.navigation div{
+  display: inline;
+  margin: 1rem;
+}
+
+.navigation a{
+  margin: 2rem;
+  text-decoration: none;
+  
+  
+}
+
+.caret-animation svg:hover{
+ transition: all 300ms ease;
+ transform: rotate(180deg);
+}
+.caret-animation svg:hover::after{
+  transition: all 500ms ease;
+  transform: rotate(0deg);
+ }
+ 
+
+.main-nav button{
+  background-color: #2D2E52;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+}
+
+li{
+  display: inline;
+}
+.sphere {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  margin-top: 5.8rem;
+  position: relative; /* Add position relative to the parent */
+  /* overflow: hidden; Hide content that overflows */
+  margin-right: 34rem;
+  margin-left: 34rem;
+  
+}
+
+.sphere-shape1 {
+  border-radius: 50%;
+  background: transparent linear-gradient(-90deg, #DBC2F500 0%, #DBC2F5E6 100%) 0% 0% no-repeat padding-box;
+  width: 600px;
+  height:600px;
+  mix-blend-mode: multiply;
+  position: absolute; /* Set absolute positioning */
+  top: 0;
+  
+  margin-left: 19rem;
+  /* transform: translateX(4%);  */
+}
+
+.sphere-shape2 {
+  border-radius: 50%;
+  background: transparent linear-gradient(90deg, #DBC2F500 0%, #DBC2F5E6 100%) 0% 0% no-repeat padding-box;
+  
+  width: 600px;
+  height:600px;
+  mix-blend-mode: multiply;
+  position: absolute; /* Set absolute positioning */
+  top: 0;
+
+  transform: translateX(-50%); /* Adjust to center horizontally */
+}
+.text{
+  margin-top: 9rem;
+  margin-right: 37rem;
+}
+
