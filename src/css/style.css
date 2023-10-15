@@ -92,4 +92,9 @@ li{
   margin-top: 9rem;
   margin-right: 37rem;
 }
+.paragraph{
+  font-size-adjust: inherit;
+  font-size: medium;
+  text-align: left;
+}
 
