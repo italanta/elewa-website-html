@@ -20,7 +20,8 @@
 
 .navlist {
   display: flex;
-  gap: 2rem
+  gap: 2rem;
+  padding-right: 350px;
 }
 
 .navlist a {
@@ -76,11 +77,10 @@
 
 header {
   margin-top: 65px;
+  
 }
 .menu-list {
   display: flex;
-  gap: 250px;
-  width: fit-content;
 
 }
 
