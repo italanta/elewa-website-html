@@ -180,7 +180,7 @@ font-size: 1.3rem;
 
   transform: rotate(180deg);
 }
-/* responsive to tablet screen and mobile */
+/* responsive to tablet screen */
 
 @media only screen and (max-width: 768px) {
   .menu-list {
@@ -266,6 +266,7 @@ font-size: 1.3rem;
 
 }
 
+/* responsive to mobile */
 @media only screen and (max-width: 420px) {
   .navbar {
     width: 100%;
