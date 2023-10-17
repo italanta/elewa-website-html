@@ -1,537 +1,86 @@
-/* imported the 'DM Sans',
-sans-serif  font family */
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'DM Sans', sans-serif;
-}
-
-.footer2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 800px;
-
-
-}
-
-.socials {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 30px;
-}
-
-.footer3 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.footer2 h1 {
-  font-size: 50px;
-  letter-spacing: 2px;
-  font-weight: 600;
-  margin-top: 40px;
-  padding: 40px;
-}
-
-.footer {
-  background-color: #2d2e52;
-  padding: 3rem 0.5rem;
-  max-width: 100%;
-  border-top-right-radius: 30px;
-  border-top-left-radius: 30px;
-  color: white;
-}
-
-.footer-navigations {
-  display: flex;
-  justify-content: space-between;
-  align-items: start;
-  padding: 1.5rem 1rem;
-}
-
-.h4 {
-  font-size: 13px;
-  font-weight: bold;
-  margin: 0 0 25px 0;
-
-}
-
-.footer-navigations a {
-
-  font-size: 13px;
-  font-weight: normal;
-}
-
-.footer-imgs {
-  padding: 1.5rem 1rem;
-  position: relative;
-}
-
-.footer-imgs .logo {
-  max-width: 150px;
-
-  filter: brightness(0) invert(1) grayscale(1) contrast(1000%);
-}
-
-.footer-imgs .icons {
-  position: absolute;
-  right: 7%;
-  bottom: 100%;
-}
-
-.footer-imgs .icons img {
-  margin-right: 1rem;
-  width: 20px;
-  height: 20px;
-}
-
-@media only screen and (min-width: 850px) {
-  .footer h4 {
-    font-size: 24px;
-    max-width: 45%;
-    margin: 0 auto 2rem auto;
-  }
-
-  .footer-navigations .headquarters,
-  .footer-navigations .contact,
-  .footer-navigations .brands {
-    display: block;
-  }
-
-  .footer-navigations {
-    margin: 4rem 4rem 0 4rem;
-    border-top: 1px solid white;
-  }
-
-  .footer-navigations h4 {
-    margin-left: 0;
-    margin-bottom: 1rem;
-  }
-
-  .footer-imgs {
-    padding: 1.5rem 5rem;
-  }
-
-  .footer-imgs .icons {
-    bottom: 30%;
-  }
-
-  .footer-imgs img {
-    margin-right: 1.5rem;
-  }
-
-  .footer2 {
-    /* font-family: 'DM Sans', sans-serif; */
-    text-align: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-
-  }
-
-  /* added an svg icon which is an arrow pointing to the right */
-  button {
-    cursor: pointer;
-    font-family: Helvetica, "sans-serif";
-    transition: all .2s;
-    padding: 8px 25px;
-    border-radius: 100px;
-    background: #2d2e52;
-    border: 1px solid white;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    max-width: 500px;
-    font-size: 13px;
-    color: white;
-    margin: 20px 0 60px 0;
-    text-align: right;
-
-
-
-  }
-
-  button:hover {
-    background: white;
-    color: black;
-  }
-
-  button>svg {
-    width: 34px;
-    margin-left: 10px;
-    transition: transform .3s ease-in-out;
-  }
-
-  button:hover svg {
-    transform: translateX(5px);
-  }
-
-  button:active {
-    transform: scale(0.95);
-  }
-}
-
-/* this is what it would look like on smaller screens */
-@media (max-width: 768px) {
-  .footer h4 {
-    font-size: 24px;
-    max-width: 45%;
-    margin: 0 auto 2rem auto;
-
-  }
-
-  .footer {
-    background-color: black;
-    padding: 3rem 0.5rem;
-    max-width: 80%;
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
-    color: white;
-  }
-
-  .footer-navigations .headquarters,
-  .footer-navigations .contact,
-  .footer-navigations .brands {
-    display: block;
-  }
-
-  body {
-    background-color: white;
-    max-width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-
-  .footer-navigations {
-    margin: 4rem 4rem 0 4rem;
-    border-top: 1px solid white;
-  }
-
-  .footer-navigations h4 {
-    margin-left: 0;
-    margin-bottom: 1rem;
-  }
-
-  .footer-imgs {
-    padding: 1.5rem 5rem;
-  }
-
-  .footer-imgs .icons {
-    bottom: 30%;
-  }
-
-  .footer-imgs img {
-    margin-right: 1.5rem;
-  }
-
-  .footer2 {
-    /* font-family: 'DM Sans', sans-serif; */
-    text-align: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
-
-  }
-
-  button {
-    cursor: pointer;
-    font-weight: 700;
-    font-family: Helvetica, "sans-serif";
-    transition: all .2s;
-    padding: 8px 15px;
-    border-radius: 100px;
-    background: #2d2e52;
-    border: 1px solid white;
-    display: flex;
-    align-items: center;
-    max-width: 300px;
-    font-size: 15px;
-    color: white;
-    margin-top: 40px;
-
-  }
-
-  button:hover {
-    background: white;
-    color: black;
-  }
-
-  button>svg {
-    width: 34px;
-    margin-left: 10px;
-    transition: transform .3s ease-in-out;
-  }
-
-  button:hover svg {
-    transform: translateX(5px);
-  }
-
-  button:active {
-    transform: scale(0.95);
-  }
-
-  .heady2 {
-    display: none;
-
-  }
-
-  .cont2 {
-    display: none;
-  }
-
-  .solve {
-    display: none;
-  }
-
-  button {
-    cursor: pointer;
-    font-weight: 700;
-    font-family: Helvetica, "sans-serif";
-    transition: all .2s;
-    padding: 8px 15px;
-    border-radius: 100px;
-    background: black;
-    border: 1px solid white;
-    display: flex;
-    align-items: center;
-    max-width: 300px;
-    font-size: 15px;
-    color: white;
-    margin-top: 40px;
-
-  }
-
-  .socials {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 30px;
-  }
-
-}
 
 body {
-  display: block;
-  align-items: center;
-  margin: 0 6%;
-}
-
-/* .headers{
-  background-color: blueviolet;
-  display: flexbox;
-} */
-/* CSS for the header div with class "headers" */
-.headers {
-  background-color: #9785b6;
-  /* Background color of the header */
-  color: black;
-  /* Text color inside the header */
-  padding: 24px;
-  /* Add some padding to create spacing around the content */
-  text-align: center;
-  /* Center-align the content */
-  font-size: 14px;
-  font-family: 'DM Sans', sans-serif;
-}
-
-.headers nav ul li a:active {
-  border-bottom: 2px solid #0f0f0f;
-  /* Add a white (or desired color) border as an underline */
-}
-
-/* Style for the navigation links within the header */
-.headers nav ul {
-  list-style-type: none;
-  /* Remove bullet points for the list */
-  padding: 15px, 25px;
-  /* Remove padding for the list */
-}
-
-/* Style for the individual navigation items */
-.headers nav ul li {
-  display: inline;
-  /* Display list items inline */
-  margin-right: 20px;
-  /* Add spacing between navigation items */
+  background-color: #f8f7f3;
+  font-family: 'DM Sans','sans-serif';
 
 }
-
-/* Style for the navigation links */
-.headers nav ul li a {
-  text-decoration: none;
-  /* Remove underlines from links */
-  color: black;
-  /* Text color for the links */
-  border-bottom: 2px solid transparent;
-}
-
-/* Style for the "Contact us" button */
-.headers .btn {
-  background-color: #010f23;
-  /* Dark blue button background color */
-  color: #fff;
-  /* Button text color */
-  border: none;
-  /* Remove button border */
-  padding: 14px 25px;
-  /* Add padding to the button */
-  text-decoration: none;
-  /* Remove underlines from the button text */
-  cursor: pointer;
-  /* Change cursor to a pointer on hover */
-  border-radius: 30px;
-  /* Add rounded corners to the button */
-  float: right;
-  display: inline;
-  margin-top: 10px;
-
-}
-
-.logo {
-  width: 120px;
-  /* Set the width of the logo as needed */
-  height: auto;
-  /* Maintain the aspect ratio of the logo */
-  margin-right: 300px;
-  /* Add spacing between the logo and other links */
-  margin-top: 5px;
-
-
-}
-/* .first{
-  font-size: 24px;
-  font-family: 'DM Sans', sans-serif;
-  padding: 150px;
-  white-space: pre-wrap;
-  
-}
-
-.second{
-
-  font-family: 'DM Sans',
-    sans-serif;
-  font-size: 13;
-  padding: 150px;
-  margin-top: -300px;
-  font-weight: 100;
-}
-utton {
-  cursor: pointer;
-  font-family: Helvetica, "sans-serif";
-  transition: all .2s;
-  padding: 8px 25px;
-  border-radius: 100px;
-  background: #2d2e52;
-  border: 1px solid white;
+.info{
+  margin-left: 6%;
+  margin-top: 7%;
   display: flex;
-  align-items: center;
-  justify-content: left;
-  max-width: 500px;
-  font-size: 13px;
-  color: white;
-  margin: 20px 0 60px 0;
-  text-align: right;
-
-
-
+  flex-direction: column;
+  justify-content: space-between;
 }
-
-button:hover {
-  background: white;
-  color: black;
-}
-
-button>svg {
-  width: 34px;
-  margin-left: 10px;
-  transition: transform .3s ease-in-out;
-}
-
-button:hover svg {
-  transform: translateX(5px);
-}
-
-button:active {
-  transform: scale(0.95);
-}
-*{
-  background: rgb(162, 162, 239) ;
-  margin: 0;
-  padding: 0;
-  font-family: 'DM Sans', sans-serif;
-  
-}
-
 .heading{
-  font-size: 60px;
-  font-family: 'DM Sans', sans-serif;
-  padding: 130px;
+  margin-left: 6%;
+  margin-top: 6%;
 }
-.paragraph{
-  font-size: 25px;
-  padding: 130px;
-  
-
-} */
-
-/* imported the 'DM Sans',sans-serif  font family*/
-
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
-
-body {
-  background-color: #DBC2F5;
-
-
-}
-/* homepage styling */
-.homepage{
-  padding: 5%;
+.container1 {
   display: flex;
-  flex-direction: row;
-}
-.homepage img{
-  width: 95%;
+  justify-content: space-between;
+  border-bottom: 3px solid rgb(214, 214, 214)  ;
+
   
 }
 
-.homepage .information{
-  font-family: 'DM Sans',
-    'sans-serif';
-  margin-left: 9%;
-  font-size: 24px;
-  margin-top: 70px;
-  padding: 35px;
-  word-spacing: 12px;
-  line-height: 30px;
-  font-weight: 550;
-  
-
-  
-
+.container2{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid rgb(214, 214, 214);
 }
-*{
-font-family: 'DM Sans','sans-serif';
+.container3{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid rgb(214, 214, 214);
 }
 p{
+  color: grey;
+  font-weight: bold;
+}
+.container1,
+.container2,
+.container3 {
   margin-bottom: 35px;
-  font-family: 'DM Sans', 'sans-serif';
+  
 }
 h1{
-  margin-bottom: 39px;
+  font-size: 40px;
   letter-spacing: 2px;
 }
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'DM Sans', sans-serif;
+h2{
+  color: rgb(76, 74, 74);
 }
+h3{
+  color: rgb(76, 74, 74);
+}
+
+/* Media query for phones (max-width: 768px) */
+@media (max-width: 768px) {
+  .info {
+    margin-left: 2%;
+    
+    margin-top: 5%;
+    
+  }
+
+  .heading {
+    margin-left: 2%;
+    margin-top: 5%;
+  }
+
+  .container1,
+  .container2,
+  .container3 {
+    margin-bottom: 20px;
+   
+  }
+
+  h1 {
+    font-size: 25px;
+    
+  }
+}
+
+
