@@ -17,57 +17,6 @@ body {
   font-family: 'DM Sans';
 }
 
-.paragraph {
-  text-align: left;
-  font: normal normal normal 29px/32px DM Sans;
-  letter-spacing: 0px;
-  color: #000000;
-  opacity: 1;
-  top: 513px;
-  left: 209px;
-  width: 741px;
-  height: 224px;
-  margin-left: 130px;
-  margin-top: -40px;
-  word-spacing: 13px;
-
-}
-
-.elipse1 {
-  top: 229px;
-  left: 219px;
-  position: absolute;
-  width: 1065px;
-  height: 1056px;
-  background: transparent linear-gradient(90deg, #DBC2F500 0%, #DBC2F5E6 100%) 0% 0% no-repeat padding-box;
-  mix-blend-mode: multiply;
-  border-radius: 50%;
-  margin-bottom: 190%;
-
-
-
-}
-
-.elipse2 {
-  top: 229px;
-  left: 846px;
-  position: absolute;
-  width: 1065px;
-  height: 1056px;
-  transform: matrix(-1, 0, 0, -1, 0, 0);
-  background: transparent linear-gradient(90deg, #DBC2F500 0%, #DBC2F5E6 100%) 0% 0% no-repeat padding-box;
-  mix-blend-mode: multiply;
-  margin-bottom: 190%;
-  /* opacity: 1; */
-  border-radius: 50%;
-  
-  
-}
-.main-elipse{
-  margin-top: 1px;
-}
-
-
 button {
   cursor: pointer;
   max-width: 250px;
@@ -161,6 +110,7 @@ nav a:hover {
   text-align: center;
   color: #fff;
   cursor: pointer;
+  margin-top: 20%;
 
 }
 
@@ -171,122 +121,8 @@ nav a:hover {
 
 }
 
-.container {
-  max-width: 100%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* Limit the width of the content */
-  max-width: 100%;
-  /* Change to 100% to make it full-width */
-  /* Center the content horizontally */
-  margin: 0 auto;
-  /* Arrange items side by side with space in between */
-  display: flex;
-  justify-content: space-between;
-  /* Center the content vertically */
-  align-items: center;
-  /* Add padding for spacing */
-  padding: 10px 20px;
-}
-
-header {
-
-  background-color: transparent;
-  color: #000;
-  height: var(--elewa-website-header-bg-height);
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-
-  position: relative;
-  z-index: 999;
-  margin-bottom: 180px;
-}
-
-
-h1 {
-  font-size: 53px;
-  letter-spacing: 5px;
-
-
-
-
-}
-
 .logo {
   margin-left: 120px;
-}
-@media screen and (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    /* align-items: center; */
-    padding: 10px;
-  }
-  h1{
-    margin-right: 15%;
-    padding-right: 95%;
-    background-color: aqua;
-   
-   
-   
-  }
-  .heading{
-    background-color: aqua;
-  }
-  .paragraph{
-    margin-right: 40%;
-    margin-top: 8%;
-  }
 
-  .logo {
-    margin: 10px 0;
-    margin-right: 69%;
-  }
-
-  .heading {
-    top: 200px;
-    left: 20px;
-    width: auto;
-    text-align: center;
-    font-size: 36px;
-  }
-
-  .paragraph {
-    top: 340px;
-    left: 20px;
-    width: auto;
-    text-align: center;
-    font-size: 18px;
-    word-spacing: 5px;
-  }
-
-  .elipse1,
-  .elipse2 {
-    display: none;
-  }
-
-  .button {
-    /* margin: 60px 0; */
-    margin-left: -60%;
-    text-align: center;
-    margin-top: -15%;
-  }
-
-  .nav-menu {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .nav a {
-    margin: 10px 0;
-  }
-
-  .contact-button {
-    /* top: 20px;
-    right: 20px; */
-    margin-left: -1%;
-  }
+  
 }
