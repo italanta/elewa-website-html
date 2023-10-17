@@ -173,7 +173,7 @@ body {
   }
   
   /* Style for the anchor */
-  .home_contact {
+  .conversational_contact {
     text-decoration: none;
     color: #FFFFFF; /* Change the text color to black */
     font-size: 16px; /* Adjust font size as needed */
@@ -185,7 +185,7 @@ body {
   }
   
   /* Style for the arrow image */
-  .home_contact img {
+  .conversational_contact img {
     display: inline-block;
     vertical-align: middle; /* Align the image vertically with the text */
     width: 25px; /* Adjust arrow size as needed */
@@ -311,7 +311,7 @@ body {
       
     }
   
-    .containerss{
+    .conversational-containerss{
       margin-top: 180px;
       margin-left: 30%;   
     }
@@ -327,7 +327,7 @@ body {
       margin-left: -180px;
     }  
     
-    .home_contact {
+    .conversational_contact {
       font-size: 16px; /* Adjust font size as needed */
       display: flex;
       background-color: #000000; /* Circular background color */
@@ -336,7 +336,7 @@ body {
     }
     
     /* Style for the arrow image */
-    .home_contact img {
+    .conversational_contact img {
       width: 25px; /* Adjust arrow size as needed */
       height: 25px; /* Adjust arrow size as needed */
       margin-left: 5px; /* Add space between text and arrow */
