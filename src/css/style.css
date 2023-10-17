@@ -1,187 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,600&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
   background-color: #F9F8F4;
 }
-
-.logo-txt{
-  font-family: 'HvDTrial Brandon Text', sans-serif;
-  font-size: 70px;
-  font-weight:400;
-  color:#000;
-}
-.menu-bar {
+.main-nav{
+  margin: 2rem 11rem;
   display: flex;
   justify-content: space-between;
-  align-content: center;
-  margin-top: 60px;
-}
-.arrow-animation {
-  transform: -180deg;
-}
-.arrow-animation:hover {
-  transition: all 400ms ease;
-  transform: rotate(180deg);
-}
-.projects:hover {
-  text-decoration: underline;
-}
-.company:hover {
-  text-decoration: underline;
-}
-.news:hover {
-  text-decoration: underline;
-}
-.menu-links {
-  font-family: 'DM Sans', sans-serif ;
-  font-weight: 400;
-  font-size: 16px;
   align-items: center;
-
-  display:flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  justify-content: space-between;
+  font-family: 'DM Sans', sans-serif;
 }
-.button button {
-  margin-top: 2rem;
-  margin-left: -17rem;
+
+.logo-png{
+  width: 110px;
+  height: 50px;
+  left: -3rem;
+  top: -0.5rem;
+ 
+}
+
+.navigation{
+  display: inline;
+  font-size: 13.33333px;
+  font-weight: 400;
+}
+
+.navigation div{
+  display: inline;
+  margin: 1rem;
+}
+
+.navigation a{
+  margin: 2rem;
+  text-decoration: none;
+  background:none;
+  color: black;
+  
+}
+.caret-animation{
+  display:inline;
+  margin-left:-0.4rem;
+}
+.caret-animation::before{
+transform:rotate(-180deg);
+transition: all 600ms ease-out;
+
+}
+
+.caret-animation svg:hover{
+ transition: all 600ms ease-out;
+ transform: rotate(180deg);
+ 
+}
+
+
+ 
+
+.main-nav button{
   background-color: #2D2E52;
-  padding: 0.5rem 1rem;
   color: white;
+  padding: 0.5rem 1rem;
   border-radius: 2rem;
   border-color: transparent;
-  margin-right: 5.4rem;
-  font-family: 'DMSans-Regular', sans-serif;
-  font-size: 15.4px;
-  font-weight: 500;
-}
-.landing-page {
-  
-  max-width: 1440px;
-  margin: 0 auto;
-  padding-top: 16px;
+  margin: 2rem 3rem;
 }
 
-.landing-content {
-  align-items:center;
-  justify-content: left;
+li{
+  display: inline;
+}
+.parent{
+  /* text-align: center; */
   display: flex;
-  margin-top: 40px;
-  margin-left: 4rem;
-}
-
-.landing-desc p{
-  font-size: 46px;
-  font-family: 'DMSans', sans-serif;
-  font-weight: 500;
-  align-items: left;
-  gap: 10px;
-}
-.landing-desc h2 {
-  display: flex;
-  font-size: 40px;
-  font-weight: 300;
-  font-family: 'DMSans', sans-serif;
-  white-space: nowrap;
-  align-items: left;
-  gap: 10px;
-}
-.landing-desc button {
-  background: #000000; 
-  border-radius: 29px 29px 29px 29px;
-  text-align: left;
-  color: #FFFFFF;
-  font-size: 18px;
-  padding: 16px;
-  border: none;
-  width: 300px ;
-  position: relative;
-  margin-left: 0px;
-  margin-top: 10px;
-}
-.landing-img {
-  width:90rem;
-  height:40rem;
-  max-width: 75%;
-  margin-top: 3rem;
-  margin-right:2rem;
-}
-
-.solutions{
-  display: flex;
-  justify-content: space-between;
-  align-content:center;
-  margin-right:2.1rem;
-}
-
-.projects{
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin-right: 0.987rem;
-  text-decoration: none;
-  color:black;
-}
-.company{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-right: 0.987rem;
-  text-decoration: none;
-  color:black;
-}
-.news{
-  text-decoration: none;
-  color:black;
-}
-.img-container {
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-left: 6rem;
-}
-.landing-desc h3 {
-  text-align: left;
-  font-size: 82px;
-  font-family: 'DM Sans', sans-serif;
-}
-.landing-desc p {
-  text-align: left;
-  font-size: 40px;
-  font-family: 'DM Sans', sans-serif;
 }
 
-
-.Consultancy{
-  text-decoration: none;
-  color: #000;
-  font-weight: 500;
-  font-size: 15px;
-  margin-top: 4rem;
-  margin-left: 0.5rem;
+.Projects:hover{
+ text-decoration: underline;
 }
+.Company:hover{
+  text-decoration: underline;
+ }
+ .News:hover{
+  text-decoration: underline;
+ }
 
-/* .hover-menu{
-  margin-left: -17rem;
-  margin-top: 3rem;
-  display: flex;
-  fill: white;
-  color: black;
-  font-family: 'DM Sans', sans-serif;
-  text-decoration: none;
-}
-
-.hover-1{
- text-decoration: none;
- color: black;
- margin-top: 3rem;
- margin-right: 2rem;
- font-weight: 500;
- font-size:14px;
-
-} */
 
 /* Mobile and Tablet design view */
 @media only screen and (max-width: 760px) {
