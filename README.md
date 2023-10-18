@@ -1,3 +1,7 @@
+# Website Footer Screenshot
+
+![Footer](image.png)
+
 # iTalanta "Discover" Program Contribution Guide
 
 Welcome to the iTalanta "Discover" program! This guide provides students and contributors with essential information and guidelines for making contributions to the iTalanta "Discover" program. In this guide, we'll cover what to expect from the program and provide details on our workflow documentation.
