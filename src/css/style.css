@@ -3,10 +3,10 @@
   opacity: 1;
 }
 .news-section{
-
   margin: 0 209px 0 209px;
 }
 .news-header h1{
+  margin-top: 40px;
   text-align: left;
   font-family: 'DM Sans', sans-serif;
   letter-spacing: 0px;
@@ -16,16 +16,35 @@
 
 .news-content{
   font-family: 'DM Sans', sans-serif;
-opacity: 1;
+  opacity: 1;
 
 }
+
+h4 {
+  letter-spacing: -0.54px;
+  color: #404040;
+  opacity: 1;
+}
+
+p {
+  letter-spacing: -0.33px;
+  color: #404040;
+  opacity: 0.52;
+}
+
+a{
+  letter-spacing: -0.33px;
+  color: #404040;
+  opacity: 1;
+}
+
 
 .news-item h4, 
 .news-item p,
 .news-item a {
   display: inline-block;
   margin-right: 10px;
-  padding: 20px;
+  padding: 20px 40px 20px 0;
 }
 
 .news-item {
