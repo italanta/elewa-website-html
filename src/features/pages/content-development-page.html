@@ -3,29 +3,71 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Content Development Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Oswald&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="/src/css/content-development-page.css">
+
+   <script defer type="module" src="/dist/out-tsc/navbar.js"></script>
  
 </head>
 <body>
+  <!-- Header -->
   <header>
-    <h1>Content Development Page</h1>
-    <nav>
-      <ul>
-        <li><a href="#summary">Summary</a></li>
-        <li><a href="#description">Description</a></li>
-        <li><a href="#template">Template</a></li>
-        <li><a href="#example">Example</a></li>
-        <li><a href="#resources">Resources</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
- 
-  </main>
-
-
-
+    <div class="navbar">
+       <div class="logo">
+          <a href="#">
+             <img class="logo-img"
+                src="https://res.cloudinary.com/dyl3rncv3/image/upload/v1695970671/elewa-education-website/Shared/elewa-logo_eocvkz.png"
+                alt="logo">
+          </a>
+       </div>
+       <!-- navbar links -->
+       <ul class="links">
+          <li class="nav_1_link"><a href="solutions">Solutions <i class="fa-solid fa-angle-up fa-rotate-180"></i></a>
+          </li>
+          <li class="nav_2_links"><a href="projects">Projects</a></li>
+          <li class="nav_2_links"><a href="company">Company</a></li>
+          <li class="nav_2_links"><a href="news">News</a></li>
+       </ul>
+       <a class="action_btn" href="contact">Contact Us</a>
+       <!-- navbar toggle button -->
+       <div class="toggle_btn">
+          <i class="fa-sharp fa-solid fa-bars"></i>
+       </div>
+       <!-- Dropdown menu -->
+       <div class="navbar_dropdown_menu">
+          <li class="nav_1_link"><a href="solutions">Solutions <i class="fa-solid fa-angle-up fa-rotate-180"></i></a>
+          </li>
+          <li class="nav_2_links"><a href="projects">Projects</a></li>
+          <li class="nav_2_links"><a href="company">Company</a></li>
+          <li class="nav_2_links"><a href="news">News</a></li>
+          <li class="dropdown_action_btn"><a href="contact">Contact Us</a></li>
+       </div>
+    </div>
+ </header>
+ <div class="content-container">
+  <div class="content-properties">
+  <article class="content_content">
+     <h1>Content development</h1>
+     <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolorem ipsum quia dolor sit Eos qui ratione voluptatem sequi nesciunt.</h2>
+</article>
+     <!-- button -->
+     <button class="content_contact">Unlock your potential <img
+           src="https://res.cloudinary.com/dyl3rncv3/image/upload/v1695972080/elewa-education-website/Shared/toRightArrow_tlcdnk.svg"
+           alt="Arrow">
+     </button>
+</div>
+ <div class=" content-containerss">
+     <div class="circle1"></div>
+     <div class="circle2"></div>
+     <div class="circle3"></div>
+ </div>
+</div>
 </body>
 </html>
 
