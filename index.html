@@ -1,18 +1,116 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaboration and Contribution</title>
+    <link rel="stylesheet" href="src/css/projects-carousel.css" />
 
-  <title>Collaboration and Contribution</title>
-  <link rel="stylesheet" href="src/css/style.css">
+    <script defer type="module" src="dist\out-tsc\index.js"></script>
+    <script type="module" src="src/ts/projects-carousel.ts"></script>
+  </head>
 
-  <script defer type="module" src="dist\out-tsc\index.js"></script>
-</head>
+  <body>
+    <div class="project-carousel-page">
+      <h1>Projects</h1>
+      <div class="carousel-viewport">
+        <div class="projects-carousel">
+          <!-- card 1 -->
+          <div class="carousel-card">
+            <img
+              class="carousel-image"
+              src="https://plus.unsplash.com/premium_photo-1664300563933-103716c973d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
+              alt="happy kid"
+            />
+            <button class="carousel-button">Education</button>
+            <h2>Introducing Conversational learning ipsum dolar</h2>
+            Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+            dolorem ipsum quia
+          </div>
 
-<body>
-</body>
+          <!-- card 2 -->
+          <div class="carousel-card">
+            <img
+              class="carousel-image"
+              src="https://images.unsplash.com/photo-1532509854226-a2d9d8e66f8e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
+              alt="happy kid"
+            />
+            <button class="carousel-button">Environment</button>
+            <h2>Content development for a sustainable future</h2>
+            Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+            dolorem ipsum quia
+          </div>
 
+          <!-- card 3 -->
+          <div class="carousel-card">
+            <img
+              class="carousel-image"
+              src="https://images.unsplash.com/photo-1582719471137-c3967ffb1c42?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1972&q=80"
+              alt="scientist"
+            />
+            <button class="carousel-button">Healthcare</button>
+            <h2>Large scale training for healthcare professionals</h2>
+            Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+            dolorem ipsum quia
+          </div>
+
+          <!-- card 4 -->
+          <div class="carousel-card">
+            <img
+              class="carousel-image"
+              src="https://images.unsplash.com/photo-1530541835461-dedaf9cf368a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
+              alt="scientist"
+            />
+            <button class="carousel-button">Agriculture</button>
+            <h2>Introduciing sustainable agricultural methods</h2>
+            Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+            dolorem ipsum quia
+          </div> 
+        </div>
+      </div>
+      <div class="arrows">
+        <button id="prevButton" class="carousel-arrow"><img src="assets/images/previous.png" alt="left arro"></button>
+        <button id="nextButton" class="carousel-arrow"><img src="assets/images/next.png" alt="right arrow"></button>
+      </div>
+    </div>
+    
+    <script>
+      //references to the carousel elements
+      const carousel = document.querySelector('.projects-carousel');
+      const nextButton = document.querySelector('#nextButton');
+      const prevButton = document.querySelector('#prevButton');
+      const carouselCardWidth = 480; 
+
+      //initial index to track the current image
+      let currentIndex = 0;
+      
+      //Function to scroll to the next image
+      function nextImage(){
+        currentIndex++;
+        if (currentIndex > 3){
+          currentIndex = 0;
+        }
+        updateCarousel();
+      }
+
+      function prevImage(){
+        currentIndex--;
+        if (currentIndex <0){
+          currentIndex = 3;
+        }
+        updateCarousel();
+      }
+      //function that updates the position of each element in the carousel
+      function updateCarousel(){
+        const newPosition = -currentIndex * carouselCardWidth
+        carousel.style.transform = `translateX(${newPosition}px)`;
+      }
+      //event listener to the next and previous buttons
+      nextButton.addEventListener('click', nextImage);
+      prevButton.addEventListener('click', prevImage);
+
+    </script>
+  </body>
 </html>

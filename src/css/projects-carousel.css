@@ -1,0 +1,102 @@
+body{
+    /* overflow: hidden; */
+}
+
+.project-carousel-page{
+    padding-left: 109px;
+}
+
+.carousel-viewport{
+    overflow: hidden;
+    
+    width: 80%; /* Set the desired width of the carousel */
+    
+    
+    
+    
+}
+
+.projects-carousel{
+    display: flex;
+    width: 1000%; /* A very large width to contain all images */
+    transition: transform 0.5s ease-in-out;
+    
+    
+}
+
+.project-carousel-page h1{
+    font-size: 42px;
+    font-family: "DM Sans", sans-serif;
+    
+}
+
+.carousel-card{
+    width: 420px;
+    height: 806px;
+    position: relative;
+    font-size: 18px;
+    font-family: "DM Sans", sans-serif;
+    margin-right: 60px;
+
+}
+
+
+.carousel-image{
+    width: 420px;
+    height: 600px;
+    border-radius: 3%;
+    
+}
+
+.carousel-button{
+    margin-top: 20px;
+    padding: 8px 20px;
+    border-color: #707070;
+    background-color: transparent;
+    border-width: 1px;
+    border-radius: 42px;
+
+}
+
+.arrows{
+    /* margin-left: 1250px; */
+    text-align: center;
+    margin-right: 150px;
+}
+
+.carousel-arrow{
+    margin: 80px 0px 40px 0px;
+    background-color: transparent;
+    border: none;
+    
+}
+
+.carousel-arrow img{
+    width: 70px;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .carousel-card{
+        width: 300px;
+        height: 706px;
+        font-size: 15px;
+    }
+    .carousel-image{
+        width: 320px;
+        height: 500px;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .carousel-card{
+        width: 200px;
+        height: 606px;
+        font-size: 13px;
+    }
+    .carousel-image{
+        width: 220px;
+        height: 400px;
+    }
+    
+}
