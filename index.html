@@ -156,42 +156,6 @@
       </div>
     </div>
     
-    <script>
-      //references to the carousel elements
-      const carousel = document.querySelector('.projects-carousel');
-      const nextButton = document.querySelector('#nextButton');
-      const prevButton = document.querySelector('#prevButton');
-      const carouselCardWidth = 480; 
-
-      //initial index to track the current image
-      let currentIndex = 0;
-      
-      //Function to scroll to the next image
-      function nextImage(){
-        currentIndex++;
-        if (currentIndex > 3){
-          currentIndex = 0;
-        }
-        updateCarousel();
-      }
-
-      function prevImage(){
-        currentIndex--;
-        if (currentIndex <0){
-          currentIndex = 3;
-        }
-        updateCarousel();
-      }
-      //function that updates the position of each element in the carousel
-      function updateCarousel(){
-        const newPosition = -currentIndex * carouselCardWidth
-        carousel.style.transform = `translateX(${newPosition}px)`;
-      }
-      //event listener to the next and previous buttons
-      nextButton.addEventListener('click', nextImage);
-      prevButton.addEventListener('click', prevImage);
-
-    </script>
     
     <script src="src/ts/project-carousel.js"></script>
   </body>
