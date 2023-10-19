@@ -75,6 +75,8 @@ body{
     width: 70px;
 }
 
+/* media queries section */
+
 @media (min-width: 768px) and (max-width: 1199px) {
     .carousel-card{
         width: 300px;
