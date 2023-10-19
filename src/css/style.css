@@ -6,16 +6,16 @@
 
   margin: 0 209px 0 209px;
 }
-.news-header{
+.news-header h1{
   text-align: left;
-  font: normal normal medium 62px/80px DM Sans;
+  font-family: 'DM Sans', sans-serif;
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
 }
 
 .news-content{
-
+  font-family: 'DM Sans', sans-serif;
 opacity: 1;
 
 }
