@@ -76,8 +76,8 @@ hr{
       }
 
 }
-/* Media Query for small tablets */
-@media (max-width: 768px) and (max-width: 991px) {
+/* Media Query for smaller screens (e.g., tablets) */
+@media (max-width: 575px) {
     #test-grid {
         grid-template-columns: 1fr; 
 
@@ -92,7 +92,35 @@ hr{
       } 
 
     }
-/* Large tablets/laptops */
+/* Styles for screens between 576px and 767px (mobile phones in landscape mode) */
+@media (min-width: 576px) and (max-width: 767px) {
+    #test-grid {
+        grid-template-columns: 1fr; 
+        align-items: center;
+      }
+    #test-grid p{
+        text-align: center;
+    }
+    #test-grid::after {
+        width: 100%; /* Adjusted to be responsive */
+        margin: 20px 0; /* Reduced margin for smaller screens */
+      } 
+}
+/* Styles for screens between 768px and 991px (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+    #test-grid {
+        grid-template-columns: 1fr; 
+        align-items: center;
+      }
+    #test-grid p{
+        text-align: center;
+    }
+    #test-grid::after {
+        width: 100%; /* Adjusted to be responsive */
+        margin: 20px 0; /* Reduced margin for smaller screens */
+      } 
+}
+/* Styles for screens between 992px and 1199px (small laptops and desktops) */
 @media (min-width: 992px) and (max-width: 1199px) {
     #test-grid {
         grid-template-columns: 1fr; 
@@ -106,22 +134,8 @@ hr{
         margin: 20px 0; /* Reduced margin for smaller screens */
       } 
 }
-/* Desktops */
-@media (min-width: 1200px) and (max-width: 1919px) {
-    #test-grid {
-        grid-template-columns: 1fr; 
-        align-items: center;
-      }
-    #test-grid p{
-        text-align: center;
-    }
-    #test-grid::after {
-        width: 100%; /* Adjusted to be responsive */
-        margin: 20px 0; /* Reduced margin for smaller screens */
-      } 
-}
-/* Styles for extra large screens */
-@media (max-width: 1920px) {
+/* Styles for screens 1200px or larger (medium to large desktops) */
+@media (min-width: 1200px) {
     #test-grid {
         grid-template-columns: 1fr; 
         align-items: center;
