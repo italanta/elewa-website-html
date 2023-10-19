@@ -85,6 +85,7 @@ filter: brightness(0%) contrast(100%);
 /* /Dropdown menu/ */
 .navbar_dropdown_menu {
   position: absolute;
+  z-index: -1;
   right: 2rem;
   top: 60px;
   height: 0;
@@ -188,7 +189,8 @@ padding-top: 35px;
 }
 .content-properties{
 position: absolute;
-z-index: 1;
+z-index: -1;
+/* background-color: aqua; */
 }
 
 .content_content{
@@ -375,7 +377,7 @@ border-radius: 50%; /* Make it circular */
   }
   .content-properties{
     position: absolute;
-    z-index: 1;
+    z-index: -1;
   }
 }
 
