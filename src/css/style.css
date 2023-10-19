@@ -10,7 +10,7 @@ opacity: 1;
 }
 #carousel{
 /* Layout Properties */
-outline:3px solid black;
+outline:3px solid black; 
 position: relative;
 top: 562px;
 left: 209px;
@@ -22,14 +22,14 @@ opacity: 1;
 #carousel-list{
     position: relative;
     /* overflow-x: hidden;  */
-    outline:3px solid grey;
+    outline:3px solid grey; 
     display:flex;
     width:1000000px;
 }
 #carousel-list-disp{
     position: relative;
     overflow-x: hidden; 
-    outline:10px solid blue;
+    outline:10px solid blue; 
     display:flex;
     top:158px;
     height:865px;
@@ -37,7 +37,7 @@ opacity: 1;
 
 }
 #carousel-title{
-outline:3px solid blue;
+/* outline:3px solid blue; */
 position:absolute;
 /* Layout Properties */
 width: 893px;
@@ -52,13 +52,13 @@ color: #000000;
 opacity: 1;    
 }
 .card{
-    outline:3px solid yellow;
+    outline:3px solid yellow; 
     top:158px;
     margin-right:39px;
     display: inline-block;
 }
 .card-img-box{
-outline:1px solid green;
+outline:1px solid green; 
 width: 474px;
 height: 616px;
 }
@@ -128,9 +128,9 @@ opacity: 1;
 #scroll-left{
   margin-right:31px;
 }
-#scroll-left:hover{
-   background-color: #e1dbdb; 
-}
-#scroll-right:hover{
-    background-color: #e1dbdb; 
- }
+/* #scroll-left:hover{ */
+   /* background-color: #e1dbdb;  */
+/* } */
+/* #scroll-right:hover{ */
+    /* background-color: #e1dbdb;  */
+ /* } */
