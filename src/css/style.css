@@ -6,6 +6,292 @@
 
 
 
+body{
+  background-color: black;
+}
+
+header{
+ display: flex;
+ flex-direction: row;
+ gap: 320px;
+ position: fixed;
+ top: 15px;
+ background-color: plum;
+height: 60px;
+padding: 15px;
+width: 1000px;
+left: 9px;
+}
+
+
+header #logo{
+  width: 6%;
+  filter: brightness(0);
+  height: 30px;
+}
+
+
+
+header button{
+  transform: translateX(120px);
+  font-size: 8px;
+  background-color: black;
+  width: 60px;
+  border-radius: 20px;
+  border-color: rgba(255, 0, 0, 0.836);
+  color: white;
+
+}
+
+
+
+
+
+
+
+
+header select{
+  border: transparent;
+  font-size: 8px;
+  background-color: transparent;
+}
+
+header nav, select, button{
+  font-size: 10px;
+}
+
+
+
+header nav{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+
+/* Tablet */
+
+@media (max-width: 768px){
+
+  header{
+  
+    width: 730px;
+    height: 80px;
+    padding-top: 25px;
+  
+  }
+  
+  
+  header nav{
+    transform: translateX(-90px);
+  }
+  
+  
+  
+  
+  header button{
+    transform: translateX(-1px);
+    font-size: 8px;
+    width: 80px;
+    height: 30px;
+  
+  }
+  
+  
+  
+  header #logo{
+    width: 8%;
+    filter: brightness(0);
+    height: 30px;
+  
+  }
+  
+  
+  
+  
+  }
+
+
+
+
+
+/* mobile */
+@media     (min-width:398px)   and  (max-width: 500px){
+
+  header{
+    width: 480px;
+    height: 300px;
+  }
+
+  
+
+header nav{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+    
+header #logo{
+  width: 13%;
+  filter: brightness(0);
+  height: 30px;
+}
+
+
+
+
+
+header button{
+  font-size: 8px;
+  background-color: black;
+  width: 60px;
+  border-radius: 20px;
+  border-color: rgba(255, 0, 0, 0.836);
+  color: white;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
