@@ -1,5 +1,33 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  background: #F9F8F4 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.news-section{
+
+  margin: 0 209px 0 209px;
+}
+.news-header{
+  text-align: left;
+  font: normal normal medium 62px/80px DM Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.news-content{
+
+opacity: 1;
+
+}
+
+.news-item h4, 
+.news-item p,
+.news-item a {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 20px;
+}
+
+.news-item {
+  text-align: left;
 }
