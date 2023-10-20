@@ -113,7 +113,7 @@ color: #000000;
 opacity: 1;
 }
 #scrolling-btns{
-    /* outline:2px solid red; */
+    outline:2px solid red; 
     position: absolute;
     /* top:1100.46px; */
     display:flex;
@@ -127,6 +127,30 @@ opacity: 1;
 }
 #scroll-left{
   margin-right:31px;
+}
+
+/* responsive css for phone */
+@media(max-width:390px){
+#scrolling-btns{
+    left:5%;
+}
+#carousel-list{
+    position: relative;
+    /* overflow-x: hidden;  */
+    outline:3px solid grey; 
+    display:flex;
+    width:26%;
+}
+#carousel-list-disp{
+    position: relative;
+    overflow-x: hidden; 
+    outline:10px solid blue; 
+    display:flex;
+    top:158px;
+    height:865px;
+    width:26%;
+
+}
 }
 /* #scroll-left:hover{ */
    /* background-color: #e1dbdb;  */

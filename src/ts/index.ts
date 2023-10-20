@@ -50,7 +50,7 @@ const cardData: Card[] = [
     cardDescription: 'Description for Card 7',
   },
 
-  // Duplicate the cards for seamless looping
+  // Duplicate the  first card for seamless looping
   {
     imageUrl: 'https://res.cloudinary.com/dyl3rncv3/image/upload/v1679665800/elewa-group-website/elewa-team-members/jeff-elewa_hdupp7.jpg',
     imageAlt: 'Image 1',
@@ -74,9 +74,9 @@ const cardContainer = document.getElementById('carousel-list') as HTMLElement;
 const scrollLeftBtn = document.getElementById('scroll-left') as HTMLElement;
 const scrollRightBtn = document.getElementById('scroll-right') as HTMLElement;
 const cardWidth = 513; // Adjust this value according to your card width in pixels
-let currentOffset = 0;
+let currentOffset = 0;//this is the index of the card in the array
 
-// Number of cards visible at a time
+// Number of cards visible at a time in th carousel-list div
 const visibleCards = 4;
 
 // Function to create a card element from card data
@@ -102,30 +102,31 @@ function createCardElement(card: Card): HTMLElement {
 function addCardsToCarousel(cards: Card[]): void {
   cards.forEach((card) => {
     const cardElement = createCardElement(card);
-    cardContainer.appendChild(cardElement);
+    cardContainer.appendChild(cardElement);//where cardContainer is the div with id->"carousel-list"
   });
 }
 
-// Event listener for the "Scroll Left" button
+//functionality for the 'prev' button
 scrollLeftBtn.addEventListener('click', () => {
   console.log("prev btn clicked");
+  const maxOffset = cardData.length;
   if (currentOffset > 0) {
-    currentOffset -= visibleCards;
+    currentOffset -= 1;
   } else {
-    // Loop back to the end if at the beginning
-    currentOffset = cardData.length - visibleCards;
+    // If at the first card, set the offset to the last card for a reverse loop
+    currentOffset = maxOffset - visibleCards;
   }
   updateCarousel();
 });
 
-// Event listener for the "Scroll Right" button
+//functionality for the 'next' button
 scrollRightBtn.addEventListener('click', () => {
   console.log("next btn clicked");
-  const maxOffset = cardData.length - visibleCards;
-  if (currentOffset < maxOffset) {
-    currentOffset += visibleCards;
+  const maxOffset = cardData.length;
+  if (currentOffset + visibleCards < maxOffset) {
+    currentOffset += 1;
   } else {
-    // Loop back to the beginning if at the end
+    // If the current card is the last one, set the offset to the first card
     currentOffset = 0;
   }
   updateCarousel();
