@@ -1,0 +1,287 @@
+/* Importing the DM Sans font */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+body{
+    background-color: #FAE9E8;
+    margin: 0;
+    overflow-x: hidden;
+    overflow: hidden;
+
+}
+/* menu */
+.menu{
+    display: none;
+}
+/* Adding style to the container that has the image and content */
+.homepage{
+    display: flex;
+    flex-direction: row;
+    
+}
+/* Adding style to the image */
+.homepage img{
+    width: 30%;
+}
+/* Adding style to the container that holds the content */
+.homepage .details{
+    font-family:'DM Sans', 'sans-serif';
+    font-size: larger;
+}
+/* Adding style to the paragraph content */
+.homepage p{
+    margin-top: 20px;
+    font-size: large;
+}
+/* Adding style to the header */
+.homepage h3{
+    margin-top: 15%;
+}
+/*Styling the container holding the body content*/
+.conv-container{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+/*Styling the container that holds the wordings*/
+.conv-content{
+    margin-top: 10rem;
+    position: absolute;
+    z-index: 1;
+    margin-left: 9rem;
+    width: 40%;
+    overflow: hidden;
+    font-size: large;
+    font-family:'DM Sans', 'sans-serif';
+}
+.eclipses{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+    margin:  4% 0 0 25%;
+    width: 900px;
+    height: 450px;
+
+}
+/*Styling the first eclipse*/
+.eclipse-one{
+    width: 33rem;
+    height: 20rem;
+    border-radius: 33rem;
+    margin: 0 0 0 -300px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(230,144,131)); 
+    
+}
+/*Styling the second eclipse*/
+.eclipse-two{
+    width: 33rem;
+    height: 20rem;
+    border-radius: 33rem;
+    margin: 0 0 0 300px;
+    margin-top: 8rem;
+    /* margin-right: 13rem;  */
+    position: absolute;
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(230,144,131));
+    
+}
+/*Styling the container holding the details concerning the organization*/
+.conv-container p{
+    /* margin-right: 5rem; */
+    width: 100%;
+}
+/*Styling the header*/
+.conv-content h1{
+    font-size: 35px;
+    letter-spacing: 4px;
+}
+/*Styling the button*/
+.conv-container .button-submit{
+    width: 15rem;
+    background-color: black;
+    color: white;
+    border-radius: 5rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/*Styling the button content*/
+.conv-container .button-submit .text{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 12.5px;
+}
+/*Styling the container holding the icon*/
+.conv-container .icon{
+    background-color: white;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    margin-top: 9px;
+    margin-left: 10px;
+    margin-right: 0;  
+}
+/*Styling the navigation bar*/
+.top-nav{
+    overflow-x: hidden;
+    margin-top: 20px;
+    width: 100%;
+}
+/*Styling the centered menu*/
+.top-center {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -40px;
+}
+/*Styling the navigation links*/
+.top-nav a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 15px;
+    float: left;
+    font-family:'DM Sans', 'sans-serif';
+}
+/*Styling the solution item in the menu*/
+.top-nav .active{
+    font-weight: bold;
+    text-decoration: underline;
+}
+/*Styling the brand image*/
+.top-nav img{
+    margin-left: 9rem;
+    width: 7rem;
+    color: #000;
+}
+/*Styling the contact us button*/
+.contact{
+    float: right;
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+    font-family:'DM Sans', 'sans-serif';
+    top: -65px;
+    right: 100px;
+}
+
+.contact button{
+    background-color: #2D2E52;
+    padding: 5px;
+    width: 6rem;
+    border-radius: 33rem;
+    color: white;
+}
+
+.links{
+    display: none;
+   
+
+}
+
+.links a{
+    font-size: 20px;
+    /* margin: 0 0 3px 0; */
+}
+
+
+/*Responsive page for mobile devices*/
+@media (max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
+    .top-nav img{
+        margin: 0 0 0 80px;
+    }
+   
+    .top-center{
+        display: none;
+    }
+    .contact{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+        margin: -7% 0 0 80%;
+        position: fixed;
+    }
+    .eclipses{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        position: relative;
+        margin:  8% 0 0 20%;
+    
+    }
+    /*Styling the first eclipse*/
+    .eclipse-one{
+        width: 25rem;
+        height: 15rem;
+        border-radius: 33rem;
+        margin: 0 0 0 -250px;
+        background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(230,144,131)); 
+        
+    }
+    /*Styling the second eclipse*/
+    .eclipse-two{
+        width: 25rem;
+        height: 15rem;
+        border-radius: 33rem;
+        margin: 0 0 0 200px;
+        margin-top: 8rem;
+        position: absolute;
+        background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(230,144,131));
+        
+    }
+    .conv-content{
+        margin: 100px 0 0 100px;
+        position: absolute;
+        width: 500px;
+    }
+
+    .links{
+        
+        margin: 5px 0 0 -100px;
+    }
+    
+}
+@media (max-width:425px){
+    .eclipses{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        position: relative;
+        margin:  8% 0 0 70%;
+        /* width: 100%; */
+        
+    
+    }
+    /*Styling the first eclipse*/
+    .eclipse-one{
+        border-radius: 33rem;
+        margin: 0 0 0 -180px;
+        background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(230,144,131)); 
+        
+    }
+    /*Styling the second eclipse*/
+    .eclipse-two{
+        border-radius: 33rem;
+        margin: 0 0 0 100px;
+        margin-top: 8rem;
+        position: absolute;
+        background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(230,144,131));
+        
+    }
+    .conv-content{
+        margin-top: 5rem;
+        margin-left: 30px;
+        width: 300px;
+        overflow: hidden;  
+    }
+
+    .conv-content p{
+        font-size: 1rem;
+    }
+
+}
+
