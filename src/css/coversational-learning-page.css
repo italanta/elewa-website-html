@@ -1,0 +1,409 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body {
+    background-color: #FAE9E8;
+  }
+  
+  /* Header Styles */
+  header {
+    position: relative;
+    padding: 0 2rem; /* Adjust padding as needed */
+    z-index: 2;
+    background-color: #FAE9E8;
+    height: 60px;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    width: 80%;
+    height: 60px;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    /* background: transp arent; */
+  }
+  
+  /* List Styles */
+  li {
+    list-style: none;
+  }
+  
+  /* Anchor Styles */
+  a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+  }
+  
+  /* Logo Image Styles */
+  .logo-img {
+    width: 153px;
+    height: 65px;
+    color: #000000;
+    filter: brightness(0%) contrast(100%);
+  }
+  
+   /* Navbar link hover styles */
+   .nav_2_links:hover {
+    text-decoration: underline;
+  }
+
+  /* /This one goes to the web screen/larger screens/ */
+  .navbar .links {
+    display: flex;
+    gap: 2rem;
+  }
+
+  /* Navbar toggle button styles */
+  .navbar .toggle_btn {
+    color: #000000;
+    font-size: 24px;
+    display: none; 
+  }
+
+  /* Action button styles */
+  .action_btn {
+    background-color: #2D2E52;
+    padding: 5px 10px;
+    width: 15%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 22px; 
+    transition: scale 0.2 ease;
+    text-align: center; 
+  }
+
+  /* /Dropdown menu/ */
+  .navbar_dropdown_menu {
+    position: absolute;
+    z-index: 1;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 500px;
+    background: #F9F8F4;
+    opacity: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    display: none;
+  }
+
+  .navbar_dropdown_menu.open {
+    height: 100vh;
+    transition: transform .3s ease-in-out,opacity .3s ease-in-out;
+  }
+
+  .navbar_dropdown_menu li {
+    padding: 1.0rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar_dropdown_menu .dropdown_action_btn {
+    width: 50%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    background-color: #2D2E52;
+    padding: 5px 5px;
+    margin-top: 5%;
+    margin-left: 10%;
+    border: none;
+    outline: none;
+    border-radius: 30px;   
+  }
+
+  .navbar_dropdown_menu .dropdown_action_btn a {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 22px; 
+  }
+   
+  .conversational-container{
+    width: unset;  
+    padding-top: 10%;
+    /* background-color: blue; */
+    position: absolute;
+  }
+  
+  /* .content-properties{
+    position: absolute;
+    z-index: -1;
+    background-color: aqua;
+    } */
+  .conversational_content{
+    width: unset;
+    padding: 35px;
+    position: absolute;
+    margin-right:15%;
+    /* background-color: #ffffff; */
+    z-index: 1;
+    
+  }
+  
+  .conversational_content h1{
+    font-size: clamp(1.5625rem,.8745rem + 2.572vw,2.925rem);    
+    color: black;
+    line-height: 29px;
+    text-align: left;
+    font-weight: 700; 
+    margin-top: 7%;
+    margin-bottom: 30px;
+    /* position: absolute;  */
+    /* z-index: 10; */
+    
+  }
+  
+  .conversational_content h2{
+    font-size: clamp(1rem,.387rem + .9739vw,1.4rem);
+    color: black;
+    line-height: 24px;
+    text-align: left;
+    font-weight: 100;
+    padding-bottom: 5px;
+    z-index: 1;
+    margin-bottom: 20px;
+    /* position: absolu/te; */
+  }
+  
+  /* Style for the anchor */
+  .conversational_contact {
+    text-decoration: none;
+    color: #FFFFFF; /* Change the text color to black */
+    font-size: 15px; /* Adjust font size as needed */
+    display: flex;
+    background-color: #000000; /* Circular background color */
+    width: 200px;
+    padding: 10px; /* Adjust padding as needed */
+    border-radius: 22px;
+  }
+  
+  /* Style for the arrow image */
+  .conversational_contact img {
+    display: inline-block;
+    vertical-align: middle; /* Align the image vertically with the text */
+    width: 25px; /* Adjust arrow size as needed */
+    height: 20px; /* Adjust arrow size as needed */
+    margin-left: 5px; /* Add space between text and arrow */
+    background-color: #FFFFFF;
+    border-radius: 50%; /* Make it circular */
+  }
+  
+  /* Center the text and arrow vertically */
+  .arrow-circle {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* circles */
+  .conversational-containerss{
+    display: flex;
+    z-index: 1;
+    flex-direction: row;
+    mix-blend-mode: multiply;
+    opacity: 1;
+    position: absolute;
+    margin-top: 40px;
+    /* background-color: aqua; */
+  }
+  .circle_2{
+    background-color: #000000;
+    border-radius: 600px;
+    height: 200px;
+    width:330px;
+    margin-left: -40px;
+    margin-top: 0px;
+    background: transparent linear-gradient(90deg, #DBC2F500 0%, #E69083 100%) 0% 0% no-repeat padding-box;
+    /* position: relative; */
+  }
+  /*  */
+  .circle_1{
+    position:absolute;
+    background-color: #000000;
+    border-radius: 600px;
+    height: 200px;
+    width:330px;
+    margin-left: 30px;
+    margin-top: 70px;
+    background: transparent linear-gradient(90deg, #DBC2F500 0%, #E69083 100%) 0% 0% no-repeat padding-box;
+    transform: matrix(-1, 0, 0, -1, 0, 0);
+    z-index: -1;
+   }
+   
+  
+  /* Responsive Design Media Queries */
+  @media (max-width:768px) {
+    /* Navbar adjustments for mobile screens */
+    .navbar {
+        width: 100%;
+        margin-top: 10%;
+    }   
+
+    /* Hide destop navbar elements */
+    .navbar .links,
+    .navbar .action_btn {
+        display: none;
+    }
+
+    /* Show mobile toggle button */
+    .navbar .toggle_btn {
+        display: block;
+    }
+
+    /* Adjust dropdown menu width and position */
+    .navbar_dropdown_menu {
+        display: block;
+        width: 768px;
+        left: 1rem;
+        top: 60px;
+        z-index: 5;
+    }
+
+    /* center dropdown menu elements */
+    .navbar_dropdown_menu.open{
+        padding-top: 30%; 
+        padding-left: 30%;
+    }
+
+    .navbar_dropdown_menu a {
+        align-items: center;
+        font-size: 40px;
+    }
+}
+  
+@media (max-width: 360px) {
+  .navbar_dropdown_menu {      
+      width: 100%;  
+      z-index: 5;           
+  }
+
+  .navbar_dropdown_menu.open{
+      padding-left: 20%;
+  }
+
+  .logo-img{
+      width: 110px;
+      height: 50px;
+  }
+
+  .navbar_dropdown_menu a {
+      font-size: 30px;
+  }
+
+  /* .navbar_dropdown_menu li */
+}
+@media only screen and (min-width: 768px) { 
+  .logo-img{
+    width: 120px;
+    height: 50px;
+  }
+
+  .conversational-container{
+    width: unset;
+    margin: 50px; 
+    margin-left: 0% ; 
+    padding: auto;
+  }
+
+  .conversational_content{
+    padding: 30px 0px 0px 40px;
+    justify-content: left;
+    position: relative;
+    /* background-color: aqua; */
+  }
+
+  .conversational_content h1{
+    font-size: 36px;
+    line-height: 38px;
+  }
+
+  .conversational_content h2{
+    line-height: 24px;
+    
+  }
+
+  .conversational-containerss{
+    margin-top: 180px;
+    margin-left: 30%;   
+  }
+
+  .circle_1{
+    height: 320px;
+    width:500px;  
+    margin-top: 150px;
+  }
+  .circle_2{
+    height: 320px;
+    width:500px; 
+    margin-left: -180px;
+  }  
+  
+  .conversational_contact {
+    font-size: 16px; /* Adjust font size as needed */
+    display: flex;
+    background-color: #000000; /* Circular background color */
+    width: 210px;
+    padding: 8px; /* Adjust padding as needed */
+  }
+  
+  /* Style for the arrow image */
+  .conversational_contact img {
+    width: 25px; /* Adjust arrow size as needed */
+    height: 25px; /* Adjust arrow size as needed */
+    margin-left: 5px; /* Add space between text and arrow */
+    background-color: #FFFFFF;
+    border-radius: 50%; /* Make it circular */
+  }
+}
+
+@media only screen and (min-width: 900px) { 
+  .conversational-container{
+    width: unset;
+    margin: 0 auto;
+  }
+
+  .conversational_content{
+    width: 50%;
+    margin-top: -90px;
+    margin-left: 10%;
+  }
+
+  .conversational_content h1{
+    line-height: 50px;
+    letter-spacing: 1px;
+    font-size: 45px;
+  }
+
+  .conversational_content h2{
+    line-height: 24px;
+    margin-right: 10%;
+  }
+
+  .conversational-containerss{
+    margin-top: -2%;
+    margin-left: 40%;  
+  }
+
+  .circle_1{
+    height: 450px;
+    width:650px;    
+    margin-top: 150px;
+  }
+  .circle_2{
+    height: 450px;
+    width:650px;  
+    margin-left: -280px;    
+  }  
+}
