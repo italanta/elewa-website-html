@@ -12,6 +12,15 @@ h1 {
 .projects {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
-.
+.project-item {
+  margin: 0 20px 0 0;
+}
+
+.project-image img{
+  height: 600px;
+  width: 400px;
+  object-fit: cover;
+}
