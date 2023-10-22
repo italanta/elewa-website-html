@@ -47,5 +47,6 @@ const projectFour: ProjectItem = {
   tag: "Education",
   imgSrc: "/src/images/Learning.jpg"
 };
-
 console.log(projectFour)
+
+// function that allows the carousel to respond
