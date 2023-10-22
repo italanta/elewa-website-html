@@ -8,3 +8,10 @@ h1 {
   font-size: 40px;
   font-weight: lighter;
 }
+
+.projects {
+  display: flex;
+  flex-direction: row;
+}
+
+.
