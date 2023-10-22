@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
 
-
+body {
+  margin: 0 0 0 150px;
+}
 
 h1 {
   font-family: 'DM Sans', sans-serif;
   color: #000;
   font-size: 40px;
   font-weight: lighter;
+  margin: 20px 0 50px 0;
 }
 
 .projects {
@@ -20,7 +23,28 @@ h1 {
 }
 
 .project-image img{
-  height: 600px;
-  width: 400px;
+  height: 400px;
+  width: 300px;
   object-fit: cover;
+  border-radius: 10px;
 }
+
+.tag {
+  border-color: #b3b0b0;
+  height: 30px;
+  width: 100px;
+  border-style: solid;
+  text-align: center;
+  margin: 10px 0 0 0;
+  border-radius: 20px;
+  border-width: 1.5px;
+}
+
+.tag p{
+  font-family: 'DM Sans', sans-serif;
+  color: #817f7f;
+  margin: 7px 0 0 0;
+  font-size: 13px;
+}
+
+
