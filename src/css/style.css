@@ -52,3 +52,8 @@ h3 {
   font-size: 20px;
   font-weight: lighter;
 }
+
+.text-description {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+}
