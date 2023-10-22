@@ -66,3 +66,10 @@ button {
   border: none;
   background-color: #fff;
 }
+
+
+@media (max-width: 667px){
+  body {
+    margin: 0 0 0 20px;
+  }
+}
