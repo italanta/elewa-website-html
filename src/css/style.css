@@ -5,3 +5,27 @@
     list-style: none;
     text-decoration: none;
   }
+  h1{
+    font-size: 3em;
+    margin: 100px 0 0 150px;
+  }
+  .card-container{
+    display: flex;
+    margin: 20px 0 0 50px ;
+  }
+  .card img{
+    width: 50%;
+    height: auto;
+    margin: 10px;
+  }
+  h4{
+    font-size: 1.8em;
+    margin: 10px;
+  }
+  p{
+    margin: 10px;
+  }
+
+  .slider-wrap button img{
+    width: 10%;
+  }
