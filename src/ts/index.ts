@@ -57,9 +57,11 @@ const projectsContainer = document.querySelector(".projects") as HTMLElement; //
 leftBtn?.addEventListener("click", function handleClick (event) {
   console.log("clicked")
   projectsContainer.style.transition = "transform 0.5s";
-  projectsContainer.style.transform = "translateX(-400px)";
+  projectsContainer.style.transform = "translateX(-200px)";
 });
 
 rightBtn?.addEventListener("click", function handleClick (event) {
   console.log("clicked")
+  projectsContainer.style.transition = "transform 0.5s";
+  projectsContainer.style.transform = "translateX(200px)";
 });
