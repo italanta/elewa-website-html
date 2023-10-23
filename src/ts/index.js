@@ -39,7 +39,8 @@ var rightBtn = document.getElementById("right");
 var projectsContainer = document.querySelector(".projects"); // targeting the projects container
 leftBtn === null || leftBtn === void 0 ? void 0 : leftBtn.addEventListener("click", function handleClick(event) {
     console.log("clicked");
-    // this.scrollIntoView(projectsContainer);
+    projectsContainer.style.transition = "transform 0.5s";
+    projectsContainer.style.transform = "translateX(-100px)";
 });
 rightBtn === null || rightBtn === void 0 ? void 0 : rightBtn.addEventListener("click", function handleClick(event) {
     console.log("clicked");
