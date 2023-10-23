@@ -43,6 +43,9 @@
   p{
     margin: 10px;
   }
+  .bottom-btn{
+    display: flex;
+  }
 
   .bottom-btn1{
     margin: 10px 10px 10px 50%;
