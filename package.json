@@ -10,10 +10,12 @@
     "precommit": "npm run lint && npm test",
     "watch:ts": "tsc -w",
     "build:ts": "tsc",
-    "serve": "lite-server"
+    "serve": "lite-server",
+    "build": "tailwindcss -i ./src/css/style.css -o ./dist/output.css --watch"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "autoprefixer": "^10.4.16",
     "eslint": "^8.50.0",
     "eslint-config-standard-with-typescript": "^39.1.0",
     "eslint-plugin-import": "^2.28.1",
@@ -21,7 +23,9 @@
     "eslint-plugin-promise": "^6.1.1",
     "husky": "^8.0.0",
     "lite-server": "^2.6.1",
+    "postcss": "^8.4.31",
     "prettier": "^3.0.3",
+    "tailwindcss": "^3.3.3",
     "typescript": "^5.2.2"
   },
   "dependencies": {
