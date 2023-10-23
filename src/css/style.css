@@ -11,16 +11,26 @@
   }
   .card-container{
     display: flex;
-    margin: 20px 0 0 50px ;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    overflow: hidden;
+    transition: .5s;
+    margin: 20px 0 0 150px ;
   }
   .card img{
-    width: 50%;
-    height: auto;
+    width: 280px;
+    height: 320px;
     margin: 10px;
   }
   .card button{
     margin: 10px;
     border-radius: 50px;
+  }
+  .card-content button{
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
   }
   h4{
     font-size: 1.8em;
@@ -30,10 +40,20 @@
     margin: 10px;
   }
 
-  .slider-wrap button{
-    margin: 10px 10px 10px 200px;
+  .bottom-btn1{
+    margin: 10px 10px 10px 50%;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
   }
-
-  .slider-wrap button img{
+  .bottom-btn2{
+    margin: 10px 10px 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+  }
+  .bottom-btn button img{
     width: 10%;
   }
