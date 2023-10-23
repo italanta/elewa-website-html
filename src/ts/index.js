@@ -34,7 +34,13 @@ var projectFour = {
 };
 console.log(projectFour);
 // function that allows the carousel to respond
-var leftBtn = document.getElementById("left");
+var leftBtn = document.getElementById("left"); // targeting the buttons
+var rightBtn = document.getElementById("right");
+var projectsContainer = document.querySelector(".projects"); // targeting the projects container
 leftBtn === null || leftBtn === void 0 ? void 0 : leftBtn.addEventListener("click", function handleClick(event) {
+    console.log("clicked");
+    // this.scrollIntoView(projectsContainer);
+});
+rightBtn === null || rightBtn === void 0 ? void 0 : rightBtn.addEventListener("click", function handleClick(event) {
     console.log("clicked");
 });

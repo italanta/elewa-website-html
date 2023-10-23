@@ -50,8 +50,15 @@ const projectFour: ProjectItem = {
 console.log(projectFour)
 
 // function that allows the carousel to respond
-const leftBtn = document.getElementById("left");
+const leftBtn = document.getElementById("left"); // targeting the buttons
+const rightBtn = document.getElementById("right");
+const projectsContainer = document.querySelector(".projects"); // targeting the projects container
 
 leftBtn?.addEventListener("click", function handleClick (event) {
+  console.log("clicked")
+  // this.scrollIntoView(projectsContainer);
+});
+
+rightBtn?.addEventListener("click", function handleClick (event) {
   console.log("clicked")
 });
