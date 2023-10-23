@@ -52,12 +52,12 @@ console.log(projectFour)
 // function that allows the carousel to respond
 const leftBtn = document.getElementById("left"); // targeting the buttons
 const rightBtn = document.getElementById("right");
-const projectsContainer = document.querySelector(".projects") as HTMLElement; // targeting the projects container
+const projectsContainer = document.querySelector(".projects") as HTMLElement; // targeting the projects container. The HTMLElements helps in making the style a property of the container.
 
 leftBtn?.addEventListener("click", function handleClick (event) {
   console.log("clicked")
   projectsContainer.style.transition = "transform 0.5s";
-  projectsContainer.style.transform = "translateX(-100px)";
+  projectsContainer.style.transform = "translateX(-400px)";
 });
 
 rightBtn?.addEventListener("click", function handleClick (event) {
