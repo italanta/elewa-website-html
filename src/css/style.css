@@ -18,12 +18,20 @@
     height: auto;
     margin: 10px;
   }
+  .card button{
+    margin: 10px;
+    border-radius: 50px;
+  }
   h4{
     font-size: 1.8em;
     margin: 10px;
   }
   p{
     margin: 10px;
+  }
+
+  .slider-wrap button{
+    margin: 10px 10px 10px 200px;
   }
 
   .slider-wrap button img{
