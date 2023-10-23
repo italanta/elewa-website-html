@@ -35,4 +35,6 @@ var projectFour = {
 console.log(projectFour);
 // function that allows the carousel to respond
 var leftBtn = document.getElementById("left");
-console.log("Hello World");
+leftBtn === null || leftBtn === void 0 ? void 0 : leftBtn.addEventListener("click", function handleClick(event) {
+    console.log("clicked");
+});

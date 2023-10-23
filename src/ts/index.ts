@@ -50,5 +50,8 @@ const projectFour: ProjectItem = {
 console.log(projectFour)
 
 // function that allows the carousel to respond
-const leftBtn = document.getElementById("left")
-console.log("Hello World");
+const leftBtn = document.getElementById("left");
+
+leftBtn?.addEventListener("click", function handleClick (event) {
+  console.log("clicked")
+});
