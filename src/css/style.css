@@ -1,4 +1,4 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -25,6 +25,7 @@
     width: 280px;
     height: 320px;
     margin: 10px;
+    border-radius: 5px 5px 0 0;
   }
   .card button{
     margin: 10px;
@@ -58,108 +59,7 @@
     height: 50px;
   }
   .bottom-btn button img{
-    width: 10%;
-  } */
-
-
-
-
-  ####
-  /* Reset default styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-  }
-  
-  
-  /* Section styles */
-  section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 40px;
-  }
-  
-  h1 {
-    font-size: 2em;
-    color: #333;
-  }
-  
-  /* Card container styles */
-  .slider-wrap {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #fff;
-    border-radius: 10px;
-    margin-top: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 20px;
-  }
-  
-  /* Card styles */
-  .card {
-    margin: 20px;
-    width: 300px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .card img {
-    width: 100%;
-    border-radius: 5px 5px 0 0;
-  }
-  
-  .card-content {
-    padding: 20px;
-    background-color: #fff;
-  }
-  
-  button {
-    background-color: #333;
-    color: #fff;
-    padding: 5px 10px;
-    border: none;
-    border-radius: 5px;
-    font-size: 14px;
-    margin-bottom: 10px;
-  }
-  
-  h4 {
-    font-size: 1.5em;
-    color: #333;
-  }
-  
-  p {
-    font-size: 1em;
-    color: #777;
-  }
-  
-  /* Bottom buttons styles */
-  .bottom-btn {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  .bottom-btn button {
-    background: none;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .bottom-btn button img {
     width: 30px;
     height: 30px;
     margin: 0 10px;
   }
-  
