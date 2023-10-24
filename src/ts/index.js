@@ -1,30 +1,37 @@
-const slides = document.querySelectorAll('.slide');
-let index = 0;
+const slides = document.querySelectorAll('.card');
+const prevButton = document.querySelector('.bottom-btn1');
+const nextButton = document.querySelector('.bottom-btn2');
 
-function prevSlide(){
-slides[index].classList.remove('active');
-index--;
+let currentIndex = 0;
 
-if(index < 0)
-index = slides.length -1;
-
-slides[index].classList.add('active'); 
+function showSlide(index) {
+  slides.forEach((slide, i) => {
+    if (i === index) {
+      slide.style.display = 'block';
+    } else {
+      slide.style.display = 'none';
+    }
+  });
 }
 
-document.querySelector('.bottom-btn1').addEventListener('click', e => {
-prevSlide();
-});
-
-function nextSlide(){
-slides[index].classList.remove('active');
-index++;
-
-if(index > slides.length -1)
-index = 0;
-
-slides[index].classList.add('active'); 
+function prevSlide() {
+  currentIndex--;
+  if (currentIndex < 0) {
+    currentIndex = slides.length - 1;
+  }
+  showSlide(currentIndex);
 }
 
-document.querySelector('.bottom-btn2').addEventListener('click', e => {
-nextSlide();
-});
+function nextSlide() {
+  currentIndex++;
+  if (currentIndex >= slides.length) {
+    currentIndex = 0;
+  }
+  showSlide(currentIndex);
+}
+
+prevButton.addEventListener('click', prevSlide);
+nextButton.addEventListener('click', nextSlide);
+
+// Initialize by showing the first slide
+showSlide(currentIndex);
