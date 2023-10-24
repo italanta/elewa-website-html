@@ -2,6 +2,7 @@
 const slides = document.querySelectorAll('.card');
 const prevButton = document.querySelector('.bottom-btn1');
 const nextButton = document.querySelector('.bottom-btn2');
+// const cardContainer = document.querySelector('.card-container');
 
 let index = 0;
 
@@ -13,6 +14,7 @@ function showSlide(index) {
   }
   slides[index].style.opacity = '1';
   slides[index].classList.add('active');
+  slides.style.transform = `translateX(-${index * 100}%)`;
 }
 
 // Event listener for the "Previous" button

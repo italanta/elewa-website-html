@@ -25,11 +25,11 @@
 
   .card {
     width: 100%;
-    /* flex: 0 0 100%; */
+    /* flex: 0 0 40%; */
   }
 
   .active {
-    flex: 0 0 100%;
+    flex:  0 0 40%;
     opacity: 1;
     transform: translateX(0);
   }
