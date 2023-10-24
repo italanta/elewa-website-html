@@ -8,7 +8,7 @@ let index = 0;
 
 // Function to show a specific slide
 function showSlide(index) {
-  for (let i = 0; i < slides.length; i++) {
+  for (let i = 1; i < slides.length; i++) {
     slides[i].style.opacity = '0.2';
     slides[i].classList.remove('active');
   }
