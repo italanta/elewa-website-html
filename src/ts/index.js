@@ -1,37 +1,37 @@
+// Get references to the elements
 const slides = document.querySelectorAll('.card');
 const prevButton = document.querySelector('.bottom-btn1');
 const nextButton = document.querySelector('.bottom-btn2');
 
-let currentIndex = 0;
+let index = 0;
 
+// Function to show a specific slide
 function showSlide(index) {
-  slides.forEach((slide, i) => {
-    if (i === index) {
-      slide.style.display = 'block';
-    } else {
-      slide.style.display = 'none';
-    }
-  });
-}
-
-function prevSlide() {
-  currentIndex--;
-  if (currentIndex < 0) {
-    currentIndex = slides.length - 1;
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.opacity = '0.2';
+    slides[i].classList.remove('active');
   }
-  showSlide(currentIndex);
+  slides[index].style.opacity = '1';
+  slides[index].classList.add('active');
 }
 
-function nextSlide() {
-  currentIndex++;
-  if (currentIndex >= slides.length) {
-    currentIndex = 0;
+// Event listener for the "Previous" button
+prevButton.addEventListener('click', () => {
+  index--;
+  if (index < 0) {
+    index = slides.length - 1;
   }
-  showSlide(currentIndex);
-}
+  showSlide(index);
+});
 
-prevButton.addEventListener('click', prevSlide);
-nextButton.addEventListener('click', nextSlide);
+// Event listener for the "Next" button
+nextButton.addEventListener('click', () => {
+  index++;
+  if (index >= slides.length) {
+    index = 0;
+  }
+  showSlide(index);
+});
 
 // Initialize by showing the first slide
-showSlide(currentIndex);
+showSlide(index);
