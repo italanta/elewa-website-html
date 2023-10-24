@@ -18,7 +18,7 @@ interface ProjectItem {
     title: "Introducing conversational learning",
     description: "Eos qui ratione voluptatem sequi nesciunt.Neque porro quisquam dolorem ipsum quia",
     tag: "Education",
-    imgSrc: "/src/images/Education.jpg"
+    imgSrc: "/assets/images/book2 (1).jpg"
   };
   console.log(projectOne)
   
@@ -27,7 +27,7 @@ interface ProjectItem {
     title: "Content Development for a sustainable future",
     description: "Eos qui ratione voluptatem sequi nesciunt.Neque porro quisquam dolorem ipsum quia",
     tag: "Environment",
-    imgSrc: "/src/images/Environment.jpg"
+    imgSrc: "/assets/images/environment (1).jpg"
   };
   console.log(projectTwo)
   
@@ -36,7 +36,7 @@ interface ProjectItem {
     title: "Largescale training for healthcare professionals",
     description: "Eos qui ratione voluptatem sequi nesciunt.Neque porro quisquam dolorem ipsum quia",
     tag: "Healthcare",
-    imgSrc: "/src/images/Healthcare.jpg"
+    imgSrc: "/assets/images/doctor (1).jpeg"
   };
   console.log(projectThree)
   
@@ -45,7 +45,7 @@ interface ProjectItem {
     title: "Introducing conversational learning",
     description: "Eos qui ratione voluptatem sequi nesciunt.Neque porro quisquam dolorem ipsum quia",
     tag: "Education",
-    imgSrc: "/src/images/Learning.jpg"
+    imgSrc: "/assets/images/tree me (1).jpg"
   };
   console.log(projectFour)
   
