@@ -192,3 +192,29 @@
     font-size: 25px;
 }
 
+
+
+@media(max-width:320px){
+
+    body{
+        transform: scale(25%);
+        margin-top: -260%;
+        margin-left: -60%;
+    }
+   
+     
+}
+
+@media(min-width:310px) and (max-width:345px){
+
+    body{
+        transform: scale(25%);
+        margin-top: -230%;
+        margin-left: -60%;
+    }
+   
+     
+}
+
+
+
