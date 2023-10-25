@@ -1,0 +1,310 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #FCF6E4;
+}
+
+header {
+  position: relative;
+  padding: 0 2rem;
+  z-index: 1;
+}
+
+.navbar {
+  z-index: 1;
+  width: 80%;
+  height: 60px;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 14px;
+}
+
+.logo-img {
+  width: 153px;
+  height: 65px;
+  color: #000000;
+  filter: brightness(0%) contrast(100%);
+}
+
+.nav_2_links:hover {
+  text-decoration: underline;
+}
+
+.navbar .links {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar .toggle_btn {
+  color: #000000;
+  font-size: 24px;
+  display: none;
+}
+
+.action_btn {
+  background-color: #2D2E52;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-size: 12px;
+  line-height: 22px;
+  transition: scale 0.2 ease;
+}
+
+.navbar_dropdown_menu {
+  position: absolute;
+  right: 2rem;
+  top: 60px;
+  height: 0;
+  width: 500px;
+  background: #F9F8F4;
+  border-radius: 10px;
+  overflow: hidden;
+  display: none;
+  /* transition: height 0.2s cubic-biezer(0.175, 0.885, 0.32, 1.275); */
+}
+
+.navbar_dropdown_menu.open {
+  height: 100vh;
+  transition: transform .3s ease-in-out, opacity .3s ease-in-out;
+}
+
+.navbar_dropdown_menu li {
+  padding: 1.0rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar_dropdown_menu .dropdown_action_btn {
+  width: 50%;
+  height: 8%;
+  display: flex;
+  justify-content: center;
+  background-color: #2D2E52;
+  padding: 5px 5px;
+  margin-top: 5%;
+  margin-left: 10%;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+}
+
+.navbar_dropdown_menu .dropdown_action_btn a {
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 22px;
+}
+/* Center the text and arrow vertically */
+.arrow-circle {
+  display: flex;
+  align-items: center;
+}
+ 
+
+.content_content{
+  width: 100%;
+  padding: 0px 20px 10px 30px;
+  /* background-color: #ffffff; */
+}
+
+.menu_content h1{
+  margin-top: 20px ;
+  margin-right: 20%;
+  margin-bottom: 20px;
+  font-size: clamp(1.5625rem,.8745rem + 2.572vw,2.925rem);
+  color: black;
+  line-height: 40px;
+  text-align: left;
+  font-weight: 700;  
+}
+
+.menu_content h2{
+  font-size: clamp(1rem,.387rem + .9739vw,1.4rem);
+  color: black;
+  line-height: 24px;
+  text-align: left;
+  font-weight: 100;
+  padding-bottom: 20px;
+  margin-right: 100px;
+}
+.menu_contact {
+  margin-left: 20px;
+  position: absolute;
+  text-decoration: none;
+  color: #FFFFFF; /* Change the text color to black */
+  font-size: 16px; /* Adjust font size as needed */
+  display: flex;
+  background-color: #000000; /* Circular background color */
+  width: 65%;
+  padding: 8px; /* Adjust padding as needed */
+  border-radius: 30px;
+  
+}
+
+/* Style for the arrow image */
+.menu_contact img {
+  display: inline-block;
+  vertical-align: middle; /* Align the image vertically with the text */
+  width: 25px; /* Adjust arrow size as needed */
+  height: 20px; /* Adjust arrow size as needed */
+  margin-left: 5px; /* Add space between text and arrow */
+  background-color: #FFFFFF;
+  border-radius: 50%; /* Make it circular */
+}
+
+
+@media (max-width:768px) {
+  .navbar {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .navbar .links,
+  .navbar .action_btn {
+    display: none;
+  }
+
+  .navbar .toggle_btn {
+    display: block;
+  }
+
+  .navbar_dropdown_menu {
+    display: block;
+    width: unset;
+    left: 40%;
+    top: 300px;
+
+    
+  }
+  .navbar_dropdown_menu a {
+    align-items: center;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 360px) {
+  .navbar_dropdown_menu {
+    left: 1rem;
+    top: 10px;
+    width: 200px;
+  }
+
+  .navbar_dropdown_menu.open {
+    padding-top: 10%;
+    padding-left: 0%;
+  }
+
+  .logo-img {
+    width: 110px;
+    height: 50px;
+  }
+
+  /* .navbar_dropdown_menu li */
+}
+
+@media only screen and (min-width: 768px) { 
+    .menu-container{
+      width: unset;
+      margin: 50px;
+      padding-top: 20%; 
+      
+    }
+  
+    .menu_content{
+      padding: 1px;
+      width: -100%;
+      justify-content: left;
+    }
+  
+    .menu_content h1{
+      font-size: 36px;
+      line-height: 48px;
+    }
+  
+    .menu_content h2{
+      padding: 20px 200px 20px 0px;
+      line-height: 24px;
+    }
+  
+    
+    .menu_contact {
+      font-size: 16px; /* Adjust font size as needed */
+      display: flex;
+      background-color: #000000; /* Circular background color */
+      width: 210px;
+      padding: 8px; /* Adjust padding as needed */
+    }
+    
+    /* Style for the arrow image */
+    .menu_contact img {
+      width: 25px; /* Adjust arrow size as needed */
+      height: 25px; /* Adjust arrow size as needed */
+      margin-left: 5px; /* Add space between text and arrow */
+      background-color: #FFFFFF;
+      border-radius: 50%; /* Make it circular */
+    } 
+  }
+
+@media only screen and (min-width: 900px) {
+  .menu-container{
+    width: unset;
+    margin: 50px;
+    margin-top: 7% ; 
+    padding-left: 5%;
+    
+    
+  }
+  .menu_content{
+    width: 100%;
+  }
+
+  .menu_content h1{
+    line-height: 48px;
+    font-weight: 700;
+  }
+
+  .menu_content h2{
+    padding-right: 50%;
+    line-height: 30px;
+  }
+
+  
+  .menu_contact {
+    font-size: 16px; /* Adjust font size as needed */
+    display: flex;
+    background-color: #000000; /* Circular background color */
+    width: 210px;
+    padding: 8px; /* Adjust padding as needed */
+  }
+  
+  /* Style for the arrow image */
+  .menu_contact img {
+    width: 25px; /* Adjust arrow size as needed */
+    height: 25px; /* Adjust arrow size as needed */
+    margin-left: 5px; /* Add space between text and arrow */
+    background-color: #FFFFFF;
+    border-radius: 50%; /* Make it circular */
+  } 
+}
