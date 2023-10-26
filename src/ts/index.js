@@ -33,7 +33,6 @@ var projectFour = {
 var prevButton = document.querySelector(".bottom-btn1"); // Targeting the buttons
 var nextButton = document.querySelector(".bottom-btn2");
 var slides = document.querySelectorAll(".card"); // Targeting the projects container
-var slideContainer = document.querySelector(".card-container");
 var index = 0;
 function showSlide(index) {
     for (var i = 0; i < slides.length; i++) {

@@ -50,7 +50,6 @@ interface ProjectItem {
 const prevButton = document.querySelector<HTMLButtonElement>(".bottom-btn1"); // Targeting the buttons
 const nextButton = document.querySelector<HTMLButtonElement>(".bottom-btn2");
 const slides = document.querySelectorAll<HTMLDivElement>(".card"); // Targeting the projects container
-const slideContainer = document.querySelector<HTMLDivElement>(".card-container");
 let index: number = 0;
 
 function showSlide(index: number) {
