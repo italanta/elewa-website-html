@@ -202,6 +202,9 @@ a {
   .footer-span{
     display: none;
   }
+  .project-cards {
+    width: fit-content;
+  }
 
   .footer-section{
     padding-top: 10px;
@@ -846,8 +849,12 @@ body{
   display: flex;
   justify-content: space-between;
   gap: 3rem;
-  margin-left: 209px;
-  overflow: auto;
+  margin-left: 109px;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
 }
 .project-card {
   width: 374px;
@@ -866,4 +873,30 @@ body{
 .project-card img {
   width: 374px;
   height: 416px;
+}
+.projects-button {
+  float: right;
+}
+.scroll-left-button,
+.scroll-right-button {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.scroll-left-button {
+  left: 0;
+}
+
+.scroll-right-button {
+  right: 0;
+}
+.projects{
+  overflow: hidden;
 }

@@ -62,6 +62,30 @@ const mockProject:ProjectItem[]=[
     title:"Large scale training for healthcare professionals",
     descriptions:description
   },
+  {
+    imgSrc:"https://rb.gy/5ygcu",
+    tag:"Health care",
+    title:"Large scale training for healthcare professionals",
+    descriptions:description
+  },
+  {
+    imgSrc:"https://rb.gy/5ygcu",
+    tag:"Health care",
+    title:"Large scale training for healthcare professionals",
+    descriptions:description
+  },
+  {
+    imgSrc:"https://rb.gy/5ygcu",
+    tag:"Health care",
+    title:"Large scale training for healthcare professionals",
+    descriptions:description
+  },
+  {
+    imgSrc:"https://rb.gy/5ygcu",
+    tag:"Health care",
+    title:"Large scale training for healthcare professionals",
+    descriptions:description
+  },
 ]
 const projectCardsContainer = document.querySelector('.project-cards');
 
@@ -90,7 +114,30 @@ if (projectCardsContainer) {
 
     // Append the card to the container
     projectCardsContainer.appendChild(card);
+const scrollLeftButton = document.getElementById('scroll-left') as HTMLButtonElement;
+const scrollRightButton = document.getElementById('scroll-right') as HTMLButtonElement;
+const scrollStep = 200; // Adjust this value as needed
+
+scrollLeftButton.addEventListener('click', () => {
+  if (projectCardsContainer) {
+    projectCardsContainer.scrollBy({
+      left: -scrollStep,
+      behavior: 'smooth',
+    });
+  }
+});
+
+scrollRightButton.addEventListener('click', () => {
+  if (projectCardsContainer) {
+    projectCardsContainer.scrollBy({
+      left: scrollStep,
+      behavior: 'smooth',
+    });
+  }
+});
+
   });
  }
+ 
 });
   
