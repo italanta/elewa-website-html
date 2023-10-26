@@ -86,49 +86,61 @@ document.addEventListener("DOMContentLoaded", () => {
         descriptions:description
       },
     ]
-    
+    //Get the div element from the html
     const projectsDisplay=document.getElementById("projects-display") as HTMLDivElement
     console.log(projectsDisplay)
+    //iterate over the mock data to display them in cards
     mockProject.forEach((project)=>{
       const card = document.createElement("div");
         card.className = "project";
-    
+      //image for mock data
         const img = document.createElement("img");
         img.src = project.imgSrc;
         img.alt = project.title;
-    
+        //title for mock data
         const h2 = document.createElement("h2");
         h2.textContent = project.title;
-    
+        //paragraph for mock data
         const p = document.createElement("p");
         p.textContent = project.descriptions;
-    
+        //span for mock data
         const span = document.createElement("span");
         span.className = "tag";
         span.textContent = project.tag;
         card.append(img,span, h2, p);
         projectsDisplay.appendChild(card);
     })
+    //Grab the arrows from the html
     const leftArrow=document.getElementById("left-arrow")
     const rightArrow=document.getElementById("right-arrow")
-    
+    //Initial scroll position set to 0
     let scrollPosition=0;
+    //My image width initial being 300px 
     const imageWidth=300;
+
+    //Event listener to handle the left arrow click
     leftArrow?.addEventListener('click',()=>{
      scrollPosition-=imageWidth
+     //Condition of reaching far left end of the page
      if(scrollPosition<0){
       scrollPosition=0
      }
+     //Apply the scroll method on the project to scroll items to the left
      projectsDisplay.scroll({
       left:scrollPosition,
       behavior:"smooth"
      })
     })
+
+    //Event listener to handle right arrow click
     rightArrow?.addEventListener("click", () => {
+      //Scroll position set as equal to image width
       scrollPosition += imageWidth;
+      //Condition checking whether we have reached the end of our page
       if (scrollPosition > projectsDisplay.scrollWidth - projectsDisplay.clientWidth) {
         scrollPosition = projectsDisplay.scrollWidth - projectsDisplay.clientWidth;
       }
+      //Apply the scroll method on the project to scroll items to the right
       projectsDisplay.scroll({
         left: scrollPosition,
         behavior: "smooth",
