@@ -5,6 +5,7 @@
     list-style: none;
     text-decoration: none;
     font-family: Arial, sans-serif;
+    overflow-x: hidden;
   }
 
 
@@ -20,7 +21,7 @@
     gap: 1.5rem;
     overflow: hidden;
     transition: transform 0.5s ease-in-out;
-    /* margin: 20px 0 0 150px ; */
+    margin: 20px 0 0 150px ;
     width: 100%;
   }
 
