@@ -376,7 +376,7 @@ body{
    }
     /* education solution design */
    .education-solutions{
-    position: absolute;
+    /* position: absolute; */
     /* background-color: white; */
     width: 90%;
     margin: 1% 0 0 5%;
@@ -824,4 +824,46 @@ body{
        } 
     /*  end section 2 */
       
+}
+
+.projects-header{
+  width: 893px;
+  height: 81px;
+  margin-left: 209px;
+  
+}
+
+.projects-header h1{
+  text-align: left;
+  font: normal normal medium 62px/80px DM Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  font-size: xx-large;
+}
+
+.project-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  margin-left: 209px;
+  overflow: auto;
+}
+.project-card {
+  width: 374px;
+  height: 616px;
+  border-radius: 30px;
+}
+
+.project-card span {
+  background-color: #F0F0F0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.project-card img {
+  width: 374px;
+  height: 416px;
 }

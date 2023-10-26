@@ -18,5 +18,79 @@ document.addEventListener("DOMContentLoaded", () => {
         iconTwo.style.display = "none";
       });
     }
+  interface ProjectItem{
+  title:string
+  descriptions:string
+  tag:string
+  imgSrc:string
+}
+const description="Eos qui ratione voluptatem suqui nesciunt.Neque porro quisquam dolorem ipsum quia"
+const mockProject:ProjectItem[]=[
+  {
+    imgSrc:"https://rb.gy/5ygcu",
+    tag:"Education",
+    title:"Introducting Coversational learning ipsum dolar",
+    descriptions:description
+  },
+  {
+    imgSrc:"https://cdn.pixabay.com/photo/2015/03/21/10/26/environmental-protection-683437_1280.jpg",
+    tag:"Environment",
+    title:"Content development for a sustainable future",
+    descriptions:description
+  },
+  {
+    imgSrc:"https://cdn.pixabay.com/photo/2015/03/21/10/26/environmental-protection-683437_1280.jpg",
+    tag:"Health care",
+    title:"Large scale trainin for healthcare professionals",
+    descriptions:description
+  },
+  {
+    imgSrc:"https://rb.gy/5ygcu",
+    tag:"Education",
+    title:"Introducting Coversational learning ipsum dolar",
+    descriptions:description
+  },
+  {
+    imgSrc:"https://cdn.pixabay.com/photo/2015/03/21/10/26/environmental-protection-683437_1280.jpg",
+    tag:"Environment",
+    title:"Content development for a sustainable future",
+    descriptions:description
+  },
+  {
+    imgSrc:"https://rb.gy/5ygcu",
+    tag:"Health care",
+    title:"Large scale training for healthcare professionals",
+    descriptions:description
+  },
+]
+const projectCardsContainer = document.querySelector('.project-cards');
+
+if (projectCardsContainer) {
+  mockProject.forEach((project) => {
+    const card = document.createElement('div');
+    card.classList.add('project-card');
+
+    const img = document.createElement('img');
+    img.src = project.imgSrc;
+    card.appendChild(img);
+
+    const tag = document.createElement('span');
+    tag.textContent = project.tag;
+    card.appendChild(tag);
+
+    const title = document.createElement('h2');
+    title.textContent = project.title;
+    card.appendChild(title);
+
+    const description = document.createElement('p');
+    description.textContent = project.descriptions;
+    card.appendChild(description);
+
+    
+
+    // Append the card to the container
+    projectCardsContainer.appendChild(card);
   });
+ }
+});
   
