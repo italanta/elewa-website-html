@@ -46,19 +46,29 @@ interface ProjectItem {
     imgSrc: "/assets/images/tree me (1).jpg"
   };
 
+
+  //looping the data in index.ts
+  const Project= document.querySelectorAll<HTMLDivElement>(".slider-wrap"); // Targeting the projects container
+
+
  // Get references to the elements
 const prevButton = document.querySelector<HTMLButtonElement>(".bottom-btn1"); // Targeting the buttons
 const nextButton = document.querySelector<HTMLButtonElement>(".bottom-btn2");
 const slides = document.querySelectorAll<HTMLDivElement>(".card"); // Targeting the projects container
+const slideContainer = document.querySelector<HTMLDivElement>(".card-container");
+
 let index: number = 0;
 
 function showSlide(index: number) {
-  for (let i = 0; i < slides.length; i++) {
+  for (let i =0; i < slides.length; i++) {
     slides[i].style.opacity = '0.3';
     slides[i].classList.remove('active');
   }
   slides[index].style.opacity = '1';
   slides[index].classList.add('active');
+  if (slideContainer) {
+    slideContainer.style.transform = `translateX(-${index * 10}%)`;
+  }
   }
 
 
@@ -80,3 +90,4 @@ nextButton?.addEventListener('click', () => {
 
 showSlide(index);
 
+azhar ahmed bot
