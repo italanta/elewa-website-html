@@ -1,9 +1,106 @@
 
-/*{footer styling}*/
+
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
 
 *{margin: 0;} *
+
+
+/* hero section */
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  width: 80%;
+  margin-top: 25px;
+
+}
+
+
+.hero-text h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  line-height: 1;
+  color: black;
+  margin: 0 0 15px;
+
+}
+
+.hero-text p {
+  color: black;
+  font-size: 25px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+
+}
+
+.hero-img img {
+  width: 600px;
+  height: 600px;
+
+}
+
+.hero-text a {
+  display: inline-block;
+  color: black;
+
+}
+
+
+.btn-unlock {
+  background-color: #000000;
+  color: #FFFFFF;
+  opacity: 1;
+  border-radius: 29px;
+  display: flex;
+  width: 11.5rem;
+  height: 2.5rem;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  padding: 0.2rem;
+  justify-content: space-evenly;
+}
+
+.arrow-icon {
+  background-color: #FFFFFF;
+  border-radius: 60%;
+  width: 30px;
+  height: 30px;
+}
+
+.arrow-icon>img {
+  width: 15px;
+  height: 28px;
+  text-align: center;
+}
+
+.chevron {
+  transition: transform 0.3s;
+}
+
+.links:hover .chevron {
+  transform: rotate(180deg);
+}
+
+#toggler,
+.navbar label {
+  display: none;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
 
 .footer-background{
   padding-top: 10px;
@@ -963,3 +1060,132 @@ font-size: 50px;
 }
 
 /* End of Style for the project section */
+
+/* Adding style to the container that has the image and content */
+.homepage-overview{
+  display: flex; 
+  flex-direction: row;
+  margin: 5%;
+  overflow-x: hidden;
+  
+}
+/* Adding style to the image */
+.homepage-overview .image{
+  display: flex;
+  justify-content: center;
+}
+.homepage-overview img{
+  width: 400px;
+}
+/* Adding style to the container that holds the content */
+.homepage-overview .details-overview{
+  margin-left: 8%;
+  font-family:'DM Sans', 'sans-serif';
+  font-size: large;
+  
+}
+/* Adding style to the paragraph content */
+.homepage-overview p{
+  margin-top: 20px;
+  font-size: 1.0rem;
+  
+}
+/* Adding style to the header */
+.homepage-overview h3{
+  margin-top: 15%;
+}
+/*Responsivess for mobile devices*/
+@media (max-width:1000px) {
+  .homepage-overview{
+      display: flex;
+      flex-direction: column;
+  }
+  
+}
+@media (max-width: 768px){
+  
+  .homepage-overview img{
+      width: 50%;
+  }
+ .details-overview h3{
+      font-size: 1rem;
+      text-align: center;
+ }
+
+ .homepage-overview p{
+      text-align: center;
+      font-size: 1.0rem;
+ }
+ 
+}
+
+@media (max-width:480px){
+ 
+  .homepage-overview .image{
+      padding: 20px;
+  }
+  .homepage-overview img{
+      width: 50%;
+      
+  }
+  .homepage-overview p{
+      margin-top: 20px;
+      font-size: 0.5rem;
+      
+  }
+  .details-overview h3{
+      font-size: 1rem;
+      text-align: center;
+ }
+ .homepage-overview h3{
+  font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 360px){
+ 
+  .homepage-overview{
+      display: flex;
+      flex-direction: column;
+  }
+  .homepage-overview img{
+      width: 100%;
+  }
+
+ 
+  .homepage-overview p{
+      font-size: 0.3rem;
+  }
+  .homepage-overview h3{
+      font-size: 0.7rem;
+  }
+}
+
+/* partners section */
+
+.container-partners{
+  display: flex;
+  justify-content: center;
+ height: max-content;
+ background-color:transparent;
+  
+ }
+ .images-partners {
+     display: flex;
+     justify-content: space-between;
+     width: 80%;
+ 
+     
+ 
+   }
+   
+   .images-partners img {
+    
+     /* Add spacing between images */
+     filter: grayscale(100%);
+     width: 5%;
+  
+     
+   }
+   
+   
