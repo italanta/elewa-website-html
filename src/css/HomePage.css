@@ -1,0 +1,27 @@
+.container-partners{
+ display: flex;
+ justify-content: center;
+height: max-content;
+background-color:transparent;
+ 
+}
+.images-partners {
+   padding: 5% 0 ;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+
+    
+
+  }
+  
+  .images-partners img {
+   
+    /* Add spacing between images */
+    filter: grayscale(100%);
+    width: 5%;
+ 
+    
+  }
+  
+  
