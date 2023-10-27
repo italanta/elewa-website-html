@@ -1,0 +1,108 @@
+/* Importing the DM Sans font */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+body{
+    background-color: #DBC2F5;
+    margin: 0;
+    width:100%;
+    
+}
+/* Adding style to the container that has the image and content */
+.homepage-overview{
+    display: flex; 
+    flex-direction: row;
+    margin: 5%;
+    overflow-x: hidden;
+    
+}
+/* Adding style to the image */
+.homepage-overview .image{
+    display: flex;
+    justify-content: center;
+}
+.homepage-overview img{
+    width: 400px;
+}
+/* Adding style to the container that holds the content */
+.homepage-overview .details-overview{
+    margin-left: 8%;
+    font-family:'DM Sans', 'sans-serif';
+    font-size: large;
+    
+}
+/* Adding style to the paragraph content */
+.homepage-overview p{
+    margin-top: 20px;
+    font-size: 1.0rem;
+    
+}
+/* Adding style to the header */
+.homepage-overview h3{
+    margin-top: 15%;
+}
+/*Responsivess for mobile devices*/
+@media (max-width:1000px) {
+    .homepage-overview{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+@media (max-width: 768px){
+    
+    .homepage-overview img{
+        width: 50%;
+    }
+   .details-overview h3{
+        font-size: 1rem;
+        text-align: center;
+   }
+
+   .homepage-overview p{
+        text-align: center;
+        font-size: 1.0rem;
+   }
+   
+}
+
+@media (max-width:480px){
+   
+    .homepage-overview .image{
+        padding: 20px;
+    }
+    .homepage-overview img{
+        width: 50%;
+        
+    }
+    .homepage-overview p{
+        margin-top: 20px;
+        font-size: 0.5rem;
+        
+    }
+    .details-overview h3{
+        font-size: 1rem;
+        text-align: center;
+   }
+   .homepage-overview h3{
+    font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 360px){
+   
+    .homepage-overview{
+        display: flex;
+        flex-direction: column;
+    }
+    .homepage-overview img{
+        width: 100%;
+    }
+
+   
+    .homepage-overview p{
+        font-size: 0.3rem;
+    }
+    .homepage-overview h3{
+        font-size: 0.7rem;
+    }
+}
