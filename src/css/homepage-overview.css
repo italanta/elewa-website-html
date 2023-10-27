@@ -8,7 +8,7 @@ body{
     
 }
 /* Adding style to the container that has the image and content */
-.homepage{
+.homepage-overview{
     display: flex; 
     flex-direction: row;
     margin: 5%;
@@ -16,33 +16,33 @@ body{
     
 }
 /* Adding style to the image */
-.homepage .image{
+.homepage-overview .image{
     display: flex;
     justify-content: center;
 }
-.homepage img{
+.homepage-overview img{
     width: 400px;
 }
 /* Adding style to the container that holds the content */
-.homepage .details{
+.homepage-overview .details-overview{
     margin-left: 8%;
     font-family:'DM Sans', 'sans-serif';
     font-size: large;
     
 }
 /* Adding style to the paragraph content */
-.homepage p{
+.homepage-overview p{
     margin-top: 20px;
     font-size: 1.0rem;
     
 }
 /* Adding style to the header */
-.homepage h3{
+.homepage-overview h3{
     margin-top: 15%;
 }
 /*Responsivess for mobile devices*/
 @media (max-width:1000px) {
-    .homepage{
+    .homepage-overview{
         display: flex;
         flex-direction: column;
     }
@@ -50,15 +50,15 @@ body{
 }
 @media (max-width: 768px){
     
-    .homepage img{
+    .homepage-overview img{
         width: 50%;
     }
-   .details h3{
+   .details-overview h3{
         font-size: 1rem;
         text-align: center;
    }
 
-   .homepage p{
+   .homepage-overview p{
         text-align: center;
         font-size: 1.0rem;
    }
@@ -67,42 +67,42 @@ body{
 
 @media (max-width:480px){
    
-    .homepage .image{
+    .homepage-overview .image{
         padding: 20px;
     }
-    .homepage img{
+    .homepage-overview img{
         width: 50%;
         
     }
-    .homepage p{
+    .homepage-overview p{
         margin-top: 20px;
         font-size: 0.5rem;
         
     }
-    .details h3{
+    .details-overview h3{
         font-size: 1rem;
         text-align: center;
    }
-   .homepage h3{
+   .homepage-overview h3{
     font-size: 0.7rem;
     }
 }
 
 @media (max-width: 360px){
    
-    .homepage{
+    .homepage-overview{
         display: flex;
         flex-direction: column;
     }
-    .homepage img{
+    .homepage-overview img{
         width: 100%;
     }
 
    
-    .homepage p{
+    .homepage-overview p{
         font-size: 0.3rem;
     }
-    .homepage h3{
+    .homepage-overview h3{
         font-size: 0.7rem;
     }
 }

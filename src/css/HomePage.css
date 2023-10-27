@@ -5,7 +5,7 @@ height: max-content;
 background-color:transparent;
  
 }
-.images {
+.images-partners {
    padding: 5% 0 ;
     display: flex;
     justify-content: space-between;
@@ -15,7 +15,7 @@ background-color:transparent;
 
   }
   
-  .images img {
+  .images-partners img {
    
     /* Add spacing between images */
     filter: grayscale(100%);
